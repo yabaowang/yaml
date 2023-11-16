@@ -11,7 +11,7 @@ chassis:
   use-case:
     - Big Data
   notice:
-    - test notice
+    - test notice2
   product:
     - sku: 7D5UCTO2WW
       qual-date: '2020-11-17'
