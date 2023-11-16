@@ -1,0 +1,22 @@
+# Commented out name and price attribute as per template 
+B6D0:
+  desc: HX3720 Base
+  #name: HX3720 Base
+  #price: 1
+  notice: []
+B0T2:
+  desc: HX3320 Base
+  #name: HX3320 Base
+  #price: 1
+  notice: []
+B0T0:
+  desc: HX1320 Base
+  #name: HX1320 Base
+  #price: 1
+  notice: []
+
+
+## Template ##
+#SKU:
+#  desc:
+#  notice:

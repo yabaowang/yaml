@@ -1,0 +1,1020 @@
+Gold 5215:
+  SPECint: 574.75
+  arch: Cascade Lake
+  cores: 10
+  cycles: 2.5
+  desc: Intel Xeon Gold 5215 Processor (10 cores, 13.75M Cache, 2.5 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5215 Processor (10 cores, 13.75M Cache, 2.5 GHz, DDR4 2667MHz)
+  notice: []
+  power: 85 W
+  product: Xeon
+  specintRatePerCore: 57.48
+Gold 5215L:
+  SPECint: 574.75
+  arch: Cascade Lake
+  category: lcpu
+  cores: 10
+  cycles: 2.5
+  desc: Intel Xeon Gold 5215L Processor (10 cores, 13.75M Cache, 2.5 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5215L Processor (10 cores, 13.75M Cache, 2.5 GHz, DDR4 2667MHz)
+  notice: []
+  power: 85 W
+  product: Xeon
+  specintRatePerCore: 57.48
+Gold 5215M:
+  SPECint: 565.25
+  arch: Cascade Lake
+  category: mcpu
+  cores: 10
+  cycles: 2.5
+  desc: Intel Xeon Gold 5215M Processor (10 cores, 13.75M Cache, 2.5 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5215M Processor (10 cores, 13.75M Cache, 2.5 GHz, DDR4 2667MHz)
+  notice: []
+  power: 85 W
+  product: Xeon
+  specintRatePerCore: 56.53
+Gold 5217:
+  SPECint: 514.62
+  arch: Cascade Lake
+  cores: 8
+  cycles: 3
+  desc: Intel Xeon Gold 5217 Processor (8 cores, 11M Cache, 3 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5217 Processor (8 cores, 11M Cache, 3 GHz, DDR4 2667MHz)
+  notice: []
+  power: 115 W
+  product: Xeon
+  specintRatePerCore: 64.33
+Gold 5218:
+  SPECint: 868.48
+  arch: Cascade Lake
+  cores: 16
+  cycles: 2.3
+  desc: Intel Xeon Gold 5218 Processor (16 cores, 22M Cache, 2.3 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5218 Processor (16 cores, 22M Cache, 2.3 GHz, DDR4 2667MHz)
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 54.28
+Gold 5218B:
+  SPECint: 868.48
+  arch: Cascade Lake
+  category: bcpu
+  cores: 16
+  cycles: 2.3
+  desc: Intel Xeon Gold 5218B Processor (16 cores, 22M Cache, 2.3 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5218B Processor (16 cores, 22M Cache, 2.3 GHz, DDR4 2667MHz)
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 54.28
+Gold 5218N:
+  SPECint: 885.4
+  arch: Cascade Lake
+  category: ncpu
+  cores: 16
+  cycles: 2.3
+  desc: Intel Xeon Gold 5218N Processor (16 cores, 22M Cache, 2.3 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5218N Processor (16 cores, 22M Cache, 2.3 GHz, DDR4 2667MHz)
+  notice: []
+  power: 110 W
+  product: Xeon
+  specintRatePerCore: 55.34
+Gold 5218R:
+  SPECint: 1175.72
+  arch: Cascade Lake
+  category: rcpu
+  cores: 20
+  cycles: 2.1
+  desc: Intel Xeon Gold 5218R Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5218R Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2667MHz)
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 58.79
+Gold 5218T:
+  SPECint: 833.0
+  arch: Cascade Lake
+  category: rcpu
+  cores: 16
+  cycles: 2.1
+  desc: Intel Xeon Gold 5218T Processor (16 cores, 22M Cache, 2.1 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5218T Processor (16 cores, 22M Cache, 2.1 GHz, DDR4 2667MHz)
+  notice: []
+  power: 105 W
+  product: Xeon
+  specintRatePerCore: 52.06
+Gold 5220:
+  SPECint: 951.48
+  arch: Cascade Lake
+  cores: 18
+  cycles: 2.2
+  desc: Intel Xeon Gold 5220 Processor (18 cores, 24.75M Cache, 2.2 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5220 Processor (18 cores, 24.75M Cache, 2.2 GHz, DDR4 2667MHz)
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 52.86
+Gold 5220R:
+  SPECint: 1313.76
+  arch: Cascade Lake
+  category: rcpu
+  cores: 24
+  cycles: 2.2
+  desc: Intel Xeon Gold 5220R Processor (24 cores, 35.75M Cache, 2.2 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5220R Processor (24 cores, 35.75M Cache, 2.2 GHz, DDR4 2667MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 54.74
+Gold 5220S:
+  SPECint: 952
+  arch: Cascade Lake
+  category: scpu
+  cores: 18
+  cycles: 2.7
+  desc: Intel Xeon Gold 5220S Processor (18 cores, 24.75M Cache, 2.7 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: ''
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 52.86
+Gold 5220T:
+  SPECint: 886.4
+  arch: Cascade Lake
+  category: tcpu
+  cores: 18
+  cycles: 1.9
+  desc: Intel Xeon Gold 5220T Processor (18 cores, 24.75M Cache, 1.9 GHz, DDR4 2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5220T Processor (18 cores, 24.75M Cache, 1.9 GHz, DDR4 2667MHz)
+  notice: []
+  power: 105 W
+  product: Xeon
+  specintRatePerCore: 49.24
+Gold 6208U:
+  category: ucpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6208U Processor (16 cores, 22M Cache, 2.9 GHz, DDR4 2933MHz) 
+  desc: Intel Xeon Gold 6208U Processor (16 cores, 22M Cache, 2.9 GHz, DDR4 2933MHz)
+  product: Xeon
+  cores: 16
+  cycles: 2.9
+  power: 150 W
+  SPECint: 961.52
+  specintRatePerCore: 60.10
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+Gold 6209U:
+  SPECint: 1075.8
+  arch: Cascade Lake
+  category: ucpu
+  cores: 20
+  cycles: 2.1
+  desc: Intel Xeon Gold 6209U Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6209U Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2933MHz)
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 53.79
+Gold 6210U:
+  SPECint: 1199.6
+  arch: Cascade Lake
+  category: ucpu
+  cores: 20
+  cycles: 2.5
+  desc: Intel Xeon Gold 6210U Processor (20 cores, 27.5M Cache, 2.5 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6210U Processor (20 cores, 27.5M Cache, 2.5 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 59.98
+Gold 6212U:
+  SPECint: 2094.34
+  arch: Cascade Lake
+  category: ucpu
+  cores: 24
+  cycles: 2.4
+  desc: Intel Xeon Gold 6212U Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6212U Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 43.63
+Gold 6222V:
+  SPECint: 952
+  arch: Cascade Lake
+  category: vcpu
+  cores: 20
+  cycles: 1.8
+  desc: Intel Xeon Gold 6222V Processor (20 cores, 27.5M Cache, 1.8 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Gold 6222V Processor (20 cores, 27.5M Cache, 1.8 GHz, DDR4 2400MHz)
+  notice: []
+  power: 115 W
+  product: Xeon
+  specintRatePerCore: 47.6
+Gold 6226:
+  SPECint: 777
+  arch: Cascade Lake
+  cores: 12
+  cycles: 2.7
+  desc: Intel Xeon Gold 6226 Processor (12 cores, 19.25M Cache, 2.7 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6226 Processor (12 cores, 19.25M Cache, 2.7 GHz, DDR4 2933MHz)
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 64.75
+Gold 6226R:
+  SPECint: 1004.36
+  arch: Cascade Lake 
+  category: rcpu
+  cores: 16
+  cycles: 2.9
+  desc: Intel Xeon Gold 6226R Processor (16 cores, 22M Cache, 2.9 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6226R Processor (16 cores, 22M Cache, 2.9 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 62.77
+Gold 6230:
+  SPECint: 1053
+  arch: Cascade Lake
+  cores: 20
+  cycles: 2.1
+  desc: Intel Xeon Gold 6230 Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6230 Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2933MHz)
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 52.65
+Gold 6230N:
+  SPECint: 1061.5
+  arch: Cascade Lake
+  category: ncpu
+  cores: 20
+  cycles: 2.3
+  desc: Intel Xeon Gold 6230N Processor (20 cores, 27.5M Cache, 2.3 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6230N Processor (20 cores, 27.5M Cache, 2.3 GHz, DDR4 2933MHz)
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 53.07
+Gold 6230R:
+  SPECint: 1480.36
+  arch: Cascade Lake
+  category: rcpu
+  cores: 26
+  cycles: 2.1
+  desc: Intel Xeon Gold 6230R Processor (26 cores, 35.75M Cache, 2.1 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6230R Processor (26 cores, 35.75M Cache, 2.1 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 56.94
+Gold 6230T:
+  SPECint: 1053.0
+  arch: Cascade Lake
+  category: tcpu
+  cores: 20
+  cycles: 2.1
+  desc: Intel Xeon Gold 6230T Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6230T Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2933MHz)
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 52.65
+Gold 6234:
+  SPECint: 603.52
+  arch: Cascade Lake
+  cores: 8
+  cycles: 3.3
+  desc: Intel Xeon Gold 6234 Processor (8 cores, 24.75M Cache, 3.3 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6234 Processor (8 cores, 24.75M Cache, 3.3 GHz, DDR4 2933MHz)
+  notice: []
+  power: 130 W
+  product: Xeon
+  specintRatePerCore: 75.44
+Gold 6238:
+  SPECint: 1139
+  arch: Cascade Lake
+  cores: 22
+  cycles: 2.1
+  desc: Intel Xeon Gold 6238 Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6238 Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  notice: []
+  power: 140 W
+  product: Xeon
+  specintRatePerCore: 51.78
+Gold 6238T:
+  category: tcpu
+  name: Intel Xeon Gold 6238T Processor (22 cores, 30.25M Cache, 1.9 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6238T Processor (22 cores, 30.25M Cache, 1.9 GHz, DDR4 2933MHz)
+  mfr: Intel
+  arch: Cascade Lake
+  product: Xeon
+  cores: 22
+  cycles: 1.9
+  power: 125 W
+  SPECint: 1139 #added the same values as 6238
+  specintRatePerCore: 51.78 #added the same values as 6238
+  memorySpeed: 2933
+  notice: []
+Gold 6238L:
+  SPECint: 1143.9
+  arch: Cascade Lake
+  category: lcpu
+  cores: 22
+  cycles: 2.1
+  desc: Intel Xeon Gold 6238L Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6238L Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  notice: []
+  power: 140 W
+  product: Xeon
+  specintRatePerCore: 52.00
+Gold 6238M:
+  SPECint: 1135
+  arch: Cascade Lake
+  category: mcpu
+  cores: 22
+  cycles: 2.1
+  desc: Intel Xeon Gold 6238M Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6238M Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  notice: []
+  power: 140 W
+  product: Xeon
+  specintRatePerCore: 51.57
+Gold 6238R:
+  SPECint: 1513.68
+  arch: Cascade Lake
+  category: rcpu
+  cores: 28
+  cycles: 2.2
+  desc: Intel Xeon Gold 6238R Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6238R Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 54.06
+Gold 6240:
+  SPECint: 1082.24
+  arch: Cascade Lake
+  cores: 18
+  cycles: 2.6
+  desc: Intel Xeon Gold 6240 Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6240 Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 60.12
+Gold 6240M:
+  SPECint: 1040.07
+  arch: Cascade Lake
+  category: mcpu
+  cores: 18
+  cycles: 2.6
+  desc: Intel Xeon Gold 6240M Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6240M Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 57.78
+Gold 6240R:
+  SPECint: 1428
+  arch: Cascade Lake
+  category: rcpu
+  cores: 24
+  cycles: 2.4
+  desc: Intel Xeon Gold 6240R Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6240R Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 59.5
+Gold 6240L:
+  SPECint: 1068.18
+  arch: Cascade Lake
+  category: lcpu
+  cores: 18
+  cycles: 2.6
+  desc: Intel Xeon Gold 6240L Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6240L Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 59.34
+Gold 6240Y:
+  SPECint: 1063.50
+  arch: Cascade Lake
+  category: ycpu
+  cores: 18
+  cycles: 2.6
+  desc: Intel Xeon Gold 6240Y Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6240Y Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 59.08
+Gold 6242:
+  SPECint: 1032.59
+  arch: Cascade Lake
+  cores: 16
+  cycles: 2.8
+  desc: Intel Xeon Gold 6242 Processor (16 cores, 22M Cache, 2.8 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6242 Processor (16 cores, 22M Cache, 2.8 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 64.54
+Gold 6242R:
+  SPECint: 1442.28
+  arch: Cascade Lake 
+  category: rcpu
+  cores: 20
+  cycles: 3.1
+  desc: Intel Xeon Gold 6242R Processor (20 cores, 35.75M Cache, 3.1 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6242R Processor (20 cores, 35.75M Cache, 3.1 GHz, DDR4 2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 72.11
+Gold 6244:
+  SPECint: 647.325
+  arch: Cascade Lake
+  cores: 8
+  cycles: 3.6
+  desc: Intel Xeon Gold 6244 Processor (8 cores, 24.75M Cache, 3.6 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6244 Processor (8 cores, 24.75M Cache, 3.6 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 80.92
+Gold 6246:
+  SPECint: 851.605
+  arch: Cascade Lake
+  cores: 12
+  cycles: 3.3
+  desc: Intel Xeon Gold 6246 Processor (12 cores, 24.75M Cache, 3.3 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6246 Processor (12 cores, 24.75M Cache, 3.3 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 70.97
+Gold 6246R:
+  SPECint: 1120.91
+  arch: Cascade Lake
+  category: rcpu
+  cores: 16
+  cycles: 3.4
+  desc: Intel Xeon Gold 6246R Processor (16 cores, 35.75M Cache, 3.4 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6246R Processor (16 cores, 35.75M Cache, 3.4 GHz, DDR4 2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 70.06
+Gold 6248:
+  SPECint: 1103.16
+  arch: Cascade Lake
+  cores: 20
+  cycles: 2.5
+  desc: Intel Xeon Gold 6248 Processor (20 cores, 27.5M Cache, 2.50 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6248 Processor (20 cores, 27.5M Cache, 2.50 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 55.16
+Gold 6248R:
+  SPECint: 1604.12
+  arch: Cascade Lake
+  category: rcpu
+  cores: 24
+  cycles: 3
+  desc: Intel Xeon Gold 6248R Processor (24 cores, 35.75M Cache, 3.0 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6248R Processor (24 cores, 35.75M Cache, 3.0 GHz, DDR4 2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 66.84
+Gold 6250:
+  SPECint: 651.91
+  arch: Cascade Lake
+  cores: 8
+  cycles: 3.9
+  desc: Intel Xeon Gold 6250 Processor (8 cores, 35.75M Cache, 3.9 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6250 Processor (8 cores, 35.75M Cache, 3.9 GHz, DDR4 2933MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 81.49
+Gold 6252:
+  SPECint: 1240.22
+  arch: Cascade Lake
+  cores: 24
+  cycles: 2.1
+  desc: Intel Xeon Gold 6252 Processor (24 cores, 35.75M Cache, 2.1 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6252 Processor (24 cores, 35.75M Cache, 2.1 GHz, DDR4 2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 51.68
+Gold 6252N:
+  category: ncpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6252N Processor (24 cores, 35.75M Cache, 2.3 GHz DDR4 2933MHz)
+  desc: Intel Xeon Gold 6252N Processor (24 cores, 35.75M Cache, 2.3 GHz DDR4 2933MHz)
+  product: Xeon
+  cores: 24
+  cycles: 2.3
+  power: 150 W
+  SPECint: 1216.99
+  specintRatePerCore: 50.71
+  memorySpeed: 2933
+  notice: []
+Gold 6254:
+  SPECint: 1243.88
+  arch: Cascade Lake
+  cores: 18
+  cycles: 3.1
+  desc: Intel Xeon Gold 6254 Processor (18 cores, 24.75M Cache, 3.1 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6254 Processor (18 cores, 24.75M Cache, 3.1 GHz, DDR4 2933MHz)
+  notice: []
+  power: 200 W
+  product: Xeon
+  specintRatePerCore: 69.1
+Gold 6256:
+  SPECint: 928.62
+  arch: Cascade Lake
+  cores: 12
+  cycles: 3.6
+  desc: Intel Xeon Gold 6256 Processor (12 cores, 33M Cache, 3.6 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6256 Processor (12 cores, 33M Cache, 3.6 GHz, DDR4 2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 77.39
+Gold 6258R:
+  SPECint: 1723.12
+  arch: Cascade Lake
+  category: rcpu
+  cores: 28
+  cycles: 2.7
+  desc: Intel Xeon Gold 6258R Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6258R Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 61.54
+Gold 6262V:
+  SPECint: 1151.92
+  arch: Cascade Lake
+  category: vcpu
+  cores: 24
+  cycles: 1.9
+  desc: Intel Xeon Gold 6262V Processor (24 cores, 33M Cache, 1.9 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Gold 6262V Processor (24 cores, 33M Cache, 1.9 GHz, DDR4 2400MHz)
+  notice: []
+  power: 135 W
+  product: Xeon
+  specintRatePerCore: 48.00
+Platinum 8253:
+  SPECint: 793.0
+  arch: Cascade Lake
+  cores: 16
+  cycles: 2.2
+  desc: Intel Xeon Platinum 8253 Processor (16 cores, 22M Cache, 2.2 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8253 Processor (16 cores, 22M Cache, 2.2 GHz, DDR4 2933MHz)
+  notice: []
+  power: 125 W
+  product: Xeon
+  specintRatePerCore: 49.56
+Platinum 8256:
+  SPECint: ''
+  arch: Cascade Lake
+  cores: 4
+  cycles: 3.8
+  desc: Intel Xeon Platinum 8256 Processor (4 cores, 16.5M Cache, 3.8 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8256 Processor (4 cores, 16.5M Cache, 3.8 GHz, DDR4 2933MHz)
+  notice: []
+  power: 105 W
+  product: Xeon
+  specintRatePerCore: ''
+Platinum 8260:
+  SPECint: 1378.08
+  arch: Cascade Lake
+  cores: 24
+  cycles: 2.4
+  desc: Intel Xeon Platinum 8260 Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8260 Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 57.42
+Platinum 8260L:
+  SPECint: 1373.295
+  arch: Cascade Lake
+  category: lcpu
+  cores: 24
+  cycles: 2.4
+  desc: Intel Xeon Platinum 8260L Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8260L Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 57.22
+Platinum 8260M:
+  SPECint: 1335
+  arch: Cascade Lake
+  category: mcpu
+  cores: 24
+  cycles: 2.4
+  desc: Intel Xeon Platinum 8260M Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8260M Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 55.63
+Platinum 8268:
+  SPECint: 1491.52
+  arch: Cascade Lake
+  cores: 24
+  cycles: 2.9
+  desc: Intel Xeon Platinum 8268 Processor (24 cores, 35.75M Cache, 2.9 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8268 Processor (24 cores, 35.75M Cache, 2.9 GHz, DDR4 2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 62.15
+Platinum 8270:
+  SPECint: 1538.875
+  arch: Cascade Lake
+  cores: 26
+  cycles: 2.7
+  desc: Intel Xeon Platinum 8270 Processor (26 cores, 35.75M Cache, 2.7 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8270 Processor (26 cores, 35.75M Cache, 2.7 GHz, DDR4 2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 59.19
+Platinum 8276:
+  SPECint: 1475.8
+  arch: Cascade Lake
+  cores: 28
+  cycles: 2.2
+  desc: Intel Xeon Platinum 8276 Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8276 Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 52.71
+Platinum 8276L:
+  SPECint: 1400.6
+  arch: Cascade Lake
+  category: lcpu
+  cores: 28
+  cycles: 2.2
+  desc: Intel Xeon Platinum 8276L Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8276L Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 50.02
+Platinum 8276M:
+  SPECint: 1391
+  arch: Cascade Lake
+  category: mcpu
+  cores: 28
+  cycles: 2.2
+  desc: Intel Xeon Platinum 8276M Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8276M Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 49.69
+Platinum 8280:
+  SPECint: 1649.44
+  arch: Cascade Lake
+  cores: 28
+  cycles: 2.7
+  desc: Intel Xeon Platinum 8280 Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8280 Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 58.91
+Platinum 8280L:
+  SPECint: 1634
+  arch: Cascade Lake
+  category: lcpu
+  cores: 28
+  cycles: 2.7
+  desc: Intel Xeon Platinum 8280L Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8280L Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 58.36
+Platinum 8280M:
+  SPECint: 1605
+  arch: Cascade Lake
+  category: mcpu
+  cores: 28
+  cycles: 2.7
+  desc: Intel Xeon Platinum 8280M Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8280M Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 57.32
+Platinum 8260Y:
+  SPECint: 1339.8
+  arch: Cascade Lake
+  category: ycpu
+  cores: 24
+  cycles: 2.4
+  desc: Intel Xeon Platinum 8260Y Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8260Y Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 55.83
+Silver 4208:
+  SPECint: 397.85
+  arch: Cascade Lake
+  cores: 8
+  cycles: 2.1
+  desc: Intel Xeon Silver 4208 Processor (8 cores, 11M Cache, 2.1 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Silver 4208 Processor (8 cores, 11M Cache, 2.1 GHz, DDR4 2400MHz)
+  notice: []
+  power: 85 W
+  product: Xeon
+  specintRatePerCore: 49.73
+Silver 4209T:
+  SPECint: 395.6
+  arch: Cascade Lake
+  category: tcpu
+  cores: 8
+  cycles: 2.2
+  desc: Intel Xeon Silver 4209T Processor (8 cores, 11M Cache, 2.2 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Silver 4209T Processor (8 cores, 11M Cache, 2.2 GHz, DDR4 2400MHz)
+  notice: []
+  power: 70 W
+  product: Xeon
+  specintRatePerCore: 49.44
+Silver 4210:
+  SPECint: 521.4
+  arch: Cascade Lake
+  cores: 10
+  cycles: 2.2
+  desc: Intel Xeon Silver 4210 Processor (10 cores, 13.75M Cache, 2.2 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Silver 4210 Processor (10 cores, 13.75M Cache, 2.2 GHz, DDR4 2400MHz)
+  notice: []
+  power: 85 W
+  product: Xeon
+  specintRatePerCore: 52.14
+Silver 4210R:
+  SPECint: 604.52
+  arch: Cascade Lake
+  category: rcpu
+  cores: 10
+  cycles: 2.4
+  desc: Intel Xeon Silver 4210R Processor (10 cores, 13.75 M Cache, 2.4 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Silver 4210R Processor (10 cores, 13.75 M Cache, 2.4 GHz, DDR4 2400MHz)
+  notice: []
+  power: 100 W
+  product: Xeon
+  specintRatePerCore: 60.45
+Silver 4210T: 
+  SPECint: 545.1
+  arch: Cascade Lake
+  category: tcpu
+  cores: 10
+  cycles: 2.3
+  desc: Intel Xeon Silver 4210T Processor (10 cores, 13.75 M Cache, 2.3 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Silver 4210T Processor (10 cores, 13.75 M Cache, 2.3 GHz, DDR4 2400MHz)
+  notice: []
+  power: 95 W
+  product: Xeon
+  specintRatePerCore: 54.51
+Silver 4214:
+  SPECint: 641.93
+  arch: Cascade Lake
+  cores: 12
+  cycles: 2.2
+  desc: Intel Xeon Silver 4214 Processor (12 cores, 16.5M Cache, 2.2 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Silver 4214 Processor (12 cores, 16.5M Cache, 2.2 GHz, DDR4 2400MHz)
+  notice: []
+  power: 85 W
+  product: Xeon
+  specintRatePerCore: 53.49
+Silver 4214R:
+  SPECint: 771.12
+  arch: Cascade Lake
+  category: rcpu
+  cores: 12
+  cycles: 2.4
+  desc: Intel Xeon Silver 4214R Processor (12 cores, 16.5 MB Cache, 2.4 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Silver 4214R Processor (12 cores, 16.5 MB Cache, 2.4 GHz, DDR4 2400MHz)
+  notice: []
+  power: 100 W
+  product: Xeon
+  specintRatePerCore: 64.26
+Silver 4214Y:
+  SPECint: 641.93
+  arch: Cascade Lake
+  category: rcpu
+  cores: 12
+  cycles: 2.2
+  desc: Intel Xeon Silver 4214Y Processor (12 cores, 16.5 MB Cache, 2.2 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: ''
+  notice: []
+  power: 85 W
+  product: Xeon
+  specintRatePerCore: 53.49
+Silver 4215:
+  SPECint: 464.59
+  arch: Cascade Lake
+  cores: 8
+  cycles: 2.5
+  desc: Intel Xeon Silver 4215 Processor (8 cores, 11M Cache, 2.5 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Silver 4215 Processor (8 cores, 11M Cache, 2.5 GHz, DDR4 2400MHz)
+  notice: []
+  power: 85 W
+  product: Xeon
+  specintRatePerCore: 58.07
+Silver 4216:
+  SPECint: 845.18
+  arch: Cascade Lake
+  cores: 16
+  cycles: 2.1
+  desc: Intel Xeon Silver 4216 Processor (16 cores, 22M Cache, 2.1 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon Silver 4216 Processor (16 cores, 22M Cache, 2.1 GHz, DDR4 2400MHz)
+  notice: []
+  power: 100 W
+  product: Xeon
+  specintRatePerCore: 52.82
+Silver 4215R:
+  category: rcpu
+  product: Xeon
+  power: 130 W
+  SPECint: 585.48
+  mfr: Intel
+  cores: 8
+  cycles: 3.2
+  arch: Cascade Lake
+  desc: Intel Xeon Silver 4215R Processor (8 cores, 11M Cache, 3.2 GHz, DDR4 2400MHz)
+  name: Intel Xeon Silver 4215R Processor (8 cores, 11M Cache, 3.2 GHz, DDR4 2400MHz)
+  specintRatePerCore: 73.19
+  memorySpeed: 2400
+  notice: []
+Bronze 3206R:
+  category: rcpu
+  product: Xeon
+  power: 85 W
+  SPECint: 380.8
+  mfr: Intel
+  cores: 8
+  cycles: 1.9
+  arch: Cascade Lake
+  desc: Intel Xeon Bronze 3260R Processor (8 cores, 11M Cache, 1.9 GHz, DDR4 2933MHz)
+  name: Intel Xeon Bronze 3260R Processor (8 cores, 11M Cache, 1.9 GHz, DDR4 2933MHz)
+  specintRatePerCore: 47.60
+  memorySpeed: 2933
+  notice: []

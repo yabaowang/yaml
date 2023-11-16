@@ -1,0 +1,37 @@
+# commented out name and price attributes as per the template
+AUNL:
+  desc: ThinkSystem 430-8i SAS/SATA 12Gb HBA
+  #name: ThinkSystem 430-8i SAS/SATA 12Gb HBA
+  #price: 369
+  notice: []
+AUNM:
+  desc: ThinkSystem 430-16i SAS/SATA 12Gb HBA (non-RAID)
+  #name: ThinkSystem 430-16i SAS/SATA 12Gb HBA
+  #price: 619
+  notice: []
+B0SS:
+  desc: ThinkSystem 430-8i SAS/SATA 12Gb Dense HBA
+  #name: ThinkSystem 430-8i SAS/SATA 12Gb HBA
+  #price: 399
+  notice: []
+BM51:
+  desc: ThinkSystem 440-8i SAS/SATA PCIe Gen4 12Gb HBA
+  #name: ThinkSystem 440-8i SAS/SATA PCIe Gen4 12Gb HBA
+  #price: 519
+BM50:
+  desc: ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb HBA
+  #name: ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb HBA
+  #price: 729
+
+B8P1:
+  desc: ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb Internal HBA
+
+BC4V:
+  desc: Non RAID NVMe
+
+
+### Template ###
+#SKU ID:
+#  desc: 'component description'
+#  notice: [Any component specific info]
+  

@@ -1,0 +1,332 @@
+'7702P':
+  SPECint: 1518.44
+  arch: Rome
+  category: pcpu
+  cores: 64
+  cycles: 2.0
+  desc: AMD EPYC 7702P Processor (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7702P Processor (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 47.45
+'7702':
+  SPECint: 2951.2
+  arch: Rome
+  cores: 64
+  cycles: 2.0
+  desc: AMD EPYC 7702 Processor (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7702 Processor (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 46.11
+'7552':
+  SPECint: 2427.6
+  arch: Rome
+  cores: 48
+  cycles: 2.2
+  desc: AMD EPYC 7552 Processor (48 cores, 192 M Cache, 2.2 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7552 Processor (48 cores, 192 M Cache, 2.2 GHz, DDR4 3200MHz)
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 50.58
+'7402P':
+  SPECint: 809.2
+  arch: Rome
+  category: pcpu
+  cores: 24
+  cycles: 2.8
+  desc: AMD EPYC 7402P Processor (24 cores, 128 M Cache, 2.8 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7402P Processor (24 cores, 128 M Cache, 2.8 GHz, DDR4 3200MHz)
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 67.43
+'7352':
+  SPECint: 1504.16
+  arch: Rome
+  cores: 24
+  cycles: 2.3
+  desc: AMD EPYC 7352 Processor (24 cores, 128 M Cache, 2.3 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7352 Processor (24 cores, 128 M Cache, 2.3 GHz, DDR4 3200MHz)
+  notice: []
+  power: 155 W
+  product: EPYC
+  specintRatePerCore: 62.67
+'7502P':
+  SPECint: 1013.88
+  arch: Rome
+  category: pcpu
+  cores: 32
+  cycles: 2.5
+  desc: AMD EPYC 7502P Processor (32 cores, 128 M Cache, 2.5 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7502P Processor (32 cores, 128 M Cache, 2.5 GHz, DDR4 3200MHz)
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 63.37
+'7452':
+  SPECint: 1899.24
+  arch: Rome
+  cores: 32
+  cycles: 2.3
+  desc: AMD EPYC 7452 Processor (32 cores, 128 M Cache, 2.3 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7452 Processor (32 cores, 128 M Cache, 2.3 GHz, DDR4 3200MHz)
+  notice: []
+  power: 155 W
+  product: EPYC
+  specintRatePerCore: 59.35
+'7302P':
+  SPECint: 552.16
+  arch: Rome
+  cores: 16
+  cycles: 2.8
+  category: pcpu
+  desc: AMD EPYC 7302P Processor (16 cores, 128 M Cache, 2.8 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7302P Processor (16 cores, 128 M Cache, 2.8 GHz, DDR4 3200MHz)
+  notice: []
+  power: 180 W
+  product: EPYC
+  specintRatePerCore: 69.02
+'7262':
+  SPECint: 595
+  arch: Rome
+  cores: 8
+  cycles: 3.2
+  desc: AMD EPYC 7262 Processor (8 cores, 128 M Cache, 3.2 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7262 Processor (8 cores, 128 M Cache, 3.2 GHz, DDR4 3200MHz)
+  notice: []
+  power: 180 W
+  product: EPYC
+  specintRatePerCore: 74.38 
+'7232P':
+  SPECint: 542.64
+  arch: Rome
+  category: pcpu
+  cores: 8
+  cycles: 3.1
+  desc: AMD EPYC 7232P Processor (8 cores, 32 M Cache, 3.1 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7232P Processor (8 cores, 32 M Cache, 3.1 GHz, DDR4 3200MHz)
+  notice: []
+  power: 120 W
+  product: EPYC
+  specintRatePerCore: 67.83 
+'7272':
+  SPECint: 771.12 # 1542.24
+  arch: Rome
+  cores: 12
+  cycles: 2.9
+  desc: AMD EPYC 7272 Processor (12 cores, 64 M Cache, 2.9 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7272 Processor (12 cores, 64 M Cache, 2.9 GHz, DDR4 3200MHz)
+  notice: []
+  power: 120 W
+  product: EPYC
+  specintRatePerCore: 64.26
+'7282':
+  SPECint: 1066.24 
+  arch: Rome
+  cores: 16
+  cycles: 2.8
+  desc: AMD EPYC 7282 Processor (16 cores, 64 M Cache, 2.8 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7282 Processor (16 cores, 64 M Cache, 2.8 GHz, DDR4 3200MHz)
+  notice: []
+  power: 120 W
+  product: EPYC
+  specintRatePerCore: 66.64
+'7532':
+  SPECint: 2080.12
+  arch: Rome
+  cores: 32
+  cycles: 2.4
+  desc: AMD EPYC 7532 Processor (32 cores, 256 M Cache, 2.4 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7532 Processor (32 cores, 256 M Cache, 2.4 GHz, DDR4 3200MHz)
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 65
+'7252':
+  SPECint: 556.92
+  arch: Rome
+  cores: 8
+  cycles: 3.1
+  desc: AMD EPYC 7252 Processor (8 cores, 64 M Cache, 3.1 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7252 Processor (8 cores, 64 M Cache, 3.1 GHz, DDR4 3200MHz)
+  notice: []
+  power: 120 W
+  product: EPYC
+  specintRatePerCore: 69.62
+'7662':
+  SPECint: 3117.8
+  arch: Rome
+  cores: 64
+  cycles: 2.0
+  desc: AMD EPYC 7662 Processor (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7662 Processor (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 48.72
+'7F32':
+  SPECint: 3117.8
+  arch: Rome
+  cores: 8
+  cycles: 3.7
+  desc: AMD EPYC 7F32 Processor (8 cores, 128 M Cache, 3.7 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7F32 Processor (8 cores, 128 M Cache, 3.7 GHz, DDR4 3200MHz)
+  notice: []
+  power: 180 W
+  product: EPYC
+  specintRatePerCore: 48.72
+'7H12':
+  SPECint: 3274.88
+  arch: Rome
+  cores: 64
+  cycles: 2.6
+  desc: AMD EPYC 7H12 Processor (64 cores, 256 M Cache, 2.6 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7H12 Processor (64 cores, 256 M Cache, 2.6 GHz, DDR4 3200MHz)
+  notice: []
+  power: 280 W
+  product: EPYC
+  specintRatePerCore: 51.17
+
+'7742':
+  SPECint: 3155.88
+  arch: Rome
+  cores: 64
+  cycles: 2.2
+  desc: AMD EPYC 7742 Processor (64 cores, 256 M Cache, 2.2 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7742 Processor (64 cores, 256 M Cache, 2.2 GHz, DDR4 3200MHz)
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 49.31
+'7642':
+  SPECint: 2722.72
+  arch: Rome
+  cores: 48
+  cycles: 2.3
+  desc: AMD EPYC 7642 Processor (48 cores, 256 M Cache, 2.3 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7642 Processor (48 cores, 256 M Cache, 2.3 GHz, DDR4 3200MHz)
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 56.72
+'7542':
+  SPECint: 1961.12
+  arch: Rome
+  cores: 32
+  cycles: 2.9
+  desc: AMD EPYC 7542 Processor (32 cores, 128 M Cache, 2.9 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7542 Processor (32 cores, 128 M Cache, 2.9 GHz, DDR4 3200MHz)
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 61.29
+'7502':
+  SPECint: 2008.72
+  arch: Rome
+  cores: 32
+  cycles: 2.5
+  desc: AMD EPYC 7502 Processor (32 cores, 128 M Cache, 2.5 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7502 Processor (32 cores, 128 M Cache, 2.5 GHz, DDR4 3200MHz)
+  notice: []
+  power: 180 W
+  product: EPYC
+  specintRatePerCore: 62.77
+'7402':
+  SPECint: 1637.44
+  arch: Rome
+  cores: 24
+  cycles: 2.8
+  desc: AMD EPYC 7402 Processor (24 cores, 128 M Cache, 2.8 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7402 Processor (24 cores, 128 M Cache, 2.8 GHz, DDR4 3200MHz)
+  notice: []
+  power: 180 W
+  product: EPYC
+  specintRatePerCore: 68.23
+'7302':
+  SPECint: 1099.56
+  arch: Rome
+  cores: 16
+  cycles: 3.0
+  desc: AMD EPYC 7302 Processor (16 cores, 128 M Cache, 3.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7302 Processor (16 cores, 128 M Cache, 3.0 GHz, DDR4 3200MHz)
+  notice: []
+  power: 155 W
+  product: EPYC
+  specintRatePerCore: 68.72
+'7F72':
+  SPECint: 1751.68
+  arch: Rome
+  cores: 24
+  cycles: 3.3
+  desc: AMD EPYC 7F72 Processor (24 cores, 192 M Cache, 3.3 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7F72 Processor (24 cores, 192 M Cache, 3.3 GHz, DDR4 3200MHz)
+  notice: []
+  power: 240 W
+  product: EPYC
+  specintRatePerCore: 72.99
+'7F52':
+  SPECint: 1361.36
+  arch: Rome
+  cores: 16
+  cycles: 3.5
+  desc: AMD EPYC 7F52 Processor (16 cores, 256 M Cache, 3.5 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7F52 Processor (16 cores, 256 M Cache, 3.5 GHz, DDR4 3200MHz)
+  notice: []
+  power: 240 W
+  product: EPYC
+  specintRatePerCore: 85.09
+

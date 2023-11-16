@@ -1,0 +1,262 @@
+# DX385 G10plus CPUs. Pending: power, SPECint, specintRatePerCore.
+
+'7313P':
+  SPECint: 1428
+  arch: Milan
+  cores: 16
+  cycles: 3.0
+  desc: AMD EPYC 7313P FIO (16 cores, 128 M Cache, 3.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 155 W
+  product: EPYC
+  specintRatePerCore: 89.25
+'7443P':
+  SPECint: 2027.76
+  arch: Milan
+  cores: 24
+  cycles: 2.85
+  desc: AMD EPYC 7443P FIO (24 cores, 128 M Cache, 2.85 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 84.49
+'7713P':
+  SPECint: 3570
+  arch: Milan
+  cores: 64
+  cycles: 2.0
+  desc: AMD EPYC 7713P FIO (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 55.78
+'7543P':
+  SPECint: 2579.92
+  arch: Milan
+  cores: 32
+  cycles: 2.8
+  desc: AMD EPYC 7543P FIO (32 cores, 256 M Cache, 2.8 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 80.62
+'7413':
+  SPECint: 1951.60
+  arch: Milan
+  cores: 24
+  cycles: 2.65
+  desc: AMD EPYC 7413 FIO (24 cores, 128 M Cache, 2.65 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 180 W
+  product: EPYC
+  specintRatePerCore: 81.32
+'7763':
+  SPECint: 3931.76
+  arch: Milan
+  cores: 64
+  cycles: 2.45
+  desc: AMD EPYC 7763 FIO (64 cores, 256 M Cache, 2.45 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 61.43
+'75F3':
+  SPECint: 2684.64
+  arch: Milan
+  cores: 32
+  cycles: 2.95
+  desc: AMD EPYC 75F3 FIO (32 cores, 256 M Cache, 2.95 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 280 W
+  product: EPYC
+  specintRatePerCore: 83.90
+'7343':
+  SPECint: 1447.04
+  arch: Milan
+  cores: 16
+  cycles: 3.2
+  desc: AMD EPYC 7343 FIO (16 cores, 128 M Cache, 3.2 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 190 W
+  product: EPYC
+  specintRatePerCore: 90.44
+'7453':
+  SPECint: 2094.40
+  arch: Milan
+  cores: 28
+  cycles: 2.75
+  desc: AMD EPYC 7453 FIO (28 cores, 64 M Cache, 2.75 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 74.80
+'7663':
+  SPECint: 3389.12
+  arch: Milan
+  cores: 56
+  cycles: 2.0
+  desc: AMD EPYC 7663 FIO (56 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 240 W
+  product: EPYC
+  specintRatePerCore: 60.52
+'72F3':
+  SPECint: 849.18
+  arch: Milan
+  cores: 8
+  cycles: 3.7
+  desc: AMD EPYC 72F3 FIO (8 cores, 256 M Cache, 3.7 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 180 W
+  product: EPYC
+  specintRatePerCore: 106.15
+'73F3':
+  SPECint: 1580.32
+  arch: Milan
+  cores: 16
+  cycles: 3.5
+  desc: AMD EPYC 73F3 FIO (16 cores, 256 M Cache, 3.5 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 240 W
+  product: EPYC
+  specintRatePerCore: 98.77
+'74F3':
+  SPECint: 2122.96
+  arch: Milan
+  cores: 24
+  cycles: 3.2
+  desc: AMD EPYC 74F3 FIO (24 cores, 256 M Cache, 3.2 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 240 W
+  product: EPYC
+  specintRatePerCore: 88.46
+'7643':
+  SPECint: 3151.12
+  arch: Milan
+  cores: 48
+  cycles: 2.3
+  desc: AMD EPYC 7643 FIO (48 cores, 256 M Cache, 2.3 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 65.65
+'7H12':
+  SPECint: 3274.88
+  arch: Milan
+  cores: 64
+  cycles: 2.6
+  desc: AMD EPYC 7H12 FIO (64 cores, 256 M Cache, 2.60 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 280 W
+  product: EPYC
+  specintRatePerCore: 51.17
+'7513':
+  SPECint: 2360.96
+  arch: Milan
+  cores: 32
+  cycles: 2.6
+  desc: AMD EPYC 7513 FIO (32 cores, 128 M Cache, 2.60 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 73.78
+'7313':
+  SPECint: 1451.80
+  arch: Milan
+  cores: 16
+  cycles: 3.0
+  desc: AMD EPYC 7313 FIO (16 cores, 128 M Cache, 3.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 155 W
+  product: EPYC
+  specintRatePerCore: 90.74
+'7443':
+  SPECint: 2032.52
+  arch: Milan
+  cores: 24
+  cycles: 2.85
+  desc: AMD EPYC 7443 FIO (24 cores, 128 M Cache, 2.85 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 84.69
+'7713':
+  SPECint: 3522.40
+  arch: Milan
+  cores: 64
+  cycles: 2.0
+  desc: AMD EPYC 7713 FIO (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 55.04
+'7543':
+  SPECint: 2560.88
+  arch: Milan
+  cores: 32
+  cycles: 2.8
+  desc: AMD EPYC 7543 FIO (32 cores, 256 M Cache, 2.8 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: ''
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 80.03

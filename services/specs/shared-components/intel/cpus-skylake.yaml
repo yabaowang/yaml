@@ -1,0 +1,52 @@
+D-2143IT:
+  SPECint: 340
+  arch: Skylake
+  cores: 8
+  cycles: 2.2
+  desc: Intel Xeon D-2143IT Processor (8 cores, 11M Cache, 2.20 GHz, DDR4 2133MHz)
+  memorySpeed: 2133
+  mfr: Intel
+  name: Intel Xeon D-2143IT Processor (8 cores, 11M Cache, 2.20 GHz, DDR4 2133MHz)
+  notice: []
+  power: 65 W
+  product: Xeon
+  specintRatePerCore: 42.50
+D-2183IT:
+  SPECint: 703.15
+  arch: Skylake
+  cores: 16
+  cycles: 2.2
+  desc: Intel Xeon D-2183IT Processor (16 cores, 22M Cache, 2.20 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon D-2183IT Processor (16 cores, 22M Cache, 2.20 GHz, DDR4 2400MHz)
+  notice: []
+  power: 100 W
+  product: Xeon
+  specintRatePerCore: 43.95
+D-2163IT:
+  SPECint: 497.35
+  arch: Skylake
+  cores: 12
+  cycles: 2.1
+  desc: Intel Xeon D-2163IT Processor (12 cores, 16.5M Cache, 2.10 GHz, DDR4 2133MHz)
+  memorySpeed: 2133
+  mfr: Intel
+  name: Intel Xeon D-2163IT Processor (12 cores, 16.5M Cache, 2.10 GHz, DDR4 2133MHz)
+  notice: []
+  power: 75 W
+  product: Xeon
+  specintRatePerCore: 41.45
+D-2166NT:
+  SPECint: 480.2
+  arch: Skylake
+  cores: 12
+  cycles: 2.0
+  desc: Intel Xeon D-2166NT Processor (12 cores, 16.5M Cache, 2.00 GHz, DDR4 2133MHz)
+  memorySpeed: 2133
+  mfr: Intel
+  name: Intel Xeon D-2166NT Processor (12 cores, 16.5M Cache, 2.00 GHz, DDR4 2133MHz)
+  notice: []
+  power: 85 W
+  product: Xeon
+  specintRatePerCore: 40.02

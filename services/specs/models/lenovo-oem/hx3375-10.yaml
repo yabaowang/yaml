@@ -1,0 +1,268 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed 
+models:
+  - HX3375-10
+label: HX3375 10 SFF
+chassis:
+  label: Chassis
+  use-case: 
+    - Private Cloud
+    - Test and Development
+    - End-User Computing/Virtual Desktop Infrastructure
+    - Database and Business Critical Apps
+  notice: 
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7D5UCTO1WW
+      qual-date: '2020-11-20'
+    - sku: 7D5UCTO2WW
+      qual-date: '2020-11-20'
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Hot-swappable AC power supply 
+    qty:
+      - 2
+    product:
+      - sku: B8QC
+      - sku: B8QA
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    desc: M.2 SSD
+    notice:
+      - 2 are required
+    qty:
+      - 2
+    product:
+      - sku: B8HS
+      - sku: B919
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    qty:
+      - 1
+    product:
+      - sku: AUNM
+# In model.yaml files, add only UUID for SSDs and HDDs and not their SKU IDs.
+  - type: all-ssd
+    label: 'Storage: All-Flash'
+    desc: Only SATA/SAS SSDs
+    ssd:
+      label: '2.5" SATA/SAS SSDs' 
+      notice:
+       - Maximum of 10 drives total, with NVMe selected
+      qty:
+        - 4
+        - 6
+        - 8
+        - 10
+      product:
+        - sku: '45333918164514934963128829968301578969'  #B49N Intel S4610 960GB
+        - sku: '329981377417139490432695692690564841709' #B49P Intel S4610 1.92TB
+        - sku: '146368562110551989808394829194449669605' #B8HU - PM1645a 800GB
+        - sku: '280833960321399961830843574179657926568' #B8J4 PM1645a 1.6TB 
+        - sku: '106507717010539145117437592934144256284' #B49B Intel S4510 1.92TB
+    #    - sku: '90656722532161611820329027832628262444'  #B34L PM883 1.92TB
+        - sku: '226850352248689726735554521425058859074' #B49C Intel S4510 3.84TB
+    #    - sku: '286785159118215851269526387466290527770' #B34M PM883 3.84TB
+  - type: ssd-nvme
+    label: 'Storage: All-Flash'
+    desc: Only SATA/SAS and NVMe SSDs
+    nvme:
+      label: '2.5" NVMe SSDs'
+      qty:
+        - 2
+        - 4
+      product:
+        - sku: '327556171121296366141182931821574361937'  #B21X
+        - sku: '329568095056287431857211621037805316652'  #BCFU - 7.68TB P5500
+        - sku: '185390376436178212093069530025373557498'  #BCFS - 6.4TB P5600
+        - sku: '54868300051439822159752896899306510114'  #BCFV - 1.6TB P5600
+        - sku: '110568279263536441124578571379789720065'  #BCFR - 3.2TB P5600
+        - sku: '73836791050103241156807344555242287109'  #BCFW - 3.84TB P5500
+    ssd:
+      label: '2.5" SATA/SAS SSDs' 
+      notice:
+       - Maximum of 8 drives total, with NVMe selected
+      qty:
+        - 4
+        - 6
+        - 8
+      product:
+        - sku: '45333918164514934963128829968301578969'  #B49N Intel S4610 960GB
+        - sku: '329981377417139490432695692690564841709' #B49P Intel S4610 1.92TB
+        - sku: '146368562110551989808394829194449669605' #B8HU PM1645a 800GB
+        - sku: '280833960321399961830843574179657926568' #B8J4 PM1645a 1.6TB 
+        - sku: '106507717010539145117437592934144256284' #B49B Intel S4510 1.92TB
+    #    - sku: '90656722532161611820329027832628262444'  #B34L PM883 1.92TB
+        - sku: '226850352248689726735554521425058859074' #B49C Intel S4510 3.84TB
+     #   - sku: '286785159118215851269526387466290527770' #B34M PM883 3.84TB
+        - sku: '164725183677083892950218846849339709018' #B91C PM1643a 3.84TB
+        - sku: '287045833840978619658197725562046089310' #B91D PM1643a 7.68TB
+  - type: hybrid
+    label: 'Storage: Hybrid'
+    desc: Mix of SATA/SAS SSDs and HDDs
+    notice:
+      - Maximum of 12 drives total
+      - More than 10 drives limits CPU to 155W
+    ssd:
+      label: '2.5" SATA/SAS SSDs'
+      qty:
+        - 2
+      product:
+        - sku: '45333918164514934963128829968301578969'  #B49N Intel S4610 960GB
+        - sku: '329981377417139490432695692690564841709' #B49P Intel S4610 1.92TB
+        - sku: '146368562110551989808394829194449669605' #B8HU PM1645a 800GB
+        - sku: '280833960321399961830843574179657926568' #B8J4 PM1645a 1.6TB 
+        - sku: '106507717010539145117437592934144256284' #B49B Intel S4510 1.92TB
+    #    - sku: '90656722532161611820329027832628262444'  #B34L PM883 1.92TB
+        - sku: '226850352248689726735554521425058859074' #B49C Intel S4510 3.84TB
+    #    - sku: '286785159118215851269526387466290527770' #B34M PM883 3.84TB
+        - sku: '164725183677083892950218846849339709018' #B91C PM1643a 3.84TB
+        - sku: '287045833840978619658197725562046089310' #B91D PM1643a 7.68TB
+    hdd:
+      label: '2.5" HDDs'
+      qty:
+        - 4
+        - 6
+        - 8
+      product:
+        - sku: '166968333968555583535809206233641109396'  #AUUE
+        - sku: '54605234480592594582511088487146392855'   #AUUJ
+        - sku: '260206218146488703515996842511966962607'  #B0YS
+compute:
+  - type: rome
+    label: Rome
+    cpu:
+      desc: Any AMD EPYC 7002 Series (Rome) with 8 or more cores per CPU.
+      qty:
+        - 2
+      product:
+        - sku: B6VU
+        - sku: B6TS
+        - sku: B767
+        - sku: B6VZ
+        - sku: B6TV
+        - sku: B6W0
+        - sku: B6VW
+        - sku: B6TU
+        - sku: B5XG
+        - sku: BABP
+        - sku: B6W2
+        - sku: B6W1
+        - sku: B6W3
+        - sku: BABN
+        - sku: B6TR
+        - sku: B5XF
+        - sku: BCE9
+        - sku: BCE8
+        - sku: BCEA
+    memory:
+      product:
+        - sku: B5XD #16GB
+          qty:
+            - 4
+            - 6
+            - 8
+            - 10
+            - 12
+            - 14
+            - 16
+            - 18
+            - 20
+            - 22
+            - 24
+            - 26
+            - 28
+            - 30
+            - 32
+        - sku: B8NU #32GB 2Rx8
+          qty:
+            - 4
+            - 6
+            - 8
+            - 10
+            - 12
+            - 14
+            - 16
+            - 18
+            - 20
+            - 22
+            - 24
+            - 26
+            - 28
+            - 30
+            - 32
+        - sku: B5XE #32GB 2Rx4
+          qty:
+            - 4
+            - 6
+            - 8
+            - 10
+            - 12
+            - 14
+            - 16
+            - 18
+            - 20
+            - 22
+            - 24
+            - 26
+            - 28
+            - 30
+            - 32
+        - sku: B5XC #64GB
+          qty:
+            - 4
+            - 6
+            - 8
+            - 10
+            - 12
+            - 14
+            - 16
+            - 18
+            - 20
+            - 22
+            - 24
+            - 26
+            - 28
+            - 30
+            - 32
+        - sku: B8NT #128GB
+          qty:
+            - 4
+            - 6
+            - 8
+            - 10
+            - 12
+            - 14
+            - 16
+            - 18
+            - 20
+            - 22
+            - 24
+            - 26
+            - 28
+            - 30
+            - 32
+network:
+  - type: flom
+    label: OCP Ethernet Adapter
+    desc: OCP Ethernet Adapter
+    qty:
+      - 1
+    product:
+      - sku: B5SV
+gpu: 
+  - type: gpu 
+    label: Single slot GPU Adapter
+    #desc: PCIe GPU Adapter
+    qty:
+      - 0
+      - 1
+      - 2
+    product:
+      - sku: B4YB
+form-factor: SFF
+max-drive-count: 10

@@ -1,0 +1,571 @@
+#07-Feb: As per Sizer team's request, converted CPU attribute value as an array to list out the supported architecture
+#2021-09-15 JCB: Added Whitley DIMMs
+#2022-03-09 JCB: Updated pricing with "indexes" to allow compares (8GB=1, 16GB=2, etc)
+#2022-05-31 JCB: Added SE350 DIMM
+#2023-05-30 JCB: Added Milan to Rome parts
+#2023-07-17 JCB: Added new 3DS
+
+AUU1:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2666
+  voltage: 1.2
+  ecc: yes
+  size: 8 GB
+  type: RDIMM
+  price: 1
+  name: ThinkSystem 8GB TruDDR4 2666MHz (1Rx8 1.2V) RDIMM
+  desc: ThinkSystem 8GB TruDDR4 2666MHz (1Rx8 1.2V) RDIMM
+  notice: []
+AUNC:
+  cpu: 
+    - Cascade Lake
+    - Skylake
+  class: DDR4
+  speed: 2666
+  voltage: 1.2
+  ecc: yes
+  size: 16 GB
+  type: RDIMM
+  price: 2
+  name: ThinkSystem 16GB TruDDR4 2666MHz (2Rx8 1.2V) RDIMM
+  desc: ThinkSystem 16GB TruDDR4 2666MHz (2Rx8 1.2V) RDIMM
+  notice: []
+AUND:
+  cpu: 
+    - Cascade Lake
+    - Skylake
+  class: DDR4
+  speed: 2666
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM
+  price: 4
+  name: ThinkSystem 32GB TruDDR4 2666MHz (2Rx4 1.2V) RDIMM
+  desc: ThinkSystem 32GB TruDDR4 2666MHz (2Rx4 1.2V) RDIMM
+  notice: []
+AUNE:
+  cpu: 
+    - Cascade Lake
+    - Skylake
+  class: DDR4
+  speed: 2666
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: LRDIMM
+  price: 8
+  name: ThinkSystem 64GB TruDDR4 2666MHz (2Rx4 1.2V) LRDIMM
+  desc: ThinkSystem 64GB TruDDR4 2666MHz (2Rx4 1.2V) LRDIMM
+  notice: 
+    - LRDIMMs cannot be mixed with other memory types
+AUW5:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2666
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: 3DS RDIMM
+  price: 8
+  name: ThinkSystem 64GB TruDDR4 2666MHz (4Rx4 1.2V) 3DS RDIMM
+  desc: ThinkSystem 64GB TruDDR4 2666MHz (4Rx4 1.2V) 3DS RDIMM
+  notice: 
+    - 3DS DIMMs cannot be mixed with other memory types
+B4LY:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2933
+  voltage: 1.2
+  ecc: yes
+  size: 16 GB
+  type: RDIMM
+  price: 2
+  name: ThinkSystem 16GB TruDDR4 2933MHz (1Rx4 1.2V) RDIMM
+  desc: ThinkSystem 16GB TruDDR4 2933MHz (1Rx4 1.2V) RDIMM
+  notice: []
+B4H2:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2933
+  voltage: 1.2
+  ecc: yes
+  size: 16 GB
+  type: RDIMM
+  price: 2
+  name: ThinkSystem 16GB TruDDR4 2933MHz (2Rx8 1.2V) RDIMM
+  desc: ThinkSystem 16GB TruDDR4 2933MHz (2Rx8 1.2V) RDIMM
+  notice: []
+B4H1:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2933
+  voltage: 1.2
+  ecc: yes
+  size: 8 GB
+  type: RDIMM
+  price: 1
+  name: ThinkSystem 8GB TruDDR4 2933MHz (1Rx8 1.2V) RDIMM
+  desc: ThinkSystem 8GB TruDDR4 2933MHz (1Rx8 1.2V) RDIMM
+  notice: []
+B4H3:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2933
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM
+  price: 4
+  name: ThinkSystem 32GB TruDDR4 2933MHz (2Rx4 1.2V) RDIMM
+  desc: ThinkSystem 32GB TruDDR4 2933MHz (2Rx4 1.2V) RDIMM
+  notice: []
+B4H4:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2933
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: RDIMM
+  price: 8
+  name: ThinkSystem 64GB TruDDR4 2933MHz (2Rx4 1.2V) RDIMM
+  desc: ThinkSystem 64GB TruDDR4 2933MHz (2Rx4 1.2V) RDIMM
+  notice: []
+B587:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2933
+  voltage: 1.2
+  ecc: yes
+  size: 128 GB
+  type: 3DS RDIMM
+  price: 16
+  name: ThinkSystem 128GB TruDDR4 2933MHz (4Rx4 1.2V) 3DS RDIMM
+  desc: ThinkSystem 128GB TruDDR4 2933MHz (4Rx4 1.2V) 3DS RDIMM
+  notice: 
+    - 3DS DIMMs cannot be mixed with other memory types
+B5N6:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2933
+  voltage: 1.2
+  ecc: yes
+  size: 16 GB
+  type: RDIMM
+  price: 2
+  name: ThinkSystem 16GB TruDDR4 Performance+ 2933MHz (2Rx8 1.2V) RDIMM
+  desc: ThinkSystem 16GB TruDDR4 Performance+ 2933MHz (2Rx8 1.2V) RDIMM
+  notice: 
+    - Performance+ DIMMs can only be mixed with the same capacity of Performance+ DIMMs and cannot be field upgraded
+B5N7:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2933
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM
+  price: 4
+  name: ThinkSystem 32GB TruDDR4 Performance+ 2933MHz (2Rx4 1.2V) RDIMM
+  desc: ThinkSystem 32GB TruDDR4 Performance+ 2933MHz (2Rx4 1.2V) RDIMM
+  notice: 
+    - Performance+ DIMMs can only be mixed with the same capacity of Performance+ DIMMs and cannot be field upgraded
+B5N8:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2933
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: RDIMM
+  price: 8
+  name: ThinkSystem 64GB TruDDR4 Performance+ 2933MHz (2Rx4 1.2V) RDIMM
+  desc: ThinkSystem 64GB TruDDR4 Performance+ 2933MHz (2Rx4 1.2V) RDIMM
+  notice: 
+    - Performance+ DIMMs can only be mixed with the same capacity of Performance+ DIMMs and cannot be field upgraded
+B5N9:
+  cpu: 
+    - Cascade Lake
+  class: DDR4
+  speed: 2933
+  voltage: 1.2
+  ecc: yes
+  size: 128 GB
+  type: 3DS RDIMM
+  price: 16
+  name: ThinkSystem 128GB TruDDR4 Performance+ 2933MHz (4Rx4 1.2V) 3DS RDIMM
+  desc: ThinkSystem 128GB TruDDR4 Performance+ 2933MHz (4Rx4 1.2V) 3DS RDIMM
+  notice: 
+    - '3DS DIMMs cannot be mixed with other memory types; Performance+ DIMMs can only be mixed with the same capacity of Performance+ DIMMs and cannot be field upgraded'
+
+### AMD ####
+
+B5XD:
+  cpu: 
+    - Rome
+    - Milan
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 16 GB
+  type: RDIMM
+  price: 2
+  name: ThinkSystem 16GB TruDDR4 3200MHz (2Rx8 1.2V) RDIMM-A
+  desc: ThinkSystem 16GB TruDDR4 3200MHz (2Rx8 1.2V) RDIMM-A
+  notice: []
+B8NU:
+  cpu: 
+    - Rome
+    - Milan
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM
+  price: 4
+  name: ThinkSystem 32GB TruDDR4 3200 MHz (2Rx8 1.2V) RDIMM-A
+  desc: ThinkSystem 32GB TruDDR4 3200 MHz (2Rx8 1.2V) RDIMM-A
+  notice: []
+B5XE:
+  cpu: 
+    - Rome
+    - Milan
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM
+  price: 4
+  name: ThinkSystem 32GB TruDDR4 3200MHz (2Rx4 1.2V) RDIMM-A
+  desc: ThinkSystem 32GB TruDDR4 3200MHz (2Rx4 1.2V) RDIMM-A
+  notice: []
+B5XC:
+  cpu: 
+    - Rome
+    - Milan
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: RDIMM
+  price: 8
+  name: ThinkSystem 64GB TruDDR4 3200MHz (2Rx4 1.2V) RDIMM-A
+  desc: ThinkSystem 64GB TruDDR4 3200MHz (2Rx4 1.2V) RDIMM-A
+  notice: []
+B8NT:
+  cpu: 
+    - Rome
+    - Milan
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 128 GB
+  type: RDIMM
+  price: 16
+  name: ThinkSystem 128GB TruDDR4 3200 MHz (4Rx4, 12.V) 3DS RDIMM-A
+  desc: ThinkSystem 128GB TruDDR4 3200 MHz (4Rx4, 12.V) 3DS RDIMM-A
+  notice: []
+
+
+B963:
+  cpu: 
+    - Ice Lake
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 16 GB
+  type: RDIMM
+  price: 2
+  name: ThinkSystem 16GB TruDDR4 3200 MHz (2Rx8 1.2V) RDIMM
+  desc: ThinkSystem 16GB TruDDR4 3200 MHz (2Rx8 1.2V) RDIMM
+B964:
+  cpu: 
+    - Ice Lake
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM
+  price: 4
+  name: ThinkSystem 32GB TruDDR4 3200 MHz (2Rx4 1.2V) RDIMM
+  desc: ThinkSystem 32GB TruDDR4 3200 MHz (2Rx4 1.2V) RDIMM
+B965:
+  cpu: 
+    - Ice Lake
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM
+  price: 4
+  name: ThinkSystem 32GB TruDDR4 3200 MHz (2Rx8 1.2V) RDIMM
+  desc: ThinkSystem 32GB TruDDR4 3200 MHz (2Rx8 1.2V) RDIMM
+B966:
+  cpu: 
+    - Ice Lake
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: RDIMM
+  price: 8
+  name: ThinkSystem 64GB TruDDR4 3200 MHz (2Rx4 1.2V) RDIMM
+  desc: ThinkSystem 64GB TruDDR4 3200 MHz (2Rx4 1.2V) RDIMM
+BA62:
+  cpu: 
+    - Ice Lake
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 128 GB
+  type: 3DS RDIMM
+  price: 16
+  name: ThinkSystem 128GB TruDDR4 3200 MHz (4Rx4 1.2V) 3DS RDIMM
+  desc: ThinkSystem 128GB TruDDR4 3200 MHz (4Rx4 1.2V) 3DS RDIMM
+BNVN:
+  cpu: 
+    - Skylake
+  class: DDR4
+  speed: 2666
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: LRDIMM
+  price: 8
+  name: ThinkSystem SE350 64GB TruDDR4 2666 MHz (4Rx4 1.2V) LRDIMM
+  desc: ThinkSystem SE350 64GB TruDDR4 2666 MHz (4Rx4 1.2V) LRDIMM
+
+
+BKTL:
+  cpu: 
+    - Sapphire Rapids
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 16 GB
+  type: RDIMM
+  price: 16
+  name: ThinkSystem 16GB TruDDR5 4800MHz (1Rx8) RDIMM
+  desc: ThinkSystem 16GB TruDDR5 4800MHz (1Rx8) RDIMM
+BKTM:
+  cpu: 
+    - Sapphire Rapids
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM
+  price: 32
+  name: ThinkSystem 32GB TruDDR5 4800MHz (2Rx8) RDIMM
+  desc: ThinkSystem 32GB TruDDR5 4800MHz (2Rx8) RDIMM
+BKTN:
+  cpu: 
+    - Sapphire Rapids
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: RDIMM
+  price: 64
+  name: ThinkSystem 64GB TruDDR5 4800MHz (2Rx4) 9x4 RDIMM
+  desc: ThinkSystem 64GB TruDDR5 4800MHz (2Rx4) 9x4 RDIMM
+BNF6:
+  cpu: 
+    - Sapphire Rapids
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM
+  price: 32
+  name: ThinkSystem 32GB TruDDR5 4800MHz (1Rx4) 10x4 RDIMM
+  desc: ThinkSystem 32GB TruDDR5 4800MHz (1Rx4) 10x4 RDIMM
+BNF8:
+  cpu: 
+    - Sapphire Rapids
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 256 GB
+  type: RDIMM
+  price: 256
+  name: ThinkSystem 256GB TruDDR5 4800MHz (8Rx4) 3DS RDIMM
+  desc: ThinkSystem 256GB TruDDR5 4800MHz (8Rx4) 3DS RDIMM
+BNF9:
+  cpu: 
+    - Sapphire Rapids
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: RDIMM
+  price: 64
+  name: ThinkSystem 64GB TruDDR5 4800MHz (2Rx4) 10x4 RDIMM
+  desc: ThinkSystem 64GB TruDDR5 4800MHz (2Rx4) 10x4 RDIMM
+BNFC:
+  cpu: 
+    - Sapphire Rapids
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 128 GB
+  type: 3DS RDIMM
+  price: 128
+  name: ThinkSystem 128GB TruDDR5 4800MHz (4Rx4) 3DS RDIMM
+  desc: ThinkSystem 128GB TruDDR5 4800MHz (4Rx4) 3DS RDIMM
+BQ36:
+  cpu: 
+    - Genoa
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: RDIMM-A
+  price: 64
+  name: ThinkSystem 64GB TruDDR5 4800MHz (2Rx4) 9x4 RDIMM-A
+  desc: ThinkSystem 64GB TruDDR5 4800MHz (2Rx4) 9x4 RDIMM-A
+BQ37:
+  cpu: 
+    - Genoa
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM-A
+  price: 32
+  name: ThinkSystem 32GB TruDDR5 4800MHz (2Rx8) RDIMM-A
+  desc: ThinkSystem 32GB TruDDR5 4800MHz (2Rx8) RDIMM-A
+BQ39:
+  cpu: 
+    - Genoa
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM-A
+  price: 32
+  name: ThinkSystem 32GB TruDDR5 4800MHz (1Rx4) 10x4 RDIMM-A
+  desc: ThinkSystem 32GB TruDDR5 4800MHz (1Rx4) 10x4 RDIMM-A
+BQ3C:
+  cpu: 
+    - Genoa
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 16 GB
+  type: RDIMM-A
+  price: 16
+  name: ThinkSystem 16GB TruDDR5 4800MHz (1Rx8) RDIMM-A
+  desc: ThinkSystem 16GB TruDDR5 4800MHz (1Rx8) RDIMM-A
+BQ3D:
+  cpu: 
+    - Genoa
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 64 GB
+  type: RDIMM-A
+  price: 64
+  name: ThinkSystem 64GB TruDDR5 4800MHz (2Rx4) 10x4 RDIMM-A
+  desc: ThinkSystem 64GB TruDDR5 4800MHz (2Rx4) 10x4 RDIMM-A
+BQ3E:
+  cpu: 
+    - Genoa
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM-A
+  price: 32
+  name: ThinkSystem 32GB TruDDR5 4800MHz (1Rx4) 9x4 RDIMM-A
+  desc: ThinkSystem 32GB TruDDR5 4800MHz (1Rx4) 9x4 RDIMM-A
+
+BQ3A:
+  cpu:
+    - Genoa
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 128 GB
+  type: 3DS RDIMM-A
+  price: 128
+  name: ThinkSystem 128GB TruDDR5 4800MHz (4Rx4) 3DS RDIMM-A
+  desc: ThinkSystem 128GB TruDDR5 4800MHz (4Rx4) 3DS RDIMM-A
+BQ3B:
+  cpu:
+    - Genoa
+  class: DDR5
+  speed: 4800
+  voltage: 1.2
+  ecc: yes
+  size: 256 GB
+  type: 3DS RDIMM-A
+  price: 128
+  name: ThinkSystem 256GB TruDDR5 4800MHz (8Rx4) 3DS RDIMM-A
+  desc: ThinkSystem 256GB TruDDR5 4800MHz (8Rx4) 3DS RDIMM-A
+  
+BUG8:
+  cpu: 
+    - Cascade Lake
+    - Skylake
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 16 GB
+  type: RDIMM
+  price: 2
+  name: ThinkSystem SE350 16GB TruDDR4 3200 MHz (2Rx8 1.2V) RDIMM
+  desc: ThinkSystem SE350 16GB TruDDR4 3200 MHz (2Rx8 1.2V) RDIMM
+  notice: []
+BUG9:
+  cpu: 
+    - Cascade Lake
+    - Skylake
+  class: DDR4
+  speed: 3200
+  voltage: 1.2
+  ecc: yes
+  size: 32 GB
+  type: RDIMM
+  price: 2
+  name: ThinkSystem SE350 32GB TruDDR4 3200 MHz (2Rx4 1.2V) RDIMM
+  desc: ThinkSystem SE350 32GB TruDDR4 3200 MHz (2Rx4 1.2V) RDIMM
+  notice: []

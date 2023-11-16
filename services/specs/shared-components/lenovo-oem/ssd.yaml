@@ -1,0 +1,996 @@
+# Add only the SAS and SATA SSDs in this file  
+
+'110907501008005170208437423483396411846':
+  type: SSD
+  size: 960 GB
+  desc: ThinkSystem 2.5" S4620 960GB Mixed Use SATA 6Gb HS SSD
+  notice: []
+  price: 336
+  name: ThinkSystem 2.5" S4620 960GB Mixed Use SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BA4T
+  model_string: ThinkSystem 2.5" S4620 960GB Mixed Use SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BA4T
+  
+'287940204586085487197211503395961716781':
+  type: SSD
+  size: 960 GB
+  desc: ThinkSystem 3.5" S4620 960GB Mixed Use SATA 6Gb HS SSD
+  notice: []
+  price: 488
+  name: ThinkSystem 3.5" S4620 960GB Mixed Use SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BA4T
+  model_string: ThinkSystem 3.5" S4620 960GB Mixed Use SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BA4X
+  
+'20524087427057481142023000687649667767':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 2.5" S4620 1.92TB Mixed Use SATA 6Gb HS SSD
+  notice: []
+  price: 575
+  name: ThinkSystem 2.5" S4620 1.92TB Mixed Use SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BA4U
+  model_string: ThinkSystem 2.5" S4620 1.92TB Mixed Use SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BA4U
+  
+'292192065953448595406574578135939727702':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 3.5" S4620 1.92TB Mixed Use SATA 6Gb HS SSD
+  notice: []
+  price: 578
+  name: ThinkSystem 3.5" S4620 1.92TB Mixed Use SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BA4Y
+  model_string: ThinkSystem 3.5" S4620 1.92TB Mixed Use SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BA4Y
+  
+'49006620777892750106978491702182404156':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 2.5" S4620 3.84TB Mixed Use SATA 6Gb HS SSD
+  notice: []
+  price: 1222
+  name: ThinkSystem 2.5" S4620 3.84TB Mixed Use SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BK7L
+  model_string: ThinkSystem 2.5" S4620 3.84TB Mixed Use SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BK7L
+  
+'213750984261187058830418677232357682627':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 3.5" S4620 3.84TB Mixed Use SATA 6Gb HS SSD
+  notice: []
+  price: 1125
+  name: ThinkSystem 3.5" S4620 3.84TB Mixed Use SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BK7P
+  model_string: ThinkSystem 3.5" S4620 3.84TB Mixed Use SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BK7P
+  
+'58859835455935694558768621717053685015':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 2.5" S4520 1.92TB Read Intensive SATA 6Gb HS SSD
+  notice: []
+  price: 447
+  name: ThinkSystem 2.5" S4520 1.92TB Read Intensive SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BA7J
+  model_string: ThinkSystem 2.5" S4520 1.92TB Read Intensive SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BA7J
+  
+'231053189894388498723219872410626354943':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 3.5" S4520 1.92TB Read Intensive SATA 6Gb HS SSD
+  notice: []
+  price: 481
+  name: ThinkSystem 3.5" S4520 1.92TB Read Intensive SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BA7N
+  model_string: ThinkSystem 3.5" S4520 1.92TB Read Intensive SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BA7N
+  
+'10209010011690671199695486151095062261':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 2.5" S4520 3.84TB Read Intensive SATA 6Gb HS SSD
+  notice: []
+  price: 799
+  name: ThinkSystem 2.5" S4520 3.84TB Read Intensive SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BK77
+  model_string: ThinkSystem 2.5" S4520 3.84TB Read Intensive SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BK77
+  
+'199018960766503428135023029488903209883':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 3.5" S4520 3.84TB Read Intensive SATA 6Gb HS SSD
+  notice: []
+  price: 802
+  name: ThinkSystem 3.5" S4520 3.84TB Read Intensive SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BK7F
+  model_string: ThinkSystem 3.5" S4520 3.84TB Read Intensive SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BK7F
+  
+'245088639805079799085646450907473575777':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 2.5" PM893 1.92TB Read Intensive SATA 6Gb HS SSD
+  notice: []
+  price: 466
+  name: ThinkSystem 2.5" PM893 1.92TB Read Intensive SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BM89
+  model_string: ThinkSystem 2.5" PM893 1.92TB Read Intensive SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BM89
+  
+'238866696471189007042260451848095469492':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 2.5" PM893 3.84TB Read Intensive SATA 6Gb HS SSD
+  notice: []
+  price: 816
+  name: ThinkSystem 2.5" PM893 3.84TB Read Intensive SATA 6Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb:  
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: BM88
+  model_string: ThinkSystem 2.5" PM893 3.84TB Read Intensive SATA 6Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BM88
+
+'277209155996448765986695154402791019562':
+  type: SSD
+  size: 480 GB
+  desc: ThinkSystem 2.5" Intel S4610 480GB Mainstream SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 829
+  name: ThinkSystem 2.5" Intel S4610 480GB Mainstream SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 480 
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B49M
+  model_string: ThinkSystem 2.5" Intel S4610 480GB Mainstream SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B49M
+
+'45333918164514934963128829968301578969':
+  type: SSD
+  size: 960 GB
+  desc: ThinkSystem 2.5" Intel S4610 960GB Mainstream SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 1499
+  name: ThinkSystem 2.5" Intel S4610 960GB Mainstream SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 960 
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B49N
+  model_string: ThinkSystem 2.5" Intel S4610 960GB Mainstream SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B49N
+'329981377417139490432695692690564841709':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 2.5" Intel S4610 1.92TB Mainstream SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 2999
+  name: ThinkSystem 2.5" Intel S4610 1.92TB Mainstream SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1920 
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B49P
+  model_string: ThinkSystem 2.5" Intel S4610 1.92TB Mainstream SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B49P
+'146368562110551989808394829194449669605':
+  type: SSD
+  size: 800 GB
+  desc: ThinkSystem 2.5" PM1645a 800GB Mainstream SAS 12Gb Hot Swap SSD
+  notice: []
+  price: 1999
+  name: ThinkSystem 2.5" PM1645a 800GB Mainstream SAS 12Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 800 
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: B8HU
+  model_string: ThinkSystem 2.5" PM1645a 800GB Mainstream SAS 12Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B8HU
+'272303413713384929817590051575473814869':
+  type: SSD
+  size: 800 GB
+  desc: ThinkSystem 3.5" PM1645a 800GB Mainstream SAS 12Gb Hot Swap SSD
+  notice: []
+  price: 1999
+  name: ThinkSystem 3.5" PM1645a 800GB Mainstream SAS 12Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 800 
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: B8HT
+  model_string: ThinkSystem 3.5" PM1645a 800GB Mainstream SAS 12Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: B8HT
+'280833960321399961830843574179657926568':
+  type: SSD
+  size: 1.6 TB
+  desc: ThinkSystem 2.5" PM1645a 1.6TB Mainstream SAS 12Gb Hot Swap SSD
+  notice: []
+  price: 2999
+  name: ThinkSystem 2.5" PM1645a 1.6TB Mainstream SAS 12Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1600
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: B8J4
+  model_string: ThinkSystem 2.5" PM1645a 1.6TB Mainstream SAS 12Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B8J4
+'106507717010539145117437592934144256284':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 2.5" Intel S4510 1.92TB Entry SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 2249
+  name: ThinkSystem 2.5" Intel S4510 1.92TB Entry SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1920
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B49B
+  model_string: ThinkSystem 2.5" Intel S4510 1.92TB Entry SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B49B
+'90656722532161611820329027832628262444':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 2.5" PM883 1.92TB Entry SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 1949
+  name: ThinkSystem 2.5" PM883 1.92TB Entry SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1920
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B34L
+  model_string: ThinkSystem 2.5" PM883 1.92TB Entry SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B34L
+'226850352248689726735554521425058859074':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 2.5" Intel S4510 3.84TB Entry SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 4099
+  name: ThinkSystem 2.5" Intel S4510 3.84TB Entry SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B49C
+  model_string: ThinkSystem 2.5" Intel S4510 3.84TB Entry SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B49C
+'286785159118215851269526387466290527770':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 2.5" PM883 3.84TB Entry SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 3999
+  name: ThinkSystem 2.5" PM883 3.84TB Entry SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B34M
+  model_string: ThinkSystem 2.5" PM883 3.84TB Entry SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B34M
+'323358032851742366560829484143179665309':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 2.5" PM1643 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  notice: []
+  price: 6499
+  name: ThinkSystem 2.5" PM1643 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: B4A7
+  model_string: ThinkSystem 2.5" PM1643 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B4A7
+'222188022395018535950929251352504591049':
+  type: SSD
+  size: 480 GB
+  desc: ThinkSystem 3.5" Intel S4610 480GB Mainstream SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 829
+  name: ThinkSystem 3.5" Intel S4610 480GB Mainstream SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 480
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B49S
+  model_string: ThinkSystem 3.5" Intel S4610 480GB Mainstream SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: B49S
+'290063319689290841707717841877913301114':
+  type: SSD
+  size: 960 GB
+  desc: ThinkSystem 3.5" Intel S4610 960GB Mainstream SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 1499
+  name: ThinkSystem 3.5" Intel S4610 960GB Mainstream SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 960
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B49T
+  model_string: ThinkSystem 3.5" Intel S4610 960GB Mainstream SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: B49T
+'55616985844257870900299483452706838802':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 3.5" Intel S4610 1.92TB Mainstream SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 3199
+  name: ThinkSystem 3.5" Intel S4610 1.92TB Mainstream SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1920
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B49U
+  model_string: ThinkSystem 3.5" Intel S4610 1.92TB Mainstream SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: B49U
+'267677325576945848176965916494148225074':
+  type: SSD
+  size: 1.6 TB 
+  desc: ThinkSystem 3.5" PM1645a 1.6TB Mainstream SAS 12Gb Hot Swap SSD
+  notice: []
+  price: 2999
+  name: ThinkSystem 3.5" PM1645a 1.6TB Mainstream SAS 12Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1600
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: B8JN
+  model_string: ThinkSystem 3.5" PM1645a 1.6TB Mainstream SAS 12Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: B8JN
+'317176022972001357712753772614309703831':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 3.5" Intel S4510 1.92TB Entry SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 2249
+  name: ThinkSystem 3.5" Intel S4510 1.92TB Entry SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1920
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B49G
+  model_string: ThinkSystem 3.5" Intel S4510 1.92TB Entry SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: B49G
+'126916530390602192835952814268558936854':
+  type: SSD
+  size: 1.92 TB
+  desc: 'ThinkSystem 3.5" PM883 1.92TB Entry SATA 6Gb Hot Swap SSD'
+  notice: []
+  price: 1689 #ballpark figure
+  name: 'ThinkSystem 3.5" PM883 1.92TB Entry SATA 6Gb Hot Swap SSD'
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: false
+  capacity_gb: 1920
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B6JY
+  model_string: 'ThinkSystem 3.5" PM883 1.92TB Entry SATA 6Gb Hot Swap SSD'
+  nand_type: TLC
+  form-factor: large
+  sku: B6JY
+'53064494963294809410651505180175798935':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 3.5" Intel S4510 3.84TB Entry SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 4099
+  name: ThinkSystem 3.5" Intel S4510 3.84TB Entry SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B49H
+  model_string: ThinkSystem 3.5" Intel S4510 3.84TB Entry SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: B49H
+'32695748057382675152980465880406611499':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 3.5" PM883 3.84TB Entry SATA 6Gb Hot Swap SSD
+  notice: []
+  price: 1899
+  name: ThinkSystem 3.5" PM883 3.84TB Entry SATA 6Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: SATA
+  manufacturer: Lenovo
+  metadata: true
+  model: B6JZ
+  model_string: ThinkSystem 3.5" PM883 3.84TB Entry SATA 6Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: B6JZ
+'295305642774963961850415542780806623114':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 3.5" PM1643 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  notice: []
+  price: 6499
+  name: ThinkSystem 3.5" PM1643 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: B4A8
+  model_string: ThinkSystem 3.5" PM1643 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: B4A8
+'295305642774963961850415542780806623115':
+ type: SSD
+ size: 7.68 TB
+ desc: ThinkSystem 2.5" PM1643 7.68TB Capacity SAS 12Gb Hot Swap SSD
+ notice: []
+ price: 6499
+ name: ThinkSystem 2.5" PM1643 7.68TB Capacity SAS 12Gb Hot Swap SSD
+ encryptedPart: false
+ approved_by: Legacy, Nutanix
+ boot: false
+ capacity_gb: 7680
+ data: true
+ interface: SAS
+ manufacturer: Lenovo
+ metadata: true
+ model: B4A6
+ model_string: ThinkSystem 2.5" PM1643 7.68TB Capacity SAS 12Gb Hot Swap SSD
+ nand_type: TLC
+ form-factor: small
+ sku: B4A6
+'287045833840978619658197725562046089310':
+  type: SSD
+  size: 7.68 TB
+  desc: ThinkSystem 2.5" PM1643a 7.68TB Capacity SAS 12Gb Hot Swap SSD
+  notice: []
+  price: 6499
+  name: ThinkSystem 2.5" PM1643a 7.68TB Capacity SAS 12Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 7680
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: B91D
+  model_string: ThinkSystem 2.5" PM1643a 7.68TB Capacity SAS 12Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B91D
+'255832543827879033932231971663352615729':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 3.5" PM1643a 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  notice: []
+  price: 6499
+  name: ThinkSystem 3.5" PM1643a 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: B91E
+  model_string: ThinkSystem 3.5" PM1643a 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: B91E
+'162342346609489277141388420249121888941':
+  type: SSD
+  size: 7.68 TB
+  desc: ThinkSystem 3.5" PM1643a 7.68TB Capacity SAS 12Gb Hot Swap SSD
+  notice: []
+  price: 6499
+  name: ThinkSystem 3.5" PM1643a 7.68TB Capacity SAS 12Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 7680
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BEVK
+  model_string: ThinkSystem 3.5" PM1643a 7.68TB Capacity SAS 12Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BEVK
+'164725183677083892950218846849339709018':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 2.5" PM1643a 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  notice: []
+  price: 6499
+  name: ThinkSystem 2.5" PM1643a 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: B91C
+  model_string: ThinkSystem 2.5" PM1643a 3.84TB Capacity SAS 12Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: B91C
+'200337044258042112985894973054560797386':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 2.5" PM1653 3.84TB Read Intensive SAS 24Gb HS SSD
+  notice: []
+  price: 6499
+  name: ThinkSystem 2.5" PM1653 3.84TB Read Intensive SAS 24Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BNWF
+  model_string: ThinkSystem 2.5" PM1653 3.84TB Read Intensive SAS 24Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BNWF
+'113967084937895467898578436357698243672':
+  type: SSD
+  size: 3.2 TB
+  desc: ThinkSystem 2.5" PM1655 3.2TB Mixed Use SAS 24Gb HS SSD
+  notice: []
+  price: 6499
+  name: ThinkSystem 2.5" PM1655 3.2TB Mixed Use SAS 24Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3200
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BNW6
+  model_string: ThinkSystem 2.5" PM1655 3.2TB Mixed Use SAS 24Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BNW6
+'135198155629085240980711778243363888382':
+  type: SSD
+  size: 3.2 TB
+  desc: ThinkSystem 3.5" PM1655 3.2TB Mixed Use SAS 24Gb HS SSD
+  notice: []
+  price: 6499
+  name: ThinkSystem 3.5" PM1655 3.2TB Mixed Use SAS 24Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3200
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BNWB
+  model_string: ThinkSystem 3.5" PM1655 3.2TB Mixed Use SAS 24Gb HS SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BNWB
+'187858105084125846550886755438988737678':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 3.5" PM1653 3.84TB Read Intensive SAS 24Gb HS SSD
+  notice: []
+  price: 6499
+  name: ThinkSystem 3.5" PM1653 3.84TB Read Intensive SAS 24Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BNWH
+  model_string: ThinkSystem 3.5" PM1653 3.84TB Read Intensive SAS 24Gb HS SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BNWH
+'87649502253137511892050312897772792552':
+  type: SSD
+  size: 7.68 TB
+  desc: ThinkSystem 2.5" PM1653 7.68TB Capacity SAS 24Gb Hot Swap SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" PM1653 7.68TB Capacity SAS 24Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 7680
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BP3E
+  model_string: ThinkSystem 2.5" PM1653 7.68TB Capacity SAS 24Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BP3E
+'62374217304471399016673968363563795249':  
+  type: SSD
+  size: 7.68 TB
+  desc: ThinkSystem 3.5" PM1653 7.68TB Capacity SAS 24Gb Hot Swap SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 3.5" PM1653 7.68TB Capacity SAS 24Gb Hot Swap SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 7680
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BP3F
+  model_string: ThinkSystem 3.5" PM1653 7.68TB Capacity SAS 24Gb Hot Swap SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BP3F
+'165670975510682854907242123953582802165':
+  type: SSD
+  size: 6.4 TB
+  desc: ThinkSystem 2.5" PM1655 6.4TB Mixed Use SAS 24Gb HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" PM1655 6.4TB Mixed Use SAS 24Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 6400
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BP3K
+  model_string: ThinkSystem 2.5" PM1655 6.4TB Mixed Use SAS 24Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BP3K
+'144313754993535506251104449429102224252':  
+  type: SSD
+  size: 6.4 TB
+  desc: ThinkSystem 3.5" PM1655 6.4TB Mixed Use SAS 24Gb HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 3.5" PM1655 6.4TB Mixed Use SAS 24Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 6400
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BP3G
+  model_string: ThinkSystem 3.5" PM1655 6.4TB Mixed Use SAS 24Gb HS SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BP3G
+'73630712496678399826613870117068185368':
+  type: SSD
+  size: 800 GB
+  desc: ThinkSystem 2.5" PM1655 800GB Mixed Use SAS 24Gb HS SSD
+  notice: []
+  price: 1999
+  name: ThinkSystem 2.5" PM1655 800GB Mixed Use SAS 24Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 800 
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BNW8
+  model_string: ThinkSystem 2.5" PM1655 800GB Mixed Use SAS 24Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BNW8
+'188069569160226616076564107082643940549':
+  type: SSD
+  size: 800 GB
+  desc: ThinkSystem 3.5" PM1655 800GB Mixed Use SAS 24Gb HS SSD
+  notice: []
+  price: 1999
+  name: ThinkSystem 3.5" PM1655 800GB Mixed Use SAS 24Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 800 
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BNW7
+  model_string: ThinkSystem 3.5" PM1655 800GB Mixed Use SAS 24Gb HS SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BNW7
+'188616559340169961516330520869021861279':
+  type: SSD
+  size: 1.6 TB
+  desc: ThinkSystem 2.5" PM1655 1.6TB Mixed Use SAS 24Gb HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" PM1655 1.6TB Mixed Use SAS 24Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1600 
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BNW9
+  model_string: ThinkSystem 2.5" PM1655 1.6TB Mixed Use SAS 24Gb HS SSD
+  nand_type: TLC
+  form-factor: small
+  sku: BNW9
+'122060270581256737610386881992887468830':
+  type: SSD
+  size: 1.6 TB
+  desc: ThinkSystem 3.5" PM1655 1.6TB Mixed Use SAS 24Gb HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 3.5" PM1655 1.6TB Mixed Use SAS 24Gb HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1600 
+  data: true
+  interface: SAS
+  manufacturer: Lenovo
+  metadata: true
+  model: BNWA
+  model_string: ThinkSystem 3.5" PM1655 1.6TB Mixed Use SAS 24Gb HS SSD
+  nand_type: TLC
+  form-factor: large
+  sku: BNWA
+  

@@ -1,0 +1,547 @@
+AUKJ:
+  desc: ThinkSystem 10Gb 2-port SFP+ LOM
+  name: ThinkSystem 10Gb 2-port SFP+ LOM
+  price: 219 #ballpark figure
+#  capacity: 2
+  type: LOM
+  manufacturer: Intel
+  series: 
+    - 700
+  port:
+    count: 2
+    spec:
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 10 Gbps
+AUKK:
+  desc: ThinkSystem 10Gb 4-port SFP+ LOM
+  name: ThinkSystem 10Gb 4-port SFP+ LOM
+  price: 249 #ballpark figure
+#  capacity: 4
+  type: LOM
+  manufacturer: Intel
+  series: 
+    - 700
+  port:
+    count: 4
+    spec:
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 10 Gbps
+AUKM:
+  desc: ThinkSystem 10Gb 4-port Base-T LOM (RJ-45)
+  name: ThinkSystem 10Gb 4-port Base-T LOM (RJ-45)
+  price: 329 #ballpark figure
+#  capacity: 2
+  type: LOM
+  series: 
+    - 700
+  manufacturer: Intel
+  port:
+    count: 2
+    spec:
+      - Base-T
+    data rate:
+      - 10 Gbps
+      - 1 Gbps
+AUYA:
+  desc: ThinkSystem 10Gb 4-port Base-T LOM
+  name: ThinkSystem 10Gb 4-port Base-T LOM
+  price: 529 #ballpark figure
+#  capacity: 4
+  type: LOM
+  series: 
+    - 700
+  manufacturer: Intel
+  port:
+    count: 4
+    spec:
+      - Base-T
+    data rate:
+      - 10 Gbps
+      - 1 Gbps
+ATPX:
+  desc: Intel X550-T2 Dual Port 10GBase-T Adapter (RJ-45)
+  name: Intel X550-T2 Dual Port 10GBase-T Adapter (RJ-45)
+  price: 599 #ballpark figure
+#  capacity: 2
+  type: PCIe
+  manufacturer: Intel
+  series: 
+    - 500
+  port:
+    count: 2
+    spec:
+      - Base-T
+    data rate:
+      - 10 Gbps
+      - 1 Gbps
+AUKX:
+  desc: Lenovo ThinkSystem X710-DA2 PCIe 10Gb 2-Port SFP+ Ethernet Adapter
+  name: Lenovo ThinkSystem X710-DA2 PCIe 10Gb 2-Port SFP+ Ethernet Adapter
+  price: 629 #ballpark figure
+#  capacity: 2
+  type: PCIe
+  manufacturer: Intel
+  series: 
+    - 700
+  port:
+    count: 2
+    spec:
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 10 Gbps
+AUAJ:
+  desc: Mellanox ConnectX-4 Lx 10/25GbE SFP28 2-Port PCIe Ethernet Adapter
+  name: Mellanox ConnectX-4 Lx 10/25GbE SFP28 2-Port PCIe Ethernet Adapter
+  price: 190.53 #ballpark figure
+#  capacity: 2
+  type: PCIe
+  manufacturer: Mellanox
+  series: 
+    - CX4
+  port:
+    count: 2
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+B31C:
+  desc: ThinkSystem Mellanox ConnectX-5 Ex 25/40GbE 2-port Low-Latency Adapter
+  name: ThinkSystem Mellanox ConnectX-5 Ex 25/40GbE 2-port Low-Latency Adapter
+  price: 250
+#  capacity: 2
+  type: PCIe
+  manufacturer: Mellanox
+  series: 
+    - CX5
+  port:
+    count: 2
+    spec:
+      - QSFP+
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 40 Gbps
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+AUYA:
+  desc: ThinkSystem D2 10Gb 8 port EIOM Base-T RJ-45
+  name: ThinkSystem D2 10Gb 8 port EIOM Base-T RJ-45
+  price: 779 #ballpark figure
+#  capacity: 8
+  type: LOM
+  manufacturer: Intel
+  series: 
+    - 700
+  port:
+    count: 8
+    spec:
+      - Base-T
+    data rate:
+      - 10 Gbps
+AUY9:
+  desc: ThinkSystem D2 10Gb 8 port EIOM SFP+
+  name: ThinkSystem D2 10Gb 8 port EIOM SFP+
+  price: 100
+#  capacity: 8
+  type: LOM
+  manufacturer: Intel
+  series: 
+    - 700
+  port:
+    count: 8
+    spec:
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 10 Gbps
+AUKL:
+  desc: ThinkSystem 10Gb 2-port Base-T LOM (RJ-45)
+  name: ThinkSystem 10Gb 2-port Base-T LOM (RJ-45)
+  price: 329 #ballpark figure
+#  capacity: 2
+  type: LOM
+  manufacturer: Intel
+  series: 
+    - 700
+  port:
+    count: 2
+    spec:
+      - Base-T
+    data rate:
+      - 10 Gbps
+B5SV:
+  desc: ThinkSystem Broadcom 57454 10/25GbE SFP28 4-port OCP Ethernet Adapter
+  name: ThinkSystem Broadcom 57454 10/25GbE SFP28 4-port OCP Ethernet Adapter
+  price: 233.84
+#  capacity: 1
+  type: FLOM
+  manufacturer: Broadcom
+  series: 
+    - Unknown
+  port:
+    count: 4
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+B5T4:
+  desc: ThinkSystem Broadcom 57454 10GBASE-T 4-port OCP Ethernet Adapter
+  name: ThinkSystem Broadcom 57454 10GBASE-T 4-port OCP Ethernet Adapter
+  price: 323.80
+#  capacity: 1
+  type: FLOM
+  manufacturer: Broadcom
+  series: 
+    - Unknown
+  port:
+    count: 4
+    spec:
+      - Base-T
+    data rate:
+      - 10 Gbps
+      - 1 Gbps
+
+BE4T:
+  desc: ThinkSystem Mellanox ConnectX-6 Lx 10/25GbE SFP28 2-Port OCP Ethernet Adapter
+  name: ThinkSystem Mellanox ConnectX-6 Lx 10/25GbE SFP28 2-Port OCP Ethernet Adapter
+  price: 180.79
+#  capacity: 1
+  type: FLOM
+  manufacturer: Mellanox
+  series: 
+    - CX6
+  port:
+    count: 2
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+
+
+B5SU:
+  desc: ThinkSystem Broadcom 57454 10GBASE-T 4-port PCIe Ethernet Adapter
+  name: ThinkSystem Broadcom 57454 10GBASE-T 4-port PCIe Ethernet Adapter
+  price: 312.46
+#  capacity: 1
+  type: PCIe
+  manufacturer: Broadcom
+  series: 
+    - Unknown
+  port:
+    count: 4
+    spec:
+      - Base-T
+    data rate:
+      - 10 Gbps
+      - 1 Gbps
+
+
+BD49:
+  desc: ThinkSystem Broadcom 57454 10/25GbE SFP28 4-port PCIe Ethernet Adapter V2
+  name: ThinkSystem Broadcom 57454 10/25GbE SFP28 4-port PCIe Ethernet Adapter V2
+  price: 216.03
+#  capacity: 1
+  type: PCIe
+  manufacturer: Broadcom
+  series: 
+    - Unknown
+  port:
+    count: 4
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+
+B7Z7:
+  desc: ThinkSystem SE350 4xRJ45 10GBASE-T LOM Package 10GBASE-T Wired Network Module
+  name: ThinkSystem SE350 4xRJ45 10GBASE-T LOM Package 10GBASE-T Wired Network Module
+  price: 184.46
+  type: LOM
+  manufacturer: Intel
+  series: 
+    - 300
+    - 700
+  port: 
+    count: 4
+    spec:
+      - Base-T
+    data rate:
+      - 10 Gbps
+      - 1 Gbps
+
+BBZ7:
+  desc: ThinkSystem SE350 10GbE SFP+ 2-Port, 10/100/1GbE RJ45 2-Port Intel i350 (Extreme Shock & Vibe)
+  name: ThinkSystem SE350 10GbE SFP+ 2-Port, 10/100/1GbE RJ45 2-Port Intel i350 (Extreme Shock & Vibe)
+  price: 133.80
+  type: LOM
+  manufacturer: Intel
+  series: 
+    - 700
+  port: 
+    count: 2
+    spec:
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 10 Gbps
+
+B8PP:
+  desc: ThinkSystem Mellanox ConnectX-6 Dx 100GbE QSFP56 2-port PCIe Ethernet Adapter
+  name: ThinkSystem Mellanox ConnectX-6 Dx 100GbE QSFP56 2-port PCIe Ethernet Adapter
+  price: 325 #ballpark figure
+  type: PCIe
+  manufacturer: Mellanox
+  series: 
+    - CX6
+  port: 
+    count: 2
+    spec: 
+      - QSFP28
+      - QSFP+
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 100 Gbps
+      - 50 Gbps
+      - 40 Gbps
+      - 25 Gbps
+      - 10 Gbps
+
+BE4U:
+  desc: ThinkSystem Mellanox ConnectX-6 Lx 10/25GbE SFP28 2-Port PCIe Ethernet Adapter
+  name: ThinkSystem Mellanox ConnectX-6 Lx 10/25GbE SFP28 2-Port PCIe Ethernet Adapter
+  price: 190 #ballpark figure
+  type: PCIe
+  manufacturer: Mellanox
+  series: 
+    - CX6
+  port:
+    count: 2
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+
+B653:
+  desc: ThinkSystem Mellanox ConnectX-4 Lx 10/25GbE SFP28 2-port PCIe Ethernet Adapter
+  name: ThinkSystem Mellanox ConnectX-4 Lx 10/25GbE SFP28 2-port PCIe Ethernet Adapter
+  price: 740 #ballpark figure
+  type: PCIe
+  manufacturer: Mellanox
+  series: 
+    - CX4
+  port:
+    count: 2
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+
+B5SZ:
+  desc: ThinkSystem Broadcom 57414 10/25GbE SFP28 2-port OCP Ethernet Adapter
+  name: ThinkSystem Broadcom 57414 10/25GbE SFP28 2-port OCP Ethernet Adapter 
+  price: 1
+  type: FLOM
+  manufacturer: Broadcom
+  series: 
+    - Unknown
+  port:
+    count: 2
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+  
+AUKP:
+  desc: ThinkSystem Broadcom 57416 10GBASE-T 2-Port PCIe Ethernet Adapter
+  name: ThinkSystem Broadcom 57416 10GBASE-T 2-Port PCIe Ethernet Adapter
+  price: 1
+  type: PCIe
+  manufacturer: Broadcom
+  series: 
+    - Unknown
+  port:
+    count: 2
+    spec:
+      - Base-T
+    data rate:
+      - 10 Gbps
+      - 1 Gbps
+  
+B5T0:
+  desc: ThinkSystem Broadcom 57414 10/25GbE SFP28 2-port PCIe Ethernet Adapter
+  name: ThinkSystem Broadcom 57414 10/25GbE SFP28 2-port PCIe Ethernet Adapter
+  price: 1
+  type: PCIe
+  manufacturer: Broadcom
+  series: 
+    - Unknown
+  port:
+    count: 2
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+  
+B5ST:
+  desc: ThinkSystem Broadcom 57416 10GBASE-T 2-port OCP Ethernet Adapter
+  name: ThinkSystem Broadcom 57416 10GBASE-T 2-port OCP Ethernet Adapter
+  price: 1
+  type: FLOM
+  manufacturer: Broadcom
+  series: 
+    - Unknown
+  port:
+    count: 2
+    spec:
+      - Base-T
+    data rate:
+      - 10 Gbps
+      - 1 Gbps
+  
+BN2T:
+  desc: ThinkSystem Broadcom 57414 10/25GbE SFP28 2-Port OCP Ethernet Adapter
+  name: ThinkSystem Broadcom 57414 10/25GbE SFP28 2-Port OCP Ethernet Adapter
+  price: 1
+  type: FLOM
+  manufacturer: Broadcom
+  series:
+    - Unknown
+  port:
+    count: 2
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+      
+BPPW:
+  desc: ThinkSystem Broadcom 57504 10/25GbE SFP28 4-Port PCIe Ethernet Adapter
+  name: ThinkSystem Broadcom 57504 10/25GbE SFP28 4-Port PCIe Ethernet Adapter
+  price: 1
+  type: PCIe
+  manufacturer: Broadcom
+  series:
+    - Unknown
+  port:
+    count: 4
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+
+BNWM:
+  desc: ThinkSystem Broadcom 57504 10/25GbE SFP28 4-Port OCP Ethernet Adapter
+  name: ThinkSystem Broadcom 57504 10/25GbE SFP28 4-Port OCP Ethernet Adapter
+  price: 1
+  type: FLOM
+  manufacturer: Broadcom
+  series:
+    - Unknown
+  port:
+    count: 4
+    spec:
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+  
+BK1H:
+  desc: ThinkSystem Broadcom 57414 10/25GbE SFP28 2-port PCIe Ethernet Adapter
+  name: ThinkSystem Broadcom 57414 10/25GbE SFP28 2-port PCIe Ethernet Adapter
+  price: 1
+  type: PCIe
+  manufacturer: Broadcom
+  series: 
+    - Unknown
+  port:
+    count: 2
+    spec: 
+      - SFP28
+      - SFP+
+      - QSFP
+      - SFP
+    data rate:
+      - 25 Gbps
+      - 10 Gbps
+      - 1 Gbps
+
+
+
+## Template ##
+
+# SKU:
+#  desc: 'component description'
+#  name: 'component description'
+#  price: ''
+#  capacity: ''
+#  type: 'LOM/PCIe/FLOM/MLOM'
+#  manufacturer: Intel
+#  series:

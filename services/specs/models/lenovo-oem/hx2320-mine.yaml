@@ -1,0 +1,118 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed # added by Deepak
+models:
+  - HX2320-Mine
+label: HX2320 Mine Appliance
+chassis:
+  label: Chassis
+  use-case: 
+    # - Remote Office/Branch Office
+    # - Private Cloud
+    # - Test and Development
+    # - End-User Computing/Virtual Desktop Infrastructure
+    - Backup and Disaster Recovery
+  notice:   # moved notice here (was below product)
+    - 1-node and 2-node clusters supported with AOS 5.6 and above.  Also supports 3+ node clusters.
+  product:
+    - sku: 7X83CTO5WW
+      qual-date: '2017-10-01' # Release is planned for June
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Hot-swappable AC power supply # Added desc as there are multiple SKUs
+    qty:
+      - 2
+    product:
+      - sku: AVW8
+      - sku: AVWA
+      - sku: AVW9
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    desc: M.2 SSD # Added the "desc" attribute as there are multiple product SKU entries.
+    notice:
+      - 2 are required # content is missing under notice.
+    qty:
+      - 2
+    product:
+      - sku: AUUV
+      - sku: B5S4
+      - sku: B11V
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    qty:
+      - 1
+    product:
+      - sku: AUNL
+# In model.yaml files, add only UUID for SSDs and HDDs and not their SKU IDs.
+  - type: hybrid
+    label: 'Storage: Hybrid'
+    desc: Mix of SATA/SAS SSDs and HDDs
+    ssd:
+      label: '3.5" SATA/SAS SSDs'
+      qty:
+        - 2
+      product:
+        - sku: '317176022972001357712753772614309703831' 
+        - sku: '126916530390602192835952814268558936854'   #B6YJ 1.92 TB 2.5 inch
+      #  - sku: '53064494963294809410651505180175798935' 
+    hdd:
+      label: '3.5" HDDs'
+      qty:
+        - 2
+        # - 3 - not currently enabled in configurator - removed.
+      product:
+        # - sku: '32819280796640929958023462368196276772'
+        # - sku: '295369276436913039785331606765510041082'
+        # - sku: '30607696395517512926133451004860460074'
+        - sku: '30607696395517512926133451004860460075'
+        - sku: '30607696395517512926133451004860460076'
+compute:
+# Corrected type and label to Cascade Lake
+  - type: cascade-lake
+    label: Cascade Lake Refresh
+    cpu:
+      desc: Any Intel Cascade Lake Refresh CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU). #Sruthi added this.
+      qty:
+        - 2
+      product:
+        - sku: B7N6
+    memory:
+      notice: 
+        - "Six quantities of memory DIMMs are supported only on single CPU nodes."
+#7-Feb: Only Cascade Lake processors are supported. Must write "Cascade Lake" in two words, both beginning with upper case. Replaced Skylake with Cascade Lake in the below note.
+        - "For memory capacity higher than 768 GB and up to 2 TB per socket, order the Intel Cascade Lake Xeon CPUs with suffix L."
+      product:
+        - sku: B4LY  
+          qty:
+            - 12
+network:
+# The label and desc attributes for LOM and PCIe adapters have been modified as per the standard template.
+  - type: lom
+    label: FlexibleLOM Adapter
+    desc: LAN on Motherboard (LOM) Adapter
+    qty:
+      - 1
+    notice:
+      - Standalone Mode Only. #Deepak asks: Does Lenovo have these modes? Or is this a relic from UCS?
+    product:
+      - sku: AUKL
+      - sku: AUKM
+      - sku: AUKJ
+      - sku: AUKK
+  - type: pcie
+    label: PCIe Network Interface
+    desc: PCIe-slot Ethernet adapter
+    qty:
+      - 0
+      - 1
+      - 2
+      - 3  # Added 3 as per Rakesh's comment - Network card, min(1), Max (3)
+    product:
+      - sku: ATPX
+      - sku: AUKX
+      # - sku: AUAJ
+      # - sku: B31C
+

@@ -1,0 +1,518 @@
+Platinum 8360Y:
+  SPECint: 2465.68
+  arch: Ice Lake
+  category: ycpu
+  cores: 36
+  cycles: 2.40
+  desc: Intel Xeon Platinum 8360Y Processor (36 Cores, 54M Cache, 2.40 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8360Y Processor (36 Cores, 54M Cache, 2.40 GHz, DDR4-3200MHz)
+  notice: []
+  power: 250 W
+  product: Xeon
+  specintRatePerCore: 68.49
+Platinum 8358P:
+  SPECint: 2265.76
+  arch: Ice Lake
+  category: pcpu
+  cores: 32
+  cycles: 2.60
+  desc: Intel Xeon Platinum 8358P Processor (32 Cores, 48M Cache, 2.60 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8358P Processor (32 Cores, 48M Cache, 2.60 GHz, DDR4-3200MHz)
+  notice: []
+  power: 240 W
+  product: Xeon
+  specintRatePerCore: 70.81
+Platinum 8352Y:
+  SPECint: 2089.64
+  arch: Ice Lake
+  category: ycpu
+  cores: 32
+  cycles: 2.20
+  desc: Intel Xeon Platinum 8352Y Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8352Y Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 65.30
+Platinum 8352V:
+  SPECint: 2042.04
+  arch: Ice Lake
+  category: vcpu
+  cores: 36
+  cycles: 2.10
+  desc: Intel Xeon Platinum 8352V Processor (36 Cores, 54M Cache, 2.10 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8352V Processor (36 Cores, 54M Cache, 2.10 GHz, DDR4-3200MHz)
+  notice: []
+  power: 195 W
+  product: Xeon
+  specintRatePerCore: 56.72
+Platinum 8352S:
+  SPECint: 2089.64
+  arch: Ice Lake
+  category: scpu
+  cores: 32
+  cycles: 2.20
+  desc: Intel Xeon Platinum 8352S Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8352S Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 65.30
+Gold 6338N:
+  SPECint: 2027.76
+  arch: Ice Lake
+  category: ncpu
+  cores: 32
+  cycles: 2.20
+  desc: Intel Xeon Gold 6338N Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 6338N Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-2667MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 63.37
+Gold 6336Y:
+  SPECint: 1704.08
+  arch: Ice Lake
+  category: ycpu
+  cores: 24
+  cycles: 2.40
+  desc: Intel Xeon Gold 6336Y Processor (24 Cores, 36M Cache, 2.40 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6336Y Processor (24 Cores, 36M Cache, 2.40 GHz, DDR4-3200MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 71.00
+Gold 6330N:
+  SPECint: 1713.60
+  arch: Ice Lake
+  category: ncpu
+  cores: 28
+  cycles: 2.20
+  desc: Intel Xeon Gold 6330N Processor (28 Cores, 42M Cache, 2.20 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 6330N Processor (28 Cores, 42M Cache, 2.20 GHz, DDR4-2667MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 61.20
+Gold 5318Y:
+  SPECint: 1513.68
+  arch: Ice Lake
+  category: ycpu
+  cores: 24
+  cycles: 2.10
+  desc: Intel Xeon Gold 5318Y Processor (24 Cores, 36M Cache, 2.10 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5318Y Processor (24 Cores, 36M Cache, 2.10 GHz, DDR4-2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 63.07
+Silver 4309Y:
+  SPECint: 637.84 
+  arch: Ice Lake
+  category: ycpu
+  cores: 8
+  cycles: 2.80
+  desc: Intel Xeon Silver 4309Y Processor (8 Cores, 12M Cache, 2.80 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Silver 4309Y Processor (8 Cores, 12M Cache, 2.80 GHz, DDR4-2667MHz)
+  notice: []
+  power: 105 W
+  product: Xeon
+  specintRatePerCore: 79.73
+Platinum 8380:
+  SPECint: 2651.32
+  arch: Ice Lake
+  cores: 40
+  cycles: 2.30
+  desc: Intel Xeon Platinum 8380 Processor (40 Cores, 60M Cache, 2.30 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8380 Processor (40 Cores, 60M Cache, 2.30 GHz, DDR4-3200MHz)
+  notice: []
+  power: 270 W
+  product: Xeon
+  specintRatePerCore: 66.28
+Platinum 8368:
+  SPECint: 2584.68
+  arch: Ice Lake
+  cores: 38
+  cycles: 2.40
+  desc: Intel Xeon Platinum 8368 Processor (38 Cores, 57M Cache, 2.40 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8368 Processor (38 Cores, 57M Cache, 2.40 GHz, DDR4-3200MHz)
+  notice: []
+  power: 270 W
+  product: Xeon
+  specintRatePerCore: 68.02
+Platinum 8358:
+  SPECint: 2351.44
+  arch: Ice Lake
+  cores: 32
+  cycles: 2.60
+  desc: Intel Xeon Platinum 8358 Processor (32 Cores, 48M Cache, 2.60 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8358 Processor (32 Cores, 48M Cache, 2.60 GHz, DDR4-3200MHz)
+  notice: []
+  power: 250 W
+  product: Xeon
+  specintRatePerCore: 73.48
+Gold 6354:
+  SPECint: 1466.08
+  arch: Ice Lake
+  cores: 18
+  cycles: 3.00
+  desc: Intel Xeon Gold 6354 Processor (18 Cores, 39M Cache, 3.00 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6354 Processor (18 Cores, 39M Cache, 3.00 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 81.45
+Gold 6348:
+  SPECint: 2089.64
+  arch: Ice Lake
+  cores: 28
+  cycles: 2.60
+  desc: Intel Xeon Gold 6348 Processor (28 Cores, 42M Cache, 2.60 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6348 Processor (28 Cores, 42M Cache, 2.60 GHz, DDR4-3200MHz)
+  notice: []
+  power: 235 W
+  product: Xeon
+  specintRatePerCore: 74.63
+Gold 6346:
+  SPECint: 1337.56
+  arch: Ice Lake
+  cores: 16
+  cycles: 3.10
+  desc: Intel Xeon Gold 6346 Processor (16 Cores, 36M Cache, 3.10 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6346 Processor (16 Cores, 36M Cache, 3.10 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 83.60
+Gold 6342:
+  SPECint: 1827.84
+  arch: Ice Lake
+  cores: 24
+  cycles: 2.80
+  desc: Intel Xeon Gold 6342 Processor (24 Cores, 36M Cache, 2.80 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6342 Processor (24 Cores, 36M Cache, 2.80 GHz, DDR4-3200MHz)
+  notice: []
+  power: 230 W
+  product: Xeon
+  specintRatePerCore: 76.16
+Gold 6338:
+  SPECint: 1984.92
+  arch: Ice Lake
+  cores: 32
+  cycles: 2.00
+  desc: Intel Xeon Gold 6338 Processor (32 Cores, 48M Cache, 2.00 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6338 Processor (32 Cores, 48M Cache, 2.00 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 62.03
+Gold 6334:
+  SPECint: 694.96
+  arch: Ice Lake
+  cores: 8
+  cycles: 3.60
+  desc: Intel Xeon Gold 6334 Processor (8 Cores, 18M Cache, 3.60 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6334 Processor (8 Cores, 18M Cache, 3.60 GHz, DDR4-3200MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 86.87
+Gold 6330:
+  SPECint: 1742.16
+  arch: Ice Lake
+  cores: 28
+  cycles: 2.00
+  desc: Intel Xeon Gold 6330 Processor (28 Cores, 42M Cache, 2.00 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6330 Processor (28 Cores, 42M Cache, 2.00 GHz, DDR4-2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 62.22
+Gold 6326:
+  SPECint: 1251.88
+  arch: Ice Lake
+  cores: 16
+  cycles: 2.90
+  desc: Intel Xeon Gold 6326 Processor (16 Cores, 24M Cache, 2.90 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6326 Processor (16 Cores, 24M Cache, 2.90 GHz, DDR4-3200MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 78.24
+Gold 5320:
+  SPECint: 1718.36
+  arch: Ice Lake
+  cores: 26
+  cycles: 2.20
+  desc: Intel Xeon Gold 5320 Processor (26 Cores, 39M Cache, 2.20 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5320 Processor (26 Cores, 39M Cache, 2.20 GHz, DDR4-2933MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 66.09
+Gold 5317:
+  SPECint: 961.52
+  arch: Ice Lake
+  cores: 12
+  cycles: 3.00
+  desc: Intel Xeon Gold 5317 Processor (12 Cores, 18M Cache, 3.00 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5317 Processor (12 Cores, 18M Cache, 3.00 GHz, DDR4-2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 80.13
+Silver 4316:
+  SPECint: 1342.32
+  arch: Ice Lake
+  cores: 20
+  cycles: 2.30
+  desc: Intel Xeon Silver 4316 Processor (20 Cores, 30M Cache, 2.30 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Silver 4316 Processor (20 Cores, 30M Cache, 2.30 GHz, DDR4-2667MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 67.12
+Silver 4314:
+  SPECint: 1113.84
+  arch: Ice Lake
+  cores: 16
+  cycles: 2.40
+  desc: Intel Xeon Silver 4314 Processor (16 Cores, 24M Cache, 2.40 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Silver 4314 Processor (16 Cores, 24M Cache, 2.40 GHz, DDR4-2667MHz)
+  notice: []
+  power: 135 W
+  product: Xeon
+  specintRatePerCore: 69.62
+Silver 4310:
+  SPECint: 799.68
+  arch: Ice Lake
+  cores: 12
+  cycles: 2.10
+  desc: Intel Xeon Silver 4310 Processor (12 Cores, 18M Cache, 2.10 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Silver 4310 Processor (12 Cores, 18M Cache, 2.10 GHz, DDR4-2667MHz)
+  notice: []
+  power: 120 W
+  product: Xeon
+  specintRatePerCore: 66.64
+
+# July 2021 updates
+
+Gold 6314U:
+  SPECint: 2151.52
+  arch: Ice Lake
+  category: ucpu
+  cores: 32
+  cycles: 2.30
+  desc: Intel Xeon Gold 6314U Processor (32 Cores, 48M Cache, 2.30 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6314U Processor (32 Cores, 48M Cache, 2.30 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 67.24
+Gold 6312U:
+  SPECint: 1761.20
+  arch: Ice Lake
+  category: ucpu
+  cores: 24
+  cycles: 2.40
+  desc: Intel Xeon Gold 6312U Processor (24 Cores, 36M Cache, 2.40 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6312U Processor (24 Cores, 36M Cache, 2.40 GHz, DDR4-3200MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 73.38
+Gold 5315Y:
+  SPECint: 656.88
+  arch: Ice Lake
+  category: ycpu
+  cores: 8
+  cycles: 3.20
+  desc: Intel Xeon Gold 5315Y Processor (8 Cores, 12M Cache, 3.20 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5315Y Processor (8 Cores, 12M Cache, 3.20 GHz, DDR4-2933MHz)
+  notice: []
+  power: 140 W
+  product: Xeon
+  specintRatePerCore: 82.11
+Gold 5318S:
+  SPECint: 1489.88
+  arch: Ice Lake
+  category: scpu
+  cores: 24
+  cycles: 3.40
+  desc: Intel Xeon Gold 5318S Processor (24 Cores, 36M Cache, 3.40 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5318S Processor (24 Cores, 36M Cache, 3.40 GHz, DDR4-2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 62.08
+Platinum 8368Q:
+  SPECint: 2451.40
+  arch: Ice Lake
+  category: qcpu
+  cores: 38
+  cycles: 3.60
+  desc: Intel Xeon Platinum 8368Q Processor (38 Cores, 57M Cache, 3.70 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8368Q Processor (38 Cores, 57M Cache, 3.70 GHz, DDR4-3200MHz)
+  notice: []
+  power: 270 W
+  product: Xeon
+  specintRatePerCore: 64.51
+Platinum 8351N:
+  SPECint: 2427.60
+  arch: Ice Lake
+  category: ncpu
+  cores: 36
+  cycles: 3.50
+  desc: Intel Xeon Platinum 8351N Processor (36 Cores, 54M Cache, 3.60 GHz, DDR4-2933MHz) 
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8351N Processor (36 Cores, 54M Cache, 3.60 GHz, DDR4-2933MHz)
+  notice: []
+  power: 225 W
+  product: Xeon
+  specintRatePerCore: 67.43
+Silver 4310T:
+  SPECint: 704.48
+  arch: Ice Lake
+  category: tcpu
+  cores: 10
+  cycles: 2.3
+  desc: Intel Xeon Silver 4310T Processor (10 Cores, 15M Cache, 2.3 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Silver 4310T Processor (10 Cores, 15M Cache, 2.3 GHz, DDR4-2667MHz)
+  notice: []
+  power: 105 W
+  product: Xeon
+  specintRatePerCore: 70.45
+Gold 6338T:
+  SPECint: 1518.44
+  arch: Ice Lake
+  category: tcpu
+  cores: 24
+  cycles: 2.1
+  desc: Intel Xeon Gold 6338T Processor (24 Cores, 36M Cache, 2.1 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6338T Processor (24 Cores, 36M Cache, 2.1 GHz, DDR4-3200MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 63.27
+Gold 5318N:
+  SPECint: 1537.48
+  arch: Ice Lake
+  category: ncpu
+  cores: 24
+  cycles: 2.1
+  desc: Intel Xeon Gold 5318N Processor (24 Cores, 36M Cache, 2.1GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5318N Processor (24 Cores, 36M Cache, 2.1GHz, DDR4-2667MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 64.06
+Gold 5320T:
+  SPECint: 1328.04
+  arch: Ice Lake
+  category: tcpu
+  cores: 20
+  cycles: 2.3
+  desc: Intel Xeon Gold 5320T Processor (20 Cores, 30M Cache, 2.3GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5320T Processor (20 Cores, 30M Cache, 2.3GHz, DDR4-2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 66.40
+Platinum 8362:
+  SPECint: 2213.40
+  arch: Ice Lake
+  cores: 32
+  cycles: 2.8
+  desc: Intel Xeon Platinum 8362 Processor (32 Cores, 48M Cache, 2.8GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8362 Processor (32 Cores, 48M Cache, 2.8GHz, DDR4-3200MHz)
+  notice: []
+  power: 265 W
+  product: Xeon
+  specintRatePerCore: 69.17
+Platinum 8352M:
+  SPECint: 1851.64
+  arch: Ice Lake
+  category: mcpu
+  cores: 32
+  cycles: 2.3
+  desc: Intel Xeon Platinum 8352M Processor (32 Cores, 48M Cache, 2.3GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8352M Processor (32 Cores, 48M Cache, 2.8GHz, DDR4-3200MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 57.86

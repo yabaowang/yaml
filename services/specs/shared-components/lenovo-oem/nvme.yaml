@@ -1,0 +1,503 @@
+# Add only the NVMe SSDs in this file. 
+'193499742404702992140352853138906189348':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem M.2 7450 PRO 1.92TB Read Intensive NVMe PCIe 4.0 x4 NHS SSD (with Heatsink)
+  notice: []
+  price: 445
+  name: ThinkSystem M.2 7450 PRO 1.92TB Read Intensive NVMe PCIe 4.0 x4 NHS SSD (with Heatsink)
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 1.92 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BQUK
+  model_string: ThinkSystem M.2 7450 PRO 1.92TB Read Intensive NVMe PCIe 4.0 x4 NHS SSD (with Heatsink)
+  #nand_type: 3D NAND
+  form-factor: M.2
+  sku: BQUK 
+
+'327556171121296366141182931821574361937':
+  type: SSD
+  size: 1.6 TB # do not convert in GB
+  desc: ThinkSystem U.2 CM5-V 1.6TB Mainstream NVMe PCIe 3.0 x4 HS SSD
+  notice: []
+  price: 3449
+  name: ThinkSystem U.2 CM5-V 1.6TB Mainstream NVMe PCIe 3.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1600
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: B21X
+  model_string: ThinkSystem U.2 CM5-V 1.6TB Mainstream NVMe PCIe 3.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: B21X
+'54868300051439822159752896899306510114':
+  type: SSD
+  size: 1.6 TB # do not convert in GB
+  desc: ThinkSystem 2.5" U.2 P5600 1.6TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 548.94
+  name: ThinkSystem 2.5" U.2 P5600 1.6TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1600
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BCFV
+  model_string: ThinkSystem 2.5" U.2 P5600 1.6TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BCFV
+'110568279263536441124578571379789720065':
+  type: SSD
+  size: 3.2 TB # do not convert in GB
+  desc: ThinkSystem 2.5" U.2 P5600 3.2TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 7299
+  name: ThinkSystem 2.5" U.2 P5600 3.2TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3200
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BCFR
+  model_string: ThinkSystem 2.5" U.2 P5600 3.2TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BCFR
+'185390376436178212093069530025373557498':
+  type: SSD
+  size: 6.4 TB # do not convert in GB
+  desc: ThinkSystem 2.5" U.2 P5600 6.4TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1785.99
+  name: ThinkSystem 2.5" U.2 P5600 6.4TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 6400
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BCFS
+  model_string: ThinkSystem 2.5" U.2 P5600 6.4TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BCFS
+'21532474276929988714288715192653281827':
+  type: SSD
+  size: 1.92 TB # do not convert in GB
+  desc: ThinkSystem 2.5" U.2 P5500 1.92TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 556.37
+  name: ThinkSystem 2.5" U.2 P5500 1.92TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 1920
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BCFT
+  model_string: ThinkSystem 2.5" U.2 P5500 1.92TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BCFT
+'73836791050103241156807344555242287109':
+  type: SSD
+  size: 3.84 TB # do not convert in GB
+  desc: ThinkSystem 2.5" U.2 P5500 3.84TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 895.88
+  name: ThinkSystem 2.5" U.2 P5500 3.84TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 3840
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BCFW
+  model_string: ThinkSystem 2.5" U.2 P5500 3.84TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BCFW
+'329568095056287431857211621037805316652':
+  type: SSD
+  size: 7.68 TB # do not convert in GB
+  desc: ThinkSystem 2.5" U.2 P5500 7.68TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1729.68
+  name: ThinkSystem 2.5" U.2 P5500 7.68TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 7680
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BCFU
+  model_string: ThinkSystem 2.5" U.2 P5500 7.68TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BCFU
+'155731825764800745249356588990295896401': # New entry as per the latest files received (20-Nov). A new UUID is created for this. 
+  type: SSD
+  size: 750 GB
+  desc: ThinkSystem U.2 Intel P4800X 750GB Performance NVMe PCIe 3.0 x4 HS SSD
+  notice: []
+  price: 9999
+  name: ThinkSystem U.2 Intel P4800X 750GB Performance NVMe PCIe 3.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: false
+  capacity_gb: 750 GB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: B2ZJ
+  model_string: ThinkSystem U.2 Intel P4800X 750GB Performance NVMe PCIe 3.0 x4 HS SSD
+  #nand_type: 3D NAND
+  form-factor: small
+  sku: B2ZJ 
+'57036808811690723796980095904123147759': # 
+  type: SSD
+  size: 650 GB
+  desc: ThinkSystem M.2 650GB P4511 NVMe SED High Endurance SSD
+  notice: []
+  price: 989
+  name: ThinkSystem M.2 650GB P4511 NVMe SED High Endurance SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 650 GB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: B75C
+  model_string: ThinkSystem M.2 650GB P4511 NVMe SED High Endurance SSD
+  #nand_type: 3D NAND
+  form-factor: M.2
+  sku: B75C 
+'87972600967183914857325497312162501311': # 
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem M.2 2TB P4511 NVMe SED SSD
+  notice: []
+  price: 1699
+  name: ThinkSystem M.2 2TB P4511 NVMe SED SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 1.92 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: B75E
+  model_string: ThinkSystem M.2 2TB P4511 NVMe SED SSD
+  #nand_type: 3D NAND
+  form-factor: M.2
+  sku: B75E
+'153065225937697628599364817257885194773':
+  type: SSD
+  size: 3.2 TB
+  desc: ThinkSystem 2.5" U.2 P5620 3.2TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.2 P5620 3.2TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 3.2 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNEH
+  model_string: ThinkSystem 2.5" U.2 P5620 3.2TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BNEH 
+'288498055740535039981445542103255889293':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 2.5" U.2 P5520 3.84TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.2 P5520 3.84TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 3.84 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BMGE
+  model_string: ThinkSystem 2.5" U.2 P5520 3.84TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BMGE 
+  
+'266909890325629097707904714698305494524':
+  type: SSD
+  size: 1.6 TB
+  desc: ThinkSystem 2.5" U.2 P5620 1.6TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.2 P5620 1.6TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 1.6 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNEG
+  model_string: ThinkSystem 2.5" U.2 P5620 1.6TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BNEG 
+'55394019875445096014921870391605782598':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 2.5" U.2 P5520 1.92TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.2 P5520 1.92TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 1.92 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BMGD
+  model_string: ThinkSystem 2.5" U.2 P5520 1.92TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BMGD       
+'262847484005347277409360114803755853006':
+  type: SSD
+  size: 6.4 TB
+  desc: ThinkSystem 2.5" U.3 7450 MAX 6.4TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.3 7450 MAX 6.4TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 6.4 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNEL
+  model_string: ThinkSystem 2.5" U.3 7450 MAX 6.4TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: 3D NAND
+  form-factor: small
+  sku: BNEL 
+'73424999212828783750626608684377593885':
+  type: SSD
+  size: 7.68 TB
+  desc: ThinkSystem 2.5" U.3 7450 PRO 7.68TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.3 7450 PRO 7.68TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 7.68 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNF4
+  model_string: ThinkSystem 2.5" U.3 7450 PRO 7.68TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: 3D NAND
+  form-factor: small
+  sku: BNF4 
+'202957591569410637529391786487925525673':
+  type: SSD
+  size: 1.6 TB
+  desc: ThinkSystem 2.5" U.3 7450 MAX 1.6TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.3 7450 MAX 1.6TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 1.6 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNEJ
+  model_string: ThinkSystem 2.5" U.3 7450 MAX 1.6TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: 3D NAND
+  form-factor: small
+  sku: BNEJ      
+'47314370485338588741939771487044238694':
+  type: SSD
+  size: 1.92 TB
+  desc: ThinkSystem 2.5" U.3 7450 PRO 1.92TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.3 7450 PRO 1.92TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 1.92 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNF2
+  model_string: ThinkSystem 2.5" U.3 7450 PRO 1.92TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: 3D NAND
+  form-factor: small
+  sku: BNF2   
+'26159336137134285713074164878184121985':
+  type: SSD
+  size: 3.2 TB
+  desc: ThinkSystem 2.5" U.3 7450 MAX 3.2TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.3 7450 MAX 3.2TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 3.2 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNEY
+  model_string: ThinkSystem 2.5" U.3 7450 MAX 3.2TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: 3D NAND
+  form-factor: small
+  sku: BNEY            
+'310363781802480819686723820574277215321':
+  type: SSD
+  size: 3.84 TB
+  desc: ThinkSystem 2.5" U.3 7450 PRO 3.84TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.3 7450 PRO 3.84TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 3.84 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNF5
+  model_string: ThinkSystem 2.5" U.3 7450 PRO 3.84TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: 3D NAND
+  form-factor: small
+  sku: BNF5 
+'46485078139297288533515309376675755374':
+  type: SSD
+  size: 6.4 TB # do not convert in GB
+  desc: ThinkSystem 2.5" U.2 P5620 6.4TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.2 P5620 6.4TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 6400
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNEZ
+  model_string: ThinkSystem 2.5" U.2 P5620 6.4TB Mixed Use NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BNEZ
+'112038478630131237586193907380539952319':
+  type: SSD
+  size: 7.68 TB # do not convert in GB
+  desc: ThinkSystem 2.5" U.2 P5520 7.68TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.2 P5520 7.68TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 7680
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNEF
+  model_string: ThinkSystem 2.5" U.2 P5520 7.68TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BNEF
+'47083911137979600878753532942275014992':
+  type: SSD
+  size: 15.36 TB
+  desc: ThinkSystem 2.5" U.3 7450 PRO 15.36TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.3 7450 PRO 15.36TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: 'Legacy, Nutanix'
+  boot: true
+  capacity_gb: 15.36 TB
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BQAV
+  model_string: ThinkSystem 2.5" U.3 7450 PRO 15.36TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: 3D NAND
+  form-factor: small
+  sku: BQAV 
+'278693413024796672312209931651451004106':
+  type: SSD
+  size: 15.36 TB # do not convert in GB
+  desc: ThinkSystem 2.5" U.2 P5520 15.36TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  notice: []
+  price: 1
+  name: ThinkSystem 2.5" U.2 P5520 15.36TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  encryptedPart: false
+  approved_by: Legacy, Nutanix
+  boot: false
+  capacity_gb: 15360
+  data: true
+  interface: NVMe
+  manufacturer: Lenovo
+  metadata: true
+  model: BNEQ
+  model_string: ThinkSystem 2.5" U.2 P5520 15.36TB Read Intensive NVMe PCIe 4.0 x4 HS SSD
+  #nand_type: TLC
+  form-factor: small
+  sku: BNEQ

@@ -1,0 +1,279 @@
+B13J: # the power and thermal BTU values are referenced from M10 as per Abhi's comments.
+  name: NVIDIA Tesla M60 GPU, PCIe (Passive)
+  desc: NVIDIA Tesla M60 GPU, PCIe (Passive)
+  price: 9649
+  notice: []
+  power:
+    maximum: 225
+    typical: 225
+  thermal BTU / hr:
+    maximum: 767.25
+    typical: 767.25
+  card type: M60
+B15V:
+  name: ThinkSystem NVIDIA Tesla M10 32GB PCIe Passive GPU
+  desc: ThinkSystem NVIDIA Tesla M10 32GB PCIe Passive GPU
+  price: 4499
+  notice: []
+  power:
+    maximum: 225
+    typical: 225
+  thermal BTU / hr:
+    maximum: 767.25
+    typical: 767.25
+  card type: M10
+B15U:
+  name: ThinkSystem NVIDIA Tesla P40 24GB PCIe Passive GPU
+  desc: ThinkSystem NVIDIA Tesla P40 24GB PCIe Passive GPU
+  price: 10999
+  notice: []
+  power:
+    maximum: 0
+    typical: 225
+  thermal BTU / hr:
+    maximum: 0
+    typical: 1023.64
+  card type: P40
+B4YB:
+  name: ThinkSystem NVIDIA Tesla T4 16GB PCIe Passive GPU
+  desc: ThinkSystem NVIDIA Tesla T4 16GB PCIe Passive GPU
+  price: 4449
+  notice: []
+  power:
+    maximum: 0
+    typical: 225
+  thermal BTU / hr:
+    maximum: 0
+    typical: 1023.64
+  card type: T4
+B34S:
+  name: ThinkSystem NVIDIA Tesla V100 32GB PCIe Passive GPU
+  desc: ThinkSystem NVIDIA Tesla V100 32GB PCIe Passive GPU
+  price: 22999
+  notice: []
+  power:
+    maximum: 0
+    typical: 225
+  thermal BTU / hr:
+    maximum: 0
+    typical: 1023.64
+  card type: V100
+
+BB2D:
+  name: ThinkSystem NVIDIA Quadro RTX 6000 24GB PCIe Passive GPU
+  desc: ThinkSystem NVIDIA Quadro RTX 6000 24GB PCIe Passive GPU
+  price: 4597
+  notice: []
+  power:
+    maximum: 295
+    typical: 295
+  thermal BTU / hr:
+    maximum: 1005.95
+    typical: 1005.95
+  card type: RTX 6000
+BFTZ:
+  name: ThinkSystem NVIDIA A10 24GB PCIe Gen4 Passive GPU
+  desc: ThinkSystem NVIDIA A10 24GB PCIe Gen4 Passive GPU
+  price: 2918
+  notice: []
+  power:
+    maximum: 150
+    typical: 150
+  thermal BTU / hr:
+    maximum: 511.5
+    typical: 511.5
+  card type: A10
+BEL5:
+  name: ThinkSystem NVIDIA A100 40GB PCIe Gen4 Passive GPU
+  desc: ThinkSystem NVIDIA A100 40GB PCIe Gen4 Passive GPU
+  price: 11998.25
+  notice: []
+  power:
+    maximum: 250
+    typical: 250
+  thermal BTU / hr:
+    maximum: 852.5
+    typical: 852.5
+  card type: A100
+BEL4:
+  name: ThinkSystem NVIDIA A40 48GB PCIe Gen4 Passive GPU
+  desc: ThinkSystem NVIDIA A40 48GB PCIe Gen4 Passive GPU
+  price: 6211.56
+  notice: []
+  power:
+    maximum: 300
+    typical: 300
+  thermal BTU / hr:
+    maximum: 1023
+    typical: 1023
+  card type: A40
+  
+BP05:
+  name: ThinkSystem NVIDIA A2 16GB PCIe Gen4 Passive GPU
+  desc: ThinkSystem NVIDIA A2 16GB PCIe Gen4 Passive GPU
+  price: 1293
+  notice: []
+  power: 
+    maximum: 60
+    typical: 40
+  thermal BTU / hr:
+    maximum: 204
+    typical: 136
+  card type: A2
+  
+BJHG:
+  name: ThinkSystem NVIDIA A30 24GB PCIe Gen4 Passive GPU
+  desc: ThinkSystem NVIDIA A30 24GB PCIe Gen4 Passive GPU
+  price: 5622.31
+  notice: []
+  power:
+    maximum: 165
+    typical: 165
+  thermal BTU / hr:
+    maximum: 562
+    typical: 562
+  card type: A30
+  
+BNFE:
+  name: ThinkSystem NVIDIA A16 64GB Gen4 PCIe Passive GPU
+  desc: ThinkSystem NVIDIA A16 64GB Gen4 PCIe Passive GPU
+  price: 5622.31
+  notice: []
+  power:
+    maximum: 250
+    typical: 250
+  thermal BTU / hr:
+    maximum: 853
+    typical: 853
+  card type: A16
+
+BLK1:
+  name: ThinkSystem NVIDIA A100 80GB PCIe Gen4 Passive GPU
+  desc: ThinkSystem NVIDIA A100 80GB PCIe Gen4 Passive GPU
+  price: 14887.97 
+  notice: []
+  power:
+    maximum: 300
+    typical: 300
+  thermal BTU / hr:
+    maximum: 1023
+    typical: 1023
+  card type: A100
+  
+BQZT:  
+  name: ThinkSystem NVIDIA A2 16GB PCIe Gen4 Passive GPU w/o CEC
+  desc: ThinkSystem NVIDIA A2 16GB PCIe Gen4 Passive GPU w/o CEC
+  price: 3669 
+  notice: []
+  power:
+    maximum: 60
+    typical: 60
+  thermal BTU / hr:
+    maximum: 200
+    typical: 200
+  card type: A2
+
+BQZU:
+  name: ThinkSystem NVIDIA A16 64GB Gen4 PCIe Passive GPU w/o CEC
+  desc: ThinkSystem NVIDIA A16 64GB Gen4 PCIe Passive GPU w/o CEC
+  price: 9699 
+  notice: []
+  power:
+    maximum: 250
+    typical: 250
+  thermal BTU / hr:
+    maximum: 853
+    typical: 853
+  card type: A16
+
+BQZP:
+  name: ThinkSystem NVIDIA A100 80GB PCIe Gen4 Passive GPU w/o CEC
+  desc: ThinkSystem NVIDIA A100 80GB PCIe Gen4 Passive GPU w/o CEC
+  price: 37489 
+  notice: []
+  power:
+    maximum: 250
+    typical: 250
+  thermal BTU / hr:
+    maximum: 853
+    typical: 853
+  card type: A100
+
+BQZQ:
+  name: ThinkSystem NVIDIA A40 48GB PCIe Gen4 Passive GPU w/o CEC
+  desc: ThinkSystem NVIDIA A40 48GB PCIe Gen4 Passive GPU w/o CEC
+  price: 15449
+  notice: []
+  power:
+    maximum: 300
+    typical: 300
+  thermal BTU / hr:
+    maximum: 1023
+    typical: 1023
+  card type: A40
+
+BQZR:
+  name: ThinkSystem NVIDIA A30 24GB PCIe Gen4 Passive GPU w/o CEC
+  desc: ThinkSystem NVIDIA A30 24GB PCIe Gen4 Passive GPU w/o CEC
+  price: 13939
+  notice: []
+  power:
+    maximum: 165
+    typical: 165
+  thermal BTU / hr:
+    maximum: 563
+    typical: 563
+  card type: A30
+
+BQZS:
+  name: ThinkSystem NVIDIA A10 24GB PCIe Gen4 Passive GPU w/o CEC
+  desc: ThinkSystem NVIDIA A10 24GB PCIe Gen4 Passive GPU w/o CEC
+  price: 8439
+  notice: []
+  power:
+    maximum: 150
+    typical: 150
+  thermal BTU / hr:
+    maximum: 513
+    typical: 513
+  card type: A10
+  
+BR9U:
+  name: ThinkSystem NVIDIA H100 80GB PCIe Gen5 Passive GPU
+  desc: ThinkSystem NVIDIA H100 80GB PCIe Gen5 Passive GPU
+  price: 1
+  notice: []
+  power:
+    maximum: 350
+    typical: 350
+  thermal BTU / hr:
+    maximum: 1194
+    typical: 1194
+  card type: H100
+
+BS2C:
+  name: ThinkSystem NVIDIA L4 24GB PCIe Gen4 Passive GPU
+  desc: ThinkSystem NVIDIA L4 24GB PCIe Gen4 Passive GPU
+  price: 1
+  notice: []
+  power:
+    maximum: 72
+    typical: 72
+  thermal BTU / hr:
+    maximum: 246
+    typical: 246
+  card type: L4
+
+BT87:
+  name: ThinkSystem NVIDIA L40 48GB PCIe Gen4 Passive GPU
+  desc: ThinkSystem NVIDIA L40 48GB PCIe Gen4 Passive GPU
+  price: 1
+  notice: []
+  power:
+    maximum: 300
+    typical: 300
+  thermal BTU / hr:
+    maximum: 1023
+    typical: 1023
+  card type: L40
+  

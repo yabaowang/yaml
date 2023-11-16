@@ -1,0 +1,129 @@
+#7-Feb: This is a 14 LFF system. However model and label attrbiutes shows incorect values. Corrected model name to HX5520-14 and label to HX5520 14 LFF.
+vendor: Lenovo
+product-line: HX
+software: factory-installed # added by Deepak
+models:
+  - HX5520-14-Mine
+label: HX5520 14 Mine Appliance
+chassis:
+  label: Chassis
+  use-case: 
+    #- ROBO
+    # - Database and Business Critical Apps
+    # - Analytics and Big Data
+    - Backup and Disaster Recovery
+    # - Files and Objects
+    # - Private Cloud
+    # - Test and Development
+    # - End-User Computing/Virtual Desktop Infrastructure
+  notice:    # moved notice here (was below product)
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7X84CTO4WW
+      qual-date: '2017-10-01' # Release is planned for June
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Hot-swappable AC power supply # Added by Deepak. Correct as necessary. Needs a desc because there are multiple SKUs
+    qty:
+      - 2
+    product:
+      - sku: AVW8
+      - sku: AVWA
+      - sku: AVW9
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    desc: M.2 SSD  # Added the "desc" attribute as there are multiple product SKU entries.
+    notice:
+      - 2 are required # content is missing under notice.
+    qty:
+      - 2
+    product:
+      - sku: AUUV
+      - sku: B8HS
+      - sku: B919
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    qty:
+      - 1
+    product:
+      - sku: AUNM
+# In model.yaml files, add only UUID for SSDs and HDDs and not their SKU IDs.
+  - type: hybrid
+    label: 'Storage: Hybrid'
+    desc: Mix of SATA/SAS SSDs and HDDs
+    ssd:
+      label: '3.5" SATA/SAS SSDs'
+      qty:
+        - 2
+      product:
+        - sku: '53064494963294809410651505180175798935'  #B49H
+        - sku: '32695748057382675152980465880406611499'  #B6JZ
+      #  - sku: '295305642774963961850415542780806623114'
+    hdd:
+      label: '3.5" HDDs'
+      qty:
+        # - 4
+        # - 6
+        # - 8
+        - 10
+        - 12
+      product:
+        - sku: '32819280796640929958023462368196276772'  #AUU9
+        - sku: '295369276436913039785331606765510041082' #AUUB
+        - sku: '30607696395517512926133451004860460074'  #AUUG
+        # - sku: '30607696395517512926133451004860460075'
+        # - sku: '30607696395517512926133451004860460076'
+compute:
+# Corrected type and label to Cascade Lake
+  - type: cascade-lake
+    label: Cascade Lake Refresh
+    cpu:
+      desc: Any Intel Cascade Lake Refresh CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      qty:
+        - 2
+      product:
+        - sku: B7N6
+    memory:
+      notice:
+        - "Six quantities of memory DIMMs are supported only on single CPU nodes."
+#7-Feb: Only Cascade Lake processors are supported. Must write "Cascade Lake" in two words, both beginning with upper case. Replaced Skylake with Cascade Lake in the below note.
+        - "For memory capacity higher than 768 GB and up to 2 TB per socket, order the Intel Cascade Lake Xeon CPUs with suffix M."
+      product:
+        - sku: B4LY  # Added 32 as per Rakesh's comment - Add memory 2.3TB  
+          qty:
+            - 12
+network:
+# The label and desc attributes for LOM and PCIe adapters have been modified as per the standard template.
+  - type: lom # Deepak asks: should this be "flom"? Then add "Flexible" in desc as well. Otherwise, correct label only.
+    label: FlexibleLOM Adapter
+    desc: LAN on Motherboard (LOM) Adapter
+    qty:
+      - 1
+    notice:
+      - Standalone Mode Only. #Deepak asks: Does Lenovo have these modes? Or is this a relic from UCS?
+    product:
+      - sku: AUKL
+      - sku: AUKM
+      - sku: AUKJ
+      - sku: AUKK
+  - type: pcie
+    label: PCIe Network Interface
+    desc: PCIe-slot Ethernet adapter
+    qty:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+    notice:
+      - 14 drive configurations limits the NIC capacity to 3
+    product:
+      - sku: ATPX
+      - sku: AUKX
+      # - sku: AUAJ
+      # - sku: B31C
+
+

@@ -1,0 +1,160 @@
+# commented out name and price attributes as per the template 
+# 2021-09-15 JCB: Added Whitley
+
+AVWC:
+  rate: 550 W
+  desc: ThinkSystem 550W (230V/115V) Platinum Hot-Swap Power Supply
+  #name: ThinkSystem 550W(230V/115V) Platinum Hot-Swap Power Supply
+  #price: 349
+  notice: []
+AVWD:
+  rate: 750 W
+  desc: ThinkSystem 750W (230V/115V) Platinum Hot-Swap Power Supply
+  #name: ThinkSystem 750W(230V/115V) Platinum Hot-Swap Power Supply
+  #price: 399
+  notice: []
+AVWE:
+  rate: 750 W
+  desc: ThinkSystem 750W (230V) Titanium Hot-Swap Power Supply
+  #name: ThinkSystem 750W(230V) Platinum Hot-Swap Power Supply
+  #price: 549
+  notice: []
+AVWF:
+  rate: 1100 W
+  desc: ThinkSystem 1100W (230V/115V) Platinum Hot-Swap Power Supply
+  #name: ThinkSystem 1100W(230V/115V) Platinum Hot-Swap Power Supply
+  #price: 499
+  notice: []
+AVWG:
+  rate: 1600 W
+  desc: ThinkSystem 1600W (230V) Platinum Hot-Swap Power Supply
+  #name: ThinkSystem 1600W(230V) Platinum Hot-Swap Power Supply
+  #price: 1
+  notice: []
+AUPJ:
+  rate: 1600 W
+  desc: High Efficiency 1600W Power Supply for SR950 (200-240VAC only)
+  #name: High Efficiency 1600W Power Supply for SR950 (200-240VAC only)
+  #price: 549
+  notice: []
+B5KD:
+  rate: 2000 W
+  desc: High Efficiency 2000W Power Supply for SR950 (200-240VAC only)
+  #name: High Efficiency 2000W Power Supply for SR950 (200-240VAC only)
+  #price: 1
+  notice: []
+AVW8:
+  rate: 550 W
+  desc: ThinkSystem 550W (230V/115V) Platinum Hot-Swap Power Supply
+  #name: ThinkSystem 550W(230V/115V) Platinum Hot-Swap Power Supply
+  #price: 349
+  notice: []
+AVWA:
+  rate: 750 W
+  desc: ThinkSystem 750W (230V/115V) Platinum Hot-Swap Power Supply
+  #name: ThinkSystem 750W(230V/115V) Platinum Hot-Swap Power Supply
+  #price: 399
+  notice: []
+AVW9:
+  rate: 750 W
+  desc: ThinkSystem 750W (230V) Titanium Hot-Swap Power Supply
+  #name: ThinkSystem 750W(230V) Platinum Hot-Swap Power Supply
+  #price: 549
+  notice: []
+AVWB:
+  rate: 1100 W
+  desc: ThinkSystem 1100W (230V/115V) Platinum Hot-Swap Power Supply
+  #name: ThinkSystem 1100W(230V/115V) Platinum Hot-Swap Power Supply
+  #price: 499
+  notice: []
+AUZ0:
+  rate: 1100 W
+  desc: ThinkSystem D2 1100W Platinum PSU 
+  #name: ThinkSystem D2 1100W Platinum PSU
+  #price: 499
+  notice: []
+AUZ1:
+  rate: 1600 W
+  desc: ThinkSystem D2 1600W Platinum PSU
+  #name: ThinkSystem D2 1600W Platinum PSU
+  #price: 549
+  notice: []
+AUZ2:
+  rate: 2000 W
+  desc: ThinkSystem D2 2000W Platinum PSU
+  #name: ThinkSystem D2 2000W Platinum PSU
+  #price: 699
+  notice: []
+B8QA:
+  rate: 750 W
+  desc: ThinkSystem 750W(230/115V) v2 Platinum Hot-Swap Power Supply
+  notice: []
+  #price: 869
+B8QC:
+  rate: 1100 W
+  desc: ThinkSystem 1100W (230V/115V) v2 Platinum Hot-Swap Power Supply
+  notice: []
+  #name: ThinkSystem 1100W (230V/115V) v2 Platinum Hot-Swap Power Supply
+  #price: 952
+
+BHS9:
+  rate: 1100 W
+  desc: ThinkSystem 1100W (230V/115V) v2 Platinum Hot-Swap Power Supply
+BHTU:
+  rate: 750 W
+  desc: ThinkSystem V2 750W(230V/115V) Platinum Hot-Swap Power Supply v2
+B8QB:
+  rate: 1800 W
+  desc: ThinkSystem V2 1800W (230V) Platinum Hot-Swap Power Supply
+
+BMUF:
+  rate: 1800 W
+  desc: ThinkSystem V2 1800W (230V) Platinum Hot-Swap Power Supply v2
+
+B6FW:
+  rate: 240 W
+  desc: ThinkSystem SE350 240W AC Adapter  
+  
+B6FU:
+  rate: 0 W
+  desc: HR650M Front BP NVMe8/9/10/11 Cable  
+
+BQ0W:
+  rate: 1100 W
+  desc: ThinkSystem V2 1100W (230Vac/115Vac) Platinum Hot Swap Power Supply  
+  
+BR1X:
+  rate: 750 W
+  desc: ThinkSystem 750W 230V Titanium Hot-Swap Gen2 Power Supply v3  
+  
+B8QE:
+  rate: 1100 W
+  desc: ThinkSystem 1100W -48V DC Hot-Swap Gen2 Power Supply
+
+B962:
+  rate: 2400 W
+  desc: ThinkSystem 2400W 230V Platinum Hot-Swap Gen2 Power Supply
+
+BLKH:
+  rate: 1100 W
+  desc: ThinkSystem 1100W 230V Titanium Hot-Swap Gen2 Power Supply
+
+BNFH:
+  rate: 1100 W
+  desc: ThinkSystem 1100W 230V/115V Platinum Hot-Swap Gen2 Power Supply v3
+
+BPK9:
+  rate: 1800 W
+  desc: ThinkSystem 1800W 230V Titanium Hot-Swap Gen2 Power Supply
+
+BNFG:
+  rate: 750 W
+  desc: ThinkSystem 750W 230V/115V Platinum Hot-Swap Gen2 Power Supply v3
+
+## Template ##
+# SKU:
+#  rate: 'power in watts'
+#  desc: 'component description'
+#  notice: [Any component specific info]
+
+

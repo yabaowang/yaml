@@ -1,0 +1,85 @@
+# commented out price and name attributes as per the current boot drive template
+# 2022-02-07 JCB: Added B91K for HX1021
+# 2022-06-25 JCB: Added BKSR for HX665
+
+B5S4:
+  type: SSD
+  size: 240 GB
+  #price: 299
+  #name: ThinkSystem M.2 5100 240GB SATA 6Gbps Non-Hot-Swap SSD
+  desc: ThinkSystem M.2 5100 240GB SATA 6Gbps Non-Hot Swap SSD  
+  notice: []
+  interface: M.2
+AUUV:
+  type: SSD
+  size: 128 GB
+  #price: 199
+  #name: ThinkSystem M.2 CV3 128GB SATA 6Gbps Non-Hot-Swap SSD 
+  desc: ThinkSystem M.2 128GB SATA 6Gbps Non-Hot-Swap SSD 
+  notice: []
+  interface: M.2
+B11V:
+  type: SSD
+  size: 480 GB
+  #price: 699
+  #name: ThinkSystem M.2 5100 480GB SATA 6Gbps Non-Hot-Swap SSD 
+  desc: ThinkSystem M.2 5100 480GB SATA 6Gbps Non-Hot Swap SSD 
+  notice: []
+  interface: M.2
+B8HS:
+  type: SSD
+  size: 240 GB
+  #price:
+  desc: ThinkSystem M.2 5300 240GB SATA 6Gbps Non-Hot Swap SSD
+  notice: []
+  interface: M.2
+B919:
+  type: SSD
+  size: 480 GB
+  #price:
+  desc: ThinkSystem M.2 5300 480GB SATA 6Gbps Non-Hot Swap SSD
+  notice: []
+  interface: M.2
+B91K:
+  type: SSD
+  size: 480 GB
+  #price:
+  desc: ThinkSystem M.2 480GB Industrial A600i SATA SSD
+  notice: []
+  interface: M.2
+B91K:
+  type: SSD
+  size: 480 GB
+  #price:
+  desc: ThinkSystem M.2 480GB Industrial A600i SATA SSD
+  notice: []
+  interface: M.2
+BQ1Y:
+  type: SSD
+  size: 240 GB
+  #price:
+  desc: ThinkSystem M.2 5300 240GB SATA 6Gbps Non-Hot Swap SSD
+  notice: []
+  interface: M.2
+BQ1Z:
+  type: SSD
+  size: 240 GB
+  #price:
+  desc: ThinkSystem M.2 5400 PRO 240GB Read Intensive SATA 6Gb NHS SSD
+  notice: []
+  interface: M.2
+BKSR:
+  type: SSD
+  size: 960 GB
+  #price:
+  desc: ThinkSystem M.2 7450 PRO 960GB Read Intensive NVMe PCIe 4.0 x4 NHS SSD
+  notice: []
+  interface: M.2
+  
+## Template ##
+#SKU:
+#  type: 'ssd'
+#  size: 'capacity'
+#  desc: 'component description'
+#  notice: [Any component specific info]
+#  interface: 'SATA/SAS'

@@ -1,0 +1,238 @@
+'166968333968555583535809206233641109396':
+  type: HDD
+  size: 1 TB
+  desc: ThinkSystem 2.5" 1TB 7.2K SATA 6Gb Hot Swap 512n HDD
+  notice: []
+  form-factor: small
+  name: ThinkSystem 2.5" 1TB HDD
+  price: 379
+  encryptedPart: false
+  interface: SATA
+  model: AUUE
+  manufacturer: Lenovo
+  model_string: ThinkSystem 2.5" 1TB 7.2K SATA 6Gb Hot Swap 512n HDD
+  sku: AUUE
+'54605234480592594582511088487146392855':
+  type: HDD
+  size: 2 TB
+  desc: ThinkSystem 2.5" 2TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: small
+  name: ThinkSystem 2.5" 2TB HDD
+  price: 999
+  encryptedPart: false
+  interface: SATA
+  model: AUUJ
+  manufacturer: Lenovo
+  model_string: ThinkSystem 2.5" 2TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  sku: AUUJ
+'260206218146488703515996842511966962607':
+  type: HDD
+  size: 2.4 TB
+  desc: ThinkSystem 2.5" 2.4TB 10K SAS 12Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: small
+  name: ThinkSystem 2.5" 2.4TB HDD
+  price: 1299
+  encryptedPart: false
+  interface: SAS
+  model: B0YS
+  manufacturer: Lenovo
+  model_string: ThinkSystem 2.5" 2.4TB 10K SAS 12Gb Hot Swap 512e HDD
+  sku: B0YS
+'77850583189247620843595340025771040389':
+  type: HDD
+  size: 1 TB
+  desc: ThinkSystem 3.5" 1TB 7.2K SATA 6Gb Hot Swap 512n HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 1TB HDD
+  price: 269
+  encryptedPart: false
+  interface: SATA
+  model: AUUF
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 1TB 7.2K SATA 6Gb Hot Swap 512n HDD
+  sku: AUUF
+'279666357715209685781596549514785064447':
+  type: HDD
+  size: 2 TB
+  desc: ThinkSystem 3.5" 2TB 7.2K SATA 6Gb Hot Swap 512n HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 2TB HDD
+  price: 459
+  encryptedPart: false
+  interface: SATA
+  model: AUUD
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 2TB 7.2K SATA 6Gb Hot Swap 512n HDD
+  sku: AUUD
+'39797502797188601593981098695968025957':
+  type: HDD
+  size: 4 TB
+  desc: ThinkSystem 3.5" 4TB 7.2K SATA 6Gb Hot Swap 512n HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 4TB HDD
+  price: 699
+  encryptedPart: false
+  interface: SATA
+  model: AUU8
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 4TB 7.2K SATA 6Gb Hot Swap 512n HDD
+  sku: AUU8
+'246310157863478761569016887122932941046':
+  type: HDD
+  size: 6 TB
+  desc: ThinkSystem 3.5" 6TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 6TB HDD
+  price: 949
+  encryptedPart: false
+  interface: SATA
+  model: AUUA
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 6TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  sku: AUUA
+'32819280796640929958023462368196276772':
+  type: HDD
+  size: 8 TB
+  desc: ThinkSystem 3.5" 8TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 8TB HDD
+  price: 1229
+  encryptedPart: false
+  interface: SATA
+  model: AUU9
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 8TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  sku: AUU9
+'295369276436913039785331606765510041082':
+  type: HDD
+  size: 10 TB
+  desc: ThinkSystem 3.5" 10TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 10TB HDD
+  price: 269
+  encryptedPart: false
+  interface: SATA
+  model: AUUB
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 10TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  sku: AUUB
+'30607696395517512926133451004860460074':
+  type: HDD
+  size: 10 TB
+  desc: ThinkSystem 3.5" 10TB 7.2K SAS 12Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 10TB HDD
+  price: 1629
+  encryptedPart: false
+  interface: SAS
+  model: AUUG
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 10TB 7.2K SAS 12Gb Hot Swap 512e HDD
+  sku: AUUG
+'30607696395517512926133451004860460075':
+  type: HDD
+  size: 12 TB
+  desc: ThinkSystem 3.5" 12TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 12TB HDD
+  price: 1829
+  encryptedPart: false
+  interface: SATA
+  model: B118
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 12TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  sku: B118
+'30607696395517512926133451004860460076':
+  type: HDD
+  size: 12 TB
+  desc: ThinkSystem 3.5" 12TB 7.2K SAS 12Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 12TB HDD
+  price: 1889
+  encryptedPart: false
+  interface: SAS
+  model: B117
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 12TB 7.2K SAS 12Gb Hot Swap 512e HDD
+  sku: B117
+'218389756989827360827786300947249721855':
+  type: HDD
+  size: 16 TB
+  desc: ThinkSystem 3.5" 16TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 16TB HDD
+  price: 1889
+  encryptedPart: false
+  interface: SATA
+  model: B7F0
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 16TB 7.2K SATA 6Gb Hot Swap 512e HDD
+  sku: B7F0
+'247852257058077839798170082687693867494':
+  type: HDD
+  size: 4 TB
+  desc: ThinkSystem 3.5" 4TB 7.2K SAS 12Gb Hot Swap 512n HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 4TB SAS HDD
+  price: 399
+  encryptedPart: false
+  interface: SAS
+  model: AUU6
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 4TB 7.2K SAS 12Gb Hot Swap 512n HDD
+  sku: AUU6
+'97926294948782401008184063134316021694':
+  type: HDD
+  size: 8 TB
+  desc: ThinkSystem 3.5" 8TB 7.2K SAS 12Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 8TB SAS HDD
+  price: 569
+  encryptedPart: false
+  interface: SAS
+  model: B0YR
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 8TB 7.2K SAS 12Gb Hot Swap 512e HDD
+  sku: B0YR
+'272960956451750488714019636535593512477':
+  type: HDD
+  size: 20 TB
+  desc: ThinkSystem 3.5" 20TB 7.2K SAS 12Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 20TB SAS HDD
+  price: 1369
+  encryptedPart: false
+  interface: SAS
+  model: BPKU
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 20TB 7.2K SAS 12Gb Hot Swap 512e HDD
+  sku: BPKU
+'230761773915931224877329872634875828706':
+  type: HDD
+  size: 6 TB
+  desc: ThinkSystem 3.5" 6TB 7.2K SAS 12Gb Hot Swap 512e HDD
+  notice: []
+  form-factor: large
+  name: ThinkSystem 3.5" 6TB SAS HDD
+  price: 499
+  encryptedPart: false
+  interface: SAS
+  model: AUU7
+  manufacturer: Lenovo
+  model_string: ThinkSystem 3.5" 6TB 7.2K SAS 12Gb Hot Swap 512e HDD
+  sku: AUU7

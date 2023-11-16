@@ -1,0 +1,5 @@
+B0SW:
+    type: all-ssd
+    type: ssd-nvme
+B0SV:
+    type: hybrid

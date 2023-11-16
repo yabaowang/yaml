@@ -1,0 +1,399 @@
+# Updated component description as per the latest files received (20-Nov) and commented out name and price attributes as per the current chassis template
+# 2021-09-15 JCB: Added Whitley models
+# 2022-02-28 JCB: Added HX1021
+# 2022-05-08 JCB: Added SR and Genoa models
+# 2023-07-13 JCB: Added 4 models
+
+7X83CTO1WW:
+  desc: HX1320, 1 RU server, 4 x LFF (3.5-inch) drives
+  #name: HX1320, 1 RU server, 4 x LFF (3.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Appliance
+7Z04CTO1WW:
+  desc: HX1321, 1 RU server, 4 x LFF (3.5-inch) drives
+  #name: HX1321, 1 RU server, 4 x LFF (3.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Certified Node - 1YR
+7Y89CTO1WW:
+  desc: HX1321, 1 RU server, 4 x LFF (3.5-inch) drives
+  #name: HX1321 Certified Node 3yr, 1 RU server, 4 x LFF (3.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Certified Node - 3YR
+7X81CTO1WW:
+  desc: HX Series Enclosure, 2U4N chassis
+  #name: HX Series Enclosure, 2U4N chassis
+  #price: 1
+  nodes: 4
+  height-ru: 2
+  notice: []
+7Z02CTO1WW:
+  desc: HX Series Enclosure, 2U4N chassis
+  #name: HX Series Enclosure, 2U4N chassis
+  #price: 1
+  nodes: 4
+  height-ru: 2
+  notice: []
+7Y87CTO1WW:
+  desc: HX Series Enclosure CN 3 Yr, 2U4N chassis
+  #name: HX Series Enclosure CN 3 Yr, 2U4N chassis
+  #price: 1
+  nodes: 4
+  height-ru: 2
+  notice: []
+7X83CTO3WW:
+  desc: HX3320, 1 RU server, 10-12 x SFF (2.5-inch) drives
+  #name: HX3320, 1 RU server, 10-12 x SFF (2.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Appliance
+7Z04CTO3WW:
+  desc: HX3321, 1 RU server, 10-12 x SFF (2.5-inch) drives
+  #name: HX3321, 1 RU server, 10-12 x SFF (2.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Certified Node - 1YR
+7Y89CTO3WW:
+  desc: HX3321, 1 RU server, 10-12 x SFF (2.5-inch) drives
+  #name: HX3321, 1 RU server, 10-12 x SFF (2.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Certified Node - 3YR
+7X83CTO8WW:
+  desc: HX3320 HANA, 1 RU server, 10-12 x SFF (2.5-inch) drives
+  #name: HX3320, 1 RU server, 10-12 x SFF (2.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: HANA Appliance
+7Y89CTO8WW:
+  desc: HX3321 HANA, 1 RU server, 10-12 x SFF (2.5-inch) drives
+  #name: HX3321, 1 RU server, 10-12 x SFF (2.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: HANA Certified Node - 3YR
+7X84CTO6WW:
+  desc: HX7520, 2 RU server, 24 x SFF (2.5-inch) drives
+  #name: HX7520, 2 RU server, 24 x SFF (2.5-inch) drives
+  #price: 1020
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: Appliance
+7Z05CTO6WW:
+  desc: HX7521, 2 RU server, 24 x SFF (2.5-inch) drives
+  #name: HX7521, 2 RU server, 24 x SFF (2.5-inch) drives
+  #price: 1020
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: Certified Node - 1YR
+7Y90CTO6WW:
+  desc: HX7521, 2 RU server, 24 x SFF (2.5-inch) drives
+  #name: HX7521, 2 RU server, 24 x SFF (2.5-inch) drives
+  #price: 1020
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: Certified Node - 3YR
+7X84CTO8WW:
+  desc: HX7520 HANA, 2 RU server, 24 x SFF (2.5-inch) drives
+  #name: HX7520, 2 RU server, 24 x SFF (2.5-inch) drives
+  #price: 1020
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: HANA Appliance
+7Z05CTO8WW:
+  desc: HX7521 HANA, 2 RU server, 24 x SFF (2.5-inch) drives
+  #name: HX7521, 2 RU server, 24 x SFF (2.5-inch) drives
+  #price: 1020
+  nodes: 1
+  height-ru: 2
+  notice: []
+7X84CTO3WW:
+  desc: HX3520-G, 2 RU server, 16 x SFF (2.5-inch) drives, GPU
+  #name: HX3520-G, 2 RU server, 16 x SFF (2.5-inch) drives, GPU
+  #price: 1000
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: Appliance
+7Z05CTO3WW:
+  desc: HX3521, 2 RU server, 16 x SFF (2.5-inch) drives, GPU
+  #name: HX3521, 2 RU server, 16 x SFF (2.5-inch) drives, GPU
+  #price: 1000
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: Certified Node - 1YR
+7Y90CTO3WW:
+  desc: HX3521, 2 RU server, 16 x SFF (2.5-inch) drives, GPU
+  #name: HX3521, 2 RU server, 16 x SFF (2.5-inch) drives, GPU
+  #price: 1000
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: Certified Node - 3YR
+7X83CTO5WW:
+  desc: HX2320, 1 RU server, 4 x LFF (3.5-inch) drives
+  #name: HX2320, 1 RU server, 4 x LFF (3.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Appliance
+7Z04CTO5WW:
+  desc: HX2321, 1 RU server, 4 x LFF (3.5-inch) drives
+  #name: HX2321, 1 RU server, 4 x LFF (3.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Certified Node - 1YR
+7Y89CTO5WW:
+  desc: HX2321, 1 RU server, 4 x LFF (3.5-inch) drives
+  #name: HX2321, 1 RU server, 4 x LFF (3.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Certified Node - 3YR
+7Y95CTO1WW:
+  desc: HX7820, 4 RU server, 24 x SFF (2.5-inch) drives
+  #name: HX7520, 4 RU server, 24 x SFF (2.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 4
+  notice: []
+  node-type: Appliance
+7Y96CTO1WW:
+  desc: HX7821, 4 RU server, 24 x SFF (2.5-inch) drives
+  #name: HX7521, 4 RU server, 24 x SFF (2.5-inch) drives
+  #price: 1
+  nodes: 1
+  height-ru: 4
+  notice: []
+  node-type: Certified Node - 3YR
+7X84CTO4WW:
+  desc: HX5520, 2 RU server, 14 x LFF (3.5-inch) drives
+  #name: HX5520, 2 RU server, 14 x LFF (3.5-inch) drives
+  #price: 975
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: Appliance
+7Z05CTO4WW:
+  desc: HX5521, 2 RU server, 14 x LFF (3.5-inch) drives
+  #name: HX5521, 2 RU server, 14 x LFF (3.5-inch) drives
+  #price: 975
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: Certified Node - 1YR
+7Y90CTO4WW:
+  desc: HX5521, 2 RU server, 14 x LFF (3.5-inch) drives
+  #name: HX5521, 2 RU server, 14 x LFF (3.5-inch) drives
+  #price: 975
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: Certified Node - 3YR
+7D5UCTO1WW:
+  desc: HX3375, 1 RU server, 10 x SFF (2.5-inch) drives
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Appliance
+7Z09CTO1WW:
+  desc: HX7821, 4 RU server, 24 x SFF (2.5-inch) drives
+  nodes: 1
+  height-ru: 4
+  notice: []
+  node-type: HANA Certified Node
+7Z08CTO1WW:
+  desc: HX7820, 4 RU server, 24 x SFF (2.5-inch) drives
+  nodes: 1
+  height-ru: 4
+  notice: []
+  node-type: HANA Appliance
+7Y90CTO8WW:
+  desc: HX7521, 2 RU server, 24 x SFF (2.5-inch) drives
+  nodes: 1
+  height-ru: 2
+  notice: []
+  node-type: HANA Appliance
+7D5UCTO2WW:
+  desc: HX3376, 1 RU server, 10 x SFF (2.5-inch) drives
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Certified Node - 3YR
+7X82CTO2WW:
+  desc: HX3720, 2u4n server, 6 x SFF (2.5-inch) drives
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Appliance
+7Y88CTO2WW:
+  desc: HX3721, 2u4n server, 6 x SFF (2.5-inch) drives
+  nodes: 1
+  height-ru: 1
+  notice: []
+  node-type: Certified Node - 3YR
+
+7D52CTO1WW:
+  desc: ThinkAgile HX1331 Certified Node 3yr
+  nodes: 1
+  height-ru: 1
+  node-type: Certified Node - 3YR
+7D52CTO2WW:
+  desc: ThinkAgile HX2331 Certified Node 3yr
+  nodes: 1
+  height-ru: 1
+  node-type: Certified Node - 3YR
+7D52CTO3WW:
+  desc: ThinkAgile HX3331 Certified Node 3yr
+  nodes: 1
+  height-ru: 1
+  node-type: Certified Node - 3YR
+7Z82CTO1WW:
+  desc: ThinkAgile HX5530 Appliance
+  nodes: 1
+  height-ru: 1
+  node-type: Appliance
+7Z82CTO2WW:
+  desc: ThinkAgile HX7530 Appliance
+  nodes: 1
+  height-ru: 2
+  node-type: Appliance
+7Z84CTO1WW:
+  desc: ThinkAgile HX5531 Certified Node 3yr
+  nodes: 1
+  height-ru: 2
+  node-type: Certified Node - 3YR
+7Z84CTO2WW:
+  desc: ThinkAgile HX7531 Certified Node 3yr
+  nodes: 1
+  height-ru: 2
+  node-type: Certified Node - 3YR
+7Z85CTO1WW:
+  desc: ThinkAgile HX1330 Appliance
+  nodes: 1
+  height-ru: 1
+  node-type: Appliance
+7Z85CTO2WW:
+  desc: ThinkAgile HX2330 Appliance
+  nodes: 1
+  height-ru: 1
+  node-type: Appliance
+7Z85CTO3WW:
+  desc: ThinkAgile HX3330 Appliance
+  nodes: 1
+  height-ru: 1
+  node-type: Appliance
+
+
+7D20CTO1WW:
+  desc: ThinkAgile HX1021 Certified Node
+  nodes: 1
+  height-ru: 1
+  node-type: Certified Node - 3YR
+
+
+7D6MCTO3WW:
+  desc: ThinkAgile HX630 V3 Certified Node
+  nodes: 1
+  height-ru: 1
+  node-type: Certified Node - 3YR
+7D6MCTO1WW:
+  desc: ThinkAgile HX630 V3 Integrated System
+  nodes: 1
+  height-ru: 1
+  node-type: Integrated System - 3YR
+7D6NCTO3WW:
+  desc: ThinkAgile HX650 V3 Certified Node
+  nodes: 1
+  height-ru: 2
+  node-type: Certified Node - 3YR
+7D6NCTO1WW:
+  desc: ThinkAgile HX650 V3 Integrated System
+  nodes: 1
+  height-ru: 2
+  node-type: Integrated System - 3YR
+7D6NCTO4WW:
+  desc: ThinkAgile HX650-Storage V3 Certified Node
+  nodes: 1
+  height-ru: 2
+  node-type: Certified Node - 3YR
+7D6NCTO2WW:
+  desc: ThinkAgile HX650-Storage V3 Integrated System
+  nodes: 1
+  height-ru: 2
+  node-type: Integrated System - 3YR
+7D9MCTO2WW:
+  desc: ThinkAgile HX645 V3 Certified Node
+  nodes: 1
+  height-ru: 1
+  node-type: Certified Node - 3YR
+7D9MCTO1WW:
+  desc: ThinkAgile HX645 V3 Integrated System
+  nodes: 1
+  height-ru: 1
+  node-type: Integrated System - 3YR
+7D9NCTO4WW:
+  desc: ThinkAgile HX665 V3 Storage Certified Node
+  nodes: 1
+  height-ru: 2
+  node-type: Certified Node - 3YR
+7D9NCTO2WW:
+  desc: ThinkAgile HX665 V3 Storage Integrated System
+  nodes: 1
+  height-ru: 2
+  node-type: Integrated System - 3YR
+
+7D9NCTO1WW:
+  desc: ThinkAgile HX665 V3 IS
+  nodes: 1
+  height-ru: 2
+  node-type: Integrated System - 3YR
+7D6MCTO4WW:
+  desc: ThinkAgile HX630 Robo V3 CN
+  nodes: 1
+  height-ru: 1
+  node-type: Certified Node - 3YR
+7D6MCTO2WW:
+  desc: ThinkAgile HX630 Robo V3 IS
+  nodes: 1
+  height-ru: 1
+  node-type: Integrated System - 3YR
+7D9NCTO3WW:
+  desc: ThinkAgile HX665 V3 CN
+  nodes: 1
+  height-ru: 2
+  node-type: Certified Node - 3YR
+
+## Template ##
+
+#SKU ID:
+#  desc: 'component description'
+#  nodes: 'number of node per chassis'
+#  height-ru: 'rack unit'
+#  notice: [component specific info]

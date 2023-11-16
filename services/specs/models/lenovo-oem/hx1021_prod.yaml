@@ -1,0 +1,124 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed
+models:
+  - HX1021
+label: HX1021
+form-factor: M.2
+max-drive-count: 8
+chassis:
+  label: Chassis
+  use-case:
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - End-User Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
+  notice:
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7D20CTO1WW
+      qual-date: '2020-11-17'
+power:
+  - type: power-supply
+    label: Power Supply
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: B6FW
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    notice:
+      - User input
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: B91K
+storage:
+  - type: nvme
+    label: "Storage: All-Flash"
+    desc: 2.5"NVMe SSDs
+    nvme:
+      label: 2.5" NVMe SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 4
+      product:
+        - sku: '87972600967183914857325497312162501311'  #B75E - P4511 2TB
+        - sku: '193499742404702992140352853138906189348'  #BQUK - 7450 1.92TB
+  - type: ssd-nvme
+    label: "Storage: All-Flash"
+    desc: 2.5" NVMe SSDs
+    nvme:
+      label: 2.5" NVMe SSDs
+      qty:
+        - 0
+        - 4
+      product:
+
+        - sku: '193499742404702992140352853138906189348'  #BQUK
+compute:
+  - type: skylake
+    label: Skylake
+    cpu:
+      desc: "Any Intel Skylake Silver, Gold, or Platinum CPU (8 or more cores per CPU)."
+      notice:
+        - User input
+      qty:
+        - 0
+        - 1
+      product:
+        - sku: B93D
+        - sku: B93B
+        - sku: B93C
+        - sku: B93A
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BUG8 #ThinkSystem SE350 16GB TruDDR4 3200 MHz (2Rx8 1.2V) RDIMM
+          qty:
+            - 0
+            - 4
+        - sku: BUG9 #ThinkSystem SE350 32GB TruDDR4 3200 MHz (2Rx4 1.2V) RDIMM
+          qty:
+            - 0
+            - 2
+            - 3
+            - 4
+        - sku: BNVN #ThinkSystem SE350 64GB TruDDR4 2666 MHz (4Rx4 1.2V) LRDIMM
+          qty:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+network:
+  - type: lom
+    label: Network Module
+    desc: Network Module
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: B7Z7
+        rdma: false
+      - sku: BBZ7
+        rdma: false
+gpu:
+  - type: gpu
+    label: Dual slot GPU Adapter
+    desc: PCIe GPU Adapter
+    qty:
+      - 0
+    product:
+      - sku: B4YB
+      - sku: BP05

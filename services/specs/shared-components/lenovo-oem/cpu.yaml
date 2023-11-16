@@ -1,0 +1,3073 @@
+# updated processor details as per the latest files received (20-Nov) and added nameID for all the processors
+#7-Feb: As per Sizer team's request added 'category' for each processor to call out the cpu category.
+#2021-09-15: JCB added Ice Lake CPUs
+#2021-10-13: JCB updated SpecInt values per Sruthi's changes to master
+#2022-01-19: JCB added BB34, BB33, BB3E, BB2Y.  Updated BB3M clock speed to match master
+#2022-02-07: JCB added B93A, B93B, B93C B93D
+#2022-04-18: JCB added AMD Milan 
+#2023-04-11: JCB added V3
+
+B4HT:
+  nameId: Silver 4208
+  arch: Cascade Lake # Deepak inserted white space in all arch attribute values.
+  name: Intel Xeon Silver 4208 Processor (8 cores, 11M Cache, 2.10 GHz, DDR4 2400MHz)
+  desc: Intel Xeon Silver 4208 Processor (8 cores, 11M Cache, 2.10 GHz, DDR4 2400MHz)
+  price: 799
+  product: Xeon
+  cores: 8
+  cycles: 2.1
+  power: 85 W
+  SPECint: 397.85
+  specintRatePerCore: 49.73
+  memorySpeed: 2400
+  notice: []
+  mfr: Intel
+  #ref: Silver 4208
+B4HS:
+  nameId: Silver 4210
+  arch: Cascade Lake
+  name: Intel Xeon Silver 4210 Processor (10 cores, 13.75M Cache, 2.20 GHz, DDR4 2400MHz)
+  desc: Intel Xeon Silver 4210 Processor (10 cores, 13.75M Cache, 2.20 GHz, DDR4 2400MHz)
+  price: 859
+  product: Xeon
+  cores: 10
+  cycles: 2.2
+  power: 85 W
+  SPECint: 521.4
+  specintRatePerCore: 52.14
+  memorySpeed: 2400
+  notice: []
+  mfr: Intel
+  #ref: Silver 4210
+B4HR:
+  nameId: Silver 4214
+  arch: Cascade Lake
+  name: Intel Xeon Silver 4214 Processor (12 cores, 16.5M Cache, 2.20 GHz, DDR4 2400MHz)
+  desc: Intel Xeon Silver 4214 Processor (12 cores, 16.5M Cache, 2.20 GHz, DDR4 2400MHz)
+  price: 1169
+  product: Xeon
+  cores: 12
+  cycles: 2.2
+  power: 85 W
+  SPECint: 641.93
+  specintRatePerCore: 53.49
+  memorySpeed: 2400
+  notice: []
+  mfr: Intel
+  #ref: Silver 4210
+B4HQ:
+  nameId: Silver 4215
+  arch: Cascade Lake
+  name: Intel Xeon Silver 4215 Processor (8 cores, 11M Cache, 2.50 GHz, DDR4 2400MHz)
+  desc: Intel Xeon Silver 4215 Processor (8 cores, 11M Cache, 2.50 GHz, DDR4 2400MHz)
+  price: 1399
+  product: Xeon
+  cores: 8
+  cycles: 2.5
+  power: 85 W
+  SPECint: 464.59
+  specintRatePerCore: 58.07
+  memorySpeed: 2400
+  notice: []
+  mfr: Intel
+  #ref: Silver 4215
+B4HP:
+  nameId: Silver 4216
+  arch: Cascade Lake
+  name: Intel Xeon Silver 4216 Processor (16 cores, 22M Cache, 2.10 GHz, DDR4 2400MHz)
+  desc: Intel Xeon Silver 4216 Processor (16 cores, 22M Cache, 2.10 GHz, DDR4 2400MHz)
+  price: 1649
+  product: Xeon
+  cores: 16
+  cycles: 2.1
+  power: 100 W
+  SPECint: 845.18
+  specintRatePerCore: 52.82
+  memorySpeed: 2400
+  notice: []
+  mfr: Intel
+  #ref: Silver 4216
+B4HN:
+  nameId: Gold 5215
+  arch: Cascade Lake
+  name: Intel Xeon Gold 5215 Processor (10 cores, 13.75M Cache, 2.50 GHz, DDR4 2677MHz)
+  desc: Intel Xeon Gold 5215 Processor (10 cores, 13.75M Cache, 2.50 GHz, DDR4 2677MHz)
+  price: 2019
+  product: Xeon
+  cores: 10
+  cycles: 2.5
+  power: 85 W
+  SPECint: 574.75
+  specintRatePerCore: 57.48
+  memorySpeed: 2667
+  notice: []
+  mfr: Intel
+  #ref: Gold 5215
+B4P1:
+  nameId: Gold 5215M
+  category: mcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 5215M Processor (10 cores, 13.75M Cache, 2.50 GHz, DDR4 2677MHz)
+  desc: Intel Xeon Gold 5215M Processor (10 cores, 13.75M Cache, 2.50 GHz, DDR4 2677MHz)
+  price: 7019
+  product: Xeon
+  cores: 10
+  cycles: 2.5
+  power: 85 W
+  SPECint: 565.25
+  specintRatePerCore: 56.53
+  memorySpeed: 2667
+  notice: []
+  mfr: Intel
+  end-of-sale: '2020-08-17'
+  #ref: Gold 5215M
+B4P9:
+  nameId: Gold 5215L
+  category: lcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 5215L Processor (10 cores, 13.75M Cache, 2.50 GHz, DDR4 2677MHz)
+  desc: Intel Xeon Gold 5215L Processor (10 cores, 13.75M Cache, 2.50 GHz, DDR4 2677MHz)
+  price: 17019
+  product: Xeon
+  cores: 10
+  cycles: 2.5
+  power: 85 W
+  SPECint: 574.75
+  specintRatePerCore: 57.48
+  memorySpeed: 2667
+  notice: []
+  mfr: Intel
+  #ref: Gold 5215L
+B4HM:
+  nameId: Gold 5217
+  arch: Cascade Lake
+  name: Intel Xeon Gold 5217 Processor (8 cores, 13.75M Cache, 3.00 GHz, DDR4 2677MHz)
+  desc: Intel Xeon Gold 5217 Processor (8 cores, 13.75M Cache, 3.00 GHz, DDR4 2677MHz)
+  price: 2659
+  product: Xeon
+  cores: 8
+  cycles: 3
+  power: 115 W
+  SPECint: 514.62
+  specintRatePerCore: 64.33
+  memorySpeed: 2667
+  notice: []
+  mfr: Intel
+  #ref: Gold 5217
+B4HL:
+  nameId: Gold 5218
+  arch: Cascade Lake
+  name: Intel Xeon Gold 5218 Processor (16 cores, 22M Cache, 2.30 GHz, DDR4 2677MHz)
+  desc: Intel Xeon Gold 5218 Processor (16 cores, 22M Cache, 2.30 GHz, DDR4 2677MHz)
+  price: 2019
+  product: Xeon
+  cores: 16
+  cycles: 2.3
+  power: 125 W
+  SPECint: 868.48
+  specintRatePerCore: 54.28
+  memorySpeed: 2667
+  notice: []
+  mfr: Intel
+  #ref: Gold 5218
+B4HK:
+  nameId: Gold 5220
+  arch: Cascade Lake
+  name: Intel Xeon Gold 5220 Processor (18 cores, 24.75M Cache, 2.20 GHz, DDR4 2677MHz)
+  desc: Intel Xeon Gold 5220 Processor (18 cores, 24.75M Cache, 2.20 GHz, DDR4 2677MHz)
+  price: 580
+  product: Xeon
+  cores: 18
+  cycles: 2.2
+  power: 125 W
+  SPECint: 951.48
+  specintRatePerCore: 52.86
+  memorySpeed: 2667
+  notice: []
+  mfr: Intel
+  #ref: Gold 5220
+B6CW:
+  nameId: Gold 5220S
+  category: scpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 5220S Processor (18 cores, 24.75M Cache, 2.7 GHz, DDR4 2677MHz)
+  desc: Intel Xeon Gold 5220S Processor (18 cores, 24.75M Cache, 2.7 GHz, DDR4 2677MHz)
+  price: 3699
+  product: Xeon
+  cores: 18
+  cycles: 2.7
+  power: 125 W
+  SPECint: 952
+  specintRatePerCore: 52.86
+  memorySpeed: 2667
+  notice: []
+  mfr: Intel
+  #ref: Gold 5220S
+B6CV:
+  nameId: Gold 6222V
+  category: vcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6222V Processor (20 cores, 27.5M Cache, 1.8 GHz, DDR4 2400MHz)
+  desc: Intel Xeon Gold 6222V Processor (20 cores, 27.5M Cache, 1.8 GHz, DDR4 2400MHz)
+  price: 980
+  product: Xeon
+  cores: 20
+  cycles: 1.8
+  power: 115 W
+  SPECint: 952
+  specintRatePerCore: 47.60
+  memorySpeed: 2400
+  notice: []
+  mfr: Intel
+  #ref: Gold 6222V
+B6CL:
+  nameId: Gold 6226
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6226 Processor (12 cores, 19.25M Cache, 2.7 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6226 Processor (12 cores, 19.25M Cache, 2.7 GHz, DDR4 2933MHz)
+  price: 3299 #price taken from cdw.com
+  product: Xeon
+  cores: 12
+  cycles: 2.7
+  power: 125 W
+  SPECint: 777
+  specintRatePerCore: 64.75
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+B6PD:
+  nameId: Gold 6246
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6246 Processor (12 cores, 24.75M Cache, 3.3 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6246 Processor (12 cores, 24.75M Cache, 3.3 GHz, DDR4 2933MHz)
+  price: 5917.99 #price taken from cdw.com
+  product: Xeon
+  cores: 12
+  cycles: 3.3
+  power: 165 W
+  SPECint: 852
+  specintRatePerCore: 70.97
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+B4HJ:
+  nameId: Gold 6230
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6230 Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6230 Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2933MHz)
+  price: 3099
+  product: Xeon
+  cores: 20
+  cycles: 2.1
+  power: 125 W
+  SPECint: 1053
+  specintRatePerCore: 52.65
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6230
+B5RY:
+  nameId: Gold 6230N
+  category: ncpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6230N Processor (20 cores, 27.5M Cache, 2.3 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6230N Processor (20 cores, 27.5M Cache, 2.3 GHz, DDR4 2933MHz)
+  price: 3239
+  product: Xeon
+  cores: 20
+  cycles: 2.1
+  power: 125 W
+  SPECint: 1061.5
+  specintRatePerCore: 53.07
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6230N
+B6CK:
+  nameId: Gold 6234
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6234 Processor (8 cores, 24.75M Cache, 3.3 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6234 Processor (8 cores, 24.75M Cache, 3.3 GHz, DDR4 2933MHz)
+  price: 3999
+  product: Xeon
+  cores: 8
+  cycles: 3.3
+  power: 130 W
+  SPECint: 603.52
+  specintRatePerCore: 75.44
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6234
+B6CJ:
+  nameId: Gold 6238
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6238 Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6238 Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  price: 4799
+  product: Xeon
+  cores: 22
+  cycles: 2.1
+  power: 140 W
+  SPECint: 1139
+  specintRatePerCore: 51.78
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6238
+B6CM:
+  nameId: Gold 6238M
+  category: mcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6238M Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6238M Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  price: 8499
+  product: Xeon
+  cores: 22
+  cycles: 2.1
+  power: 140 W
+  SPECint: 1135
+  specintRatePerCore: 51.57
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  end-of-sale: '2020-08-17'
+  #ref: Gold 6238M
+B6CR:
+  nameId: Gold 6238L
+  category: lcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6238L Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6238L Processor (22 cores, 30.25M Cache, 2.1 GHz, DDR4 2933MHz)
+  price: 14599
+  product: Xeon
+  cores: 22
+  cycles: 2.1
+  power: 140 W
+  SPECint: 1144
+  specintRatePerCore: 52.0
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6238L
+B4HH:
+  nameId: Gold 6240
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6240 Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6240 Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  price: 3819
+  product: Xeon
+  cores: 18
+  cycles: 2.6
+  power: 150 W
+  SPECint: 1082.24
+  specintRatePerCore: 60.12
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6240
+B6CN:
+  nameId: Gold 6240M
+  category: mcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6240M Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6240M Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  price: 8199
+  product: Xeon
+  cores: 18
+  cycles: 2.6
+  power: 150 W
+  SPECint: 1040.07
+  specintRatePerCore: 57.78
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  end-of-sale: '2020-08-17'
+  #ref: Gold 6240M
+B6CS:
+  nameId: Gold 6240L
+  category: lcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6240L Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6240L Processor (18 cores, 24.75M Cache, 2.6 GHz, DDR4 2933MHz)
+  price: 14299
+  product: Xeon
+  cores: 18
+  cycles: 2.6
+  power: 150 W
+  SPECint: 1068.18
+  specintRatePerCore: 59.34
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6240L
+B4HG:
+  nameId: Gold 6242
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6242 Processor (16 cores, 22M Cache, 2.8 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6242 Processor (16 cores, 22M Cache, 2.8 GHz, DDR4 2933MHz)
+  price: 4419
+  product: Xeon
+  cores: 16
+  cycles: 2.8
+  power: 150 W
+  SPECint: 1032.59
+  specintRatePerCore: 64.54
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6242
+B4HF:
+  nameId: Gold 6244
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6244 Processor (8 cores, 24.75M Cache, 3.6 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6244 Processor (8 cores, 24.75M Cache, 3.6 GHz, DDR4 2933MHz)
+  price: 4699
+  product: Xeon
+  cores: 8
+  cycles: 3.6
+  power: 150 W
+  SPECint: 647.325
+  specintRatePerCore: 80.92
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6244
+B4HE:
+  nameId: Gold 6248
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6248 Processor (20 cores, 27.5M Cache, 2.5 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6248 Processor (20 cores, 27.5M Cache, 2.5 GHz, DDR4 2933MHz)
+  price: 5049
+  product: Xeon
+  cores: 20
+  cycles: 2.5
+  power: 150 W
+  SPECint: 1103.16
+  specintRatePerCore: 55.16
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6248
+B4HC:
+  nameId: Gold 6252
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6252 Processor (24 cores, 37.75M Cache, 2.1 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6252 Processor (24 cores, 37.75M Cache, 2.1 GHz, DDR4 2933MHz)
+  price: 5909
+  product: Xeon
+  cores: 24
+  cycles: 2.1
+  power: 150 W
+  SPECint: 1240.22
+  specintRatePerCore: 51.68
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6252
+B6CU:
+  nameId: Gold 6262V
+  category: vcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6262V Processor (24 cores, 33M Cache, 1.9 GHz, DDR4 2400MHz)
+  desc: Intel Xeon Gold 6262V Processor (24 cores, 33M Cache, 1.9 GHz, DDR4 2400MHz)
+  price: 5399
+  product: Xeon
+  cores: 24
+  cycles: 1.9
+  power: 135 W
+  SPECint: 1151.92
+  specintRatePerCore: 48.00
+  memorySpeed: 2400
+  notice: []
+  mfr: Intel
+  #ref: Gold 6262V
+B4HD:
+  nameId: Gold 6254
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6254 Processor (18 cores, 24.75M Cache, 3.1 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6254 Processor (18 cores, 24.75M Cache, 3.1 GHz, DDR4 2933MHz)
+  price: 6065
+  product: Xeon
+  cores: 18
+  cycles: 3.1
+  power: 200 W
+  SPECint: 1243.88
+  specintRatePerCore: 69.10
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 6254
+B5RZ:
+  nameId: Platinum 8253
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8253 Processor (16 cores, 22M Cache, 2.2 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8253 Processor (16 cores, 22M Cache, 2.2 GHz, DDR4 2933MHz)
+  price: 5299
+  product: Xeon
+  cores: 16
+  cycles: 2.2
+  power: 125 W
+  SPECint: 793.0
+  specintRatePerCore: 49.56
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 8253
+B4HB:
+  nameId: Platinum 8260
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8260 Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8260 Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  price: 8159
+  product: Xeon
+  cores: 24
+  cycles: 2.4
+  power: 165 W
+  SPECint: 1378.08
+  specintRatePerCore: 57.42
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 8260
+B4P7:
+  nameId: Platinum 8260L
+  category: lcpu
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8260L Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8260L Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  price: 19249
+  product: Xeon
+  cores: 24
+  cycles: 2.4
+  power: 165 W
+  SPECint: 1373.295
+  specintRatePerCore: 57.22
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 8260L
+B4NZ:
+  nameId: Platinum 8260M
+  category: mcpu
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8260M Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8260M Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  price: 12139
+  product: Xeon
+  cores: 24
+  cycles: 2.4
+  power: 165 W
+  SPECint: 1335
+  specintRatePerCore: 55.63
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  end-of-sale: '2020-08-17'
+  #ref: Gold 8260M
+B4HA:
+  nameId: Platinum 8268
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8268 Processor (24 cores, 35.75M Cache, 2.9 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8268 Processor (24 cores, 35.75M Cache, 2.9 GHz, DDR4 2933MHz)
+  price: 10929
+  product: Xeon
+  cores: 24
+  cycles: 2.9
+  power: 205 W
+  SPECint: 1491.52
+  specintRatePerCore: 62.15
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 8268
+B4H9:
+  nameId: Platinum 8270
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8270 Processor (26 cores, 35.75M Cache, 2.7 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8270 Processor (26 cores, 35.75M Cache, 2.7 GHz, DDR4 2933MHz)
+  price: 12739
+  product: Xeon
+  cores: 26
+  cycles: 2.7
+  power: 205 W
+  SPECint: 1538.875
+  specintRatePerCore: 59.19
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 8270
+B4H8:
+  nameId: Platinum 8276
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8276 Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8276 Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  price: 15099
+  product: Xeon
+  cores: 28
+  cycles: 2.2
+  power: 165 W
+  SPECint: 1475.8
+  specintRatePerCore: 52.71
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 8276
+B4P6:
+  nameId: Platinum 8276L
+  category: lcpu
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8276L Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8276L Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  price: 26689
+  product: Xeon
+  cores: 28
+  cycles: 2.2
+  power: 165 W
+  SPECint: 1400.6
+  specintRatePerCore: 50.02
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 8276L
+B4NY:
+  nameId: Platinum 8276M
+  category: mcpu
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8276M Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8276M Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  price: 20199
+  product: Xeon
+  cores: 28
+  cycles: 2.2
+  power: 165 W
+  SPECint: 1391
+  specintRatePerCore: 49.69
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  end-of-sale: '2020-08-17'
+  #ref: Gold 8276M
+B4H7:
+  nameId: Platinum 8280
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8280 Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8280 Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  price: 18089
+  product: Xeon
+  cores: 28
+  cycles: 2.7
+  power: 205 W
+  SPECint: 1649.44
+  specintRatePerCore: 58.91
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 8280
+B4P5:
+  nameId: Platinum 8280L
+  category: lcpu
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8280L Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8280L Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  price: 29099
+  product: Xeon
+  cores: 28
+  cycles: 2.7
+  power: 205 W
+  SPECint: 1634
+  specintRatePerCore: 58.36
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  #ref: Gold 8280L
+B4NX:
+  nameId: Platinum 8280M
+  category: mcpu
+  arch: Cascade Lake
+  name: Intel Xeon Platinum 8280M Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Platinum 8280M Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  price: 22619
+  product: Xeon
+  cores: 28
+  cycles: 2.7
+  power: 205 W
+  SPECint: 1605
+  specintRatePerCore: 57.32
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+  end-of-sale: '2020-08-17'
+  #ref: Gold 8280M
+
+######### Refresh CPU corrections ########
+# category has been corrcted to rcpu
+# description and cycles are updated as per thinkagile spec sheet
+
+B7N5:
+  nameId: Silver 4210R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Silver 4210R Processor (10 cores, 13.75 M Cache, 2.4 GHz, DDR4 2400MHz)
+  desc: Intel Xeon Silver 4210R Processor (10 cores, 13.75 M Cache, 2.4 GHz, DDR4 2400MHz)
+  price: 899
+  product: Xeon
+  cores: 10
+  cycles: 2.4
+  power: 100 W
+  SPECint: 604.52
+  specintRatePerCore: 60.45
+  memorySpeed: 2400
+  notice: []
+  mfr: Intel
+B7N6:
+  nameId: Silver 4214R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Silver 4214R Processor (12 cores, 16.5 MB Cache, 2.4 GHz, DDR4 2400MHz)
+  desc: Intel Xeon Silver 4214R Processor (12 cores, 16.5 MB Cache, 2.4 GHz, DDR4 2400MHz)
+  price: 1259
+  product: Xeon
+  cores: 12
+  cycles: 2.4
+  power: 100 W
+  SPECint: 771.12
+  specintRatePerCore: 64.26
+  memorySpeed: 2400
+  notice: []
+  mfr: Intel
+BAZU:
+  nameId: Silver 4215R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Silver 4215R Processor (8 cores, 11M Cache, 3.2 GHz, DDR4 2400MHz)
+  desc: Intel Xeon Silver 4215R Processor (8 cores, 11M Cache, 3.2 GHz, DDR4 2400MHz)
+  price: 1429
+  product: Xeon
+  cores: 8
+  cycles: 3.2
+  power: 130 W
+  SPECint: 585.48
+  specintRatePerCore: 73.19
+  memorySpeed: 2400
+  notice: []
+  mfr: Intel
+BAZS:
+  nameId: Gold 5218R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 5218R Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2667MHz)
+  desc: Intel Xeon Gold 5218R Processor (20 cores, 27.5M Cache, 2.1 GHz, DDR4 2667MHz)
+  price: 2259
+  product: Xeon
+  cores: 20
+  cycles: 2.1
+  power: 125 W
+  SPECint: 1175.72
+  specintRatePerCore: 58.79
+  memorySpeed: 2667
+  notice: []
+  mfr: Intel
+B7N9:
+  nameId: Gold 5220R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 5220R Processor (24 cores, 35.75M Cache, 2.2 GHz, DDR4 2667MHz)
+  desc: Intel Xeon Gold 5220R Processor (24 cores, 35.75M Cache, 2.2 GHz, DDR4 2667MHz)
+  price: 2739
+  product: Xeon
+  cores: 24
+  cycles: 2.2
+  power: 150 W
+  SPECint: 1313.76
+  specintRatePerCore: 54.74
+  memorySpeed: 2677
+  notice: []
+  mfr: Intel
+BAZV:
+  nameId: Gold 6208U
+  category: ucpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6208U Processor (16 cores, 22M Cache, 2.9 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6208U Processor (16 cores, 22M Cache, 2.9 GHz, DDR4 2933MHz)
+  price: 1779
+  product: Xeon
+  cores: 16
+  cycles: 2.9
+  power: 150 W
+  SPECint: 1075.8
+  specintRatePerCore: 53.79
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+BAZW:
+  nameId: Gold 6226R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6226R Processor (16 cores, 22M Cache, 2.9 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6226R Processor (16 cores, 22M Cache, 2.9 GHz, DDR4 2933MHz)
+  price: 2289
+  product: Xeon
+  cores: 16
+  cycles: 2.9
+  power: 150 W
+  SPECint: 1004.36
+  specintRatePerCore: 62.77
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+BAZX:
+  nameId: Gold 6230R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6230R Processor (26 cores, 35.75M Cache, 2.1 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6230R Processor (26 cores, 35.75M Cache, 2.1 GHz, DDR4 2933MHz)
+  price: 1469
+  product: Xeon
+  cores: 26
+  cycles: 2.1
+  power: 150 W
+  SPECint: 1480.36
+  specintRatePerCore: 56.94
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+BAZL:
+  nameId: Gold 6238R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6238R Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6238R Processor (28 cores, 38.5M Cache, 2.2 GHz, DDR4 2933MHz)
+  price: 4599
+  product: Xeon
+  cores: 28
+  cycles: 2.2
+  power: 165 W
+  SPECint: 1513.68
+  specintRatePerCore: 54.06
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+BAZM:
+  nameId: Gold 6240R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6240R Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6240R Processor (24 cores, 35.75M Cache, 2.4 GHz, DDR4 2933MHz)
+  price: 3859
+  product: Xeon
+  cores: 24
+  cycles: 2.4
+  power: 165 W
+  SPECint: 1428
+  specintRatePerCore: 59.5
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+BAZN:
+  nameId: Gold 6242R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6242R Processor (20 cores, 35.75M Cache, 3.1 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6242R Processor (20 cores, 35.75M Cache, 3.1 GHz, DDR4 2933MHz)
+  price: 4459
+  product: Xeon
+  cores: 20
+  cycles: 3.1
+  power: 205 W
+  SPECint: 1442.28
+  specintRatePerCore: 72.11
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+BAZP:
+  nameId: Gold 6246R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6246R Processor (16 cores, 35.75M Cache, 3.4 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6246R Processor (16 cores, 35.75M Cache, 3.4 GHz, DDR4 2933MHz)
+  price: 5779
+  product: Xeon
+  cores: 16
+  cycles: 3.4
+  power: 205 W
+  SPECint: 1120.91
+  specintRatePerCore: 70.06
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+BAZQ:
+  nameId: Gold 6248R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6248R Processor (24 cores, 35.75M Cache, 3.0 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6248R Processor (24 cores, 35.75M Cache, 3.0 GHz, DDR4 2933MHz)
+  price: 4739
+  product: Xeon
+  cores: 24
+  cycles: 3.0
+  power: 205 W
+  SPECint: 1604.12
+  specintRatePerCore: 66.84
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+B96C:
+  nameId: Gold 6250
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6250 Processor (8 cores, 35.75M Cache, 3.9 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6250 Processor (8 cores, 35.75M Cache, 3.9 GHz, DDR4 2933MHz)
+  price: 5889
+  product: Xeon
+  cores: 8
+  cycles: 3.9
+  power: 185 W
+  SPECint: 651.91
+  specintRatePerCore: 81.49
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+B6CT:
+  nameId: Gold 6252N
+  category: ncpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6252N Processor (24 cores, 35.75M Cache, 2.3 GHz DDR4 2933MHz)
+  desc: Intel Xeon Gold 6252N Processor (24 cores, 35.75M Cache, 2.3 GHz DDR4 2933MHz)
+  price: 7699
+  product: Xeon
+  cores: 24
+  cycles: 2.3
+  power: 150 W
+  SPECint: 1216.99
+  specintRatePerCore: 50.71
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+B96D:
+  nameId: Gold 6256
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6256 Processor (12 cores, 33M Cache, 3.6 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6256 Processor (12 cores, 33M Cache, 3.6 GHz, DDR4 2933MHz)
+  price: 6759
+  product: Xeon
+  cores: 12
+  cycles: 3.6
+  power: 205 W
+  SPECint: 928.62
+  specintRatePerCore: 77.39
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+BAZR:
+  nameId: Gold 6258R
+  category: rcpu
+  arch: Cascade Lake
+  name: Intel Xeon Gold 6258R Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  desc: Intel Xeon Gold 6258R Processor (28 cores, 38.5M Cache, 2.7 GHz, DDR4 2933MHz)
+  price: 6839
+  product: Xeon
+  cores: 28
+  cycles: 2.7
+  power: 205 W
+  SPECint: 1723.12
+  specintRatePerCore: 61.54
+  memorySpeed: 2933
+  notice: []
+  mfr: Intel
+
+### AMD CPUs ####
+B6VU:
+  nameId: 7252
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7252 Processor (8 cores, 64 M Cache, 3.1 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7252 Processor (8 cores, 64 M Cache, 3.1 GHz, DDR4 3200MHz)
+  price: 1129
+  product: EPYC
+  cores: 8
+  cycles: 3.1
+  power: 120 W
+  SPECint: 556.92
+  specintRatePerCore: 69.62
+  memorySpeed: 3200
+  notice: []
+B6TS:
+  nameId: 7262
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7262 Processor (8 cores, 128 M Cache, 3.2 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7262 Processor (8 cores, 128 M Cache, 3.2 GHz, DDR4 3200MHz)
+  price: 1059
+  product: EPYC
+  cores: 8
+  cycles: 3.2
+  power: 180 W
+  SPECint: 595
+  specintRatePerCore: 74.38 
+  memorySpeed: 3200
+  notice: []
+B767:
+  nameId: 7272
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7272 Processor (12 cores, 64 M Cache, 2.9 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7272 Processor (12 cores, 64 M Cache, 2.9 GHz, DDR4 3200MHz)
+  price: 1479
+  product: EPYC
+  cores: 12
+  cycles: 2.9
+  power: 120 W
+  SPECint: 771.12 # 1542.24
+  specintRatePerCore: 64.26
+  memorySpeed: 3200
+  notice: []
+B6VZ:
+  nameId: 7282
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7282 Processor (16 cores, 64 M Cache, 2.8 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7282 Processor (16 cores, 64 M Cache, 2.8 GHz, DDR4 3200MHz)
+  price: 1539
+  product: EPYC  
+  cores: 16
+  cycles: 2.8  
+  power: 120 W
+  SPECint: 1066.24 
+  specintRatePerCore: 66.64
+  memorySpeed: 3200
+  notice: []
+B6TV:
+  nameId: 7302
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7302 Processor (16 cores, 128 M Cache, 3.0 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7302 Processor (16 cores, 128 M Cache, 3.0 GHz, DDR4 3200MHz)
+  price: 1729
+  product: EPYC
+  cores: 16
+  cycles: 3.0
+  power: 155 W  
+  SPECint: 1099.56  
+  specintRatePerCore: 68.72  
+  memorySpeed: 3200  
+  notice: []  
+B6W0:
+  nameId: 7352
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7352 Processor (24 cores, 128 M Cache, 2.3 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7352 Processor (24 cores, 128 M Cache, 2.3 GHz, DDR4 3200MHz)
+  price: 3069
+  product: EPYC
+  cores: 24
+  cycles: 2.3  
+  power: 155 W  
+  SPECint: 1504.16  
+  specintRatePerCore: 62.67  
+  memorySpeed: 3200  
+  notice: []  
+B6VW:
+  nameId: 7402
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7402 Processor (24 cores, 128 M Cache, 2.8 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7402 Processor (24 cores, 128 M Cache, 2.8 GHz, DDR4 3200MHz)
+  price: 3149
+  product: EPYC
+  cores: 24
+  cycles: 2.8  
+  power: 180 W 
+  SPECint: 1637.44  
+  specintRatePerCore: 68.23  
+  memorySpeed: 3200  
+  notice: []  
+B6TU:
+  nameId: 7452
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7452 Processor (32 cores, 128 M Cache, 2.3 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7452 Processor (32 cores, 128 M Cache, 2.3 GHz, DDR4 3200MHz)
+  price: 3579
+  product: EPYC
+  cores: 32
+  cycles: 2.3
+  power: 155 W  
+  SPECint: 1899.24  
+  specintRatePerCore: 59.35  
+  memorySpeed: 3200  
+  notice: []  
+B5XG:
+  nameId: 7502
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7502 Processor (32 cores, 128 M Cache, 2.5 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7502 Processor (32 cores, 128 M Cache, 2.5 GHz, DDR4 3200MHz)
+  price: 4599
+  product: EPYC
+  cores: 32
+  cycles: 2.5
+  power: 180 W  
+  SPECint: 2008.72  
+  specintRatePerCore: 62.77  
+  memorySpeed: 3200  
+  notice: []  
+BABP:
+  nameId: 7532
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7532 Processor (32 cores, 256 M Cache, 2.4 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7532 Processor (32 cores, 256 M Cache, 2.4 GHz, DDR4 3200MHz)
+  price: 6289
+  product: EPYC
+  cores: 32
+  cycles: 2.4  
+  power: 200 W  
+  SPECint: 2080.12  
+  specintRatePerCore: 65  
+  memorySpeed: 3200 
+  notice: []
+B6W2:
+  nameId: 7542
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7542 Processor (32 cores, 128 M Cache, 2.9 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7542 Processor (32 cores, 128 M Cache, 2.9 GHz, DDR4 3200MHz)
+  price: 7739
+  product: EPYC
+  cores: 32
+  cycles: 2.9
+  power: 225 W  
+  SPECint: 1961.12  
+  specintRatePerCore: 61.29  
+  memorySpeed: 3200  
+  notice: []
+B6W1:
+  nameId: 7552
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7552 Processor (48 cores, 192 M Cache, 2.2 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7552 Processor (48 cores, 192 M Cache, 2.2 GHz, DDR4 3200MHz)
+  price: 9159
+  product: EPYC
+  cores: 48
+  cycles: 2.2
+  power: 200 W  
+  SPECint: 2427.6  
+  specintRatePerCore: 50.58  
+  memorySpeed: 3200  
+  notice: []  
+B6W3:
+  nameId: 7642
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7642 Processor (48 cores, 256 M Cache, 2.3 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7642 Processor (48 cores, 256 M Cache, 2.3 GHz, DDR4 3200MHz)
+  price: 10869
+  product: EPYC
+  cores: 48
+  cycles: 2.3  
+  power: 225 W
+  SPECint: 2722.72  
+  specintRatePerCore: 56.72 
+  memorySpeed: 3200  
+  notice: []  
+BABN:
+  nameId: 7662
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7662 Processor (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7662 Processor (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  price: 11549
+  product: EPYC
+  cores: 64
+  cycles: 2.0  
+  power: 225 W  
+  SPECint: 3117.8  
+  specintRatePerCore: 48.72  
+  memorySpeed: 3200
+  notice: []
+B6TR:
+  nameId: 7702
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7702 Processor (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7702 Processor (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  price: 11399
+  product: EPYC
+  cores: 64
+  cycles: 2.0  
+  power: 200 W  
+  SPECint: 2951.2  
+  specintRatePerCore: 46.11  
+  memorySpeed: 3200  
+  notice: []  
+B5XF: 
+  nameId: 7742
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7742 Processor (64 cores, 256 M Cache, 2.2 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7742 Processor (64 cores, 256 M Cache, 2.2 GHz, DDR4 3200MHz)
+  price: 12289
+  product: EPYC 
+  cores: 64
+  cycles: 2.2  
+  power: 225 W  
+  SPECint: 3155.88  
+  specintRatePerCore: 49.31  
+  memorySpeed: 3200  
+  notice: []  
+BCE9:
+  nameId: 7F32
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7F32 Processor (8 cores, 128 M Cache, 3.7 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7F32 Processor (8 cores, 128 M Cache, 3.7 GHz, DDR4 3200MHz)
+  price: 3939 
+  product: EPYC
+  cores: 8
+  cycles: 3.7  
+  power: 180 W  
+  SPECint: 3117.8  
+  specintRatePerCore: 48.72  
+  memorySpeed: 3200  
+  notice: []  
+BCE8:
+  nameId: 7F52
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7F52 Processor (16 cores, 256 M Cache, 3.5 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7F52 Processor (16 cores, 256 M Cache, 3.5 GHz, DDR4 3200MHz)
+  price: 5819
+  product: EPYC
+  cores: 16
+  cycles: 3.5  
+  power: 240 W  
+  SPECint: 1361.36  
+  specintRatePerCore: 85.09  
+  memorySpeed: 3200  
+  notice: []  
+BCEA:
+  nameId: 7F72
+  mfr: AMD
+  arch: Rome
+  name: AMD EPYC 7F72 Processor (24 cores, 192 M Cache, 3.3 GHz, DDR4 3200MHz)
+  desc: AMD EPYC 7F72 Processor (24 cores, 192 M Cache, 3.3 GHz, DDR4 3200MHz)
+  price: 6759
+  product: EPYC
+  cores: 24
+  cycles: 3.3
+  power: 240 W
+  SPECint: 1751.68
+  specintRatePerCore: 72.99  
+  memorySpeed: 3200
+  notice: []
+
+### Ice Lake CPUs ####
+
+BB2P:
+  nameId: Platinum 8360Y
+  SPECint: 2465.68
+  arch: Ice Lake
+  category: ycpu
+  cores: 36
+  cycles: 2.40
+  desc: Intel Xeon Platinum 8360Y Processor (36 Cores, 54M Cache, 2.40 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  price: 4365.66 #ballpark figure
+  mfr: Intel
+  name: Intel Xeon Platinum 8360Y Processor (36 Cores, 54M Cache, 2.40 GHz, DDR4-3200MHz)
+  notice: []
+  power: 250 W
+  product: Xeon
+  specintRatePerCore: 68.49
+BB3A:
+  nameId: Platinum 8358P
+  SPECint: 2265.76
+  arch: Ice Lake
+  category: pcpu
+  cores: 32
+  cycles: 2.60
+  desc: Intel Xeon Platinum 8358P Processor (32 Cores, 48M Cache, 2.60 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8358P Processor (32 Cores, 48M Cache, 2.60 GHz, DDR4-3200MHz)
+  notice: []
+  power: 240 W
+  product: Xeon
+  specintRatePerCore: 70.81
+  price: 4365.66 #ballpark figure
+BB2V:
+  nameId: Platinum 8352Y
+  SPECint: 2089.64
+  arch: Ice Lake
+  category: ycpu
+  cores: 32
+  cycles: 2.20
+  desc: Intel Xeon Platinum 8352Y Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8352Y Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 65.30
+  price: 3944.50 #ballpark figure
+BB2S:
+  nameId: Platinum 8352V
+  SPECint: 2042.04
+  arch: Ice Lake
+  category: vcpu
+  cores: 36
+  cycles: 2.10
+  desc: Intel Xeon Platinum 8352V Processor (36 Cores, 54M Cache, 2.10 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8352V Processor (36 Cores, 54M Cache, 2.10 GHz, DDR4-3200MHz)
+  notice: []
+  power: 195 W
+  product: Xeon
+  specintRatePerCore: 56.72
+  price: 4365.66 #ballpark figure
+BB3Q:
+  nameId: Platinum 8352S
+  SPECint: 2089.64
+  arch: Ice Lake
+  category: scpu
+  cores: 32
+  cycles: 2.20
+  desc: Intel Xeon Platinum 8352S Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8352S Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 65.30
+  price: 4046 #ballpark figure
+BB31:
+  nameId: Gold 6338N
+  SPECint: 2027.76
+  arch: Ice Lake
+  category: ncpu
+  cores: 32
+  cycles: 2.20
+  desc: Intel Xeon Gold 6338N Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 6338N Processor (32 Cores, 48M Cache, 2.20 GHz, DDR4-2667MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 63.37
+  price: 2795 #ballpark figure
+BB3S:
+  nameId: Gold 6336Y
+  SPECint: 1704.08
+  arch: Ice Lake
+  category: ycpu
+  cores: 24
+  cycles: 2.40
+  desc: Intel Xeon Gold 6336Y Processor (24 Cores, 36M Cache, 2.40 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6336Y Processor (24 Cores, 36M Cache, 2.40 GHz, DDR4-3200MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 71.00
+  price: 2244.93 #ballpark figure
+BB3N:
+  nameId: Gold 6330N
+  SPECint: 1713.60
+  arch: Ice Lake
+  category: ncpu
+  cores: 28
+  cycles: 2.20
+  desc: Intel Xeon Gold 6330N Processor (28 Cores, 42M Cache, 2.20 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 6330N Processor (28 Cores, 42M Cache, 2.20 GHz, DDR4-2667MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 61.20
+  price: 2029 #ballpark figure
+BB35:
+  nameId: Gold 5318Y
+  SPECint: 1513.68
+  arch: Ice Lake
+  category: ycpu
+  cores: 24
+  cycles: 2.10
+  desc: Intel Xeon Gold 5318Y Processor (24 Cores, 36M Cache, 2.10 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5318Y Processor (24 Cores, 36M Cache, 2.10 GHz, DDR4-2933MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 63.07
+  price: 1445.15 #ballpark figure
+BB2N:
+  nameId: Silver 4309Y
+  SPECint: 637.84 
+  arch: Ice Lake
+  category: ycpu
+  cores: 8
+  cycles: 2.80
+  desc: Intel Xeon Silver 4309Y Processor (8 Cores, 12M Cache, 2.80 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Silver 4309Y Processor (8 Cores, 12M Cache, 2.80 GHz, DDR4-2667MHz)
+  notice: []
+  power: 105 W
+  product: Xeon
+  specintRatePerCore: 79.73
+  price: 565.64 #ballpark figure
+BB3G:
+  nameId: Platinum 8380
+  SPECint: 2651.32
+  arch: Ice Lake
+  cores: 40
+  cycles: 2.30
+  desc: Intel Xeon Platinum 8380 Processor (40 Cores, 60M Cache, 2.30 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8380 Processor (40 Cores, 60M Cache, 2.30 GHz, DDR4-3200MHz)
+  notice: []
+  power: 270 W
+  product: Xeon
+  specintRatePerCore: 66.28
+  price: 8614.58 #ballpark figure
+BB37:
+  nameId: Platinum 8368
+  SPECint: 2584.68
+  arch: Ice Lake
+  cores: 38
+  cycles: 2.40
+  desc: Intel Xeon Platinum 8368 Processor (38 Cores, 57M Cache, 2.40 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8368 Processor (38 Cores, 57M Cache, 2.40 GHz, DDR4-3200MHz)
+  notice: []
+  power: 270 W
+  product: Xeon
+  specintRatePerCore: 68.02
+  price: 6658.44 #ballpark figure
+BB3R:
+  nameId: Platinum 8358
+  SPECint: 2351.44
+  arch: Ice Lake
+  cores: 32
+  cycles: 2.60
+  desc: Intel Xeon Platinum 8358 Processor (32 Cores, 48M Cache, 2.60 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Platinum 8358 Processor (32 Cores, 48M Cache, 2.60 GHz, DDR4-3200MHz)
+  notice: []
+  power: 250 W
+  product: Xeon
+  specintRatePerCore: 73.48
+  price: 4365.66 #ballpark figure
+BB2U:
+  nameId: Gold 6354
+  SPECint: 1466.08
+  arch: Ice Lake
+  cores: 18
+  cycles: 3.00
+  desc: Intel Xeon Gold 6354 Processor (18 Cores, 39M Cache, 3.00 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6354 Processor (18 Cores, 39M Cache, 3.00 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 81.45
+  price: 2693.66 #ballpark figure
+BB2L:
+  nameId: Gold 6348
+  SPECint: 2089.64
+  arch: Ice Lake
+  cores: 28
+  cycles: 2.60
+  desc: Intel Xeon Gold 6348 Processor (28 Cores, 42M Cache, 2.60 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6348 Processor (28 Cores, 42M Cache, 2.60 GHz, DDR4-3200MHz)
+  notice: []
+  power: 235 W
+  product: Xeon
+  specintRatePerCore: 74.63
+  price: 3384.55 #ballpark figure
+BB2W:
+  nameId: Gold 6346
+  SPECint: 1337.56
+  arch: Ice Lake
+  cores: 16
+  cycles: 3.10
+  desc: Intel Xeon Gold 6346 Processor (16 Cores, 36M Cache, 3.10 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6346 Processor (16 Cores, 36M Cache, 3.10 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 83.60
+  price: 2538.14 #ballpark figure
+BB3B:
+  nameId: Gold 6342
+  SPECint: 1827.84
+  arch: Ice Lake
+  cores: 24
+  cycles: 2.80
+  desc: Intel Xeon Gold 6342 Processor (24 Cores, 36M Cache, 2.80 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6342 Processor (24 Cores, 36M Cache, 2.80 GHz, DDR4-3200MHz)
+  notice: []
+  power: 230 W
+  product: Xeon
+  specintRatePerCore: 76.16
+  price: 2810.94 #ballpark figure
+BB3P:
+  nameId: Gold 6338
+  SPECint: 1984.92
+  arch: Ice Lake
+  cores: 32
+  cycles: 2.00
+  desc: Intel Xeon Gold 6338 Processor (32 Cores, 48M Cache, 2.00 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6338 Processor (32 Cores, 48M Cache, 2.00 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 62.03
+  price: 2902.80 #ballpark figure
+BB3D:
+  nameId: Gold 6334
+  SPECint: 694.96
+  arch: Ice Lake
+  cores: 8
+  cycles: 3.60
+  desc: Intel Xeon Gold 6334 Processor (8 Cores, 18M Cache, 3.60 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6334 Processor (8 Cores, 18M Cache, 3.60 GHz, DDR4-3200MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 86.87
+  price: 2439.30 #ballpark figure
+BB3H:
+  nameId: Gold 6330
+  SPECint: 1742.16
+  arch: Ice Lake
+  cores: 28
+  cycles: 2.00
+  desc: Intel Xeon Gold 6330 Processor (28 Cores, 42M Cache, 2.00 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 6330 Processor (28 Cores, 42M Cache, 2.00 GHz, DDR4-2933MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 62.22
+  price: 2088.89 #ballpark figure
+BB4E:
+  nameId: Gold 6326
+  SPECint: 1251.88
+  arch: Ice Lake
+  cores: 16
+  cycles: 2.90
+  desc: Intel Xeon Gold 6326 Processor (16 Cores, 24M Cache, 2.90 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6326 Processor (16 Cores, 24M Cache, 2.90 GHz, DDR4-3200MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 78.24
+  price: 1450.90 #ballpark figure
+BB2R:
+  nameId: Gold 5320
+  SPECint: 1718.36
+  arch: Ice Lake
+  cores: 26
+  cycles: 2.20
+  desc: Intel Xeon Gold 5320 Processor (26 Cores, 39M Cache, 2.20 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5320 Processor (26 Cores, 39M Cache, 2.20 GHz, DDR4-2933MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 66.09
+  price: 1713.88 #ballpark figure
+BB30:
+  nameId: Gold 5317
+  SPECint: 961.52
+  arch: Ice Lake
+  cores: 12
+  cycles: 3.00
+  desc: Intel Xeon Gold 5317 Processor (12 Cores, 18M Cache, 3.00 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5317 Processor (12 Cores, 18M Cache, 3.00 GHz, DDR4-2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 80.13
+  price: 1047.07 #ballpark figure
+BB39:
+  nameId: Silver 4316
+  SPECint: 1342.32
+  arch: Ice Lake
+  cores: 20
+  cycles: 2.30
+  desc: Intel Xeon Silver 4316 Processor (20 Cores, 30M Cache, 2.30 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Silver 4316 Processor (20 Cores, 30M Cache, 2.30 GHz, DDR4-2667MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 67.12
+  price: 1104.13 #ballpark figure
+BB2Z:
+  nameId: Silver 4314
+  SPECint: 1113.84
+  arch: Ice Lake
+  cores: 16
+  cycles: 2.40
+  desc: Intel Xeon Silver 4314 Processor (16 Cores, 24M Cache, 2.40 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Silver 4314 Processor (16 Cores, 24M Cache, 2.40 GHz, DDR4-2667MHz)
+  notice: []
+  power: 135 W
+  product: Xeon
+  specintRatePerCore: 69.62
+  price: 777.81 #ballpark figure
+BB3C:
+  nameId: Silver 4310
+  SPECint: 799.68
+  arch: Ice Lake
+  cores: 12
+  cycles: 2.10
+  desc: Intel Xeon Silver 4310 Processor (12 Cores, 18M Cache, 2.10 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Silver 4310 Processor (12 Cores, 18M Cache, 2.10 GHz, DDR4-2667MHz)
+  notice: []
+  power: 120 W
+  product: Xeon
+  specintRatePerCore: 66.64
+  price: 543.17 #ballpark figure
+BB38:
+  nameId: Gold 6314U
+  SPECint: 2151.52
+  arch: Ice Lake
+  category: ucpu
+  cores: 32
+  cycles: 2.30
+  desc: Intel Xeon Gold 6314U Processor (32 Cores, 48M Cache, 2.30 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6314U Processor (32 Cores, 48M Cache, 2.30 GHz, DDR4-3200MHz)
+  notice: []
+  power: 205 W
+  product: Xeon
+  specintRatePerCore: 67.24
+  price: 2889.45 #ballpark figure
+BB2K:
+  nameId: Gold 6312U
+  SPECint: 1761.20
+  arch: Ice Lake
+  category: ucpu
+  cores: 24
+  cycles: 2.40
+  desc: Intel Xeon Gold 6312U Processor (24 Cores, 36M Cache, 2.40 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6312U Processor (24 Cores, 36M Cache, 2.40 GHz, DDR4-3200MHz)
+  notice: []
+  power: 185 W
+  product: Xeon
+  specintRatePerCore: 73.38
+  price: 1618.13 #ballpark figure
+BB3M:
+  nameId: Gold 5315Y
+  SPECint: 656.88
+  arch: Ice Lake
+  category: ycpu
+  cores: 8
+  cycles: 3.60
+  desc: Intel Xeon Gold 5315Y Processor (8 Cores, 12M Cache, 3.20 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5315Y Processor (8 Cores, 12M Cache, 3.20 GHz, DDR4-2933MHz)
+  notice: []
+  power: 140 W
+  product: Xeon
+  specintRatePerCore: 82.11
+  price: 1047.07 #ballpark figure
+BB2M:
+  nameId: Gold 5318S
+  SPECint: 1489.88
+  arch: Ice Lake
+  category: scpu
+  cores: 24
+  cycles: 2.1
+  desc: Intel Xeon Gold 5318S 24C 165W 2.1GHz Processor
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5318S 24C 165W 2.1GHz Processor
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 62.08
+  price: 2293.29 
+BB3J:
+  nameId: Platinum 8351N
+  SPECint: 2427.60
+  arch: Ice Lake
+  category: ncpu
+  cores: 36
+  cycles: 3.50
+  desc: Intel Xeon Platinum 8351N Processor (36 Cores, 54M Cache, 3.60 GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Platinum 8351N Processor (36 Cores, 54M Cache, 3.60 GHz, DDR4-2933MHz)
+  notice: []
+  power: 225 W
+  product: Xeon
+  specintRatePerCore: 67.43
+  price: 3466
+
+BB34:
+  nameId: Silver 4310T
+  SPECint: 704.48
+  arch: Ice Lake
+  category: tcpu
+  cores: 10
+  cycles: 2.3
+  desc: Intel Xeon Silver 4310T Processor (10 Cores, 15M Cache, 2.3 GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Silver 4310T Processor (10 Cores, 15M Cache, 2.3 GHz, DDR4-2667MHz)
+  notice: []
+  power: 105 W
+  product: Xeon
+  specintRatePerCore: 70.45
+  price: 754.47
+  
+BB33:
+  nameId: Gold 6338T
+  SPECint: 1518.44
+  arch: Ice Lake
+  category: tcpu
+  cores: 24
+  cycles: 2.1
+  desc: Intel Xeon Gold 6338T Processor (24 Cores, 36M Cache, 2.1 GHz, DDR4-3200MHz)
+  memorySpeed: 3200
+  mfr: Intel
+  name: Intel Xeon Gold 6338T Processor (24 Cores, 36M Cache, 2.1 GHz, DDR4-3200MHz)
+  notice: []
+  power: 165 W
+  product: Xeon
+  specintRatePerCore: 63.27
+  price: 3699.73
+
+BB3E:   
+  nameId: Gold 5318N
+  SPECint: 1537.48
+  arch: Ice Lake
+  category: ncpu
+  cores: 24
+  cycles: 2.1
+  desc: Intel Xeon Gold 5318N Processor (24 Cores, 36M Cache, 2.1GHz, DDR4-2667MHz)
+  memorySpeed: 2667
+  mfr: Intel
+  name: Intel Xeon Gold 5318N Processor (24 Cores, 36M Cache, 2.1GHz, DDR4-2667MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 64.06
+  price: 1897
+
+BB2Y: 
+  nameId: Gold 5320T
+  SPECint: 1328.04
+  arch: Ice Lake
+  category: tcpu
+  cores: 20
+  cycles: 2.3
+  desc: Intel Xeon Gold 5320T Processor (20 Cores, 30M Cache, 2.3GHz, DDR4-2933MHz)
+  memorySpeed: 2933
+  mfr: Intel
+  name: Intel Xeon Gold 5320T Processor (20 Cores, 30M Cache, 2.3GHz, DDR4-2933MHz)
+  notice: []
+  power: 150 W
+  product: Xeon
+  specintRatePerCore: 66.40
+  price: 2326
+
+B93A:
+  nameId: D-2143IT
+  SPECint: 340
+  arch: Skylake
+  cores: 8
+  cycles: 2.2
+  desc: Intel Xeon D-2143IT Processor (8 cores, 11M Cache, 2.20 GHz, DDR4 2133MHz)
+  memorySpeed: 2133
+  mfr: Intel
+  name: Intel Xeon D-2143IT Processor (8 cores, 11M Cache, 2.20 GHz, DDR4 2133MHz)
+  notice: []
+  power: 65 W
+  product: Xeon
+  specintRatePerCore: 42.50
+  price: 931
+
+B93B:
+  nameID: D-2183IT
+  SPECint: 703.15
+  arch: Skylake
+  cores: 16
+  cycles: 2.2
+  desc: Intel Xeon D-2183IT Processor (16 cores, 22M Cache, 2.20 GHz, DDR4 2400MHz)
+  memorySpeed: 2400
+  mfr: Intel
+  name: Intel Xeon D-2183IT Processor (16 cores, 22M Cache, 2.20 GHz, DDR4 2400MHz)
+  notice: []
+  power: 100 W
+  product: Xeon
+  specintRatePerCore: 43.95
+  price: 1
+  
+B93C:
+  nameId: D-2163IT
+  SPECint: 497.35
+  arch: Skylake
+  cores: 12
+  cycles: 2.1
+  desc: Intel Xeon D-2163IT Processor (12 cores, 16.5M Cache, 2.10 GHz, DDR4 2133MHz)
+  memorySpeed: 2133
+  mfr: Intel
+  name: Intel Xeon D-2163IT Processor (12 cores, 16.5M Cache, 2.10 GHz, DDR4 2133MHz)
+  notice: []
+  power: 75 W
+  product: Xeon
+  specintRatePerCore: 41.45
+  price: 1301
+  
+B93D:
+  nameID: D-2166NT
+  SPECint: 480.2
+  arch: Skylake
+  cores: 12
+  cycles: 2.0
+  desc: Intel Xeon D-2166NT Processor (12 cores, 16.5M Cache, 2.00 GHz, DDR4 2133MHz)
+  memorySpeed: 2133
+  mfr: Intel
+  name: Intel Xeon D-2166NT Processor (12 cores, 16.5M Cache, 2.00 GHz, DDR4 2133MHz)
+  notice: []
+  power: 85 W
+  product: Xeon
+  specintRatePerCore: 40.02
+  price: 1920
+
+BF70:
+  nameID: 7713P
+  SPECint: 3570
+  arch: Milan
+  cores: 64
+  cycles: 2.0
+  desc: AMD EPYC 7713P FIO (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7713P FIO (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 55.78
+  price: 5646.45 #ballpark figure
+BF71:
+  nameID: 7543P
+  SPECint: 2579.92
+  arch: Milan
+  cores: 32
+  cycles: 2.8
+  desc: AMD EPYC 7543P FIO (32 cores, 256 M Cache, 2.8 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7543P FIO (32 cores, 256 M Cache, 2.8 GHz, DDR4 3200MHz)
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 80.62
+  price: 2935.19 #ballpark figure
+BF72:
+  nameID: '7443'
+  SPECint: 2032.52
+  arch: Milan
+  cores: 24
+  cycles: 2.85
+  desc: AMD EPYC 7443 FIO (24 cores, 128 M Cache, 2.85 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7443 FIO (24 cores, 128 M Cache, 2.85 GHz, DDR4 3200MHz)
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 84.69
+  price: 1499.46 #ballpark figure
+BF74:
+  nameID: '7453'
+  SPECint: 2094.40
+  arch: Milan
+  cores: 28
+  cycles: 2.75
+  desc: AMD EPYC 7453 FIO (28 cores, 64 M Cache, 2.75 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7453 FIO (28 cores, 64 M Cache, 2.75 GHz, DDR4 3200MHz)
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 74.80
+  price: 1894.76 #ballpark figure
+BF75:
+  nameID: '7663'
+  SPECint: 3389.12
+  arch: Milan
+  cores: 56
+  cycles: 2.0
+  desc: AMD EPYC 7663 FIO (56 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7663 FIO (56 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  notice: []
+  power: 240 W
+  product: EPYC
+  specintRatePerCore: 60.52
+  price: 7472.15 #ballpark figure
+BF76:
+  nameID: '7313'
+  SPECint: 1451.80
+  arch: Milan
+  cores: 16
+  cycles: 3.0
+  desc: AMD EPYC 7313 FIO (16 cores, 128 M Cache, 3.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7313 FIO (16 cores, 128 M Cache, 3.0 GHz, DDR4 3200MHz)
+  notice: []
+  power: 155 W
+  product: EPYC
+  specintRatePerCore: 90.74
+  price: 1850 #ballpark figure
+BF77:
+  nameID: '7543'
+  SPECint: 2560.88
+  arch: Milan
+  cores: 32
+  cycles: 2.8
+  desc: AMD EPYC 7543 FIO (32 cores, 256 M Cache, 2.8 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7543 FIO (32 cores, 256 M Cache, 2.8 GHz, DDR4 3200MHz)
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 80.03
+  price: 2935.19 #ballpark figure
+BF78:
+  nameID: '7413'
+  SPECint: 1951.60
+  arch: Milan
+  cores: 24
+  cycles: 2.65
+  desc: AMD EPYC 7413 FIO (24 cores, 128 M Cache, 2.65 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7413 FIO (24 cores, 128 M Cache, 2.65 GHz, DDR4 3200MHz)
+  notice: []
+  power: 180 W
+  product: EPYC
+  specintRatePerCore: 81.32
+  price: 2047.18 #ballpark figure
+BF79:
+  nameID: 7443P
+  SPECint: 2027.76
+  arch: Milan
+  cores: 24
+  cycles: 2.85
+  desc: AMD EPYC 7443P FIO (24 cores, 128 M Cache, 2.85 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7443P FIO (24 cores, 128 M Cache, 2.85 GHz, DDR4 3200MHz)
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 84.49
+  price: 1499.46 #ballpark figure
+BF7A:
+  nameID: '7513'
+  SPECint: 2360.96
+  arch: Milan
+  cores: 32
+  cycles: 2.6
+  desc: AMD EPYC 7513 FIO (32 cores, 128 M Cache, 2.60 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7513 FIO (32 cores, 128 M Cache, 2.60 GHz, DDR4 3200MHz)
+  notice: []
+  power: 200 W
+  product: EPYC
+  specintRatePerCore: 73.78
+  price: 3274.32 #ballpark figure
+BF7B:
+  nameID: 7313P
+  SPECint: 1428
+  arch: Milan
+  cores: 16
+  cycles: 3.0
+  desc: AMD EPYC 7313P FIO (16 cores, 128 M Cache, 3.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7313P FIO (16 cores, 128 M Cache, 3.0 GHz, DDR4 3200MHz)
+  notice: []
+  power: 155 W
+  product: EPYC
+  specintRatePerCore: 89.25
+  price: 1025.11 #ballpark figure
+BF7C:
+  nameID: '7713'
+  SPECint: 3522.40
+  arch: Milan
+  cores: 64
+  cycles: 2.0
+  desc: AMD EPYC 7713 FIO (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7713 FIO (64 cores, 256 M Cache, 2.0 GHz, DDR4 3200MHz)
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 55.04
+  price: 15946 #ballpark figure
+BF7D:
+  nameID: 73F3
+  SPECint: 1580.32
+  arch: Milan
+  cores: 16
+  cycles: 3.5
+  desc: AMD EPYC 73F3 FIO (16 cores, 256 M Cache, 3.5 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 73F3 FIO (16 cores, 256 M Cache, 3.5 GHz, DDR4 3200MHz)
+  notice: []
+  power: 240 W
+  product: EPYC
+  specintRatePerCore: 98.77
+  price: 4151.41 #ballpark figure
+BF7E:
+  nameID: '7343'
+  SPECint: 1447.04
+  arch: Milan
+  cores: 16
+  cycles: 3.2
+  desc: AMD EPYC 7343 FIO (16 cores, 128 M Cache, 3.2 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7343 FIO (16 cores, 128 M Cache, 3.2 GHz, DDR4 3200MHz)
+  notice: []
+  power: 190 W
+  product: EPYC
+  specintRatePerCore: 90.44
+  price: 1756.28 #ballpark figure
+
+BF7G:
+  nameID: 74F3
+  SPECint: 2122.96
+  arch: Milan
+  cores: 24
+  cycles: 3.2
+  desc: AMD EPYC 74F3 FIO (24 cores, 256 M Cache, 3.2 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 74F3 FIO (24 cores, 256 M Cache, 3.2 GHz, DDR4 3200MHz)
+  notice: []
+  power: 240 W
+  product: EPYC
+  specintRatePerCore: 88.46
+  price: 3419.20 #ballpark figure
+BGQ5:
+  nameID: '7643'
+  SPECint: 3151.12
+  arch: Milan
+  cores: 48
+  cycles: 2.3
+  desc: AMD EPYC 7643 FIO (48 cores, 256 M Cache, 2.3 GHz, DDR4 3200MHz)
+  memorySpeed: 3200
+  mfr: AMD
+  name: AMD EPYC 7643 FIO (48 cores, 256 M Cache, 2.3 GHz, DDR4 3200MHz)
+  notice: []
+  power: 225 W
+  product: EPYC
+  specintRatePerCore: 65.65
+  price: 5759.51 #ballpark figure
+  
+BREF:
+  nameId: 9274F
+  product: EPYC
+  SPECint: 2956
+  mfr: AMD
+  cores: 24
+  cycles: 4.05
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9274F 24C 320W 4.05GHz Processor
+  name: ThinkSystem AMD EPYC 9274F 24C 320W 4.05GHz Processor
+  specintRatePerCore: 123.17
+  memorySpeed: 4800
+  notice: []
+  power: 320 W
+  price: 1
+BREG:
+  nameId: 9354P
+  product: EPYC
+  SPECint: 3475
+  mfr: AMD
+  cores: 32
+  cycles: 3.25
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9354P 32C 280W 3.25GHz Processor
+  name: ThinkSystem AMD EPYC 9354P 32C 280W 3.25GHz Processor
+  specintRatePerCore: 108.59
+  memorySpeed: 4800
+  notice: []
+  power: 280 W
+  price: 1
+BREH:
+  nameId: '9224'
+  product: EPYC
+  SPECint: 2385
+  mfr: AMD
+  cores: 24
+  cycles: 2.5
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9224 24C 200W 2.5GHz Processor
+  name: ThinkSystem AMD EPYC 9224 24C 200W 2.5GHz Processor
+  specintRatePerCore: 99.37
+  memorySpeed: 4800
+  notice: []
+  power: 200 W
+  price: 1
+BREJ:
+  nameId: 9174F
+  product: EPYC
+  SPECint: 2037
+  mfr: AMD
+  cores: 16
+  cycles: 4.1
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9174F 16C 320W 4.1GHz Processor
+  name: ThinkSystem AMD EPYC 9174F 16C 320W 4.1GHz Processor
+  specintRatePerCore: 127.33
+  memorySpeed: 4800
+  notice: []
+  power: 320 W
+  price: 1
+BREK:
+  nameId: 9654P
+  product: EPYC
+  SPECint: 7807
+  mfr: AMD
+  cores: 96
+  cycles: 2.4
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9654P 96C 360W 2.4GHz Processor
+  name: ThinkSystem AMD EPYC 9654P 96C 360W 2.4GHz Processor
+  specintRatePerCore: 81.32
+  memorySpeed: 4800
+  notice: []
+  power: 360 W
+  price: 1
+BREL:
+  nameId: 9554P
+  product: EPYC
+  SPECint: 6131
+  mfr: AMD
+  cores: 64
+  cycles: 3.1
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9554P 64C 360W 3.1GHz Processor
+  name: ThinkSystem AMD EPYC 9554P 64C 360W 3.1GHz Processor
+  specintRatePerCore: 95.80
+  memorySpeed: 4800
+  notice: []
+  power: 360 W
+  price: 1
+BREM:
+  nameId: 9454P
+  product: EPYC
+  SPECint: 4855
+  mfr: AMD
+  cores: 48
+  cycles: 2.75
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9454P 48C 290W 2.75GHz Processor
+  name: ThinkSystem AMD EPYC 9454P 48C 290W 2.75GHz Processor
+  specintRatePerCore: 101.15
+  memorySpeed: 4800
+  notice: []
+  power: 290 W
+  price: 1
+BR2Z:
+  nameId: '9634'
+  product: EPYC
+  SPECint: 6378
+  mfr: AMD
+  cores: 84
+  cycles: 2.25
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9634 84C 290W 2.25GHz Processor
+  name: ThinkSystem AMD EPYC 9634 84C 290W 2.25GHz Processor
+  specintRatePerCore: 75.93
+  memorySpeed: 4800
+  notice: []
+  power: 290 W
+  price: 1
+BR30:
+  nameId: '9354'
+  product: EPYC
+  SPECint: 3480
+  mfr: AMD
+  cores: 32
+  cycles: 3.25
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9354 32C 280W 3.25GHz Processor
+  name: ThinkSystem AMD EPYC 9354 32C 280W 3.25GHz Processor
+  specintRatePerCore: 108.74
+  memorySpeed: 4800
+  notice: []
+  power: 280 W
+  price: 1
+BR31:
+  nameId: 9474F
+  product: EPYC
+  SPECint: 5141
+  mfr: AMD
+  cores: 48
+  cycles: 3.6
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9474F 48C 360W 3.6GHz Processor
+  name: ThinkSystem AMD EPYC 9474F 48C 360W 3.6GHz Processor
+  specintRatePerCore: 107.10
+  memorySpeed: 4800
+  notice: []
+  power: 360 W
+  price: 1
+BR32:
+  nameId: 9374F
+  product: EPYC
+  SPECint: 3836
+  mfr: AMD
+  cores: 32
+  cycles: 3.85
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9374F 32C 320W 3.85GHz Processor
+  name: ThinkSystem AMD EPYC 9374F 32C 320W 3.85GHz Processor
+  specintRatePerCore: 119.89
+  memorySpeed: 4800
+  notice: []
+  power: 320 W
+  price: 1
+BREA:
+  nameId: '9534'
+  product: EPYC
+  SPECint: 5665
+  mfr: AMD
+  cores: 64
+  cycles: 2.45
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9534 64C 280W 2.45GHz Processor
+  name: ThinkSystem AMD EPYC 9534 64C 280W 2.45GHz Processor
+  specintRatePerCore: 88.51
+  memorySpeed: 4800
+  notice: []
+  power: 280 W
+  price: 1
+BREB:
+  nameId: '9454'
+  product: EPYC
+  SPECint: 4855
+  mfr: AMD
+  cores: 48
+  cycles: 2.75
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9454 48C 290W 2.75GHz Processor
+  name: ThinkSystem AMD EPYC 9454 48C 290W 2.75GHz Processor
+  specintRatePerCore: 101.15
+  memorySpeed: 4800
+  notice: []
+  power: 290 W
+  price: 1
+BREC:
+  nameId: '9334'
+  product: EPYC
+  SPECint: 3323
+  mfr: AMD
+  cores: 32
+  cycles: 2.7
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9334 32C 210W 2.7GHz Processor
+  name: ThinkSystem AMD EPYC 9334 32C 210W 2.7GHz Processor
+  specintRatePerCore: 103.83
+  memorySpeed: 4800
+  notice: []
+  power: 210 W
+  price: 1
+BRED:
+  nameId: '9254'
+  product: EPYC
+  SPECint: 2609
+  mfr: AMD
+  cores: 24
+  cycles: 2.9
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9254 24C 200W 2.9GHz Processor
+  name: ThinkSystem AMD EPYC 9254 24C 200W 2.9GHz Processor
+  specintRatePerCore: 108.69
+  memorySpeed: 4800
+  notice: []
+  power: 200 W
+  price: 1
+BREE:
+  nameId: '9124'
+  product: EPYC
+  SPECint: 1652
+  mfr: AMD
+  cores: 16
+  cycles: 3.0
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9124 16C 200W 3.0GHz Processor
+  name: ThinkSystem AMD EPYC 9124 16C 200W 3.0GHz Processor
+  specintRatePerCore: 103.23
+  memorySpeed: 4800
+  notice: []
+  power: 200 W
+  price: 1
+BPVJ:
+  nameId: '9554'
+  product: EPYC
+  SPECint: 6140
+  mfr: AMD
+  cores: 64
+  cycles: 3.1
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9554 64C 360W 3.1GHz Processor
+  name: ThinkSystem AMD EPYC 9554 64C 360W 3.1GHz Processor
+  specintRatePerCore: 95.94
+  memorySpeed: 4800
+  notice: []
+  power: 360 W
+  price: 1
+BPVK:
+  nameId: '9654'
+  product: EPYC
+  SPECint: 7664
+  mfr: AMD
+  cores: 96
+  cycles: 2.4
+  arch: Genoa
+  desc: ThinkSystem AMD EPYC 9654 96C 360W 2.4GHz Processor
+  name: ThinkSystem AMD EPYC 9654 96C 360W 2.4GHz Processor
+  specintRatePerCore: 79.83
+  memorySpeed: 4800
+  notice: []
+  power: 360 W
+  price: 1
+BPPD:
+  nameId: Gold 6414U
+  product: Xeon
+  SPECint: 2437
+  mfr: Intel
+  cores: 32
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6414U 32C 250W 2.0GHz Processor
+  name: Intel Xeon Gold 6414U 32C 250W 2.0GHz Processor
+  specintRatePerCore: 76.16
+  memorySpeed: 4800
+  notice: []
+  power: 250 W
+  price: 1
+BQ67:
+  nameId: Silver 4410Y
+  product: Xeon
+  SPECint: 1000
+  mfr: Intel
+  cores: 12
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Silver 4410Y 12C 150W 2.0GHz Processor
+  name: Intel Xeon Silver 4410Y 12C 150W 2.0GHz Processor
+  specintRatePerCore: 83.30
+  memorySpeed: 4800
+  notice: []
+  power: 150 W
+  price: 1
+BQ69:
+  nameId: Silver 4416+
+  product: Xeon
+  SPECint: 1661
+  mfr: Intel
+  cores: 20
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Silver 4416+ 20C 165W 2.0GHz Processor
+  name: Intel Xeon Silver 4416+ 20C 165W 2.0GHz Processor
+  specintRatePerCore: 83.06
+  memorySpeed: 4800
+  notice: []
+  power: 165 W
+  price: 1
+BQ64:
+  nameId: Silver 4410T
+  product: Xeon
+  SPECint: 971
+  mfr: Intel
+  cores: 10
+  cycles: 2.7
+  arch: Sapphire Rapids
+  desc: Intel Xeon Silver 4410T 10C 150W 2.7GHz Processor
+  name: Intel Xeon Silver 4410T 10C 150W 2.7GHz Processor
+  specintRatePerCore: 97.10
+  memorySpeed: 4800
+  notice: []
+  power: 150 W
+  price: 1
+BQ63:
+  nameId: Gold 5415+
+  product: Xeon
+  SPECint: 819
+  mfr: Intel
+  cores: 8
+  cycles: 2.9
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 5415+ 8C 150W 2.9GHz Processor
+  name: Intel Xeon Gold 5415+ 8C 150W 2.9GHz Processor
+  specintRatePerCore: 102.34
+  memorySpeed: 4800
+  notice: []
+  power: 150 W
+  price: 1
+BQ66:
+  nameId: Gold 5418Y
+  product: Xeon
+  SPECint: 1952
+  mfr: Intel
+  cores: 24
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 5418Y 24C 185W 2.0GHz Processor
+  name: Intel Xeon Gold 5418Y 24C 185W 2.0GHz Processor
+  specintRatePerCore: 81.32
+  memorySpeed: 4800
+  notice: []
+  power: 185 W
+  price: 1
+BQ65:
+  nameId: Gold 5420+
+  product: Xeon
+  SPECint: 2190
+  mfr: Intel
+  cores: 28
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 5420+ 28C 205W 2.0GHz Processor
+  name: Intel Xeon Gold 5420+ 28C 205W 2.0GHz Processor
+  specintRatePerCore: 78.20
+  memorySpeed: 4800
+  notice: []
+  power: 205 W
+  price: 1
+BPQF:
+  nameId: Gold 6426Y
+  product: Xeon
+  SPECint: 1518
+  mfr: Intel
+  cores: 16
+  cycles: 2.5
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6426Y 16C 185W 2.5GHz Processor
+  name: Intel Xeon Gold 6426Y 16C 185W 2.5GHz Processor
+  specintRatePerCore: 94.90
+  memorySpeed: 4800
+  notice: []
+  power: 185 W
+  price: 1
+BPPC:
+  nameId: Gold 6430
+  product: Xeon
+  SPECint: 2418
+  mfr: Intel
+  cores: 32
+  cycles: 2.1
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6430 32C 270W 2.1GHz Processor
+  name: Intel Xeon Gold 6430 32C 270W 2.1GHz Processor
+  specintRatePerCore: 75.57
+  memorySpeed: 4800
+  notice: []
+  power: 270 W
+  price: 1
+BPQC:
+  nameId: Gold 6434
+  product: Xeon
+  SPECint: 904
+  mfr: Intel
+  cores: 8
+  cycles: 3.7
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6434 8C 195W 3.7GHz Processor
+  name: Intel Xeon Gold 6434 8C 195W 3.7GHz Processor
+  specintRatePerCore: 113.05
+  memorySpeed: 4800
+  notice: []
+  power: 195 W
+  price: 1
+BQ62:
+  nameId: Gold 6438Y+
+  product: Xeon
+  SPECint: 2632
+  mfr: Intel
+  cores: 32
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6438Y+ 32C 205W 2.0GHz Processor
+  name: Intel Xeon Gold 6438Y+ 32C 205W 2.0GHz Processor
+  specintRatePerCore: 82.26
+  memorySpeed: 4800
+  notice: []
+  power: 205 W
+  price: 1
+BPQE:
+  nameId: Gold 6442Y
+  product: Xeon
+  SPECint: 2261
+  mfr: Intel
+  cores: 24
+  cycles: 2.6
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6442Y 24C 225W 2.6GHz Processor
+  name: Intel Xeon Gold 6442Y 24C 225W 2.6GHz Processor
+  specintRatePerCore: 94.21
+  memorySpeed: 4800
+  notice: []
+  power: 225 W
+  price: 1
+BPQB:
+  nameId: Gold 6444Y
+  product: Xeon
+  SPECint: 1771
+  mfr: Intel
+  cores: 16
+  cycles: 3.6
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6444Y 16C 270W 3.6GHz Processor
+  name: Intel Xeon Gold 6444Y 16C 270W 3.6GHz Processor
+  specintRatePerCore: 110.67
+  memorySpeed: 4800
+  notice: []
+  power: 270 W
+  price: 1
+BPQD:
+  nameId: Gold 6448Y
+  product: Xeon
+  SPECint: 2675
+  mfr: Intel
+  cores: 32
+  cycles: 2.1
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6448Y 32C 225W 2.1GHz Processor
+  name: Intel Xeon Gold 6448Y 32C 225W 2.1GHz Processor
+  specintRatePerCore: 83.60
+  memorySpeed: 4800
+  notice: []
+  power: 225 W
+  price: 1
+BQ6K:
+  nameId: Gold 6438M
+  product: Xeon
+  SPECint: 2637
+  mfr: Intel
+  cores: 32
+  cycles: 2.2
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6438M 32C 205W 2.2GHz Processor
+  name: Intel Xeon Gold 6438M 32C 205W 2.2GHz Processor
+  specintRatePerCore: 82.41
+  memorySpeed: 4800
+  notice: []
+  power: 205 W
+  price: 1
+BQ6H:
+  nameId: Gold 5418N
+  product: Xeon
+  SPECint: 1823
+  mfr: Intel
+  cores: 24
+  cycles: 1.8
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 5418N 24C 165W 1.8GHz Processor
+  name: Intel Xeon Gold 5418N 24C 165W 1.8GHz Processor
+  specintRatePerCore: 75.96
+  memorySpeed: 4800
+  notice: []
+  power: 165 W
+  price: 1
+BQ6F:
+  nameId: Gold 6428N
+  product: Xeon
+  SPECint: 2323
+  mfr: Intel
+  cores: 32
+  cycles: 1.8
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6428N 32C 185W 1.8GHz Processor
+  name: Intel Xeon Gold 6428N 32C 185W 1.8GHz Processor
+  specintRatePerCore: 72.59
+  memorySpeed: 4800
+  notice: []
+  power: 185 W
+  price: 1
+BQ6D:
+  nameId: Gold 6438N
+  product: Xeon
+  SPECint: 2575
+  mfr: Intel
+  cores: 32
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6438N 32C 205W 2.0GHz Processor
+  name: Intel Xeon Gold 6438N 32C 205W 2.0GHz Processor
+  specintRatePerCore: 80.47
+  memorySpeed: 4800
+  notice: []
+  power: 205 W
+  price: 1
+BQ6L:
+  nameId: Gold 5416S
+  product: Xeon
+  SPECint: 1314
+  mfr: Intel
+  cores: 16
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 5416S 16C 150W 2.0GHz Processor
+  name: Intel Xeon Gold 5416S 16C 150W 2.0GHz Processor
+  specintRatePerCore: 82.11
+  memorySpeed: 4800
+  notice: []
+  power: 150 W
+  price: 1
+BPPM:
+  nameId: Gold 6454S
+  product: Xeon
+  SPECint: 2547
+  mfr: Intel
+  cores: 32
+  cycles: 2.2
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6454S 32C 270W 2.2GHz Processor
+  name: Intel Xeon Gold 6454S 32C 270W 2.2GHz Processor
+  specintRatePerCore: 79.58
+  memorySpeed: 4800
+  notice: []
+  power: 270 W
+  price: 1
+BPQA:
+  nameId: Platinum 8462Y+
+  product: Xeon
+  SPECint: 3023
+  mfr: Intel
+  cores: 32
+  cycles: 2.8
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8462Y+ 32C 300W 2.8GHz Processor
+  name: Intel Xeon Platinum 8462Y+ 32C 300W 2.8GHz Processor
+  specintRatePerCore: 94.46
+  memorySpeed: 4800
+  notice: []
+  power: 300 W
+  price: 1
+BPPB:
+  nameId: Platinum 8452Y
+  product: Xeon
+  SPECint: 2837
+  mfr: Intel
+  cores: 36
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8452Y 36C 300W 2.0GHz Processor
+  name: Intel Xeon Platinum 8452Y 36C 300W 2.0GHz Processor
+  specintRatePerCore: 78.80
+  memorySpeed: 4800
+  notice: []
+  power: 300 W
+  price: 1
+BPPQ:
+  nameId: Platinum 8460Y+
+  product: Xeon
+  SPECint: 3127
+  mfr: Intel
+  cores: 40
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8460Y+ 40C 300W 2.0GHz Processor
+  name: Intel Xeon Platinum 8460Y+ 40C 300W 2.0GHz Processor
+  specintRatePerCore: 78.18
+  memorySpeed: 4800
+  notice: []
+  power: 300 W
+  price: 1
+BPPU:
+  nameId: Platinum 8468
+  product: Xeon
+  SPECint: 3851
+  mfr: Intel
+  cores: 48
+  cycles: 2.1
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8468 48C 350W 2.1GHz Processor
+  name: Intel Xeon Platinum 8468 48C 350W 2.1GHz Processor
+  specintRatePerCore: 80.23
+  memorySpeed: 4800
+  notice: []
+  power: 350 W
+  price: 1
+BN0N:
+  nameId: Platinum 8470
+  product: Xeon
+  SPECint: 4098
+  mfr: Intel
+  cores: 52
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8470 52C 350W 2.0GHz Processor
+  name: Intel Xeon Platinum 8470 52C 350W 2.0GHz Processor
+  specintRatePerCore: 78.81
+  memorySpeed: 4800
+  notice: []
+  power: 350 W
+  price: 1
+BN0M:
+  nameId: Platinum 8480+
+  product: Xeon
+  SPECint: 4122
+  mfr: Intel
+  cores: 56
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8480+ 56C 350W 2.0GHz Processor
+  name: Intel Xeon Platinum 8480+ 56C 350W 2.0GHz Processor
+  specintRatePerCore: 73.61
+  memorySpeed: 4800
+  notice: []
+  power: 350 W
+  price: 1
+BPPS:
+  nameId: Platinum 8490H
+  product: Xeon
+  SPECint: 4294
+  mfr: Intel
+  cores: 60
+  cycles: 1.9
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8490H 60C 350W 1.9GHz Processor
+  name: Intel Xeon Platinum 8490H 60C 350W 1.9GHz Processor
+  specintRatePerCore: 71.56
+  memorySpeed: 4800
+  notice: []
+  power: 350 W
+  price: 1
+BPPJ:
+  nameId: Platinum 8470N
+  product: Xeon
+  SPECint: 3618
+  mfr: Intel
+  cores: 52
+  cycles: 1.7
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8470N 52C 300W 1.7GHz Processor
+  name: Intel Xeon Platinum 8470N 52C 300W 1.7GHz Processor
+  specintRatePerCore: 69.57
+  memorySpeed: 4800
+  notice: []
+  power: 300 W
+  price: 1
+BPPP:
+  nameId: Platinum 8468V
+  product: Xeon
+  SPECint: 3670
+  mfr: Intel
+  cores: 48
+  cycles: 2.4
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8468V 48C 330W 2.4GHz Processor
+  name: Intel Xeon Platinum 8468V 48C 330W 2.4GHz Processor
+  specintRatePerCore: 76.46
+  memorySpeed: 4800
+  notice: []
+  power: 330 W
+  price: 1
+BPPT:
+  nameId: Platinum 8458P
+  product: Xeon
+  SPECint: 3641
+  mfr: Intel
+  cores: 44
+  cycles: 2.7
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8458P 44C 350W 2.7GHz Processor
+  name: Intel Xeon Platinum 8458P 44C 350W 2.7GHz Processor
+  specintRatePerCore: 82.76
+  memorySpeed: 4800
+  notice: []
+  power: 350 W
+  price: 1
+BPPE:
+  nameId: Platinum 8468H
+  product: Xeon
+  SPECint: 3680
+  mfr: Intel
+  cores: 48
+  cycles: 2.1
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8468H 48C 330W 2.1GHz Processor
+  name: Intel Xeon Platinum 8468H 48C 330W 2.1GHz Processor
+  specintRatePerCore: 76.66
+  memorySpeed: 4800
+  notice: []
+  power: 330 W
+  price: 1
+BPPF:
+  nameId: Platinum 8454H
+  product: Xeon
+  SPECint: 2328
+  mfr: Intel
+  cores: 32
+  cycles: 2.1
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8454H 32C 270W 2.1GHz Processor
+  name: Intel Xeon Platinum 8454H 32C 270W 2.1GHz Processor
+  specintRatePerCore: 72.74
+  memorySpeed: 4800
+  notice: []
+  power: 270 W
+  price: 1
+BPPG:
+  nameId: Platinum 8450H
+  product: Xeon
+  SPECint: 2237
+  mfr: Intel
+  cores: 28
+  cycles: 2.0
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8450H 28C 250W 2.0GHz Processor
+  name: Intel Xeon Platinum 8450H 28C 250W 2.0GHz Processor
+  specintRatePerCore: 79.90
+  memorySpeed: 4800
+  notice: []
+  power: 250 W
+  price: 1
+BPPH:
+  nameId: Platinum 8444H
+  product: Xeon
+  SPECint: 1547
+  mfr: Intel
+  cores: 16
+  cycles: 2.9
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8444H 16C 270W 2.9GHz Processor
+  name: Intel Xeon Platinum 8444H 16C 270W 2.9GHz Processor
+  specintRatePerCore: 96.69
+  memorySpeed: 4800
+  notice: []
+  power: 270 W
+  price: 1
+BPPN:
+  nameId: Platinum 8460H
+  product: Xeon
+  SPECint: 3346
+  mfr: Intel
+  cores: 40
+  cycles: 2.2
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8460H 40C 330W 2.2GHz Processor
+  name: Intel Xeon Platinum 8460H 40C 330W 2.2GHz Processor
+  specintRatePerCore: 83.66
+  memorySpeed: 4800
+  notice: []
+  power: 330 W
+  price: 1
+BQ6A:
+  nameId: Gold 6448H
+  product: Xeon
+  SPECint: 2875
+  mfr: Intel
+  cores: 32
+  cycles: 2.4
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6448H 32C 250W 2.4GHz Processor
+  name: Intel Xeon Gold 6448H 32C 250W 2.4GHz Processor
+  specintRatePerCore: 89.85
+  memorySpeed: 4800
+  notice: []
+  power: 250 W
+  price: 1
+BQ6B:
+  nameId: Gold 6418H
+  product: Xeon
+  SPECint: 1909
+  mfr: Intel
+  cores: 24
+  cycles: 2.1
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6418H 24C 185W 2.1GHz Processor
+  name: Intel Xeon Gold 6418H 24C 185W 2.1GHz Processor
+  specintRatePerCore: 79.53
+  memorySpeed: 4800
+  notice: []
+  power: 185 W
+  price: 1
+BQ6C:
+  nameId: Gold 6416H
+  product: Xeon
+  SPECint: 1538
+  mfr: Intel
+  cores: 18
+  cycles: 2.2
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6416H 18C 165W 2.2GHz Processor
+  name: Intel Xeon Gold 6416H 18C 165W 2.2GHz Processor
+  specintRatePerCore: 85.42
+  memorySpeed: 4800
+  notice: []
+  power: 165 W
+  price: 1
+BQ6E:
+  nameId: Gold 6434H
+  product: Xeon
+  SPECint: 952
+  mfr: Intel
+  cores: 8
+  cycles: 3.7
+  arch: Sapphire Rapids
+  desc: Intel Xeon Gold 6434H 8C 195W 3.7GHz Processor
+  name: Intel Xeon Gold 6434H 8C 195W 3.7GHz Processor
+  specintRatePerCore: 119.00
+  memorySpeed: 4800
+  notice: []
+  power: 195 W
+  price: 1
+BQ6J:
+  nameId: Gold 5411N
+  product: Xeon
+  SPECint: 1980
+  mfr: Intel
+  cores: 24
+  cycles: 1.9
+  arch: Sapphire Rapids
+  desc: Intel Xeon-G 5411N 24C 165W 1.9GHz Processor
+  name: Intel Xeon-G 5411N 24C 165W 1.9GHz Processor
+  specintRatePerCore: 82.51
+  memorySpeed: 4800
+  notice: []
+  power: 165 W
+  price: 1
+BQ6G:
+  nameId: Gold 6421N
+  product: Xeon
+  SPECint: 2513
+  mfr: Intel
+  cores: 32
+  cycles: 1.8
+  arch: Sapphire Rapids
+  desc: Intel Xeon-G 6421N 32C 185W 1.8GHz Processor
+  name: Intel Xeon-G 6421N 32C 185W 1.8GHz Processor
+  specintRatePerCore: 78.54
+  memorySpeed: 4800
+  notice: []
+  power: 185 W
+  price: 1
+BPPK:
+  nameId: Platinum 8461V
+  product: Xeon
+  SPECint: 3618
+  mfr: Intel
+  cores: 48
+  cycles: 2.2
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8461V 48C 300W 2.2GHz Processor
+  name: Intel Xeon Platinum 8461V 48C 300W 2.2GHz Processor
+  specintRatePerCore: 75.37
+  memorySpeed: 4800
+  notice: []
+  power: 300 W
+  price: 1
+BPPR:
+  nameId: Platinum 8471N
+  product: Xeon
+  SPECint: 3922
+  mfr: Intel
+  cores: 52
+  cycles: 1.8
+  arch: Sapphire Rapids
+  desc: Intel Xeon Platinum 8471N 52C 300W 1.8GHz Processor
+  name: Intel Xeon Platinum 8471N 52C 300W 1.8GHz Processor
+  specintRatePerCore: 75.43
+  memorySpeed: 4800
+  notice: []
+  power: 300 W
+  price: 1
+
+
+
+###### Template #####
+
+#SKU ID:
+#  nameId: 'Name and number of the Processor '
+#  product: 'Xeon'
+#  power: 'Thermal design power in watts'
+#  SPECint: 'benchmark scores'
+#  mfr: intel
+#  cores: 'Number of cores'
+#  cycles: 'processor base frequency'
+#  arch: 'code name of the processor'
+#  name: 'component description'
+#  desc: 'component description'
+#  price: ''
+#  specintRatePerCore: 'benchmark scores'
+#  memorySpeed: 'Maximum Memory Speed'
+#  notice: [Any component specific info]
+
+#sample entry#
+#860653-L21:
+#  nameId: Gold 6144
+#  product: Xeon
+#  power: 150W
+#  SPECint: 1113
+#  mfr: intel
+#  cores: 8
+#  cycles: 3.2
+#  arch: skylake
+#  desc: Intel Xeon Gold 6144 Processor (8 cores, 24M Cache, 3.2 GHz, DDR4 2666MHz)
+#  name: Intel Xeon Gold 6144 Processor (8 cores, 24M Cache, 3.2 GHz, DDR4 2666MHz)
+#  price: 2918
+#  specintRatePerCore: 69.56
+#  memorySpeed: 2666
+#  notice: []

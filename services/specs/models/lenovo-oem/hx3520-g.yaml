@@ -1,0 +1,257 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed # added by Deepak
+models:
+  - HX3520-G
+label: HX3520-G
+chassis:
+  label: chassis
+  use-case: 
+    - Private Cloud
+    - Test and Development
+    - End-User Computing/Virtual Desktop Infrastructure
+  notice:  # moved notice here (was below product)
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7X84CTO3WW
+      qual-date: '2017-10-01'
+    - sku: 7Z05CTO3WW
+      qual-date: '2017-10-01'
+    - sku: 7Y90CTO3WW
+      qual-date: '2017-10-01'
+power:
+  - type: power-supply
+    label: Power Supply
+    #desc: Hot-swappable AC power supply # Added by Deepak. Correct as necessary. Needs a desc because there are multiple SKUs
+    qty:
+      - 2
+    product:
+      - sku: AVWG
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    desc: M.2 SSD # Added the "desc" attribute as there are multiple product SKU entries.
+    notice:
+      - 2 are required # content is missing under notice.
+    qty:
+      - 2
+    product:
+      - sku: AUUV
+      - sku: B8HS
+      - sku: B919
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    qty:
+      - 1
+    product:
+      - sku: AUNM
+# In model.yaml files, add only UUID for SSDs and HDDs and not their SKU IDs.
+  - type: all-ssd
+    label: 'Storage: All-Flash'
+    desc: Only SATA/SAS SSDs
+    notice:
+      - Maximum of 16 drives total
+    ssd:
+      label: '2.5" SATA/SAS SSDs' #added physical size
+      qty:
+        - 4
+        - 6
+        - 8
+        - 10
+        - 12
+        - 14
+        - 16
+      product:
+        - sku: '10209010011690671199695486151095062261'  #BK77 -S4520 3.84TB
+        - sku: '110907501008005170208437423483396411846'  #BA4T - S4620 960GB
+        - sku: '113967084937895467898578436357698243672'  #BNW6 - PM1655 3.2TB
+        - sku: '200337044258042112985894973054560797386'  #BNWF - PM1653 3.84TB
+        - sku: '20524087427057481142023000687649667767'  #BA4U - S4620 1.92TB 
+        - sku: '238866696471189007042260451848095469492'  #BM88 - PM893 3.84TB
+        - sku: '245088639805079799085646450907473575777'  #BM89 - PM893 1.92TB
+        - sku: '49006620777892750106978491702182404156'  #BK7L - S4620 3.84TB
+        - sku: '58859835455935694558768621717053685015'  #BA7J -  S4520 1.92TB
+        - sku: '87649502253137511892050312897772792552'  #BP3E - PM1653 7.68TB
+  - type: hybrid
+    label: 'Storage: Hybrid'
+    desc: Mix of SATA/SAS SSDs and HDDs
+    notice:
+      - Maximum of 16 drives total
+    ssd:
+      label: '2.5" SATA/SAS SSDs'
+      qty:
+        - 2
+        - 4
+      product:
+        #- sku: '277209155996448765986695154402791019562'  commented out as per Rakesh's comment - remove 480 GB SSD
+        - sku: '45333918164514934963128829968301578969'  #B49N
+        - sku: '329981377417139490432695692690564841709' #B49P
+        - sku: '146368562110551989808394829194449669605' #B8HU PM1645a 800GB
+        - sku: '280833960321399961830843574179657926568' #B8J4 PM1645a 1.6TB 
+        - sku: '106507717010539145117437592934144256284' #B49B 
+        - sku: '90656722532161611820329027832628262444'  #B34L 
+        - sku: '226850352248689726735554521425058859074' #B49C
+        - sku: '286785159118215851269526387466290527770' #B34M
+        - sku: '164725183677083892950218846849339709018' #B91C - PM1643a 3.84TB
+        - sku: '287045833840978619658197725562046089310' #b91D PM1643a 7.68TB 2.5" drive
+    hdd:
+      label: '2.5" HDDs'
+      qty:
+        - 6
+        - 8
+        - 10
+        - 12
+      product:
+        - sku: '166968333968555583535809206233641109396' #AUUE 
+        - sku: '54605234480592594582511088487146392855'  #AUUJ
+        - sku: '260206218146488703515996842511966962607' #B0YS
+compute:
+# Corrected type and label to Cascade Lake
+  - type: cascade-lake
+    label: Cascade Lake and Cascade Lake Refresh
+    cpu:
+      desc: Any Intel Cascade Lake or Cascade Lake Refresh CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - If more than 16 drives are configured, CPUs must be 165W or less
+      qty:
+        - 2
+      product:
+        - sku: B4HS
+        - sku: B4HT
+        - sku: B4HN
+        - sku: B4HR
+      #  - sku: B4P1
+        - sku: B4P9
+        - sku: B4HM
+        - sku: B4HL
+        - sku: B4HK
+        - sku: B6CV
+        - sku: B6CL # sruthi added added this processor details in cpu.yaml
+        - sku: B4HJ
+      #  - sku: B5RY
+        - sku: B6CK
+        - sku: B6CJ
+      #  - sku: B6CM
+        - sku: B6CR
+        - sku: B4HH
+        - sku: B6CS
+        - sku: B4HG
+        - sku: B4HE
+        - sku: B4HC
+        - sku: B6CU
+        - sku: B5RZ
+        - sku: B4HB
+        - sku: B4P7
+      #  - sku: B4NZ
+        - sku: B4H8
+        - sku: B4P6
+      #  - sku: B4NY
+        - sku: B4HQ
+        - sku: B4HP
+        - sku: B7N5
+        - sku: B7N6
+        - sku: BAZU
+        - sku: BAZS
+        - sku: B7N9
+      #  - sku: BAZV
+        - sku: BAZW
+        - sku: BAZX
+        - sku: BAZL
+        - sku: BAZM
+       # - sku: B6CT
+        - sku: B6CW
+        - sku: BAZN
+    memory:
+      notice: #7-Feb: Must write "Cascade Lake" in two words, both beginning with upper case. Changed the below note.
+        - "For memory capacity higher than 768 GB and up to 2 TB per socket, order the Intel Cascade Lake Xeon CPUs with suffix L."
+        - "RDIMMs and 3DS RDIMMs cannot be mixed."
+      product:  # updated memory config same as HX3320 as per Rakesh's comment
+       # - sku: B4LY
+       #   qty:
+       #     - 8
+       #     - 12
+       #     - 16
+       #     - 24
+        - sku: B4H2
+          qty:
+            - 8
+            - 12
+            #- 16
+            - 24
+        - sku: B4H3
+          qty:
+            - 8
+            - 12
+            - 16
+            - 24
+        - sku: B4H4
+          qty:
+            - 8
+            - 12
+            - 16
+            - 24
+     #   - sku: AUW5
+     #     qty:
+     #       - 8
+     #       - 12
+     #       - 16
+     #       - 24
+        - sku: B587
+          qty:
+            - 12
+            # - 24 - not in DCSC. 
+network:
+# The label and desc attributes for LOM and PCIe adapters have been modified as per the standard template.
+  - type: lom
+    label: FlexibleLOM Adapter
+    desc: LAN on Motherboard (LOM) Adapter
+    qty:
+      - 1
+    notice:
+      - Standalone Mode Only. #Deepak asks: Does Lenovo have these modes? Or is this a relic from UCS?
+    product:
+      - sku: AUKL
+      - sku: AUKM
+      - sku: AUKJ
+      - sku: AUKK
+  - type: pcie
+    label: PCIe Network Interface
+    desc: PCIe-slot Ethernet adapter
+    qty:
+      - 0
+      - 1
+      - 2
+      - 3
+    product:
+      - sku: ATPX
+      - sku: AUKX
+      - sku: AUAJ
+      - sku: B31C
+gpu: # Deepak worked on the indentation in this section
+  - type: gpu # Deepak says: need to check whether this value should be "gpu". Ask Sizer? (Sruthi changed this value to gpu after discussing with Sizer)
+    label: Dual slot GPU Adapter
+    desc: PCIe GPU Adapter
+    qty:
+      - 0
+      - 1
+      - 2
+    product:
+      - sku: B13J
+      - sku: B15V
+      - sku: B15U
+      - sku: B34S
+  - type: gpu # Deepak says: need to check whether this value should be "gpu". Ask Sizer? (Sruthi changed this value to gpu after discussing with Sizer)
+    label: Single slot GPU Adapter
+    #desc: PCIe GPU Adapter
+    qty:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+    product:
+      - sku: B4YB
+form-factor: SFF
+max-drive-count: 16
