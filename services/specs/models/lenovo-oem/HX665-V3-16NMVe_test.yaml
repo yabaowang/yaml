@@ -3,7 +3,7 @@ product-line: HX
 software: factory-installed
 models:
   - HX665-V3-16NMVe
-label: HX665-V3-INTEGRATED
+label: HX665-V3
 form-factor: 2U
 max-drive-count: 40
 end-of-sale: 2999-12-31
@@ -19,7 +19,7 @@ chassis:
   notice:
     - '- Only Legacy BIOS is supported.'
   product:
-    - sku: 7D9NCTO1WW
+    - sku: 7D9NCTO3WW
       qual-date: '2023-06-16'
 power:
   - type: power-supply
