@@ -1,0 +1,451 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed
+models:
+  - HX665-V3-STORAGE
+label: HX665-V3-STORAGE
+form-factor: 2U
+max-drive-count: 40
+end-of-sale: 2999-12-31
+chassis:
+  label: Chassis
+  use-case:
+    - '- Private Cloud'
+    - '- Files and Objects'
+    - '- Backup and Disaster Recovery'
+    - '- Test and Development'
+    - '- End-User Computing/Virtual Desktop Infrastructure'
+    - '- Analytics and Big Data'
+  notice:
+    - '- Only Legacy BIOS is supported.'
+  product:
+    - sku: 7D9NCTO4WW
+      qual-date: '2023-04-11'
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Power Supply
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: B8QE
+      - sku: B962
+      - sku: BLKH
+      - sku: BNFG
+      - sku: BNFH
+      - sku: BPK9
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    notice:
+      - User input
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: BKSR
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: BM50
+  - type: all-ssd
+    label: "Storage: All-Flash"
+    desc: Only SATA/SAS SSDs
+    ssd:
+      label: 2.5/3.5" SATA/SAS SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+        - 4
+        - 6
+        - 8
+        - 10
+        - 12
+      product:
+        - sku: '10209010011690671199695486151095062261'  #BK77
+        - sku: '188616559340169961516330520869021861279'  #BNW9
+        - sku: '200337044258042112985894973054560797386'  #BNWF
+        - sku: '20524087427057481142023000687649667767'  #BA4U
+        - sku: '49006620777892750106978491702182404156'  #BK7L
+        - sku: '58859835455935694558768621717053685015'  #BA7J
+        - sku: '87649502253137511892050312897772792552'  #BP3E
+        - sku: '110907501008005170208437423483396411846'  #BA4T
+        - sku: '122060270581256737610386881992887468830'  #BNWA
+        - sku: '187858105084125846550886755438988737678'  #BNWH
+        - sku: '199018960766503428135023029488903209883'  #BK7F
+        - sku: '213750984261187058830418677232357682627'  #BK7P
+        - sku: '231053189894388498723219872410626354943'  #BA7N
+        - sku: '238866696471189007042260451848095469492'  #BM88
+        - sku: '245088639805079799085646450907473575777'  #BM89
+        - sku: '287940204586085487197211503395961716781'  #BA4X
+        - sku: '292192065953448595406574578135939727702'  #BA4Y
+        - sku: '62374217304471399016673968363563795249'  #BP3F
+        - sku: '73630712496678399826613870117068185368'  #BNW8
+  - type: hybrid
+    label: "Storage: Hybrid"
+    desc: Mix of SATA/SAS SSDs and HDDs
+    ssd:
+      label: 2.5/3.5" SATA/SAS SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+        - 3
+        - 4
+      product:
+        - sku: '10209010011690671199695486151095062261'  #BK77
+        - sku: '188616559340169961516330520869021861279'  #BNW9
+        - sku: '200337044258042112985894973054560797386'  #BNWF
+        - sku: '20524087427057481142023000687649667767'  #BA4U
+        - sku: '49006620777892750106978491702182404156'  #BK7L
+        - sku: '58859835455935694558768621717053685015'  #BA7J
+        - sku: '87649502253137511892050312897772792552'  #BP3E
+        - sku: '110907501008005170208437423483396411846'  #BA4T
+        - sku: '122060270581256737610386881992887468830'  #BNWA
+        - sku: '187858105084125846550886755438988737678'  #BNWH
+        - sku: '199018960766503428135023029488903209883'  #BK7F
+        - sku: '213750984261187058830418677232357682627'  #BK7P
+        - sku: '231053189894388498723219872410626354943'  #BA7N
+        - sku: '238866696471189007042260451848095469492'  #BM88
+        - sku: '245088639805079799085646450907473575777'  #BM89
+        - sku: '292192065953448595406574578135939727702'  #BA4Y
+        - sku: '62374217304471399016673968363563795249'  #BP3F
+        - sku: '73630712496678399826613870117068185368'  #BNW8
+    hdd:
+      label: 3.5" HDDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 4
+        - 6
+        - 8
+        - 10
+      product:
+        - sku: '218389756989827360827786300947249721855'  #B7F0
+        - sku: '230761773915931224877329872634875828706'  #AUU7
+        - sku: '246310157863478761569016887122932941046'  #AUUA
+        - sku: '247852257058077839798170082687693867494'  #AUU6
+        - sku: '295369276436913039785331606765510041082'  #AUUB
+        - sku: '30607696395517512926133451004860460074'  #AUUG
+        - sku: '30607696395517512926133451004860460075'  #B118
+        - sku: '30607696395517512926133451004860460076'  #B117
+        - sku: '32819280796640929958023462368196276772'  #AUU9
+        - sku: '39797502797188601593981098695968025957'  #AUU8
+        - sku: '97926294948782401008184063134316021694'  #B0YR
+compute:
+  - type: genoa
+    label: Genoa
+    cpu:
+      desc: Any AMD EPYC 9004 Series CPU (with 8 or more cores per CPU).
+      notice:
+        - User input
+      product:
+        - sku: BPVJ
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPVK
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BR2Z
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BR30
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BR31
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BR32
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BREA
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BREB
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BREC
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BRED
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BREE
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BREF
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BREG
+          qty:
+            - 0
+            - 1
+        - sku: BREH
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BREJ
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BREK
+          qty:
+            - 0
+            - 1
+        - sku: BREL
+          qty:
+            - 0
+            - 1
+        - sku: BREM
+          qty:
+            - 0
+            - 1
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BQ36
+          qty:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+            - 11
+            - 12
+            - 13
+            - 14
+            - 15
+            - 16
+            - 17
+            - 18
+            - 19
+            - 20
+            - 21
+            - 22
+            - 23
+            - 24
+        - sku: BQ37
+          qty:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+            - 11
+            - 12
+            - 13
+            - 14
+            - 15
+            - 16
+            - 17
+            - 18
+            - 19
+            - 20
+            - 21
+            - 22
+            - 23
+            - 24
+        - sku: BQ39
+          qty:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+            - 11
+            - 12
+            - 13
+            - 14
+            - 15
+            - 16
+            - 17
+            - 18
+            - 19
+            - 20
+            - 21
+            - 22
+            - 23
+            - 24
+        - sku: BQ3C
+          qty:
+            - 0
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+            - 11
+            - 12
+            - 13
+            - 14
+            - 15
+            - 16
+            - 17
+            - 18
+            - 19
+            - 20
+            - 21
+            - 22
+            - 23
+            - 24
+        - sku: BQ3D
+          qty:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+            - 11
+            - 12
+            - 13
+            - 14
+            - 15
+            - 16
+            - 17
+            - 18
+            - 19
+            - 20
+            - 21
+            - 22
+            - 23
+            - 24
+        - sku: BQ3E
+          qty:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+            - 11
+            - 12
+            - 13
+            - 14
+            - 15
+            - 16
+            - 17
+            - 18
+            - 19
+            - 20
+            - 21
+            - 22
+            - 23
+            - 24
+network:
+  - type: pcie
+    label: PCIe Network Interface
+    desc: PCIe-slot Ethernet adapter
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+    product:
+      - sku: B5SU
+        rdma: false
+      - sku: B8PP
+        rdma: false
+      - sku: BE4U
+        rdma: true
+      - sku: BK1H
+        rdma: false
+      - sku: BNWM
+        rdma: false
+  - type: OCP Card
+    label: OCP Card
+    desc: OCP Card
+    notice:
+      - User input
+    product:
+      - sku: B5T4
+        rdma: false
+        qty:
+          - 0
+      - sku: BE4T
+        rdma: false
+        qty:
+          - 0
+          - 1
+      - sku: BN2T
+        rdma: false
+        qty:
+          - 0
+          - 1
+      - sku: BPPW
+        rdma: false
+        qty:
+          - 0
+          - 1
