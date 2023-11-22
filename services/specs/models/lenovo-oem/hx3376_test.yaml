@@ -1,11 +1,12 @@
 vendor: Lenovo
-product-line: HX3776Test
+product-line: HX
 software: factory-installed
 models:
   - HX3376
 label: HX3376
 form-factor: SFF
 max-drive-count: 12
+end-of-sale: 2999-12-31
 chassis:
   label: Chassis
   use-case:
@@ -182,7 +183,7 @@ compute:
   - type: milan
     label: Milan
     cpu:
-      desc: Any AMD EPYC 7002 Series (Milan) CPU (with 16 or more cores per CPU).
+      desc: Any AMD EPYC 7003 Series (Milan) CPU (with 16 or more cores per CPU).
       notice:
         - User input
       qty:
@@ -377,7 +378,7 @@ compute:
   - type: rome
     label: Rome
     cpu:
-      desc: Any AMD EPYC 7003 Series (Rome) CPU (with 16 or more cores per CPU).
+      desc: Any AMD EPYC 7002 Series (Rome) CPU (with 16 or more cores per CPU).
       notice:
         - User input
       product:
