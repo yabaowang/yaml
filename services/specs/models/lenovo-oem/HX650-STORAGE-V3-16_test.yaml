@@ -3,7 +3,7 @@ product-line: HX
 software: factory-installed
 models:
   - HX650-STORAGE-V3-16
-label: HX650-STORAGE-V3
+label: HX650-STORAGE-V3-INTEGRATED
 form-factor: 2U
 max-drive-count: 40
 end-of-sale: 2999-12-31
@@ -19,7 +19,7 @@ chassis:
   notice:
     - '- Only Legacy BIOS is supported.'
   product:
-    - sku: 7D6NCTO4WW
+    - sku: 7D6NCTO2WW
       qual-date: '2023-04-11'
 power:
   - type: power-supply
