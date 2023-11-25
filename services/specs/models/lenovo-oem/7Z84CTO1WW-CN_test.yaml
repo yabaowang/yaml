@@ -3,7 +3,7 @@ product-line: HX
 software: factory-installed
 models:
   - 7Z84CTO1WW-CN
-label: HX5530
+label: HX5531
 form-factor: LFF+SFF
 max-drive-count: 16
 end-of-sale: 2999-12-31
@@ -19,7 +19,7 @@ chassis:
   notice:
     - Only Legacy BIOS is supported.
   product:
-    - sku: 7Z82CTO1WW
+    - sku: 7Z84CTO1WW
       qual-date: '2021-08-10'
 power:
   - type: power-supply
@@ -149,7 +149,7 @@ compute:
   - type: ice-lake
     label: Ice Lake
     cpu:
-      desc: Any Intel Ice Lake CPU (Silver, Gold, or Platinum, with 8 of core per CPU supported).
+      desc: Any Intel Ice Lake Silver, Gold, or Platinum CPU (8 or more cores per CPU).
       notice:
         - User input
       qty:
