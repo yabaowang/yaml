@@ -3,7 +3,7 @@ product-line: HX
 software: factory-installed
 models:
   - HX645-V3-12
-label: HX645-V3-INTEGRATED
+label: HX645-V3
 form-factor: 1U
 max-drive-count: 20
 end-of-sale: 2999-12-31
@@ -19,7 +19,7 @@ chassis:
   notice:
     - '- Only Legacy BIOS is supported.'
   product:
-    - sku: 7D9MCTO1WW
+    - sku: 7D9MCTO2WW
       qual-date: '2023-04-11'
 power:
   - type: power-supply
@@ -351,6 +351,12 @@ network:
     notice:
       - User input
     product:
+      - sku: AUKP
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: B5SU
         rdma: false
         qty:
@@ -385,6 +391,8 @@ network:
       - 0
       - 1
     product:
+      - sku: B5ST
+        rdma: false
       - sku: B5T4
         rdma: false
       - sku: BE4T
