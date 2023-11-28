@@ -2,7 +2,7 @@ vendor: Lenovo
 product-line: HX
 software: factory-installed
 models:
-  - HX3376
+  - model1
 label: HX3376
 form-factor: SFF
 max-drive-count: 12
@@ -10,14 +10,9 @@ end-of-sale: 2999-12-31
 chassis:
   label: Chassis
   use-case:
-    - Private Cloud
-    - Files and Objects
-    - Backup and Disaster Recovery
-    - Test and Development
-    - End-User Computing/Virtual Desktop Infrastructure
-    - Analytics and Big Data
+    - uc1
   notice:
-    - Only Legacy BIOS is supported.
+    - notice1
   product:
     - sku: 7D5UCTO2WW
       qual-date: '2020-11-17'

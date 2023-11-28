@@ -1,0 +1,270 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed
+models:
+  - HX1321
+label: HX1321
+form-factor: user input
+max-drive-count: user input
+end-of-sale: 2999-12-31
+chassis:
+  label: Chassis
+  use-case:
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - End-User Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
+  notice:
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7Y89CTO1WW
+      qual-date: '2018-06-26'
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Power Supply
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: AVW8
+      - sku: AVW9
+      - sku: AVWA
+      - sku: BR1Y
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    desc: M.2 SSD
+    notice:
+      - User input
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: AUUV
+      - sku: BQ1Y
+      - sku: BQ1Z
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: AUNL
+      - sku: BM51
+  - type: all-ssd
+    label: "Storage: All-Flash"
+    desc: Only SATA/SAS SSDs
+    ssd:
+      label: 2.5/3.5" SATA/SAS SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+        - 4
+      product:
+        - sku: '122060270581256737610386881992887468830'  #BNWA
+        - sku: '135198155629085240980711778243363888382'  #BNWB
+        - sku: '144313754993535506251104449429102224252'  #BP3G
+        - sku: '162342346609489277141388420249121888941'  #BEVK
+        - sku: '187858105084125846550886755438988737678'  #BNWH
+        - sku: '188069569160226616076564107082643940549'  #BNW7
+        - sku: '199018960766503428135023029488903209883'  #BK7F
+        - sku: '213750984261187058830418677232357682627'  #BK7P
+        - sku: '231053189894388498723219872410626354943'  #BA7N
+        - sku: '287940204586085487197211503395961716781'  #BA4X
+        - sku: '292192065953448595406574578135939727702'  #BA4Y
+        - sku: '62374217304471399016673968363563795249'  #BP3F
+  - type: hybrid
+    label: "Storage: Hybrid"
+    desc: Mix of SATA/SAS SSDs and HDDs
+    ssd:
+      label: 2.5/3.5" SATA/SAS SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: '122060270581256737610386881992887468830'  #BNWA
+        - sku: '135198155629085240980711778243363888382'  #BNWB
+        - sku: '144313754993535506251104449429102224252'  #BP3G
+        - sku: '162342346609489277141388420249121888941'  #BEVK
+        - sku: '187858105084125846550886755438988737678'  #BNWH
+        - sku: '188069569160226616076564107082643940549'  #BNW7
+        - sku: '199018960766503428135023029488903209883'  #BK7F
+        - sku: '213750984261187058830418677232357682627'  #BK7P
+        - sku: '231053189894388498723219872410626354943'  #BA7N
+        - sku: '292192065953448595406574578135939727702'  #BA4Y
+        - sku: '62374217304471399016673968363563795249'  #BP3F
+    hdd:
+      label: 3.5" HDDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: '218389756989827360827786300947249721855'  #B7F0
+        - sku: '230761773915931224877329872634875828706'  #AUU7
+        - sku: '246310157863478761569016887122932941046'  #AUUA
+        - sku: '247852257058077839798170082687693867494'  #AUU6
+        - sku: '272960956451750488714019636535593512477'  #BPKU
+        - sku: '279666357715209685781596549514785064447'  #AUUD
+        - sku: '295369276436913039785331606765510041082'  #AUUB
+        - sku: '30607696395517512926133451004860460074'  #AUUG
+        - sku: '30607696395517512926133451004860460075'  #B118
+        - sku: '30607696395517512926133451004860460076'  #B117
+        - sku: '32819280796640929958023462368196276772'  #AUU9
+        - sku: '39797502797188601593981098695968025957'  #AUU8
+        - sku: '77850583189247620843595340025771040389'  #AUUF
+        - sku: '97926294948782401008184063134316021694'  #B0YR
+compute:
+  - type: cascade-lake
+    label: Cascade Lake and Cascade Lake Refresh
+    cpu:
+      desc: Any Intel Cascade Lake or Cascade Lake Refresh CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 1
+      product:
+        - sku: B4H7
+        - sku: B4H8
+        - sku: B4H9
+        - sku: B4HA
+        - sku: B4HB
+        - sku: B4HC
+        - sku: B4HE
+        - sku: B4HF
+        - sku: B4HG
+        - sku: B4HH
+        - sku: B4HJ
+        - sku: B4HK
+        - sku: B4HL
+        - sku: B4HM
+        - sku: B4HN
+        - sku: B4HP
+        - sku: B4HQ
+        - sku: B4HR
+        - sku: B4HS
+        - sku: B4HT
+        - sku: B4P5
+        - sku: B4P6
+        - sku: B4P7
+        - sku: B4P9
+        - sku: B5RY
+        - sku: B5RZ
+        - sku: B6CJ
+        - sku: B6CK
+        - sku: B6CL
+        - sku: B6CR
+        - sku: B6CS
+        - sku: B6CT
+        - sku: B6CU
+        - sku: B6CV
+        - sku: B6PD
+        - sku: B7N5
+        - sku: B7N6
+        - sku: B7N9
+        - sku: BAZL
+        - sku: BAZM
+        - sku: BAZS
+        - sku: BAZU
+        - sku: BAZV
+        - sku: BAZW
+        - sku: BAZX
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: B4H1
+          qty:
+            - 0
+            - 12
+        - sku: B4H2
+          qty:
+            - 0
+            - 8
+            - 12
+        - sku: B4H3
+          qty:
+            - 0
+            - 8
+            - 12
+        - sku: B4LY
+          qty:
+            - 0
+            - 4
+            - 6
+        - sku: B5N6
+          qty:
+            - 0
+            - 4
+            - 6
+            - 8
+            - 12
+        - sku: B5N7
+          qty:
+            - 0
+            - 8
+            - 12
+network:
+  - type: lom
+    label: FlexibleLOM Adapter
+    desc: LAN on Motherboard (LOM) Adapter
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: AUKJ
+        rdma: false
+      - sku: AUKK
+        rdma: false
+      - sku: AUKL
+        rdma: false
+      - sku: AUKM
+        rdma: false
+  - type: pcie
+    label: PCIe Network Interface
+    desc: PCIe-slot Ethernet adapter
+    notice:
+      - User input
+    product:
+      - sku: ATPX
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+      - sku: AUAJ
+        rdma: true
+        qty:
+          - 0
+          - 1
+          - 2
+      - sku: AUKX
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+      - sku: B31C
+        rdma: false
+        qty:
+          - 0
+          - 1
+      - sku: BD49
+        rdma: false
+        qty:
+          - 0
+          - 1

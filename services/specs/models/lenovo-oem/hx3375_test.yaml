@@ -2,8 +2,8 @@ vendor: Lenovo
 product-line: HX
 software: factory-installed
 models:
-  - HX3376
-label: HX3376
+  - HX3375
+label: HX3375
 form-factor: SFF
 max-drive-count: 12
 end-of-sale: 2999-12-31
@@ -19,7 +19,7 @@ chassis:
   notice:
     - Only Legacy BIOS is supported.
   product:
-    - sku: 7D5UCTO2WW
+    - sku: 7D5UCTO1WW
       qual-date: '2020-11-17'
 power:
   - type: power-supply
