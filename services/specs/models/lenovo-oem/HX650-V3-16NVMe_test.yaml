@@ -3,7 +3,7 @@ product-line: HX
 software: factory-installed
 models:
   - HX650-V3-16NVMe
-label: HX650-V3-INTEGRATED
+label: HX650-V3
 form-factor: 2U
 max-drive-count: 40
 end-of-sale: 2999-12-31
@@ -19,7 +19,7 @@ chassis:
   notice:
     - '- Only Legacy BIOS is supported.'
   product:
-    - sku: 7D6NCTO1WW
+    - sku: 7D6NCTO3WW
       qual-date: '2023-04-11'
 power:
   - type: power-supply
@@ -312,6 +312,17 @@ network:
     notice:
       - User input
     product:
+      - sku: AUKP
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
       - sku: B5SU
         rdma: false
         qty:
@@ -349,6 +360,8 @@ network:
       - 0
       - 1
     product:
+      - sku: B5ST
+        rdma: false
       - sku: B5T4
         rdma: false
       - sku: BE4T
