@@ -312,6 +312,17 @@ network:
     notice:
       - User input
     product:
+      - sku: AUKP
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
       - sku: B5SU
         rdma: false
         qty:
@@ -349,6 +360,8 @@ network:
       - 0
       - 1
     product:
+      - sku: B5ST
+        rdma: false
       - sku: B5T4
         rdma: false
       - sku: BE4T
