@@ -3,23 +3,23 @@ product-line: HX
 software: factory-installed
 models:
   - HX665-V3-STORAGE
-label: HX665-V3-STORAGE-INTEGRATED
+label: HX665-V3-STORAGE
 form-factor: 2U
 max-drive-count: 40
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
   use-case:
-    - '- Private Cloud'
-    - '- Files and Objects'
-    - '- Backup and Disaster Recovery'
-    - '- Test and Development'
-    - '- End-User Computing/Virtual Desktop Infrastructure'
-    - '- Analytics and Big Data'
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - EndUser Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
   notice:
-    - '- Only Legacy BIOS is supported.'
+    - Only Legacy BIOS is supported.
   product:
-    - sku: 7D9NCTO2WW
+    - sku: 7D9NCTO4WW
       qual-date: '2023-04-11'
 power:
   - type: power-supply
