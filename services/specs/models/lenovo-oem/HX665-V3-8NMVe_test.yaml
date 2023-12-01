@@ -5,7 +5,7 @@ models:
   - HX665-V3-8NMVe
 label: HX665-V3
 form-factor: 2U
-max-drive-count: 40
+max-drive-count: 4
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
