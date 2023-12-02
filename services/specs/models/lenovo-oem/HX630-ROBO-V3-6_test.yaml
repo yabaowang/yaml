@@ -5,19 +5,19 @@ models:
   - HX630-ROBO-V3-6
 label: HX630-ROBO-V3
 form-factor: 1U
-max-drive-count: 4
+max-drive-count: 26
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
   use-case:
-    - '- Private Cloud'
-    - '- Files and Objects'
-    - '- Backup and Disaster Recovery'
-    - '- Test and Development'
-    - '- End-User Computing/Virtual Desktop Infrastructure'
-    - '- Analytics and Big Data'
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - EndUser Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
   notice:
-    - '- Only Legacy BIOS is supported.'
+    - Only Legacy BIOS is supported.
   product:
     - sku: 7D6MCTO4WW
       qual-date: '2023-06-16'
