@@ -5,7 +5,7 @@ models:
   - HX630-V3-INTEGRATED-10SFF
 label: HX630-V3-INTEGRATED
 form-factor: 1U
-max-drive-count: 12
+max-drive-count: 25
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
@@ -14,7 +14,7 @@ chassis:
     - Files and Objects
     - Backup and Disaster Recovery
     - Test and Development
-    - End-User Computing/Virtual Desktop Infrastructure
+    - EndUser Computing/Virtual Desktop Infrastructure
     - Analytics and Big Data
   notice:
     - Only Legacy BIOS is supported.
