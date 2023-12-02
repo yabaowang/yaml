@@ -14,7 +14,7 @@ chassis:
     - Files and Objects
     - Backup and Disaster Recovery
     - Test and Development
-    - End-User Computing/Virtual Desktop Infrastructure
+    - EndUser Computing/Virtual Desktop Infrastructure
     - Analytics and Big Data
   notice:
     - Only Legacy BIOS is supported.
