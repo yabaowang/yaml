@@ -5,7 +5,7 @@ models:
   - HX630-ROBO-V3-INTEGRATED-6
 label: HX630-ROBO-V3-INTEGRATED
 form-factor: 1U
-max-drive-count: 4
+max-drive-count: 28
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
@@ -16,9 +16,7 @@ chassis:
     - Test and Development
     - EndUser Computing/Virtual Desktop Infrastructure
     - Analytics and Big Data
-    - 1231212121
   notice:
-    - Only Legacy BIOS is supported.
     - Only Legacy BIOS is supported.
   product:
     - sku: 7D6MCTO2WW
