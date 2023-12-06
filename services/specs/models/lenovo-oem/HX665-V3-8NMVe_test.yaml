@@ -5,7 +5,7 @@ models:
   - HX665-V3-8NMVe
 label: HX665-V3
 form-factor: 2U
-max-drive-count: 4
+max-drive-count: 22
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
@@ -14,9 +14,13 @@ chassis:
     - Files and Objects
     - Backup and Disaster Recovery
     - Test and Development
-    - End-User Computing/Virtual Desktop Infrastructure
+    - EndUser Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
+    - Analytics and Big Data
+    - Analytics and Big Data
     - Analytics and Big Data
   notice:
+    - Only Legacy BIOS is supported.
     - Only Legacy BIOS is supported.
   product:
     - sku: 7D9NCTO3WW
