@@ -5,7 +5,7 @@ models:
   - HX665-V3-INTEGRATED-16NMVe
 label: HX665-V3-INTEGRATED
 form-factor: 2U
-max-drive-count: 2
+max-drive-count: 40
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
