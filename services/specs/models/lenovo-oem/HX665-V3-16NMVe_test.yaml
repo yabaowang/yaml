@@ -38,6 +38,7 @@ power:
 boot:
   - type: m.2-boot-drive
     label: Boot Drive
+    desc: M.2 SSD
     notice:
       - User input
     qty:
@@ -45,6 +46,7 @@ boot:
       - 2
     product:
       - sku: BKSR
+      - sku: BXMH
 storage:
   - type: storage-controller
     label: Storage Controller
@@ -359,19 +361,33 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
-    qty:
-      - 0
-      - 1
-      - 2
     product:
+      - sku: AUKP
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: B5SU
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: B8PP
         rdma: false
+        qty:
+          - 0
       - sku: BE4U
         rdma: true
+        qty:
+          - 0
       - sku: BK1H
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
   - type: OCP Card
     label: OCP Card
     desc: OCP Card
@@ -381,6 +397,8 @@ network:
       - 0
       - 1
     product:
+      - sku: B5ST
+        rdma: false
       - sku: B5T4
         rdma: false
       - sku: BE4T
