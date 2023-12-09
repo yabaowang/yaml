@@ -5,7 +5,7 @@ models:
   - HX630-ROBO-V3-4
 label: HX630-ROBO-V3
 form-factor: 1U
-max-drive-count: 27
+max-drive-count: 21
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
@@ -27,15 +27,18 @@ power:
     desc: Power Supply
     qty:
       - 0
+      - 1
       - 2
     product:
       - sku: B8QE
       - sku: BLKH
       - sku: BNFG
       - sku: BNFH
+      - sku: BR1X
 boot:
   - type: m.2-boot-drive
     label: Boot Drive
+    desc: M.2 SSD
     notice:
       - User input
     qty:
@@ -43,6 +46,7 @@ boot:
       - 2
     product:
       - sku: BKSR
+      - sku: BXMH
 storage:
   - type: storage-controller
     label: Storage Controller
