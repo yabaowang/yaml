@@ -52,6 +52,9 @@ boot:
         qty:
           - 0
           - 1
+      - sku: BXMH
+        qty:
+          - 0
 storage:
   - type: storage-controller
     label: Storage Controller
