@@ -5,19 +5,19 @@ models:
   - HX645-V3-10
 label: HX645-V3
 form-factor: 1U
-max-drive-count: 20
+max-drive-count: 10
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
   use-case:
-    - Private Cloud
-    - Files and Objects
-    - Backup and Disaster Recovery
-    - Test and Development
-    - EndUser Computing/Virtual Desktop Infrastructure
-    - Analytics and Big Data
+    - '- Private Cloud'
+    - '- Files and Objects'
+    - '- Backup and Disaster Recovery'
+    - '- Test and Development'
+    - '- End-User Computing/Virtual Desktop Infrastructure'
+    - '- Analytics and Big Data'
   notice:
-    - Only Legacy BIOS is supported.
+    - '- Only Legacy BIOS is supported.'
   product:
     - sku: 7D9MCTO2WW
       qual-date: '2023-04-11'
