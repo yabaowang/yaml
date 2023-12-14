@@ -5,19 +5,19 @@ models:
   - HX650-V3-8AnyBay+16SATA/SAS
 label: HX650-V3
 form-factor: 2U
-max-drive-count: 40
+max-drive-count: 24
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
   use-case:
-    - Private Cloud
-    - Files and Objects
-    - Backup and Disaster Recovery
-    - Test and Development
-    - EndUser Computing/Virtual Desktop Infrastructure
-    - Analytics and Big Data
+    - '- Private Cloud'
+    - '- Files and Objects'
+    - '- Backup and Disaster Recovery'
+    - '- Test and Development'
+    - '- End-User Computing/Virtual Desktop Infrastructure'
+    - '- Analytics and Big Data'
   notice:
-    - Only Legacy BIOS is supported.
+    - '- Only Legacy BIOS is supported.'
   product:
     - sku: 7D6NCTO3WW
       qual-date: '2023-04-11'
