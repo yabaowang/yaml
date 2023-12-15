@@ -395,33 +395,10 @@ gpu:
     label: Dual slot GPU Adapter
     desc: PCIe GPU Adapter
     product:
-      - sku: BQZP
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-      - sku: BQZQ
-        qty:
-          - 0
-          - 1
-          - 2
-      - sku: BQZR
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
       - sku: BQZT
         qty:
           - 0
       - sku: BQZU
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-      - sku: BR9U
         qty:
           - 0
           - 1
