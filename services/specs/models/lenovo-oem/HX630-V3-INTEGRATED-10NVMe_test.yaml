@@ -334,9 +334,7 @@ network:
 gpu:
   - type: gpu
     label: Dual slot GPU Adapter
-    desc: PCIe GPU Adapter
     qty:
       - 0
     product:
       - sku: BQZT
-      - sku: BS2C
