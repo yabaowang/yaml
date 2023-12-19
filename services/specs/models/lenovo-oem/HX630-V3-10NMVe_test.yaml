@@ -32,6 +32,7 @@ power:
     product:
       - sku: B8QE
       - sku: BLKH
+      - sku: BMUF
       - sku: BNFG
       - sku: BNFH
       - sku: BR1X
