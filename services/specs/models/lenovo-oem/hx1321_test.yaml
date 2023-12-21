@@ -6,7 +6,7 @@ models:
 label: HX1321
 form-factor: user input
 max-drive-count: user input
-end-of-sale: 2999-12-31
+end-of-sale: 2023-12-31
 chassis:
   label: Chassis
   use-case:
