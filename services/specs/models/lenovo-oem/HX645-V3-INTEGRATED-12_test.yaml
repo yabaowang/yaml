@@ -32,9 +32,11 @@ power:
     product:
       - sku: B8QE
       - sku: BLKH
+      - sku: BMUF
       - sku: BNFG
       - sku: BNFH
       - sku: BPK9
+      - sku: BR1X
 boot:
   - type: m.2-boot-drive
     label: Boot Drive
