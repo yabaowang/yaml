@@ -21,7 +21,7 @@ chassis:
   product:
     - sku: 7D9NCTO1WW
       qual-date: '2023-06-16'
-  addselections: "[{\"featureCode\":\"BH8D\",\"quantity\":2},{\"featureCode\":\"1\",\"quantity\":1}]"
+  addselections: "[{\"featureCode\":\"BH8D\",\"quantity\":2},{\"featureCode\":\"BM50\",\"quantity\":1}]"
 power:
   - type: power-supply
     label: Power Supply
@@ -67,6 +67,19 @@ storage:
         - User input
       qty:
         - 0
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
       product:
         - sku: '10209010011690671199695486151095062261'  #BK77
         - sku: '110907501008005170208437423483396411846'  #BA4T
@@ -87,18 +100,6 @@ storage:
         - User input
       qty:
         - 0
-        - 4
-        - 5
-        - 6
-        - 7
-        - 8
-        - 9
-        - 10
-        - 11
-        - 12
-        - 13
-        - 14
-        - 15
         - 16
       product:
         - sku: '112038478630131237586193907380539952319'  #BNEF
@@ -123,6 +124,19 @@ storage:
         - User input
       qty:
         - 0
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
       product:
         - sku: '10209010011690671199695486151095062261'  #BK77
         - sku: '110907501008005170208437423483396411846'  #BA4T
@@ -138,18 +152,6 @@ storage:
       label: 2.5" NVMe SSDs
       qty:
         - 0
-        - 4
-        - 5
-        - 6
-        - 7
-        - 8
-        - 9
-        - 10
-        - 11
-        - 12
-        - 13
-        - 14
-        - 15
         - 16
       product:
         - sku: '112038478630131237586193907380539952319'  #BNEF
