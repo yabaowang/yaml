@@ -21,7 +21,7 @@ chassis:
   product:
     - sku: 7D6MCTO3WW
       qual-date: '2023-04-11'
-  addselections: "[{\"featureCode\":\"BCQQ\",\"quantity\":1},{\"featureCode\":\"BMGD\",\"quantity\":2},{\"featureCode\":\"BDY6\",\"quantity\":1}]"
+  addselections: "[{\"featureCode\":\"BCQQ\",\"quantity\":1},{\"featureCode\":\"BMGD\",\"quantity\":2},{\"featureCode\":\"BDY6\",\"quantity\":1},{\"featureCode\":\"BP39\",\"quantity\":1},{\"featureCode\":\"BM50\",\"quantity\":0}]"
 power:
   - type: power-supply
     label: Power Supply
