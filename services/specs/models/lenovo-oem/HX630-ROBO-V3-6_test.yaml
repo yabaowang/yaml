@@ -21,7 +21,7 @@ chassis:
   product:
     - sku: 7D6MCTO4WW
       qual-date: '2023-06-16'
-  addselections: "[{\"featureCode\":\"B8MY\",\"quantity\":1},{\"featureCode\":\"BNW9\",\"quantity\":2},{\"featureCode\":\"AUU8\",\"quantity\":4},{\"featureCode\":\"BP39\",\"quantity\":1}]"
+  addselections: "[{\"featureCode\":\"B8MY\",\"quantity\":1},{\"featureCode\":\"BNW9\",\"quantity\":2},{\"featureCode\":\"AUU8\",\"quantity\":4}]"
 power:
   - type: power-supply
     label: Power Supply
