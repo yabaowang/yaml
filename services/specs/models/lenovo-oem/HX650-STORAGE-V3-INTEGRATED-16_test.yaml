@@ -143,7 +143,6 @@ storage:
         - User input
       qty:
         - 0
-        - 4
         - 10
         - 12
       product:
