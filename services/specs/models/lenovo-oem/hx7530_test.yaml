@@ -408,6 +408,10 @@ gpu:
       - sku: BQZS
         qty:
           - 0
+          - 1
+          - 2
+          - 3
+          - 4
       - sku: BQZU
         qty:
           - 0
