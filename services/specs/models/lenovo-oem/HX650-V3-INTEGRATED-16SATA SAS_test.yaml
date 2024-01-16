@@ -276,6 +276,7 @@ compute:
             - 8
             - 12
             - 16
+            - 24
             - 32
         - sku: BNF9
           qty:
