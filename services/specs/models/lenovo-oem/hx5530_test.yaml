@@ -6,7 +6,7 @@ models:
 label: HX5530
 form-factor: LFF+SFF
 max-drive-count: 16
-end-of-sale: 2999-12-31
+end-of-sale: '2999-12-31'
 chassis:
   label: Chassis
   use-case:
@@ -49,6 +49,7 @@ boot:
 storage:
   - type: storage-controller
     label: Storage Controller
+    desc: User input
     notice:
       - User input
     qty:
