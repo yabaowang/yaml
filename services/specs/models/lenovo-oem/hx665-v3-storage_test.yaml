@@ -50,7 +50,7 @@ boot:
 storage:
   - type: storage-controller
     label: Storage Controller
-    desc: User input
+    desc: Storage Controller
     notice:
       - User input
     qty:
@@ -452,9 +452,9 @@ network:
           - 3
           - 4
           - 5
-  - type: OCP Card
-    label: OCP Card
-    desc: OCP Card
+  - type: ocp3
+    label: ocp3
+    desc: ocp3
     notice:
       - User input
     product:
