@@ -302,38 +302,16 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
+    qty:
+      - 0
+      - 1
     product:
       - sku: AUKP
         rdma: false
-        qty:
-          - 0
-          - 1
       - sku: B5SU
         rdma: false
-        qty:
-          - 0
-          - 1
       - sku: B5T0
         rdma: false
-        qty:
-          - 0
-          - 1
-      - sku: B653
-        rdma: false
-        qty:
-          - 0
-      - sku: B8PP
-        rdma: false
-        qty:
-          - 0
-      - sku: BD49
-        rdma: false
-        qty:
-          - 0
-      - sku: BE4U
-        rdma: true
-        qty:
-          - 0
   - type: ocp3
     label: ocp3
     desc: ocp3
@@ -356,12 +334,8 @@ network:
 gpu:
   - type: gpu
     label: Dual slot GPU Adapter
-    desc: PCIe GPU Adapter
+    qty:
+      - 0
+      - 1
     product:
       - sku: B4YB
-        qty:
-          - 0
-          - 1
-      - sku: BQZT
-        qty:
-          - 0
