@@ -52,21 +52,12 @@ storage:
     desc: Storage Controller
     notice:
       - User input
+    qty:
+      - 0
+      - 1
     product:
-      - sku: AUNL
-        qty:
-          - 0
       - sku: AUNM
-        qty:
-          - 0
-          - 1
       - sku: BM50
-        qty:
-          - 0
-          - 1
-      - sku: BM51
-        qty:
-          - 0
   - type: all-ssd
     label: "Storage: All-Flash"
     desc: Only SATA/SAS SSDs
@@ -323,55 +314,22 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
+    qty:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
     product:
       - sku: AUKP
         rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-          - 4
-          - 5
       - sku: B5SU
         rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-          - 4
-          - 5
       - sku: B5T0
         rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-          - 4
-          - 5
-      - sku: B653
-        rdma: false
-        qty:
-          - 0
-      - sku: B8PP
-        rdma: false
-        qty:
-          - 0
       - sku: BD49
         rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-          - 4
-          - 5
-      - sku: BE4U
-        rdma: true
-        qty:
-          - 0
   - type: ocp3
     label: ocp3
     desc: ocp3
