@@ -259,8 +259,8 @@ network:
       - sku: BD49
         rdma: false
   - type: ocp3
-    label: ocp3
-    desc: ocp3
+    label: Ocp3
+    desc: Ocp3
     notice:
       - User input
     qty:
