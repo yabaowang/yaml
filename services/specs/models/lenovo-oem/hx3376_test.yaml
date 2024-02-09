@@ -6,7 +6,7 @@ models:
 label: HX3376
 form-factor: SFF
 max-drive-count: 12
-end-of-sale: 2999-12-31
+end-of-sale: '2999-12-31'
 chassis:
   label: Chassis
   use-case:
@@ -640,22 +640,14 @@ network:
           - 0
           - 1
           - 2
-      - sku: B8PP
-        rdma: false
-        qty:
-          - 0
       - sku: BD49
         rdma: false
         qty:
           - 0
           - 1
-      - sku: BE4U
-        rdma: true
-        qty:
-          - 0
-  - type: OCP Card
-    label: OCP Card
-    desc: OCP Card
+  - type: ocp3
+    label: Ocp3
+    desc: Ocp3
     notice:
       - User input
     qty:
@@ -669,13 +661,9 @@ network:
 gpu:
   - type: gpu
     label: Dual slot GPU Adapter
-    desc: PCIe GPU Adapter
+    qty:
+      - 0
+      - 1
+      - 2
     product:
       - sku: B4YB
-        qty:
-          - 0
-          - 1
-          - 2
-      - sku: BQZT
-        qty:
-          - 0
