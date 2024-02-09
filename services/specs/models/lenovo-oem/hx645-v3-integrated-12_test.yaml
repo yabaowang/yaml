@@ -70,7 +70,6 @@ storage:
         - User input
       qty:
         - 0
-        - 2
         - 8
         - 9
         - 10
@@ -124,7 +123,6 @@ storage:
         - User input
       qty:
         - 0
-        - 2
         - 8
         - 9
         - 10
