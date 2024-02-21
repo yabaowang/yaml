@@ -6,7 +6,6 @@ models:
 label: HX2330
 form-factor: LFF+SFF
 max-drive-count: 6
-end-of-sale: '2999-12-31'
 chassis:
   label: Chassis
   use-case:
