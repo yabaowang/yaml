@@ -6,7 +6,6 @@ models:
 label: HX7530
 form-factor: SFF
 max-drive-count: 24
-end-of-sale: '2999-12-31'
 chassis:
   label: Chassis
   use-case:
