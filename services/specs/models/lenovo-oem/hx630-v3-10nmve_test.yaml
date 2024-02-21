@@ -6,7 +6,6 @@ models:
 label: HX630-V3
 form-factor: 1U
 max-drive-count: 10
-end-of-sale: '2999-12-31'
 chassis:
   label: Chassis
   use-case:
