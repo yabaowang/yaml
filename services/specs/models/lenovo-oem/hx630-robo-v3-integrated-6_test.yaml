@@ -6,7 +6,6 @@ models:
 label: HX630-ROBO-V3-INTEGRATED
 form-factor: 1U
 max-drive-count: 6
-end-of-sale: '2999-12-31'
 chassis:
   label: Chassis
   use-case:
