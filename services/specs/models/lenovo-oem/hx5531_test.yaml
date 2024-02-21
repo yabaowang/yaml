@@ -6,7 +6,6 @@ models:
 label: HX5531
 form-factor: LFF+SFF
 max-drive-count: 16
-end-of-sale: '2999-12-31'
 chassis:
   label: Chassis
   use-case:
