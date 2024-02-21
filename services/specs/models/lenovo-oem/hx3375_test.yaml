@@ -6,7 +6,6 @@ models:
 label: HX3375
 form-factor: SFF
 max-drive-count: 12
-end-of-sale: '2999-12-31'
 chassis:
   label: Chassis
   use-case:
