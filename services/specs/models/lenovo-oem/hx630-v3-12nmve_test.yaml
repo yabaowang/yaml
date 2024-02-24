@@ -1,0 +1,257 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed
+models:
+  - HX630-V3-12NMVe
+label: HX630-V3
+form-factor: 1U
+max-drive-count: 12
+chassis:
+  label: Chassis
+  use-case:
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - EndUser Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
+  notice:
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7D6MCTO3WW
+      qual-date: '2023-04-11'
+  addselections: "[{\"featureCode\":\"BCQQ\",\"quantity\":1},{\"featureCode\":\"BMGD\",\"quantity\":12},{\"featureCode\":\"BDY6\",\"quantity\":1},{\"featureCode\":\"BP39\",\"quantity\":1},{\"featureCode\":\"BM50\",\"quantity\":0}]"
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Power Supply
+    qty:
+      - 0
+      - 1
+      - 2
+    product:
+      - sku: B8QE
+      - sku: BLKH
+      - sku: BMUF
+      - sku: BNFG
+      - sku: BNFH
+      - sku: BR1X
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    desc: M.2 SSD
+    notice:
+      - User input
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: BKSR
+      - sku: BXMH
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    desc: Storage Controller
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: BM50
+  - type: nvme
+    label: "Storage: All-Flash"
+    desc: NVMe SSDs
+    nvme:
+      label: 2.5" NVMe SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 12
+      product:
+        - sku: '112038478630131237586193907380539952319'  #BNEF
+        - sku: '153065225937697628599364817257885194773'  #BNEH
+        - sku: '202957591569410637529391786487925525673'  #BNEJ
+        - sku: '26159336137134285713074164878184121985'  #BNEY
+        - sku: '262847484005347277409360114803755853006'  #BNEL
+        - sku: '266909890325629097707904714698305494524'  #BNEG
+        - sku: '278693413024796672312209931651451004106'  #BNEQ
+        - sku: '288498055740535039981445542103255889293'  #BMGE
+        - sku: '310363781802480819686723820574277215321'  #BNF5
+        - sku: '46485078139297288533515309376675755374'  #BNEZ
+        - sku: '47083911137979600878753532942275014992'  #BQAV
+        - sku: '47314370485338588741939771487044238694'  #BNF2
+        - sku: '55394019875445096014921870391605782598'  #BMGD
+        - sku: '73424999212828783750626608684377593885'  #BNF4
+  - type: ssd-nvme
+    label: "Storage: All-Flash"
+    desc: Only SATA/SAS and NVMe SSDs
+    nvme:
+      label: 2.5" NVMe SSDs
+      qty:
+        - 0
+        - 12
+      product:
+        - sku: '112038478630131237586193907380539952319'  #BNEF
+        - sku: '153065225937697628599364817257885194773'  #BNEH
+        - sku: '202957591569410637529391786487925525673'  #BNEJ
+        - sku: '26159336137134285713074164878184121985'  #BNEY
+        - sku: '262847484005347277409360114803755853006'  #BNEL
+        - sku: '266909890325629097707904714698305494524'  #BNEG
+        - sku: '278693413024796672312209931651451004106'  #BNEQ
+        - sku: '288498055740535039981445542103255889293'  #BMGE
+        - sku: '310363781802480819686723820574277215321'  #BNF5
+        - sku: '46485078139297288533515309376675755374'  #BNEZ
+        - sku: '47083911137979600878753532942275014992'  #BQAV
+        - sku: '47314370485338588741939771487044238694'  #BNF2
+        - sku: '55394019875445096014921870391605782598'  #BMGD
+        - sku: '73424999212828783750626608684377593885'  #BNF4
+compute:
+  - type: sapphire-rapids
+    label: Sapphire Rapids
+    cpu:
+      desc: Any Intel Sapphire Rapids CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: BPPB
+        - sku: BPPC
+        - sku: BPPF
+        - sku: BPPG
+        - sku: BPPH
+        - sku: BPPJ
+        - sku: BPPM
+        - sku: BPPQ
+        - sku: BPQA
+        - sku: BPQB
+        - sku: BPQC
+        - sku: BPQD
+        - sku: BPQE
+        - sku: BPQF
+        - sku: BQ62
+        - sku: BQ63
+        - sku: BQ64
+        - sku: BQ65
+        - sku: BQ66
+        - sku: BQ67
+        - sku: BQ69
+        - sku: BQ6A
+        - sku: BQ6B
+        - sku: BQ6C
+        - sku: BQ6D
+        - sku: BQ6E
+        - sku: BQ6F
+        - sku: BQ6H
+        - sku: BQ6K
+        - sku: BQ6L
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BKTL
+          qty:
+            - 0
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BKTM
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BKTN
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF6
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF8
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF9
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNFC
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+network:
+  - type: pcie
+    label: PCIe Network Interface
+    desc: PCIe-slot Ethernet adapter
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+      - 2
+    product:
+      - sku: AUKP
+        rdma: false
+      - sku: B5SU
+        rdma: false
+      - sku: BK1H
+        rdma: false
+  - type: ocp3
+    label: Ocp3
+    desc: Ocp3
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: B5ST
+        rdma: false
+      - sku: B5T4
+        rdma: false
+      - sku: BE4T
+        rdma: false
+      - sku: BN2T
+        rdma: false
