@@ -1,0 +1,394 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed
+models:
+  - HX630-ROBO-V3-INTEGRATED-4LFF
+label: HX630-ROBO-V3-INTEGRATED
+form-factor: 1U
+max-drive-count: 4
+chassis:
+  label: Chassis
+  use-case:
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - EndUser Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
+  notice:
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7D6MCTO2WW
+      qual-date: '2023-06-16'
+  addselections: "[]"
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Power Supply
+    qty:
+      - 0
+      - 1
+      - 2
+    product:
+      - sku: B8QE
+      - sku: BLKH
+      - sku: BMUF
+      - sku: BNFG
+      - sku: BNFH
+      - sku: BR1X
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    desc: M.2 SSD
+    notice:
+      - User input
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: BKSR
+      - sku: BXMH
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    desc: Storage Controller
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: BM51
+  - type: all-ssd
+    label: "Storage: All-Flash"
+    desc: Only SATA/SAS SSDs
+    ssd:
+      label: 2.5/3.5" SATA/SAS SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+        - 3
+        - 4
+      product:
+        - sku: '122060270581256737610386881992887468830'  #BNWA
+        - sku: '187858105084125846550886755438988737678'  #BNWH
+        - sku: '199018960766503428135023029488903209883'  #BK7F
+        - sku: '213750984261187058830418677232357682627'  #BK7P
+        - sku: '231053189894388498723219872410626354943'  #BA7N
+        - sku: '287940204586085487197211503395961716781'  #BA4X
+        - sku: '292192065953448595406574578135939727702'  #BA4Y
+        - sku: '62374217304471399016673968363563795249'  #BP3F
+  - type: hybrid
+    label: "Storage: Hybrid"
+    desc: Mix of SATA/SAS SSDs and HDDs
+    ssd:
+      label: 2.5/3.5" SATA/SAS SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: '122060270581256737610386881992887468830'  #BNWA
+        - sku: '187858105084125846550886755438988737678'  #BNWH
+        - sku: '199018960766503428135023029488903209883'  #BK7F
+        - sku: '213750984261187058830418677232357682627'  #BK7P
+        - sku: '231053189894388498723219872410626354943'  #BA7N
+        - sku: '292192065953448595406574578135939727702'  #BA4Y
+        - sku: '62374217304471399016673968363563795249'  #BP3F
+    hdd:
+      label: 3.5" HDDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: '218389756989827360827786300947249721855'  #B7F0
+        - sku: '246310157863478761569016887122932941046'  #AUUA
+        - sku: '272960956451750488714019636535593512477'  #BPKU
+        - sku: '295369276436913039785331606765510041082'  #AUUB
+        - sku: '30607696395517512926133451004860460074'  #AUUG
+        - sku: '30607696395517512926133451004860460075'  #B118
+        - sku: '30607696395517512926133451004860460076'  #B117
+        - sku: '32819280796640929958023462368196276772'  #AUU9
+        - sku: '39797502797188601593981098695968025957'  #AUU8
+compute:
+  - type: sapphire-rapids
+    label: Sapphire Rapids
+    cpu:
+      desc: Any Intel Sapphire Rapids CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - User input
+      product:
+        - sku: BPPB
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPC
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPD
+          qty:
+            - 0
+            - 1
+        - sku: BPPF
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPG
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPH
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPJ
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPK
+          qty:
+            - 0
+            - 1
+        - sku: BPPM
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPQ
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPR
+          qty:
+            - 0
+            - 1
+        - sku: BPQA
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPQB
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPQC
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPQD
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPQE
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPQF
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ62
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ63
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ64
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ65
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ66
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ67
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ69
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6A
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6B
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6C
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6D
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6E
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6F
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6G
+          qty:
+            - 0
+            - 1
+        - sku: BQ6H
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6J
+          qty:
+            - 0
+            - 1
+        - sku: BQ6K
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6L
+          qty:
+            - 0
+            - 1
+            - 2
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BKTL
+          qty:
+            - 0
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BKTM
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BKTN
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF6
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF8
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF9
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNFC
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+network:
+  - type: pcie
+    label: PCIe Network Interface
+    desc: PCIe-slot Ethernet adapter
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: AUKP
+        rdma: false
+      - sku: B5SU
+        rdma: false
+      - sku: BK1H
+        rdma: false
+  - type: ocp3
+    label: Ocp3
+    desc: Ocp3
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: B5ST
+        rdma: false
+      - sku: B5T4
+        rdma: false
+      - sku: BE4T
+        rdma: false
+      - sku: BN2T
+        rdma: false
