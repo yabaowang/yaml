@@ -6,7 +6,7 @@ models:
 label: HX3376
 form-factor: SFF
 max-drive-count: 12
-end-of-sale: '2999-12-31'
+end-of-sale: '2024-03-31'
 chassis:
   label: Chassis
   use-case:
