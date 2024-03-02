@@ -335,6 +335,8 @@ network:
         rdma: false
       - sku: BK1H
         rdma: false
+      - sku: BNWM
+        rdma: false
   - type: ocp3
     label: Ocp3
     desc: Ocp3
@@ -351,6 +353,8 @@ network:
       - sku: BE4T
         rdma: false
       - sku: BN2T
+        rdma: false
+      - sku: BPPW
         rdma: false
 gpu:
   - type: gpu
