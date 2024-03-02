@@ -225,17 +225,30 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
-    qty:
-      - 0
-      - 1
-      - 2
     product:
       - sku: AUKP
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: B5SU
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: BK1H
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+      - sku: BNWM
+        rdma: false
+        qty:
+          - 0
+          - 1
   - type: ocp3
     label: Ocp3
     desc: Ocp3
@@ -252,4 +265,6 @@ network:
       - sku: BE4T
         rdma: false
       - sku: BN2T
+        rdma: false
+      - sku: BPPW
         rdma: false
