@@ -49,7 +49,6 @@ boot:
 storage:
   - type: storage-controller
     label: Storage Controller
-    desc: Storage Controller
     notice:
       - User input
     qty:
