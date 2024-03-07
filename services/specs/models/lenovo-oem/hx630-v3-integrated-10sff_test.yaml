@@ -20,7 +20,6 @@ chassis:
   product:
     - sku: 7D6MCTO1WW
       qual-date: '2023-04-11'
-  addselections: "[]"
 power:
   - type: power-supply
     label: Power Supply
@@ -51,7 +50,6 @@ boot:
 storage:
   - type: storage-controller
     label: Storage Controller
-    desc: Storage Controller
     notice:
       - User input
     qty:
