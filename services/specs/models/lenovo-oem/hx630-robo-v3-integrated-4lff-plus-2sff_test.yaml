@@ -124,6 +124,385 @@ storage:
         - sku: '30607696395517512926133451004860460076'  #B117
         - sku: '32819280796640929958023462368196276772'  #AUU9
         - sku: '39797502797188601593981098695968025957'  #AUU8
+compute:
+  - type: sapphire-rapids
+    label: Sapphire Rapids
+    cpu:
+      desc: Any Intel Sapphire Rapids CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - User input
+      product:
+        - sku: BPPB
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPC
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPD
+          qty:
+            - 0
+            - 1
+        - sku: BPPF
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPG
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPH
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPJ
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPK
+          qty:
+            - 0
+            - 1
+        - sku: BPPM
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPQ
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPPR
+          qty:
+            - 0
+            - 1
+        - sku: BPQA
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPQB
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPQC
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPQD
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPQE
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BPQF
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ62
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ63
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ64
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ65
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ66
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ67
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ69
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6A
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6B
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6C
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6D
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6E
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6F
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6G
+          qty:
+            - 0
+            - 1
+        - sku: BQ6H
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6J
+          qty:
+            - 0
+            - 1
+        - sku: BQ6K
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BQ6L
+          qty:
+            - 0
+            - 1
+            - 2
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BKTL
+          qty:
+            - 0
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BKTM
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BKTN
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF6
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF8
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF9
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNFC
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+  - type: emerald-rapids
+    label: Emerald Rapids
+    cpu:
+      desc: Any Intel Emerald Rapids CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - User input
+      product:
+        - sku: BYVP
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYVR
+          qty:
+            - 0
+            - 1
+        - sku: BYVU
+          qty:
+            - 0
+            - 1
+        - sku: BYVX
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYVY
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYVZ
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW0
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW1
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW2
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW3
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW4
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW8
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYWE
+          qty:
+            - 0
+            - 1
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BKTL
+          qty:
+            - 0
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BKTM
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BKTN
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF6
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF8
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF9
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNFC
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
 network:
   - type: pcie
     label: PCIe Network Interface
