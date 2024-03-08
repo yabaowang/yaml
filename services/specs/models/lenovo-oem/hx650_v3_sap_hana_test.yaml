@@ -91,6 +91,128 @@ storage:
         - sku: '73630712496678399826613870117068185368'  #BNW8
         - sku: '87649502253137511892050312897772792552'  #BP3E
         - sku: '95959826362673324736924533895404336295'  #BWKL
+compute:
+  - type: sapphire-rapids
+    label: Sapphire Rapids
+    cpu:
+      desc: Any Intel Sapphire Rapids CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: BN0M
+        - sku: BN0N
+        - sku: BPPB
+        - sku: BPPC
+        - sku: BPPE
+        - sku: BPPF
+        - sku: BPPG
+        - sku: BPPH
+        - sku: BPPJ
+        - sku: BPPM
+        - sku: BPPN
+        - sku: BPPP
+        - sku: BPPQ
+        - sku: BPPS
+        - sku: BPPT
+        - sku: BPPU
+        - sku: BPQA
+        - sku: BPQB
+        - sku: BPQC
+        - sku: BPQD
+        - sku: BPQE
+        - sku: BPQF
+        - sku: BQ62
+        - sku: BQ63
+        - sku: BQ64
+        - sku: BQ65
+        - sku: BQ66
+        - sku: BQ67
+        - sku: BQ69
+        - sku: BQ6A
+        - sku: BQ6B
+        - sku: BQ6C
+        - sku: BQ6D
+        - sku: BQ6E
+        - sku: BQ6F
+        - sku: BQ6H
+        - sku: BQ6K
+        - sku: BQ6L
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BKTL
+          qty:
+            - 0
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BKTM
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BKTN
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF6
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF8
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF9
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNFC
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
 network:
   - type: pcie
     label: PCIe Network Interface
