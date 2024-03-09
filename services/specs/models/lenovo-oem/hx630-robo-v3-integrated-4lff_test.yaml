@@ -4,7 +4,7 @@ software: factory-installed
 models:
   - HX630-ROBO-V3-INTEGRATED-4LFF
 label: HX630-ROBO-V3-INTEGRATED
-form-factor: 1U
+form-factor: LFF+SFF
 max-drive-count: 4
 chassis:
   label: Chassis
