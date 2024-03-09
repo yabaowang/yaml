@@ -188,6 +188,102 @@ storage:
         - sku: '166968333968555583535809206233641109396'  #AUUE
         - sku: '260206218146488703515996842511966962607'  #B0YS
         - sku: '54605234480592594582511088487146392855'  #AUUJ
+compute:
+  - type: ice-lake
+    label: Ice Lake
+    cpu:
+      desc: Any Intel Ice Lake Silver, Gold, or Platinum CPU (8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: BB2L
+        - sku: BB2M
+        - sku: BB2N
+        - sku: BB2P
+        - sku: BB2R
+        - sku: BB2S
+        - sku: BB2U
+        - sku: BB2V
+        - sku: BB2W
+        - sku: BB2Y
+        - sku: BB2Z
+        - sku: BB30
+        - sku: BB31
+        - sku: BB33
+        - sku: BB34
+        - sku: BB35
+        - sku: BB37
+        - sku: BB39
+        - sku: BB3A
+        - sku: BB3B
+        - sku: BB3C
+        - sku: BB3D
+        - sku: BB3E
+        - sku: BB3G
+        - sku: BB3H
+        - sku: BB3M
+        - sku: BB3N
+        - sku: BB3P
+        - sku: BB3Q
+        - sku: BB3R
+        - sku: BB3S
+        - sku: BB4E
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: B963
+          qty:
+            - 0
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: B964
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: B965
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: B966
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BA62
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
 network:
   - type: pcie
     label: PCIe Network Interface
