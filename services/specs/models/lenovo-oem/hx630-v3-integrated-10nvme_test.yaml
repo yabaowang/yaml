@@ -35,6 +35,7 @@ power:
       - sku: BMUF
       - sku: BNFG
       - sku: BNFH
+      - sku: BPK9
       - sku: BR1X
 boot:
   - type: m.2-boot-drive
