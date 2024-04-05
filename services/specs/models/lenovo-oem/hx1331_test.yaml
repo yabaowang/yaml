@@ -6,7 +6,6 @@ models:
 label: HX1331
 form-factor: LFF+SFF
 max-drive-count: 6
-end-of-sale: '2024-03-31'
 chassis:
   label: Chassis
   use-case:
