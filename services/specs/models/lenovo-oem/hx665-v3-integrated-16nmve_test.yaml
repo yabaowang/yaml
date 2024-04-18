@@ -32,6 +32,7 @@ power:
       - sku: B8QE
       - sku: B962
       - sku: BLKH
+      - sku: BMUF
       - sku: BNFH
       - sku: BPK9
 boot:
