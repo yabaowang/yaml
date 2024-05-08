@@ -263,11 +263,3 @@ network:
         rdma: false
       - sku: BE4T
         rdma: false
-gpu:
-  - type: gpu
-    label: Dual slot GPU Adapter
-    qty:
-      - 0
-      - 1
-    product:
-      - sku: B4YB
