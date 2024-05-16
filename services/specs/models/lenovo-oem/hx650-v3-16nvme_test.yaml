@@ -20,7 +20,7 @@ chassis:
   product:
     - sku: 7D6NCTO3WW
       qual-date: '2023-04-11'
-  addselections: "[{\"featureCode\":\"BH8D\",\"quantity\":2},{\"featureCode\":\"BMGD\",\"quantity\":4},{\"featureCode\":\"B8P1\",\"quantity\":0}]"
+  addselections: "[{\"featureCode\":\"BH8D\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BMGD\",\"group\":\"\",\"quantity\":4},{\"featureCode\":\"B8P1\",\"group\":\"\",\"quantity\":0}]"
 power:
   - type: power-supply
     label: Power Supply
