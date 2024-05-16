@@ -20,7 +20,7 @@ chassis:
   product:
     - sku: 7D6NCTODWW
       qual-date: '2023-12-15'
-  addselections: "[{\"featureCode\":\"BH8D\",\"quantity\":1},{\"featureCode\":\"BMGD\",\"quantity\":4},{\"featureCode\":\"B8P1\",\"quantity\":0},{\"featureCode\":\"BLKL\",\"quantity\":0},{\"featureCode\":\"BPKG\",\"quantity\":1},{\"featureCode\":\"BLKN\",\"quantity\":1}]"
+  addselections: "[{\"featureCode\":\"BH8D\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BMGD\",\"group\":\"\",\"quantity\":4},{\"featureCode\":\"B8P1\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BLKL\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BPKG\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BLKN\",\"group\":\"MECH_RISER1\",\"quantity\":1}]"
 power:
   - type: power-supply
     label: Power Supply
