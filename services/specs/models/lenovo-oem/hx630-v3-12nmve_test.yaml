@@ -20,7 +20,7 @@ chassis:
   product:
     - sku: 7D6MCTO3WW
       qual-date: '2023-04-11'
-  addselections: "[{\"featureCode\":\"BCQQ\",\"quantity\":1},{\"featureCode\":\"BMGD\",\"quantity\":12},{\"featureCode\":\"BNFH\",\"quantity\":2},{\"featureCode\":\"BM50\",\"quantity\":0},{\"featureCode\":\"BDY6\",\"quantity\":1},{\"featureCode\":\"BP39\",\"quantity\":1}]"
+  addselections: "[{\"featureCode\":\"BCQQ\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BMGD\",\"group\":\"\",\"quantity\":12},{\"featureCode\":\"BNFH\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BM50\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BDY6\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BP39\",\"group\":\"BLK8\",\"quantity\":1}]"
 power:
   - type: power-supply
     label: Power Supply
@@ -30,7 +30,6 @@ power:
       - 1
       - 2
     product:
-      - sku: B8QE
       - sku: BLKH
       - sku: BMUF
       - sku: BNFG
