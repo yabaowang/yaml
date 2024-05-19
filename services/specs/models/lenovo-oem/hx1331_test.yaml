@@ -130,88 +130,27 @@ compute:
         - 1
       product:
         - sku: BB2K
-        - sku: BB2L
         - sku: BB2M
         - sku: BB2N
-        - sku: BB2P
-        - sku: BB2R
-        - sku: BB2S
         - sku: BB2U
-        - sku: BB2V
         - sku: BB2W
         - sku: BB2Y
         - sku: BB2Z
         - sku: BB30
-        - sku: BB31
         - sku: BB33
         - sku: BB34
         - sku: BB35
-        - sku: BB37
-        - sku: BB38
         - sku: BB39
-        - sku: BB3A
         - sku: BB3B
         - sku: BB3C
         - sku: BB3D
         - sku: BB3E
-        - sku: BB3G
-        - sku: BB3H
-        - sku: BB3J
         - sku: BB3M
-        - sku: BB3N
-        - sku: BB3P
-        - sku: BB3Q
-        - sku: BB3R
         - sku: BB3S
         - sku: BB4E
     memory:
       notice:
         - User input
-      product:
-        - sku: B963
-          qty:
-            - 0
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: B964
-          qty:
-            - 0
-            - 2
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: B965
-          qty:
-            - 0
-            - 2
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: B966
-          qty:
-            - 0
-            - 2
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: BA62
-          qty:
-            - 0
-            - 2
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
 network:
   - type: pcie
     label: PCIe Network Interface
@@ -244,6 +183,8 @@ network:
       - sku: B5SV
         rdma: false
       - sku: B5SZ
+        rdma: false
+      - sku: B5T4
         rdma: false
       - sku: BE4T
         rdma: false
