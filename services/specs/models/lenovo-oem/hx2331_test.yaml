@@ -143,37 +143,12 @@ compute:
         - 0
         - 2
       product:
-        - sku: BB2L
-        - sku: BB2M
         - sku: BB2N
-        - sku: BB2P
-        - sku: BB2R
-        - sku: BB2S
-        - sku: BB2U
-        - sku: BB2V
-        - sku: BB2W
-        - sku: BB2Y
-        - sku: BB2Z
         - sku: BB30
-        - sku: BB31
-        - sku: BB33
         - sku: BB34
-        - sku: BB35
-        - sku: BB37
-        - sku: BB39
-        - sku: BB3A
-        - sku: BB3B
         - sku: BB3C
         - sku: BB3D
-        - sku: BB3E
-        - sku: BB3G
-        - sku: BB3H
         - sku: BB3M
-        - sku: BB3N
-        - sku: BB3P
-        - sku: BB3Q
-        - sku: BB3R
-        - sku: BB3S
         - sku: BB4E
     memory:
       notice:
@@ -183,6 +158,7 @@ compute:
           qty:
             - 0
             - 4
+            - 6
             - 8
             - 12
             - 16
@@ -193,6 +169,7 @@ compute:
             - 0
             - 2
             - 4
+            - 6
             - 8
             - 12
             - 16
@@ -203,6 +180,7 @@ compute:
             - 0
             - 2
             - 4
+            - 6
             - 8
             - 12
             - 16
@@ -213,6 +191,7 @@ compute:
             - 0
             - 2
             - 4
+            - 6
             - 8
             - 12
             - 16
@@ -223,6 +202,7 @@ compute:
             - 0
             - 2
             - 4
+            - 6
             - 8
             - 12
             - 16
@@ -234,16 +214,30 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
-    qty:
-      - 0
-      - 1
     product:
       - sku: AUKP
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: B5SU
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: B5T0
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+      - sku: BD49
+        rdma: false
+        qty:
+          - 0
+          - 1
   - type: ocp3
     label: Ocp3
     desc: Ocp3
@@ -263,3 +257,12 @@ network:
         rdma: false
       - sku: BE4T
         rdma: false
+gpu:
+  - type: gpu
+    label: Dual slot GPU Adapter
+    qty:
+      - 0
+      - 1
+      - 2
+    product:
+      - sku: BQZT
