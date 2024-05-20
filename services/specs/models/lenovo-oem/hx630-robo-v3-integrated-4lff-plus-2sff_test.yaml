@@ -30,7 +30,6 @@ power:
       - 1
       - 2
     product:
-      - sku: B8QE
       - sku: BLKH
       - sku: BMUF
       - sku: BNFG
@@ -71,15 +70,23 @@ storage:
         - 3
         - 4
       product:
+        - sku: '10209010011690671199695486151095062261'  #BK77
         - sku: '122060270581256737610386881992887468830'  #BNWA
         - sku: '167210807464625448059737144878169771642'  #BWKK
         - sku: '187858105084125846550886755438988737678'  #BNWH
+        - sku: '188616559340169961516330520869021861279'  #BNW9
         - sku: '199018960766503428135023029488903209883'  #BK7F
+        - sku: '200337044258042112985894973054560797386'  #BNWF
+        - sku: '20524087427057481142023000687649667767'  #BA4U
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
+        - sku: '238866696471189007042260451848095469492'  #BM88
         - sku: '287940204586085487197211503395961716781'  #BA4X
         - sku: '292192065953448595406574578135939727702'  #BA4Y
+        - sku: '49006620777892750106978491702182404156'  #BK7L
+        - sku: '58859835455935694558768621717053685015'  #BA7J
         - sku: '62374217304471399016673968363563795249'  #BP3F
+        - sku: '87649502253137511892050312897772792552'  #BP3E
         - sku: '95959826362673324736924533895404336295'  #BWKL
   - type: hybrid
     label: "Storage: Hybrid"
@@ -103,6 +110,7 @@ storage:
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
         - sku: '238866696471189007042260451848095469492'  #BM88
+        - sku: '287940204586085487197211503395961716781'  #BA4X
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '49006620777892750106978491702182404156'  #BK7L
         - sku: '58859835455935694558768621717053685015'  #BA7J
@@ -138,20 +146,40 @@ compute:
         - 0
         - 1
       product:
+        - sku: BPPB
+        - sku: BPPC
+        - sku: BPPD
+        - sku: BPPF
+        - sku: BPPG
         - sku: BPPH
+        - sku: BPPJ
+        - sku: BPPK
+        - sku: BPPM
+        - sku: BPPQ
+        - sku: BPPR
+        - sku: BPQA
         - sku: BPQB
         - sku: BPQC
+        - sku: BPQD
+        - sku: BPQE
         - sku: BPQF
+        - sku: BQ62
         - sku: BQ63
         - sku: BQ64
+        - sku: BQ65
         - sku: BQ66
         - sku: BQ67
         - sku: BQ69
+        - sku: BQ6A
         - sku: BQ6B
         - sku: BQ6C
+        - sku: BQ6D
         - sku: BQ6E
+        - sku: BQ6F
+        - sku: BQ6G
         - sku: BQ6H
         - sku: BQ6J
+        - sku: BQ6K
         - sku: BQ6L
     memory:
       notice:
@@ -231,6 +259,8 @@ network:
     product:
       - sku: AUKP
         rdma: false
+      - sku: B5SU
+        rdma: false
       - sku: BK1H
         rdma: false
       - sku: BNWM
@@ -254,3 +284,12 @@ network:
         rdma: false
       - sku: BPPW
         rdma: false
+gpu:
+  - type: gpu
+    label: Dual slot GPU Adapter
+    qty:
+      - 0
+      - 1
+      - 2
+    product:
+      - sku: BQZT
