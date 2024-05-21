@@ -3,7 +3,7 @@ product-line: HX
 software: factory-installed
 models:
   - HX645-V3-12SFF
-label: HX645-V3
+label: HX645-V3-12SFF
 form-factor: 1U
 max-drive-count: 12
 chassis:
@@ -20,7 +20,7 @@ chassis:
   product:
     - sku: 7D9MCTO2WW
       qual-date: '2023-04-11'
-  addselections: "[{\"featureCode\":\"B8MY\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BP39\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BLK8\",\"group\":\"\",\"quantity\":0}]"
+  addselections: "[{\"featureCode\":\"B8MY\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BP39\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BLK8\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BA7J\",\"group\":\"\",\"quantity\":8}]"
 power:
   - type: power-supply
     label: Power Supply
@@ -78,6 +78,8 @@ storage:
         - 8
         - 9
         - 10
+        - 11
+        - 12
       product:
         - sku: '10209010011690671199695486151095062261'  #BK77
         - sku: '110907501008005170208437423483396411846'  #BA4T
@@ -109,6 +111,8 @@ storage:
         - 8
         - 9
         - 10
+        - 11
+        - 12
       product:
         - sku: '10209010011690671199695486151095062261'  #BK77
         - sku: '110907501008005170208437423483396411846'  #BA4T
@@ -304,16 +308,24 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
-    qty:
-      - 0
-      - 1
     product:
       - sku: AUKP
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: BK1H
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: BNWM
         rdma: false
+        qty:
+          - 0
+          - 1
   - type: ocp3
     label: Ocp3
     desc: Ocp3
