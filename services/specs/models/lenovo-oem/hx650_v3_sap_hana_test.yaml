@@ -28,6 +28,8 @@ power:
       - 0
       - 2
     product:
+      - sku: B8QE
+      - sku: B962
       - sku: BLKH
       - sku: BMUF
       - sku: BNFH
