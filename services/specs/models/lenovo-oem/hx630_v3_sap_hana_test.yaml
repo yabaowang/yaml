@@ -294,6 +294,8 @@ network:
     product:
       - sku: AUKP
         rdma: false
+      - sku: B5SU
+        rdma: false
       - sku: BK1H
         rdma: false
       - sku: BNWM
