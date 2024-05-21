@@ -3,7 +3,7 @@ product-line: HX
 software: factory-installed
 models:
   - HX650-STORAGE-V3-INTEGRATED-12LFF
-label: HX650-STORAGE-V3-INTEGRATED
+label: HX650-STORAGE-V3-INTEGRATED-12LFF
 form-factor: 2U
 max-drive-count: 12
 chassis:
