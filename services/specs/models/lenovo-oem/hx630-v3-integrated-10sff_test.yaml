@@ -3,7 +3,7 @@ product-line: HX
 software: factory-installed
 models:
   - HX630-V3-INTEGRATED-10SFF
-label: HX630-V3-INTEGRATED
+label: HX630-V3-INTEGRATED-10SFF
 form-factor: LFF+SFF
 max-drive-count: 10
 chassis:
@@ -217,7 +217,6 @@ compute:
           qty:
             - 0
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -228,7 +227,6 @@ compute:
             - 0
             - 2
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -239,7 +237,6 @@ compute:
             - 0
             - 2
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -250,7 +247,6 @@ compute:
             - 0
             - 2
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -261,7 +257,6 @@ compute:
             - 0
             - 2
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -272,7 +267,6 @@ compute:
             - 0
             - 2
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -283,7 +277,6 @@ compute:
             - 0
             - 2
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -297,6 +290,12 @@ network:
       - User input
     product:
       - sku: AUKP
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+      - sku: B5SU
         rdma: false
         qty:
           - 0
@@ -332,12 +331,3 @@ network:
         rdma: false
       - sku: BPPW
         rdma: false
-gpu:
-  - type: gpu
-    label: Dual slot GPU Adapter
-    qty:
-      - 0
-      - 1
-      - 2
-    product:
-      - sku: BQZT
