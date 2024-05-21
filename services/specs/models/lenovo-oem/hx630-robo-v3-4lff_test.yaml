@@ -3,7 +3,7 @@ product-line: HX
 software: factory-installed
 models:
   - HX630-ROBO-V3-4LFF
-label: HX630-ROBO-V3
+label: HX630-ROBO-V3-4LFF
 form-factor: LFF+SFF
 max-drive-count: 4
 chassis:
@@ -145,107 +145,24 @@ compute:
         - 0
         - 1
       product:
-        - sku: BPPB
-        - sku: BPPC
-        - sku: BPPD
-        - sku: BPPF
-        - sku: BPPG
         - sku: BPPH
-        - sku: BPPJ
-        - sku: BPPK
-        - sku: BPPM
-        - sku: BPPQ
-        - sku: BPPR
-        - sku: BPQA
         - sku: BPQB
         - sku: BPQC
-        - sku: BPQD
-        - sku: BPQE
         - sku: BPQF
-        - sku: BQ62
         - sku: BQ63
         - sku: BQ64
-        - sku: BQ65
         - sku: BQ66
         - sku: BQ67
         - sku: BQ69
-        - sku: BQ6A
         - sku: BQ6B
         - sku: BQ6C
-        - sku: BQ6D
         - sku: BQ6E
-        - sku: BQ6F
-        - sku: BQ6G
         - sku: BQ6H
         - sku: BQ6J
-        - sku: BQ6K
         - sku: BQ6L
     memory:
       notice:
         - User input
-      product:
-        - sku: BKTL
-          qty:
-            - 0
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: BKTM
-          qty:
-            - 0
-            - 2
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: BKTN
-          qty:
-            - 0
-            - 2
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: BNF6
-          qty:
-            - 0
-            - 2
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: BNF8
-          qty:
-            - 0
-            - 2
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: BNF9
-          qty:
-            - 0
-            - 2
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: BNFC
-          qty:
-            - 0
-            - 2
-            - 4
-            - 6
-            - 8
-            - 12
-            - 16
 network:
   - type: pcie
     label: PCIe Network Interface
@@ -257,8 +174,6 @@ network:
       - 1
     product:
       - sku: AUKP
-        rdma: false
-      - sku: B5SU
         rdma: false
       - sku: BK1H
         rdma: false
@@ -283,12 +198,3 @@ network:
         rdma: false
       - sku: BPPW
         rdma: false
-gpu:
-  - type: gpu
-    label: Dual slot GPU Adapter
-    qty:
-      - 0
-      - 1
-      - 2
-    product:
-      - sku: BQZT
