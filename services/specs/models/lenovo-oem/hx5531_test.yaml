@@ -6,6 +6,7 @@ models:
 label: HX5531
 form-factor: LFF+SFF
 max-drive-count: 16
+end-of-sale: '2024-06-30'
 chassis:
   label: Chassis
   use-case:
@@ -41,7 +42,6 @@ boot:
       - User input
     qty:
       - 0
-      - 1
       - 2
     product:
       - sku: BQ1Y
@@ -151,6 +151,7 @@ compute:
         - User input
       qty:
         - 0
+        - 1
         - 2
       product:
         - sku: BB2M
@@ -182,39 +183,78 @@ compute:
     memory:
       notice:
         - User input
+      product:
+        - sku: B963
+          qty:
+            - 0
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: B964
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: B965
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: B966
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BA62
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
 network:
   - type: pcie
     label: PCIe Network Interface
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
+    qty:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
     product:
       - sku: AUKP
         rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
       - sku: B5SU
         rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
       - sku: B5T0
         rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
       - sku: BD49
         rdma: false
-        qty:
-          - 0
-          - 1
   - type: ocp3
     label: Ocp3
     desc: Ocp3
@@ -237,8 +277,17 @@ network:
 gpu:
   - type: gpu
     label: Dual slot GPU Adapter
-    qty:
-      - 0
-      - 1
+    desc: PCIe GPU Adapter
     product:
       - sku: BQZS
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+      - sku: BQZU
+        qty:
+          - 0
+          - 1
+          - 2
