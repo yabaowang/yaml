@@ -6,6 +6,7 @@ models:
 label: HX7531
 form-factor: SFF
 max-drive-count: 24
+end-of-sale: '2024-06-30'
 chassis:
   label: Chassis
   use-case:
@@ -226,6 +227,61 @@ compute:
     memory:
       notice:
         - User input
+      product:
+        - sku: B963
+          qty:
+            - 0
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: B964
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: B965
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: B966
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BA62
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
 network:
   - type: pcie
     label: PCIe Network Interface
