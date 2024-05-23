@@ -28,6 +28,7 @@ power:
       - 0
       - 2
     product:
+      - sku: B962
       - sku: BLKH
       - sku: BMUF
       - sku: BNFH
@@ -261,6 +262,83 @@ compute:
     memory:
       notice:
         - User input
+      product:
+        - sku: BKTL
+          qty:
+            - 0
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BKTM
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BKTN
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF6
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF8
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF9
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNFC
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
 network:
   - type: pcie
     label: PCIe Network Interface
