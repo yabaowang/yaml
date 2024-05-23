@@ -315,6 +315,12 @@ network:
           - 0
           - 1
           - 2
+      - sku: B5SU
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: BK1H
         rdma: false
         qty:
