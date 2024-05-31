@@ -184,7 +184,6 @@ compute:
           qty:
             - 0
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -195,7 +194,6 @@ compute:
             - 0
             - 2
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -206,7 +204,6 @@ compute:
             - 0
             - 2
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -217,7 +214,6 @@ compute:
             - 0
             - 2
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -228,7 +224,6 @@ compute:
             - 0
             - 2
             - 4
-            - 6
             - 8
             - 12
             - 16
@@ -240,30 +235,16 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
+    qty:
+      - 0
+      - 1
     product:
       - sku: AUKP
         rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
       - sku: B5SU
         rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
       - sku: B5T0
         rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-      - sku: BD49
-        rdma: false
-        qty:
-          - 0
-          - 1
   - type: ocp3
     label: Ocp3
     desc: Ocp3
