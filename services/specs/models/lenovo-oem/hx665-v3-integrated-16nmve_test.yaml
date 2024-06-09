@@ -127,7 +127,6 @@ compute:
         - sku: BQ37
           qty:
             - 0
-            - 1
             - 2
             - 3
             - 4
@@ -154,7 +153,6 @@ compute:
         - sku: BQ39
           qty:
             - 0
-            - 1
             - 2
             - 3
             - 4
@@ -205,7 +203,6 @@ compute:
         - sku: BQ3D
           qty:
             - 0
-            - 1
             - 2
             - 3
             - 4
@@ -232,7 +229,6 @@ compute:
         - sku: BUVV
           qty:
             - 0
-            - 1
             - 2
             - 3
             - 4
