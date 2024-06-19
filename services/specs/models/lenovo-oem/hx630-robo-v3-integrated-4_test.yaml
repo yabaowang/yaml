@@ -3,8 +3,8 @@ product-line: HX
 software: factory-installed
 models:
   - HX630-ROBO-V3-INTEGRATED-4
-label: HX630-ROBO-V3-INTEGRATED
-form-factor: 1U
+label: HX630-ROBO-V3-INTEGRATED-4
+form-factor: LFF+SFF
 max-drive-count: 4
 chassis:
   label: Chassis
@@ -20,7 +20,6 @@ chassis:
   product:
     - sku: 7D6MCTO2WW
       qual-date: '2023-06-16'
-  addselections: "[]"
 power:
   - type: power-supply
     label: Power Supply
@@ -51,7 +50,6 @@ boot:
 storage:
   - type: storage-controller
     label: Storage Controller
-    desc: Storage Controller
     notice:
       - User input
     qty:
@@ -375,6 +373,8 @@ network:
         rdma: false
       - sku: BK1H
         rdma: false
+      - sku: BNWM
+        rdma: false
   - type: ocp3
     label: Ocp3
     desc: Ocp3
@@ -391,4 +391,6 @@ network:
       - sku: BE4T
         rdma: false
       - sku: BN2T
+        rdma: false
+      - sku: BPPW
         rdma: false
