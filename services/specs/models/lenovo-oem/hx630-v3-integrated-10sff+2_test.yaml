@@ -3,10 +3,9 @@ product-line: HX
 software: factory-installed
 models:
   - HX630-V3-INTEGRATED-10SFF+2
-label: HX630-V3-INTEGRATED
-form-factor: 1U
+label: HX630-V3-INTEGRATED-10SFF+2
+form-factor: LFF+SFF
 max-drive-count: 12
-end-of-sale: '2999-12-31'
 chassis:
   label: Chassis
   use-case:
@@ -21,7 +20,6 @@ chassis:
   product:
     - sku: 7D6MCTO1WW
       qual-date: '2023-04-11'
-  addselections: "[]"
 power:
   - type: power-supply
     label: Power Supply
@@ -36,6 +34,7 @@ power:
       - sku: BMUF
       - sku: BNFG
       - sku: BNFH
+      - sku: BPK9
       - sku: BR1X
 boot:
   - type: m.2-boot-drive
@@ -43,25 +42,15 @@ boot:
     desc: M.2 SSD
     notice:
       - User input
+    qty:
+      - 0
+      - 2
     product:
       - sku: BKSR
-        qty:
-          - 0
-          - 2
-      - sku: BQ1Y
-        qty:
-          - 0
-      - sku: BQ1Z
-        qty:
-          - 0
       - sku: BXMH
-        qty:
-          - 0
-          - 2
 storage:
   - type: storage-controller
     label: Storage Controller
-    desc: Storage Controller
     notice:
       - User input
     qty:
@@ -90,14 +79,15 @@ storage:
       product:
         - sku: '10209010011690671199695486151095062261'  #BK77
         - sku: '110907501008005170208437423483396411846'  #BA4T
+        - sku: '167210807464625448059737144878169771642'  #BWKK
         - sku: '188616559340169961516330520869021861279'  #BNW9
         - sku: '200337044258042112985894973054560797386'  #BNWF
         - sku: '20524087427057481142023000687649667767'  #BA4U
-        - sku: '238866696471189007042260451848095469492'  #BM88
         - sku: '49006620777892750106978491702182404156'  #BK7L
         - sku: '58859835455935694558768621717053685015'  #BA7J
         - sku: '73630712496678399826613870117068185368'  #BNW8
         - sku: '87649502253137511892050312897772792552'  #BP3E
+        - sku: '95959826362673324736924533895404336295'  #BWKL
   - type: nvme
     label: "Storage: All-Flash"
     desc: NVMe SSDs
@@ -146,14 +136,15 @@ storage:
       product:
         - sku: '10209010011690671199695486151095062261'  #BK77
         - sku: '110907501008005170208437423483396411846'  #BA4T
+        - sku: '167210807464625448059737144878169771642'  #BWKK
         - sku: '188616559340169961516330520869021861279'  #BNW9
         - sku: '200337044258042112985894973054560797386'  #BNWF
         - sku: '20524087427057481142023000687649667767'  #BA4U
-        - sku: '238866696471189007042260451848095469492'  #BM88
         - sku: '49006620777892750106978491702182404156'  #BK7L
         - sku: '58859835455935694558768621717053685015'  #BA7J
         - sku: '73630712496678399826613870117068185368'  #BNW8
         - sku: '87649502253137511892050312897772792552'  #BP3E
+        - sku: '95959826362673324736924533895404336295'  #BWKL
     nvme:
       label: 2.5" NVMe SSDs
       qty:
@@ -309,23 +300,20 @@ network:
           - 0
           - 1
           - 2
-      - sku: B8PP
-        rdma: false
-        qty:
-          - 0
-      - sku: BE4U
-        rdma: true
-        qty:
-          - 0
       - sku: BK1H
         rdma: false
         qty:
           - 0
           - 1
           - 2
+      - sku: BNWM
+        rdma: false
+        qty:
+          - 0
+          - 1
   - type: ocp3
-    label: ocp3
-    desc: ocp3
+    label: Ocp3
+    desc: Ocp3
     notice:
       - User input
     qty:
@@ -340,10 +328,5 @@ network:
         rdma: false
       - sku: BN2T
         rdma: false
-gpu:
-  - type: gpu
-    label: Dual slot GPU Adapter
-    qty:
-      - 0
-    product:
-      - sku: BQZT
+      - sku: BPPW
+        rdma: false
