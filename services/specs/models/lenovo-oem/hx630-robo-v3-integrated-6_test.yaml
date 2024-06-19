@@ -3,8 +3,8 @@ product-line: HX
 software: factory-installed
 models:
   - HX630-ROBO-V3-INTEGRATED-6
-label: HX630-ROBO-V3-INTEGRATED
-form-factor: 1U
+label: HX630-ROBO-V3-INTEGRATED-6
+form-factor: LFF+SFF
 max-drive-count: 6
 chassis:
   label: Chassis
@@ -20,7 +20,7 @@ chassis:
   product:
     - sku: 7D6MCTO2WW
       qual-date: '2023-06-16'
-  addselections: "[{\"featureCode\":\"B8MY\",\"quantity\":1},{\"featureCode\":\"BNW9\",\"quantity\":2},{\"featureCode\":\"AUU8\",\"quantity\":4},{\"featureCode\":\"BP39\",\"quantity\":1}]"
+  addselections: "[{\"featureCode\":\"B8MY\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BNW9\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"AUU8\",\"group\":\"\",\"quantity\":4},{\"featureCode\":\"BP39\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BLK8\",\"group\":\"\",\"quantity\":0}]"
 power:
   - type: power-supply
     label: Power Supply
@@ -51,7 +51,6 @@ boot:
 storage:
   - type: storage-controller
     label: Storage Controller
-    desc: Storage Controller
     notice:
       - User input
     qty:
@@ -93,6 +92,7 @@ storage:
       product:
         - sku: '10209010011690671199695486151095062261'  #BK77
         - sku: '122060270581256737610386881992887468830'  #BNWA
+        - sku: '167210807464625448059737144878169771642'  #BWKK
         - sku: '187858105084125846550886755438988737678'  #BNWH
         - sku: '188616559340169961516330520869021861279'  #BNW9
         - sku: '199018960766503428135023029488903209883'  #BK7F
@@ -100,12 +100,12 @@ storage:
         - sku: '20524087427057481142023000687649667767'  #BA4U
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
-        - sku: '238866696471189007042260451848095469492'  #BM88
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '49006620777892750106978491702182404156'  #BK7L
         - sku: '58859835455935694558768621717053685015'  #BA7J
         - sku: '62374217304471399016673968363563795249'  #BP3F
         - sku: '87649502253137511892050312897772792552'  #BP3E
+        - sku: '95959826362673324736924533895404336295'  #BWKL
     hdd:
       label: 3.5" HDDs
       notice:
@@ -383,6 +383,8 @@ network:
         rdma: false
       - sku: BK1H
         rdma: false
+      - sku: BNWM
+        rdma: false
   - type: ocp3
     label: Ocp3
     desc: Ocp3
@@ -399,4 +401,6 @@ network:
       - sku: BE4T
         rdma: false
       - sku: BN2T
+        rdma: false
+      - sku: BPPW
         rdma: false
