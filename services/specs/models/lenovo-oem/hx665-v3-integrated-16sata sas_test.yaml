@@ -88,6 +88,16 @@ compute:
       notice:
         - User input
       product:
+        - sku: BQ36
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
         - sku: BQ37
           qty:
             - 0
@@ -118,6 +128,16 @@ compute:
             - 20
             - 24
         - sku: BQ3D
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
+        - sku: BQ3E
           qty:
             - 0
             - 2
@@ -175,13 +195,3 @@ network:
         rdma: false
       - sku: BPPW
         rdma: false
-gpu:
-  - type: gpu
-    label: Dual slot GPU Adapter
-    qty:
-      - 0
-      - 1
-      - 2
-      - 3
-    product:
-      - sku: BQZU
