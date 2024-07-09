@@ -223,6 +223,20 @@ compute:
       notice:
         - User input
       product:
+        - sku: BQ36
+          qty:
+            - 0
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+            - 11
+            - 12
         - sku: BQ37
           qty:
             - 0
@@ -264,6 +278,20 @@ compute:
             - 11
             - 12
         - sku: BQ3D
+          qty:
+            - 0
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+            - 11
+            - 12
+        - sku: BQ3E
           qty:
             - 0
             - 2
