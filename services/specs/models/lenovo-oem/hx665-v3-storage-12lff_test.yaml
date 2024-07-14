@@ -352,6 +352,8 @@ network:
     product:
       - sku: B5ST
         rdma: false
+      - sku: B5T4
+        rdma: false
       - sku: BE4T
         rdma: false
       - sku: BN2T
