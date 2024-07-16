@@ -4,8 +4,8 @@ software: factory-installed
 models:
   - HX650-V3-SAP-HANA
 label: HX650-V3-SAP-HANA
-form-factor: 2U
-max-drive-count: 16
+form-factor: user input
+max-drive-count: user input
 chassis:
   label: Chassis
   use-case:
