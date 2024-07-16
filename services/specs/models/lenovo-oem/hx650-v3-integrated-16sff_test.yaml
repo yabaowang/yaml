@@ -377,4 +377,8 @@ gpu:
       - 3
     product:
       - sku: BNFE
+      - sku: BP4X
       - sku: BQZU
+      - sku: BVLL
+      - sku: BW3Z
+      - sku: BZUS
