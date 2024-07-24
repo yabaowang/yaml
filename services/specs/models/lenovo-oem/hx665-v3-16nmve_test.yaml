@@ -231,3 +231,13 @@ network:
         rdma: false
       - sku: BPPW
         rdma: false
+gpu:
+  - type: gpu
+    label: Dual slot GPU Adapter
+    qty:
+      - 0
+      - 1
+      - 2
+      - 3
+    product:
+      - sku: BQZU
