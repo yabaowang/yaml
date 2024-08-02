@@ -263,7 +263,6 @@ gpu:
       - 2
       - 3
     product:
-      - sku: BQZP
       - sku: BQZQ
       - sku: BQZR
       - sku: BS2C
