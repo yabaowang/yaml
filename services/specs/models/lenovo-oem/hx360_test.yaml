@@ -18,7 +18,7 @@ chassis:
   notice:
     - Only Legacy BIOS is supported.
   product:
-    - sku: 7DJDCTOAWW
+    - sku: 7DJDCTO1WW
       qual-date: '2024-07-16'
 power:
   - type: power-supply
@@ -113,4 +113,4 @@ gpu:
       - 0
       - 1
     product:
-      - sku: BS2C
+      - sku: BQZT
