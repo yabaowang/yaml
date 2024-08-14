@@ -208,6 +208,108 @@ compute:
             - 16
             - 24
             - 32
+  - type: emerald-rapids
+    label: Emerald Rapids
+    cpu:
+      desc: Any Intel Emerald Rapids CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: BYVP
+        - sku: BYVW
+        - sku: BYVX
+        - sku: BYVY
+        - sku: BYVZ
+        - sku: BYW0
+        - sku: BYW1
+        - sku: BYW2
+        - sku: BYW5
+        - sku: BYW6
+        - sku: BYW7
+        - sku: BYW8
+        - sku: BYW9
+        - sku: BYWA
+        - sku: BYWF
+        - sku: BYWG
+        - sku: BYWH
+        - sku: BYWJ
+        - sku: BYWK
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BKTL
+          qty:
+            - 0
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BKTM
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BKTN
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF6
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF8
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF9
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNFC
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
 network:
   - type: pcie
     label: PCIe Network Interface
