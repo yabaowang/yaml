@@ -418,6 +418,209 @@ compute:
             - 16
             - 24
             - 32
+  - type: emerald-rapids
+    label: Emerald Rapids
+    cpu:
+      desc: Any Intel Emerald Rapids CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - User input
+      product:
+        - sku: BYVP
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYVQ
+          qty:
+            - 0
+            - 1
+        - sku: BYVR
+          qty:
+            - 0
+            - 1
+        - sku: BYVU
+          qty:
+            - 0
+            - 1
+        - sku: BYVW
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYVX
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYVY
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYVZ
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW0
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW1
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW2
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW5
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW6
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW7
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW8
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW9
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYWA
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYWB
+          qty:
+            - 0
+            - 1
+        - sku: BYWC
+          qty:
+            - 0
+            - 1
+        - sku: BYWD
+          qty:
+            - 0
+            - 1
+        - sku: BYWE
+          qty:
+            - 0
+            - 1
+        - sku: BYWF
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYWG
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYWH
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYWJ
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYWK
+          qty:
+            - 0
+            - 1
+            - 2
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BKTL
+          qty:
+            - 0
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BKTM
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BKTN
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF6
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF8
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNF9
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
+        - sku: BNFC
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 24
+            - 32
 network:
   - type: pcie
     label: PCIe Network Interface
