@@ -18,7 +18,7 @@ chassis:
   notice:
     - Only Legacy BIOS is supported.
   product:
-    - sku: 7DJDCTOAWW
+    - sku: 7DJDCTO1WW
       qual-date: '2024-07-16'
 power:
   - type: power-supply
@@ -106,11 +106,3 @@ network:
     product:
       - sku: BS57
         rdma: false
-gpu:
-  - type: gpu
-    label: Dual slot GPU Adapter
-    qty:
-      - 0
-      - 1
-    product:
-      - sku: BS2C
