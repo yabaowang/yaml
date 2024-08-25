@@ -374,10 +374,12 @@ compute:
           qty:
             - 0
             - 1
+            - 2
         - sku: BYVR
           qty:
             - 0
             - 1
+            - 2
         - sku: BYVU
           qty:
             - 0
