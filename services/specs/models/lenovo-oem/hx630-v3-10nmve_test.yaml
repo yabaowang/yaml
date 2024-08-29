@@ -20,7 +20,7 @@ chassis:
   product:
     - sku: 7D6MCTO3WW
       qual-date: '2023-04-11'
-  addselections: "[{\"featureCode\":\"BCQQ\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BMGD\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BM50\",\"group\":\"\",\"quantity\":0}]"
+  addselections: "[{\"featureCode\":\"BCQQ\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BMGD\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BM50\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BN2T\",\"group\":\"\",\"quantity\":0}]"
 power:
   - type: power-supply
     label: Power Supply
@@ -317,6 +317,18 @@ network:
           - 2
       - sku: B5SU
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+      - sku: B8PP
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+      - sku: BE4U
+        rdma: true
         qty:
           - 0
           - 1
