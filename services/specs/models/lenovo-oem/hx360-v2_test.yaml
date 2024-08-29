@@ -1,0 +1,116 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed
+models:
+  - HX360-V2
+label: HX360-V2
+form-factor: user input
+max-drive-count: 4
+chassis:
+  label: Chassis
+  use-case:
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - EndUser Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
+  notice:
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7DJDCTOAWW
+      qual-date: '2024-07-16'
+power:
+  - type: power-supply
+    label: Power Supply
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: BW8U
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: BC4V
+  - type: nvme
+    label: "Storage: All-Flash"
+    desc: NVMe SSDs
+    nvme:
+      label: 2.5" NVMe SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+      product:
+        - sku: '193499742404702992140352853138906189348'  #BQUK
+compute:
+  - type: skylake
+    label: Skylake
+    cpu:
+      desc: Any Intel Skylake Silver, Gold, or Platinum CPU (8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 1
+      product:
+        - sku: BS41
+        - sku: BS42
+        - sku: BS44
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: B963
+          qty:
+            - 0
+            - 4
+        - sku: B964
+          qty:
+            - 0
+            - 2
+            - 4
+        - sku: B965
+          qty:
+            - 0
+            - 2
+            - 4
+        - sku: B966
+          qty:
+            - 0
+            - 1
+            - 2
+            - 4
+network:
+  - type: lom
+    label: FlexibleLOM Adapter
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: BS57
+        rdma: false
+gpu:
+  - type: gpu
+    label: Dual slot GPU Adapter
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: BS2C
