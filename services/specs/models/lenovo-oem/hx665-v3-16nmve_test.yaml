@@ -20,6 +20,7 @@ chassis:
   product:
     - sku: 7D9NCTO3WW
       qual-date: '2023-06-16'
+  addselections: "[{\"featureCode\":\"BN4T\",\"group\":\"\",\"quantity\":0}]"
 power:
   - type: power-supply
     label: Power Supply
