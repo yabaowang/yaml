@@ -20,7 +20,7 @@ chassis:
   product:
     - sku: 7D6NCTO3WW
       qual-date: '2023-04-11'
-  addselections: "[{\"featureCode\":\"BLKL\",\"group\":\"\",\"quantity\":1}]"
+  addselections: "[{\"featureCode\":\"BLKL\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BN2T\",\"group\":\"\",\"quantity\":0}]"
 power:
   - type: power-supply
     label: Power Supply
@@ -429,6 +429,26 @@ network:
           - 3
           - 4
           - 5
+      - sku: B8PP
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+      - sku: BE4U
+        rdma: true
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
       - sku: BK1H
         rdma: false
         qty:
