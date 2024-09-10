@@ -20,7 +20,7 @@ chassis:
   product:
     - sku: 7D9NCTO4WW
       qual-date: '2023-04-11'
-  addselections: "[{\"featureCode\":\"BN4T\",\"group\":\"\",\"quantity\":0}]"
+  addselections: "[{\"featureCode\":\"BN2T\",\"group\":\"OCPCARD\",\"quantity\":0}]"
 power:
   - type: power-supply
     label: Power Supply
@@ -338,6 +338,10 @@ network:
         rdma: false
       - sku: B5SU
         rdma: false
+      - sku: B8PP
+        rdma: false
+      - sku: BE4U
+        rdma: true
       - sku: BK1H
         rdma: false
       - sku: BNWM
