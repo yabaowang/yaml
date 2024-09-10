@@ -20,7 +20,7 @@ chassis:
   product:
     - sku: 7D9MCTO1WW
       qual-date: '2023-04-11'
-  addselections: "[{\"featureCode\":\"BN2T\",\"group\":\"\",\"quantity\":0}]"
+  addselections: "[{\"featureCode\":\"BN2T\",\"group\":\"OCPCARD\",\"quantity\":0}]"
 power:
   - type: power-supply
     label: Power Supply
