@@ -317,26 +317,6 @@ network:
     notice:
       - User input
     product:
-      - sku: AUKP
-        rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-          - 4
-          - 5
-          - 6
-          - 7
-      - sku: B5SU
-        rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-          - 4
-          - 5
       - sku: B8PP
         rdma: false
         qty:
@@ -357,26 +337,6 @@ network:
           - 5
           - 6
           - 7
-      - sku: BK1H
-        rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-          - 4
-          - 5
-          - 6
-          - 7
-      - sku: BNWM
-        rdma: false
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-          - 4
-          - 5
   - type: ocp3
     label: Ocp3
     desc: Ocp3
