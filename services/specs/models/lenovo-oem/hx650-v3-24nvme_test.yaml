@@ -20,7 +20,7 @@ chassis:
   product:
     - sku: 7D6NCTO3WW
       qual-date: '2023-04-11'
-  addselections: "[{\"featureCode\":\"BH8D\",\"group\":\"\",\"quantity\":3},{\"featureCode\":\"BMGD\",\"group\":\"\",\"quantity\":4},{\"featureCode\":\"B8P1\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BA7J\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BLKL\",\"group\":\"MECH_RISER2\",\"quantity\":1},{\"featureCode\":\"BMUF\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BN2T\",\"group\":\"OCPCARD\",\"quantity\":0},{\"featureCode\":\"B8LU\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BH8B\",\"group\":\"\",\"quantity\":0}]"
+  addselections: "[{\"featureCode\":\"BMGD\",\"group\":\"\",\"quantity\":4},{\"featureCode\":\"B8P1\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BA7J\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BLKL\",\"group\":\"MECH_RISER2\",\"quantity\":1},{\"featureCode\":\"BMUF\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BN2T\",\"group\":\"OCPCARD\",\"quantity\":0},{\"featureCode\":\"B8LU\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BH8B\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"B98C\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BH8D\",\"group\":\"\",\"quantity\":3}]"
 power:
   - type: power-supply
     label: Power Supply
