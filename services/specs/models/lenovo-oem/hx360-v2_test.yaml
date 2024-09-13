@@ -5,16 +5,11 @@ models:
   - HX360-V2
 label: HX360-V2
 form-factor: user input
-max-drive-count: 4
+max-drive-count: 8
 chassis:
   label: Chassis
   use-case:
-    - Private Cloud
-    - Files and Objects
-    - Backup and Disaster Recovery
-    - Test and Development
-    - EndUser Computing/Virtual Desktop Infrastructure
-    - Analytics and Big Data
+    - Remote office/Branch office
   notice:
     - Only Legacy BIOS is supported.
   product:
