@@ -522,6 +522,72 @@ compute:
             - 8
             - 12
             - 16
+        - sku: BWHS
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BWHU
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BWHV
+          qty:
+            - 0
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BWHW
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BWJC
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BWJD
+          qty:
+            - 0
+            - 6
+            - 8
+        - sku: BWJE
+          qty:
+            - 0
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BWSL
+          qty:
+            - 0
+            - 6
+            - 8
+        - sku: BX8Y
+          qty:
+            - 0
+            - 6
+            - 8
 network:
   - type: pcie
     label: PCIe Network Interface
