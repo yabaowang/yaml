@@ -10,6 +10,7 @@ chassis:
   label: Chassis
   use-case:
     - Remote office/Branch office
+    - AI inferencing
   notice:
     - Only Legacy BIOS is supported.
   product:
