@@ -497,12 +497,10 @@ network:
 gpu:
   - type: gpu
     label: Dual slot GPU Adapter
-    desc: PCIe GPU Adapter
     qty:
       - 0
       - 1
       - 2
       - 3
     product:
-      - sku: BNFE
       - sku: BQZU
