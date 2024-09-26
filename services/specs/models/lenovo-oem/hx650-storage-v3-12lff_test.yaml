@@ -656,6 +656,26 @@ network:
           - 3
           - 4
           - 5
+      - sku: B8PP
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+      - sku: BE4U
+        rdma: true
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
       - sku: BK1H
         rdma: false
         qty:
