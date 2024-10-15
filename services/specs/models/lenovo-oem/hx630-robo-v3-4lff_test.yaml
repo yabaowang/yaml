@@ -68,15 +68,12 @@ storage:
       qty:
         - 0
         - 2
-        - 3
-        - 4
       product:
         - sku: '122060270581256737610386881992887468830'  #BNWA
         - sku: '187858105084125846550886755438988737678'  #BNWH
         - sku: '199018960766503428135023029488903209883'  #BK7F
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
-        - sku: '287940204586085487197211503395961716781'  #BA4X
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '62374217304471399016673968363563795249'  #BP3F
   - type: hybrid
@@ -460,7 +457,15 @@ compute:
       notice:
         - User input
       product:
-        - sku: BWHS
+        - sku: BKTL
+          qty:
+            - 0
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BKTM
           qty:
             - 0
             - 2
@@ -469,7 +474,7 @@ compute:
             - 8
             - 12
             - 16
-        - sku: BWHU
+        - sku: BKTN
           qty:
             - 0
             - 2
@@ -478,14 +483,7 @@ compute:
             - 8
             - 12
             - 16
-        - sku: BWHV
-          qty:
-            - 0
-            - 6
-            - 8
-            - 12
-            - 16
-        - sku: BWHW
+        - sku: BNF6
           qty:
             - 0
             - 2
@@ -494,7 +492,7 @@ compute:
             - 8
             - 12
             - 16
-        - sku: BWJC
+        - sku: BNF8
           qty:
             - 0
             - 2
@@ -503,29 +501,24 @@ compute:
             - 8
             - 12
             - 16
-        - sku: BWJD
+        - sku: BNF9
           qty:
             - 0
-            - 6
-            - 8
-        - sku: BWJE
-          qty:
-            - 0
+            - 2
             - 4
             - 6
             - 8
             - 12
             - 16
-        - sku: BWSL
+        - sku: BNFC
           qty:
             - 0
+            - 2
+            - 4
             - 6
             - 8
-        - sku: BX8Y
-          qty:
-            - 0
-            - 6
-            - 8
+            - 12
+            - 16
 network:
   - type: pcie
     label: PCIe Network Interface
