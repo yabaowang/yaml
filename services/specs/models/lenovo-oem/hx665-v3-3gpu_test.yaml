@@ -74,14 +74,6 @@ storage:
         - 6
         - 7
         - 8
-        - 9
-        - 10
-        - 11
-        - 12
-        - 13
-        - 14
-        - 15
-        - 16
       product:
         - sku: '112038478630131237586193907380539952319'  #BNEF
         - sku: '153065225937697628599364817257885194773'  #BNEH
@@ -213,6 +205,10 @@ network:
         rdma: false
       - sku: B5SU
         rdma: false
+      - sku: B8PP
+        rdma: false
+      - sku: BE4U
+        rdma: true
       - sku: BK1H
         rdma: false
       - sku: BNWM
