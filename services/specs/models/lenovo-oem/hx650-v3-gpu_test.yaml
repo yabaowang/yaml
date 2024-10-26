@@ -21,7 +21,7 @@ chassis:
   product:
     - sku: 7D6NCTODWW
       qual-date: '2023-12-15'
-  addselections: "[{\"featureCode\":\"BMGD\",\"group\":\"\",\"quantity\":4},{\"featureCode\":\"B8P1\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BLKL\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BPKG\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BLKN\",\"group\":\"MECH_RISER1\",\"quantity\":1},{\"featureCode\":\"BLKN\",\"group\":\"MECH_RISER2\",\"quantity\":1},{\"featureCode\":\"BMUF\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BL0H\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BQZQ\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BN2T\",\"group\":\"OCPCARD\",\"quantity\":0},{\"featureCode\":\"BH8D\",\"group\":\"\",\"quantity\":1}]"
+  addselections: "[{\"featureCode\":\"BMGD\",\"group\":\"\",\"quantity\":4},{\"featureCode\":\"B8P1\",\"group\":\"NON_RAID_CONTROLLER\",\"quantity\":0},{\"featureCode\":\"BLKL\",\"group\":\"\",\"quantity\":0},{\"featureCode\":\"BPKG\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BLKN\",\"group\":\"MECH_RISER1\",\"quantity\":1},{\"featureCode\":\"BLKN\",\"group\":\"MECH_RISER2\",\"quantity\":1},{\"featureCode\":\"BMUF\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BL0H\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BQZQ\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BN2T\",\"group\":\"OCPCARD\",\"quantity\":0},{\"featureCode\":\"BH8D\",\"group\":\"\",\"quantity\":1}]"
 power:
   - type: power-supply
     label: Power Supply
