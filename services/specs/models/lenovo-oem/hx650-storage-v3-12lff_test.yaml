@@ -5,7 +5,7 @@ models:
   - HX650-STORAGE-V3-12LFF
 label: HX650-STORAGE-V3-12LFF
 form-factor: 2U
-max-drive-count: 12
+max-drive-count: 16
 chassis:
   label: Chassis
   use-case:
