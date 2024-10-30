@@ -54,10 +54,10 @@ storage:
       product:
         - sku: '193499742404702992140352853138906189348'  #BQUK
 compute:
-  - type: skylake
-    label: Skylake
+  - type: ice-lake
+    label: Ice Lake
     cpu:
-      desc: Any Intel Skylake Silver, Gold, or Platinum CPU (8 or more cores per CPU).
+      desc: Any Intel Ice Lake CPU (Silver, Gold, or Platinum, with the number of core per CPU supported).
       notice:
         - User input
       qty:
