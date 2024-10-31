@@ -299,6 +299,21 @@ compute:
             - 16
             - 24
             - 32
+  - type: emerald-rapids
+    label: Emerald Rapids
+    cpu:
+      desc: Any Intel Emerald Rapids CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: BYVQ
+        - sku: BYVR
+    memory:
+      notice:
+        - User input
 network:
   - type: pcie
     label: PCIe Network Interface
