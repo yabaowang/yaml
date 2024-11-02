@@ -449,6 +449,11 @@ compute:
             - 0
             - 1
             - 2
+        - sku: BYVS
+          qty:
+            - 0
+            - 1
+            - 2
         - sku: BYVU
           qty:
             - 0
@@ -484,6 +489,16 @@ compute:
             - 1
             - 2
         - sku: BYW2
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW3
+          qty:
+            - 0
+            - 1
+            - 2
+        - sku: BYW4
           qty:
             - 0
             - 1
