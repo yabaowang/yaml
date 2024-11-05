@@ -235,6 +235,8 @@ compute:
         - 2
       product:
         - sku: BYVP
+        - sku: BYVQ
+        - sku: BYVR
         - sku: BYVS
         - sku: BYVW
         - sku: BYVX
