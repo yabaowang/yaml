@@ -258,8 +258,6 @@ network:
     product:
       - sku: AUKP
         rdma: false
-      - sku: B5SU
-        rdma: false
       - sku: B8PP
         rdma: false
       - sku: BE4U
