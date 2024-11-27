@@ -5,7 +5,7 @@ models:
   - HX650-STORAGE-V3-12
 label: HX650-STORAGE-V3
 form-factor: 2U
-max-drive-count: 40
+max-drive-count: 12
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
@@ -21,6 +21,7 @@ chassis:
   product:
     - sku: 7D6NCTO4WW
       qual-date: '2023-04-11'
+  addselections: "[]"
 power:
   - type: power-supply
     label: Power Supply
@@ -36,6 +37,7 @@ power:
       - sku: BNFG
       - sku: BNFH
       - sku: BPK9
+      - sku: BR1X
 boot:
   - type: m.2-boot-drive
     label: Boot Drive
@@ -53,6 +55,10 @@ boot:
       - sku: BQ1Z
         qty:
           - 0
+      - sku: BXMH
+        qty:
+          - 0
+          - 2
 storage:
   - type: storage-controller
     label: Storage Controller
@@ -96,7 +102,6 @@ storage:
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
         - sku: '238866696471189007042260451848095469492'  #BM88
-        - sku: '245088639805079799085646450907473575777'  #BM89
         - sku: '287940204586085487197211503395961716781'  #BA4X
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '62374217304471399016673968363563795249'  #BP3F
@@ -128,7 +133,6 @@ storage:
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
         - sku: '238866696471189007042260451848095469492'  #BM88
-        - sku: '245088639805079799085646450907473575777'  #BM89
         - sku: '287940204586085487197211503395961716781'  #BA4X
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '62374217304471399016673968363563795249'  #BP3F

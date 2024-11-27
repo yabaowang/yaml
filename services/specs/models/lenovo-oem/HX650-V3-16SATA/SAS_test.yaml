@@ -5,7 +5,7 @@ models:
   - HX650-V3-16SATA/SAS
 label: HX650-V3
 form-factor: 2U
-max-drive-count: 40
+max-drive-count: 16
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
@@ -52,6 +52,10 @@ boot:
       - sku: BQ1Z
         qty:
           - 0
+      - sku: BXMH
+        qty:
+          - 0
+          - 2
 storage:
   - type: storage-controller
     label: Storage Controller
@@ -367,24 +371,6 @@ gpu:
           - 1
           - 2
           - 3
-      - sku: BQZP
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-      - sku: BQZQ
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-      - sku: BQZR
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
       - sku: BQZT
         qty:
           - 0
@@ -394,12 +380,3 @@ gpu:
           - 1
           - 2
           - 3
-      - sku: BR9U
-        qty:
-          - 0
-      - sku: BS2C
-        qty:
-          - 0
-      - sku: BT87
-        qty:
-          - 0

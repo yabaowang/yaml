@@ -1,0 +1,200 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed
+models:
+  - HX665-V3-16NMVe
+label: HX665-V3-16NMVe
+form-factor: 2U
+max-drive-count: 16
+chassis:
+  label: Chassis
+  use-case:
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - EndUser Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
+  notice:
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7D9NCTO3WW
+      qual-date: '2023-06-16'
+  addselections: "[{\"featureCode\":\"BN2T\",\"group\":\"OCPCARD\",\"quantity\":0}]"
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Power Supply
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: B962
+      - sku: BLKH
+      - sku: BMUF
+      - sku: BNFH
+      - sku: BPK9
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    desc: M.2 SSD
+    notice:
+      - User input
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: BKSR
+      - sku: BXMH
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    desc: Storage Controller
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: BC4V
+      - sku: BM50
+  - type: nvme
+    label: "Storage: All-Flash"
+    desc: NVMe SSDs
+    nvme:
+      label: 2.5" NVMe SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+      product:
+        - sku: '112038478630131237586193907380539952319'  #BNEF
+        - sku: '153065225937697628599364817257885194773'  #BNEH
+        - sku: '202957591569410637529391786487925525673'  #BNEJ
+        - sku: '26159336137134285713074164878184121985'  #BNEY
+        - sku: '262847484005347277409360114803755853006'  #BNEL
+        - sku: '266909890325629097707904714698305494524'  #BNEG
+        - sku: '278693413024796672312209931651451004106'  #BNEQ
+        - sku: '288498055740535039981445542103255889293'  #BMGE
+        - sku: '310363781802480819686723820574277215321'  #BNF5
+        - sku: '46485078139297288533515309376675755374'  #BNEZ
+        - sku: '47083911137979600878753532942275014992'  #BQAV
+        - sku: '47314370485338588741939771487044238694'  #BNF2
+        - sku: '55394019875445096014921870391605782598'  #BMGD
+        - sku: '73424999212828783750626608684377593885'  #BNF4
+compute:
+  - type: genoa
+    label: Genoa
+    cpu:
+      desc: Any AMD EPYC 9004 Series CPU (with 8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: BPVJ
+        - sku: BPVK
+        - sku: BR2Z
+        - sku: BR30
+        - sku: BR31
+        - sku: BR32
+        - sku: BREA
+        - sku: BREB
+        - sku: BREC
+        - sku: BRED
+        - sku: BREE
+        - sku: BREF
+        - sku: BREH
+        - sku: BREJ
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BQ37
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
+        - sku: BQ3C
+          qty:
+            - 0
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
+network:
+  - type: pcie
+    label: PCIe Network Interface
+    desc: PCIe-slot Ethernet adapter
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+    product:
+      - sku: AUKP
+        rdma: false
+      - sku: B5SU
+        rdma: false
+      - sku: B8PP
+        rdma: false
+      - sku: BE4U
+        rdma: true
+      - sku: BK1H
+        rdma: false
+      - sku: BNWM
+        rdma: false
+  - type: ocp3
+    label: Ocp3
+    desc: Ocp3
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: B5ST
+        rdma: false
+      - sku: B5T4
+        rdma: false
+      - sku: BE4T
+        rdma: false
+      - sku: BN2T
+        rdma: false
+      - sku: BPPW
+        rdma: false
+gpu:
+  - type: gpu
+    label: Dual slot GPU Adapter
+    qty:
+      - 0
+      - 1
+      - 2
+      - 3
+    product:
+      - sku: BQZU

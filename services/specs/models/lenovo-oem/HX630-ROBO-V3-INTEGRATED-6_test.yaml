@@ -5,39 +5,42 @@ models:
   - HX630-ROBO-V3-INTEGRATED-6
 label: HX630-ROBO-V3-INTEGRATED
 form-factor: 1U
-max-drive-count: 4
+max-drive-count: 6
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
   use-case:
-    - Private Cloud
-    - Files and Objects
-    - Backup and Disaster Recovery
-    - Test and Development
-    - EndUser Computing/Virtual Desktop Infrastructure
-    - Analytics and Big Data
-    - 1231212121
+    - '- Private Cloud'
+    - '- Files and Objects'
+    - '- Backup and Disaster Recovery'
+    - '- Test and Development'
+    - '- End-User Computing/Virtual Desktop Infrastructure'
+    - '- Analytics and Big Data'
   notice:
-    - Only Legacy BIOS is supported.
-    - Only Legacy BIOS is supported.
+    - '- Only Legacy BIOS is supported.'
   product:
     - sku: 7D6MCTO2WW
       qual-date: '2023-06-16'
+  addselections: "[{\"featureCode\":\"B8MY\",\"quantity\":1},{\"featureCode\":\"BNW9\",\"quantity\":2},{\"featureCode\":\"AUU8\",\"quantity\":4},{\"featureCode\":\"BP39\",\"quantity\":1}]"
 power:
   - type: power-supply
     label: Power Supply
     desc: Power Supply
     qty:
       - 0
+      - 1
       - 2
     product:
       - sku: B8QE
       - sku: BLKH
+      - sku: BMUF
       - sku: BNFG
       - sku: BNFH
+      - sku: BR1X
 boot:
   - type: m.2-boot-drive
     label: Boot Drive
+    desc: M.2 SSD
     notice:
       - User input
     qty:
@@ -45,6 +48,7 @@ boot:
       - 2
     product:
       - sku: BKSR
+      - sku: BXMH
 storage:
   - type: storage-controller
     label: Storage Controller
@@ -82,7 +86,6 @@ storage:
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
         - sku: '238866696471189007042260451848095469492'  #BM88
-        - sku: '245088639805079799085646450907473575777'  #BM89
         - sku: '287940204586085487197211503395961716781'  #BA4X
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '62374217304471399016673968363563795249'  #BP3F
@@ -96,8 +99,6 @@ storage:
       qty:
         - 0
         - 2
-        - 3
-        - 4
       product:
         - sku: '10209010011690671199695486151095062261'  #BK77
         - sku: '110907501008005170208437423483396411846'  #BA4T
@@ -113,8 +114,6 @@ storage:
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
         - sku: '238866696471189007042260451848095469492'  #BM88
-        - sku: '245088639805079799085646450907473575777'  #BM89
-        - sku: '287940204586085487197211503395961716781'  #BA4X
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '62374217304471399016673968363563795249'  #BP3F
     hdd:
@@ -428,9 +427,7 @@ network:
 gpu:
   - type: gpu
     label: Dual slot GPU Adapter
-    desc: PCIe GPU Adapter
     qty:
       - 0
     product:
       - sku: BQZT
-      - sku: BS2C

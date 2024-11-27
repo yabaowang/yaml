@@ -1,0 +1,295 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed
+models:
+  - HX630-ROBO-V3-INTEGRATED-4LFF-PLUS-2SFF
+label: HX630-ROBO-V3-INTEGRATED
+form-factor: LFF+SFF
+max-drive-count: 6
+chassis:
+  label: Chassis
+  use-case:
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - EndUser Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
+  notice:
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7D6MCTO2WW
+      qual-date: '2023-06-16'
+  addselections: "[{\"featureCode\":\"B8MY\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BNW9\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"AUU8\",\"group\":\"\",\"quantity\":4}]"
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Power Supply
+    qty:
+      - 0
+      - 1
+      - 2
+    product:
+      - sku: BLKH
+      - sku: BMUF
+      - sku: BNFG
+      - sku: BNFH
+      - sku: BR1X
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    desc: M.2 SSD
+    notice:
+      - User input
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: BKSR
+      - sku: BXMH
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: BM51
+  - type: all-ssd
+    label: "Storage: All-Flash"
+    desc: Only SATA/SAS SSDs
+    ssd:
+      label: 2.5/3.5" SATA/SAS SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+        - 3
+        - 4
+      product:
+        - sku: '10209010011690671199695486151095062261'  #BK77
+        - sku: '122060270581256737610386881992887468830'  #BNWA
+        - sku: '167210807464625448059737144878169771642'  #BWKK
+        - sku: '187858105084125846550886755438988737678'  #BNWH
+        - sku: '188616559340169961516330520869021861279'  #BNW9
+        - sku: '199018960766503428135023029488903209883'  #BK7F
+        - sku: '200337044258042112985894973054560797386'  #BNWF
+        - sku: '20524087427057481142023000687649667767'  #BA4U
+        - sku: '213750984261187058830418677232357682627'  #BK7P
+        - sku: '231053189894388498723219872410626354943'  #BA7N
+        - sku: '238866696471189007042260451848095469492'  #BM88
+        - sku: '287940204586085487197211503395961716781'  #BA4X
+        - sku: '292192065953448595406574578135939727702'  #BA4Y
+        - sku: '49006620777892750106978491702182404156'  #BK7L
+        - sku: '58859835455935694558768621717053685015'  #BA7J
+        - sku: '62374217304471399016673968363563795249'  #BP3F
+        - sku: '87649502253137511892050312897772792552'  #BP3E
+        - sku: '95959826362673324736924533895404336295'  #BWKL
+  - type: hybrid
+    label: "Storage: Hybrid"
+    desc: Mix of SATA/SAS SSDs and HDDs
+    ssd:
+      label: 2.5/3.5" SATA/SAS SSDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: '10209010011690671199695486151095062261'  #BK77
+        - sku: '122060270581256737610386881992887468830'  #BNWA
+        - sku: '167210807464625448059737144878169771642'  #BWKK
+        - sku: '187858105084125846550886755438988737678'  #BNWH
+        - sku: '188616559340169961516330520869021861279'  #BNW9
+        - sku: '199018960766503428135023029488903209883'  #BK7F
+        - sku: '200337044258042112985894973054560797386'  #BNWF
+        - sku: '20524087427057481142023000687649667767'  #BA4U
+        - sku: '213750984261187058830418677232357682627'  #BK7P
+        - sku: '231053189894388498723219872410626354943'  #BA7N
+        - sku: '238866696471189007042260451848095469492'  #BM88
+        - sku: '287940204586085487197211503395961716781'  #BA4X
+        - sku: '292192065953448595406574578135939727702'  #BA4Y
+        - sku: '49006620777892750106978491702182404156'  #BK7L
+        - sku: '58859835455935694558768621717053685015'  #BA7J
+        - sku: '62374217304471399016673968363563795249'  #BP3F
+        - sku: '87649502253137511892050312897772792552'  #BP3E
+        - sku: '95959826362673324736924533895404336295'  #BWKL
+    hdd:
+      label: 3.5" HDDs
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+        - 4
+      product:
+        - sku: '218389756989827360827786300947249721855'  #B7F0
+        - sku: '246310157863478761569016887122932941046'  #AUUA
+        - sku: '272960956451750488714019636535593512477'  #BPKU
+        - sku: '295369276436913039785331606765510041082'  #AUUB
+        - sku: '30607696395517512926133451004860460074'  #AUUG
+        - sku: '30607696395517512926133451004860460075'  #B118
+        - sku: '30607696395517512926133451004860460076'  #B117
+        - sku: '32819280796640929958023462368196276772'  #AUU9
+        - sku: '39797502797188601593981098695968025957'  #AUU8
+compute:
+  - type: sapphire-rapids
+    label: Sapphire Rapids
+    cpu:
+      desc: Any Intel Sapphire Rapids CPU (Silver, Gold, or Platinum, with 8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 1
+      product:
+        - sku: BPPB
+        - sku: BPPC
+        - sku: BPPD
+        - sku: BPPF
+        - sku: BPPG
+        - sku: BPPH
+        - sku: BPPJ
+        - sku: BPPK
+        - sku: BPPM
+        - sku: BPPQ
+        - sku: BPPR
+        - sku: BPQA
+        - sku: BPQB
+        - sku: BPQC
+        - sku: BPQD
+        - sku: BPQE
+        - sku: BPQF
+        - sku: BQ62
+        - sku: BQ63
+        - sku: BQ64
+        - sku: BQ65
+        - sku: BQ66
+        - sku: BQ67
+        - sku: BQ69
+        - sku: BQ6A
+        - sku: BQ6B
+        - sku: BQ6C
+        - sku: BQ6D
+        - sku: BQ6E
+        - sku: BQ6F
+        - sku: BQ6G
+        - sku: BQ6H
+        - sku: BQ6J
+        - sku: BQ6K
+        - sku: BQ6L
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BKTL
+          qty:
+            - 0
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BKTM
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BKTN
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF6
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF8
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNF9
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+        - sku: BNFC
+          qty:
+            - 0
+            - 2
+            - 4
+            - 6
+            - 8
+            - 12
+            - 16
+network:
+  - type: pcie
+    label: PCIe Network Interface
+    desc: PCIe-slot Ethernet adapter
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: AUKP
+        rdma: false
+      - sku: B5SU
+        rdma: false
+      - sku: BK1H
+        rdma: false
+      - sku: BNWM
+        rdma: false
+  - type: ocp3
+    label: Ocp3
+    desc: Ocp3
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: B5ST
+        rdma: false
+      - sku: B5T4
+        rdma: false
+      - sku: BE4T
+        rdma: false
+      - sku: BN2T
+        rdma: false
+      - sku: BPPW
+        rdma: false
+gpu:
+  - type: gpu
+    label: Dual slot GPU Adapter
+    qty:
+      - 0
+      - 1
+      - 2
+    product:
+      - sku: BQZT

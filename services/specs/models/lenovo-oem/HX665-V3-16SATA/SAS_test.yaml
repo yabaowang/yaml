@@ -5,7 +5,7 @@ models:
   - HX665-V3-16SATA/SAS
 label: HX665-V3
 form-factor: 2U
-max-drive-count: 40
+max-drive-count: 16
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
@@ -21,6 +21,7 @@ chassis:
   product:
     - sku: 7D9NCTO3WW
       qual-date: '2023-06-16'
+  addselections: "[{\"featureCode\":\"BH8D\",\"quantity\":2},{\"featureCode\":\"1\",\"quantity\":1}]"
 power:
   - type: power-supply
     label: Power Supply
@@ -37,6 +38,7 @@ power:
 boot:
   - type: m.2-boot-drive
     label: Boot Drive
+    desc: M.2 SSD
     notice:
       - User input
     qty:
@@ -44,6 +46,7 @@ boot:
       - 2
     product:
       - sku: BKSR
+      - sku: BXMH
 storage:
   - type: storage-controller
     label: Storage Controller
@@ -358,19 +361,33 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
-    qty:
-      - 0
-      - 1
-      - 2
     product:
+      - sku: AUKP
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: B5SU
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
       - sku: B8PP
         rdma: false
+        qty:
+          - 0
       - sku: BE4U
         rdma: true
+        qty:
+          - 0
       - sku: BK1H
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
   - type: OCP Card
     label: OCP Card
     desc: OCP Card
@@ -380,6 +397,8 @@ network:
       - 0
       - 1
     product:
+      - sku: B5ST
+        rdma: false
       - sku: B5T4
         rdma: false
       - sku: BE4T
@@ -391,23 +410,6 @@ gpu:
     label: Dual slot GPU Adapter
     desc: PCIe GPU Adapter
     product:
-      - sku: BQZP
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
-      - sku: BQZQ
-        qty:
-          - 0
-          - 1
-          - 2
-      - sku: BQZR
-        qty:
-          - 0
-          - 1
-          - 2
-          - 3
       - sku: BQZT
         qty:
           - 0
@@ -417,8 +419,3 @@ gpu:
           - 1
           - 2
           - 3
-      - sku: BR9U
-        qty:
-          - 0
-          - 1
-          - 2

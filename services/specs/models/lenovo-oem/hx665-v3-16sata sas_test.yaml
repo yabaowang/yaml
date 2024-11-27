@@ -1,0 +1,197 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed
+models:
+  - HX665-V3-16SATA SAS
+label: HX665-V3-16SATA SAS
+form-factor: 2U
+max-drive-count: 16
+chassis:
+  label: Chassis
+  use-case:
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - EndUser Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
+  notice:
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7D9NCTO3WW
+      qual-date: '2023-06-16'
+  addselections: "[{\"featureCode\":\"BH8D\",\"group\":\"\",\"quantity\":2},{\"featureCode\":\"BM50\",\"group\":\"\",\"quantity\":1},{\"featureCode\":\"BC4V\",\"group\":\"\",\"quantity\":0}]"
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Power Supply
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: B8QE
+      - sku: B962
+      - sku: BLKH
+      - sku: BMUF
+      - sku: BNFH
+      - sku: BPK9
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    desc: M.2 SSD
+    notice:
+      - User input
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: BKSR
+      - sku: BXMH
+storage:
+  - type: storage-controller
+    label: Storage Controller
+    desc: Storage Controller
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: BC4V
+      - sku: BM50
+compute:
+  - type: genoa
+    label: Genoa
+    cpu:
+      desc: Any AMD EPYC 9004 Series CPU (with 8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 2
+      product:
+        - sku: BPVJ
+        - sku: BPVK
+        - sku: BR2Z
+        - sku: BR30
+        - sku: BR31
+        - sku: BR32
+        - sku: BREA
+        - sku: BREB
+        - sku: BREC
+        - sku: BRED
+        - sku: BREE
+        - sku: BREF
+        - sku: BREH
+        - sku: BREJ
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BQ36
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
+        - sku: BQ37
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
+        - sku: BQ39
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
+        - sku: BQ3C
+          qty:
+            - 0
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
+        - sku: BQ3D
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
+        - sku: BQ3E
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
+        - sku: BUVV
+          qty:
+            - 0
+            - 2
+            - 4
+            - 8
+            - 12
+            - 16
+            - 20
+            - 24
+network:
+  - type: pcie
+    label: PCIe Network Interface
+    desc: PCIe-slot Ethernet adapter
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+      - 2
+    product:
+      - sku: AUKP
+        rdma: false
+      - sku: B5SU
+        rdma: false
+      - sku: BK1H
+        rdma: false
+      - sku: BNWM
+        rdma: false
+  - type: ocp3
+    label: Ocp3
+    desc: Ocp3
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: B5ST
+        rdma: false
+      - sku: B5T4
+        rdma: false
+      - sku: BE4T
+        rdma: false
+      - sku: BN2T
+        rdma: false
+      - sku: BPPW
+        rdma: false

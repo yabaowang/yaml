@@ -5,7 +5,7 @@ models:
   - HX665-V3-STORAGE-INTEGRATED
 label: HX665-V3-STORAGE-INTEGRATED
 form-factor: 2U
-max-drive-count: 40
+max-drive-count: 12
 end-of-sale: 2999-12-31
 chassis:
   label: Chassis
@@ -38,6 +38,7 @@ power:
 boot:
   - type: m.2-boot-drive
     label: Boot Drive
+    desc: M.2 SSD
     notice:
       - User input
     qty:
@@ -45,6 +46,7 @@ boot:
       - 2
     product:
       - sku: BKSR
+      - sku: BXMH
 storage:
   - type: storage-controller
     label: Storage Controller
@@ -85,7 +87,6 @@ storage:
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
         - sku: '238866696471189007042260451848095469492'  #BM88
-        - sku: '245088639805079799085646450907473575777'  #BM89
         - sku: '287940204586085487197211503395961716781'  #BA4X
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '62374217304471399016673968363563795249'  #BP3F
@@ -117,7 +118,6 @@ storage:
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
         - sku: '238866696471189007042260451848095469492'  #BM88
-        - sku: '245088639805079799085646450907473575777'  #BM89
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '62374217304471399016673968363563795249'  #BP3F
         - sku: '73630712496678399826613870117068185368'  #BNW8
@@ -406,30 +406,62 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
-    qty:
-      - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
     product:
+      - sku: AUKP
+        rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
       - sku: B5SU
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
       - sku: B8PP
         rdma: false
+        qty:
+          - 0
       - sku: BE4U
         rdma: true
+        qty:
+          - 0
       - sku: BK1H
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
       - sku: BNWM
         rdma: false
+        qty:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
   - type: OCP Card
     label: OCP Card
     desc: OCP Card
     notice:
       - User input
     product:
+      - sku: B5ST
+        rdma: false
+        qty:
+          - 0
+          - 1
       - sku: B5T4
         rdma: false
         qty:

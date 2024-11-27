@@ -1,0 +1,92 @@
+vendor: Lenovo
+product-line: HX
+software: factory-installed
+models:
+  - HX1021
+label: HX1021
+form-factor: user input
+max-drive-count: user input
+chassis:
+  label: Chassis
+  use-case:
+    - Private Cloud
+    - Files and Objects
+    - Backup and Disaster Recovery
+    - Test and Development
+    - End-User Computing/Virtual Desktop Infrastructure
+    - Analytics and Big Data
+  notice:
+    - Only Legacy BIOS is supported.
+  product:
+    - sku: 7D20CTO1WW
+      qual-date: '2020-11-17'
+power:
+  - type: power-supply
+    label: Power Supply
+    desc: Power Supply
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: B6FW
+      - sku: B6FX
+boot:
+  - type: m.2-boot-drive
+    label: Boot Drive
+    notice:
+      - User input
+    qty:
+      - 0
+      - 2
+    product:
+      - sku: B91K
+compute:
+  - type: skylake
+    label: Skylake
+    cpu:
+      desc: Any Intel Skylake Silver, Gold, or Platinum CPU (8 or more cores per CPU).
+      notice:
+        - User input
+      qty:
+        - 0
+        - 1
+      product:
+        - sku: B93A
+        - sku: B93B
+        - sku: B93C
+    memory:
+      notice:
+        - User input
+      product:
+        - sku: BNVN
+          qty:
+            - 0
+            - 2
+            - 3
+            - 4
+        - sku: BUG8
+          qty:
+            - 0
+            - 2
+            - 3
+            - 4
+        - sku: BUG9
+          qty:
+            - 0
+            - 2
+            - 3
+            - 4
+network:
+  - type: lom
+    label: FlexibleLOM Adapter
+    desc: LAN on Motherboard (LOM) Adapter
+    notice:
+      - User input
+    qty:
+      - 0
+      - 1
+    product:
+      - sku: B7Z7
+        rdma: false
+      - sku: BBZ7
+        rdma: false

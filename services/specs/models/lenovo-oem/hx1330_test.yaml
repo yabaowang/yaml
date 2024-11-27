@@ -6,7 +6,7 @@ models:
 label: HX1330
 form-factor: LFF+SFF
 max-drive-count: 6
-end-of-sale: 2999-12-31
+end-of-sale: '2024-03-31'
 chassis:
   label: Chassis
   use-case:
@@ -47,6 +47,7 @@ boot:
 storage:
   - type: storage-controller
     label: Storage Controller
+    desc: Storage Controller
     notice:
       - User input
     qty:
@@ -105,7 +106,6 @@ storage:
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
         - sku: '238866696471189007042260451848095469492'  #BM88
-        - sku: '245088639805079799085646450907473575777'  #BM89
         - sku: '287045833840978619658197725562046089310'  #B91D
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '49006620777892750106978491702182404156'  #BK7L
@@ -233,38 +233,21 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
+    qty:
+      - 0
+      - 1
     product:
       - sku: AUKP
         rdma: false
-        qty:
-          - 0
-          - 1
       - sku: B5SU
         rdma: false
-        qty:
-          - 0
-          - 1
       - sku: B5T0
         rdma: false
-        qty:
-          - 0
-          - 1
-      - sku: B8PP
-        rdma: false
-        qty:
-          - 0
       - sku: BD49
         rdma: false
-        qty:
-          - 0
-          - 1
-      - sku: BE4U
-        rdma: true
-        qty:
-          - 0
-  - type: OCP Card
-    label: OCP Card
-    desc: OCP Card
+  - type: ocp3
+    label: Ocp3
+    desc: Ocp3
     notice:
       - User input
     qty:
@@ -284,12 +267,8 @@ network:
 gpu:
   - type: gpu
     label: Dual slot GPU Adapter
-    desc: PCIe GPU Adapter
+    qty:
+      - 0
+      - 1
     product:
       - sku: B4YB
-        qty:
-          - 0
-          - 1
-      - sku: BQZT
-        qty:
-          - 0

@@ -6,7 +6,7 @@ models:
 label: HX2331
 form-factor: LFF+SFF
 max-drive-count: 6
-end-of-sale: 2999-12-31
+end-of-sale: '2024-06-30'
 chassis:
   label: Chassis
   use-case:
@@ -49,6 +49,7 @@ boot:
 storage:
   - type: storage-controller
     label: Storage Controller
+    desc: Storage Controller
     notice:
       - User input
     qty:
@@ -72,7 +73,6 @@ storage:
         - sku: '122060270581256737610386881992887468830'  #BNWA
         - sku: '135198155629085240980711778243363888382'  #BNWB
         - sku: '144313754993535506251104449429102224252'  #BP3G
-        - sku: '162342346609489277141388420249121888941'  #BEVK
         - sku: '187858105084125846550886755438988737678'  #BNWH
         - sku: '188069569160226616076564107082643940549'  #BNW7
         - sku: '199018960766503428135023029488903209883'  #BK7F
@@ -97,7 +97,6 @@ storage:
         - sku: '122060270581256737610386881992887468830'  #BNWA
         - sku: '135198155629085240980711778243363888382'  #BNWB
         - sku: '144313754993535506251104449429102224252'  #BP3G
-        - sku: '162342346609489277141388420249121888941'  #BEVK
         - sku: '165670975510682854907242123953582802165'  #BP3K
         - sku: '187858105084125846550886755438988737678'  #BNWH
         - sku: '188616559340169961516330520869021861279'  #BNW9
@@ -107,8 +106,6 @@ storage:
         - sku: '213750984261187058830418677232357682627'  #BK7P
         - sku: '231053189894388498723219872410626354943'  #BA7N
         - sku: '238866696471189007042260451848095469492'  #BM88
-        - sku: '245088639805079799085646450907473575777'  #BM89
-        - sku: '287045833840978619658197725562046089310'  #B91D
         - sku: '292192065953448595406574578135939727702'  #BA4Y
         - sku: '49006620777892750106978491702182404156'  #BK7L
         - sku: '58859835455935694558768621717053685015'  #BA7J
@@ -238,41 +235,19 @@ network:
     desc: PCIe-slot Ethernet adapter
     notice:
       - User input
+    qty:
+      - 0
+      - 1
     product:
       - sku: AUKP
         rdma: false
-        qty:
-          - 0
-          - 1
       - sku: B5SU
         rdma: false
-        qty:
-          - 0
-          - 1
       - sku: B5T0
         rdma: false
-        qty:
-          - 0
-          - 1
-      - sku: B653
-        rdma: false
-        qty:
-          - 0
-      - sku: B8PP
-        rdma: false
-        qty:
-          - 0
-      - sku: BD49
-        rdma: false
-        qty:
-          - 0
-      - sku: BE4U
-        rdma: true
-        qty:
-          - 0
-  - type: OCP Card
-    label: OCP Card
-    desc: OCP Card
+  - type: ocp3
+    label: Ocp3
+    desc: Ocp3
     notice:
       - User input
     qty:
@@ -289,15 +264,3 @@ network:
         rdma: false
       - sku: BE4T
         rdma: false
-gpu:
-  - type: gpu
-    label: Dual slot GPU Adapter
-    desc: PCIe GPU Adapter
-    product:
-      - sku: B4YB
-        qty:
-          - 0
-          - 1
-      - sku: BQZT
-        qty:
-          - 0
